@@ -39,6 +39,7 @@ function parametri(arr){
   return `<div class="tw"><table><thead><tr><th>Parametro</th><th>Stato</th><th>Valore</th><th>Fonte</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 function render(m){
+  if(!m){ $('#main').innerHTML='<div class="note">Nessun meccanismo disponibile.</div>'; return; }
   const r = m.ridondanze || {studiate:false, voci:[]};
   const html = {
     normale: list(m.normale,'Funzione fisiologica, alterazione nel tumore, tipi tumorali con e senza alterazione documentata.'),
