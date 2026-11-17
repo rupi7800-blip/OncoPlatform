@@ -1,0 +1,16 @@
+{
+  "mechanisms": [
+    {
+      "id": "modello",
+      "name": "Modello vuoto (nessun meccanismo ancora analizzato)",
+      "note": "Scheda segnaposto: ogni campo resta vuoto finché non c'è una fonte verificata su PubMed o su un registro di trial.",
+      "normale": [],
+      "catena": [],
+      "ridondanze": {"studiate": false, "voci": []},
+      "tentativi": [],
+      "finestra": [],
+      "buchi": [],
+      "parametri": []
+    }
+  ]
+}
