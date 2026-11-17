@@ -9,7 +9,7 @@ const SECTIONS = [
   ['parametri','Parametri del modello']
 ];
 const $ = (s) => document.querySelector(s);
-const esc = (t) => String(t ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const esc = (t) => String(t ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 
 function src(f){
   if(!f || !f.id) return '<span class="b ko">fonte non reperita · non verificata</span>';
@@ -26,7 +26,7 @@ function list(arr, empty){
 }
 function tentativi(arr){
   if(!arr.length) return '<p class="meta">Nessun tentativo registrato. Cercare anche trial sospesi, terminati o mai pubblicati; se la ragione non è pubblica, scriverlo.</p>';
-  const rows = arr.map(t=>`<tr><td>${esc(t.composto)}</td><td>${esc(t.bersaglio)}</td><td>${esc(t.fase)}</td><td>${esc(t.esito)}</td><td>${esc(t.ragione||'non pubblica')}</td><td>${src(t.fonte)}</td></tr>`).join('');
+  const rows = arr.map(t=>`<tr><td>${esc(t.composto)}</td><td>${esc(t.bersaglio)}</td><td>${esc(t.fase)}</td><td>${esc(t.esito)}</td><td>${esc(t.ragione||'non reperita')}</td><td>${src(t.fonte)}</td></tr>`).join('');
   return `<div class="tw"><table><thead><tr><th>Composto</th><th>Bersaglio</th><th>Fase</th><th>Esito</th><th>Ragione interruzione</th><th>Fonte</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 function buchi(arr){
@@ -43,7 +43,7 @@ function render(m){
   const html = {
     normale: list(m.normale,'Funzione fisiologica, alterazione nel tumore, tipi tumorali con e senza alterazione documentata.'),
     catena: list(m.catena,'Passaggi dal segnale a monte al fenotipo, con tipo di prova (biochimica, genetica, correlativa).'),
-    ridondanze: (r.studiate?'':'<div class="note">Nessuno studio di ridondanza reperito: è un buco nella conoscenza, non un\'assenza di ridondanza.</div>') + list(r.voci,''),
+    ridondanze: (r.studiate?'':'<div class="note">Nessuno studio di ridondanza reperito: è un buco nella conoscenza, non un\'assenza di ridondanza.</div>') + list(r.voci,'Nessuna via parallela registrata.'),
     tentativi: tentativi(m.tentativi||[]),
     finestra: list(m.finestra,'Tessuti sani in cui il nodo è attivo, dipendenza funzionale, tossicità osservate o prevedibili.'),
     buchi: buchi(m.buchi||[]),
@@ -53,9 +53,9 @@ function render(m){
   $('#main').innerHTML = (m.note?`<div class="note">${esc(m.note)}</div>`:'') +
     SECTIONS.map(([k,t])=>`<section id="${k}"><h2>${esc(t)}</h2>${html[k]}</section>`).join('');
 }
-fetch('data/mechanisms.json').then(r=>r.json()).then(d=>{
+fetch('data/mechanisms.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
   const sel = $('#sel');
   sel.innerHTML = d.mechanisms.map(m=>`<option value="${esc(m.id)}">${esc(m.name)}</option>`).join('');
   const go = () => render(d.mechanisms.find(m=>m.id===sel.value));
   sel.addEventListener('change', go); go();
-}).catch(()=>{ $('#main').innerHTML='<div class="note">Impossibile caricare data/mechanisms.json (servire il sito via HTTP).</div>'; });
+}, ()=>{ $('#main').innerHTML='<div class="note">Impossibile caricare data/mechanisms.json (servire il sito via HTTP).</div>'; });

@@ -9,11 +9,12 @@ label{display:block;font-size:.85rem;color:var(--mut);margin-top:8px}
 select{width:100%;font-size:1rem;padding:10px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--fg)}
 nav{position:sticky;top:0;background:var(--bg);display:flex;gap:6px;overflow-x:auto;padding:8px 0;border-bottom:1px solid var(--line);z-index:1}
 nav a{white-space:nowrap;padding:6px 10px;border:1px solid var(--line);border-radius:16px;color:var(--acc);text-decoration:none;font-size:.85rem}
-section{padding-top:20px}
+section{padding-top:20px;scroll-margin-top:56px}
 h2{font-size:1.15rem;margin:0 0 8px}
+.card,.meta{overflow-wrap:anywhere}
 .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;margin:8px 0}
 .meta{color:var(--mut);font-size:.82rem;margin-top:4px}
-.b{display:inline-block;font-size:.75rem;border-radius:10px;padding:1px 8px;border:1px solid currentColor}
+.b{display:inline-block;max-width:100%;overflow-wrap:anywhere;font-size:.75rem;border-radius:10px;padding:1px 8px;border:1px solid currentColor}
 .ok{color:var(--ok)}.ko{color:var(--ko)}
 .tw{overflow-x:auto}
 table{border-collapse:collapse;width:100%;font-size:.85rem;min-width:640px}
