@@ -39,7 +39,7 @@
      "inferenza": true
     },
     {
-     "testo": "Gli antagonisti MDM2 attivano la via TP53 nei pazienti (marcatore pubblicato: GDF15); non è stato trovato un marcatore che predica l'efficacia.",
+     "testo": "Nella analisi traslazionale di Brightline-1 brigimadlin ha attivato la via TP53, ma non sono stati identificati biomarcatori predittivi di efficacia.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -285,7 +285,7 @@
      "fonte": null
     },
     {
-     "nome": "Fraction of p53 degradato dipendente da MDM2 vs altre E3 per tipo cellulare",
+     "nome": "Frazione di p53 degradato dipendente da MDM2 vs altre E3 per tipo cellulare",
      "stato": "assente",
      "valore": "",
      "fonte": null
