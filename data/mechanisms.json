@@ -1,16 +1,316 @@
 {
-  "mechanisms": [
+ "mechanisms": [
+  {
+   "id": "mdm2-tp53",
+   "name": "MDM2–TP53 (inibizione dell'interazione)",
+   "note": "Bozza v0. Verificati direttamente su PubMed in sessione solo 8 PMID (marcati 'verificata'). Gli altri sono stati letti da sotto-agenti ma non ricontrollati: restano 'non verificata'. Il registro ClinicalTrials.gov NON è stato consultato (host non raggiungibile): stati dei trial e trial mai pubblicati sono un buco aperto del passo 4. Il passo 6 è provvisorio per lo stesso motivo.",
+   "normale": [
     {
-      "id": "modello",
-      "name": "Modello vuoto (nessun meccanismo ancora analizzato)",
-      "note": "Scheda segnaposto: ogni campo resta vuoto finché non c'è una fonte verificata su PubMed o su un registro di trial.",
-      "normale": [],
-      "catena": [],
-      "ridondanze": {"studiate": false, "voci": []},
-      "tentativi": [],
-      "finestra": [],
-      "buchi": [],
-      "parametri": []
+     "testo": "MDM2 è una E3 ubiquitina ligasi che degrada p53 e ne è bersaglio trascrizionale (feedback negativo). La letalità embrionale dei topi Mdm2-null è interamente salvata dalla delezione di p53.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "7477326",
+      "verificata": false
+     },
+     "prova": "genetica"
+    },
+    {
+     "testo": "Amplificazione di MDM2 documentata soprattutto nel liposarcoma ben/dedifferenziato; in un'analisi NGS pan-tumorale è presente nel 3,5% dei pazienti. Per i tipi in cui non è documentata (es. TP53 mutato) fonte non reperita in forma sistematica.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30148248",
+      "verificata": false
+     },
+     "prova": "correlativa"
     }
-  ]
+   ],
+   "catena": [
+    {
+     "testo": "Amplificazione/overespressione di MDM2 → degradazione di p53 → perdita di apoptosi/arresto del ciclo. Il passaggio causale diretto è sostenuto da genetica murina (rescue con p53-null) ma nell'uomo poggia su correlazione e su risposta farmacologica.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "7477326",
+      "verificata": false
+     },
+     "prova": "genetica (topo) + correlativa (uomo)",
+     "inferenza": true
+    },
+    {
+     "testo": "Gli antagonisti MDM2 attivano la via TP53 nei pazienti (marcatore pubblicato: GDF15); non è stato trovato un marcatore che predica l'efficacia.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42268294",
+      "verificata": true
+     },
+     "prova": "farmacodinamica/correlativa"
+    },
+    {
+     "testo": "Danno al DNA → ATM/CHK2 → stabilizzazione di p53: collegamento diretto con MDM2 non reperito in sessione.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "MDM2 e MDMX funzionano come complesso non ridondante in vivo: il knock-in Mdmx C462A (non lega MDM2) muore a ~E9.5, salvato dalla delezione di p53.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "21730163",
+       "verificata": true
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "Contraddizione sull'essenzialità di MDMX: delezione tessuto-specifica nei progenitori pancreatici (PMID 28118981) senza difetto di sviluppo embrionale, contro letalità del knock-in germinale. Differenza di modello: delezione tessuto-specifica vs mutazione germinale che disaccoppia il complesso.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "28118981",
+       "verificata": false
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "Altre E3 ligasi di p53 (COP1, Pirh2) agiscono indipendentemente da MDM2 in vitro; il knockdown di COP1 stabilizza p53.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "15103385",
+       "verificata": false
+      },
+      "prova": "biochimica"
+     },
+     {
+      "testo": "Adattamento: in pazienti con liposarcoma dedifferenziato trattati con SAR405838 compaiono mutazioni TP53 nel cfDNA, con carico crescente nel tempo.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "27576846",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Resistenza mediata da TWIST1 nei sarcomi TP53 wild-type: TWIST1 lega p53 e MDM2 e promuove la degradazione di p53; l'inibizione di TWIST1 aumenta la sensibilità agli MDM2i.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42464388",
+       "verificata": true
+      },
+      "prova": "biochimica + genetica; non validato clinicamente"
+     },
+     {
+      "testo": "Nel milademetan, attività correlata ad amplificazione di TWIST1 (P=0,028, n=10), mentre l'espressione di TWIST1 correla con minore sensibilità nei modelli: contraddizione non risolta, ma amplificazione ed espressione non coincidono e i modelli differiscono (paziente vs linee).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "37369013",
+       "verificata": true
+      },
+      "prova": "correlativa, campione molto piccolo"
+     },
+     {
+      "testo": "Nessuno studio reperito sull'upregulation di MDMX acquisita dopo Nutlin, né sul knockout in vivo di PIRH2/COP1 con confronto di fenotipo: buco nella conoscenza, non assenza di ridondanza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "brigimadlin (BI 907828)",
+     "bersaglio": "MDM2–p53",
+     "fase": "Ia (NCT03449381, dichiarato nell'abstract)",
+     "esito": "MTD 60 mg q3w / 45 mg D1D8q4w; ORR 11,1%; grado≥3 trombocitopenia 25,9%, neutropenia 24,1%",
+     "ragione": "non applicabile (proseguito)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37269344",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "brigimadlin",
+     "bersaglio": "MDM2–p53",
+     "fase": "II/III Brightline-1 (NCT05218499, dichiarato) vs doxorubicina in DDLPS",
+     "esito": "endpoint primario PFS non raggiunto (8,4 vs 7,2 mesi, HR 0,79, P=0,096); neutropenia G≥3 36,7%, trombocitopenia 27,9%",
+     "ragione": "endpoint non raggiunto; profilo di sicurezza non più gestibile della doxorubicina",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42268294",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "idasanutlin",
+     "bersaglio": "MDM2–p53",
+     "fase": "I/II pediatrico iMATRIX (NCT04029688, dichiarato)",
+     "esito": "DLT 19,2% in monoterapia; ORR 11,1% (1/9) in neuroblastoma TP53 wt in combinazione; nessun'altra risposta",
+     "ragione": "studio terminato per rapporto beneficio-rischio negativo; programma pediatrico interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41379293",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "alrizomadlin (APG-115)",
+     "bersaglio": "MDM2–p53",
+     "fase": "I (n=21)",
+     "esito": "RP2D 100 mg a giorni alterni 21/28; PFS mediana 7,9 vs 2,2 mesi in TP53 wt vs mutato; ORR 25% in MDM2-amp/TP53 wt (2/8)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39002360",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "milademetan",
+     "bersaglio": "MDM2",
+     "fase": "Ib/II sarcoma intimale (n=10 valutabili)",
+     "esito": "2 risposte durevoli >15 mesi; mutazioni TP53 acquisite alla progressione",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37369013",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "SAR405838",
+     "bersaglio": "MDM2–p53",
+     "fase": "I (n=74)",
+     "esito": "MTD 300 mg/die; stabilità di malattia 56% nella coorte DDLPS",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28324749",
+      "verificata": false
+     }
+    },
+    {
+     "composto": "idasanutlin, milademetan, siremadlin, navtemadlin: altri programmi",
+     "bersaglio": "MDM2",
+     "fase": "non reperita",
+     "esito": "registro non consultato: stato, trial terminati/ritirati e trial mai pubblicati non determinati",
+     "ragione": "non reperita",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Tossicità ematologica dose-limitante ricorrente negli antagonisti MDM2: trombocitopenia e neutropenia di grado ≥3 (brigimadlin 25,9%/24,1% in Ia; 27,9%/36,7% in Brightline-1).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42268294",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Tossicità gastrointestinale (nausea 74,1%, vomito 51,9%) con brigimadlin in Ia.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37269344",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Idasanutlin pediatrico: DLT con trombocitopenia, neutropenia e neutropenia febbrile; esposizione tollerabile simile all'adulto.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41379293",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Midollo e intestino sono i tessuti a rischio: sono quelli con tossicità clinica; il legame con la dipendenza da p53 del turnover staminale è un'ipotesi per il midollo e un dato murino (post-radiazione) per l'intestino (PMID 38589357, non verificata).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38589357",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "inferenza": true
+    },
+    {
+     "testo": "Cuore e fegato: nessun dato specifico reperito.",
+     "livello": "ipotesi",
+     "fonte": null
+    },
+    {
+     "testo": "Nessun confronto diretto fra schemi di dosaggio reperito: l'intermittenza è proposta, non dimostrata come miglioramento della finestra.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "TWIST1 predice la risposta agli MDM2i come amplificazione, come espressione, o in modo diverso nei due contesti?",
+     "disegno": "Linee di sarcoma TP53 wt/MDM2-amp isogeniche: KO e sovraespressione di TWIST1, più linee con copia amplificata di TWIST1; curve dose-risposta a più MDM2i; misura di p53, p21 e GDF15.",
+     "falsificazione": "Se l'IC50 non cambia con le perturbazioni di TWIST1 né correla con copy number o espressione nel pannello, l'ipotesi cade."
+    },
+    {
+     "domanda": "La resistenza acquisita dopo esposizione cronica richiede upregulation di MDMX o BCL-xL, oppure solo selezione di cloni TP53-mutati?",
+     "disegno": "Esposizione cronica di linee sensibili con e senza KO di MDM4 o BCL2L1; sequenziamento di TP53, espressione MDMX/BCL-xL, tempo e frequenza di comparsa dei cloni resistenti.",
+     "falsificazione": "Se cloni resistenti compaiono con la stessa frequenza e tempistica senza KO e senza upregulation, MDMX/BCL-xL non sono necessari."
+    },
+    {
+     "domanda": "Un'esposizione intermittente a pari AUC amplia l'indice terapeutico tra progenitori CD34+ sani e cellule tumorali TP53 wt?",
+     "disegno": "Progenitori CD34+ umani e linee tumorali in co-coltura o parallelo, esposizione continua vs pulsata a pari AUC, rapporto IC50 sano/tumorale e recupero colonie.",
+     "falsificazione": "Se il rapporto non cambia fra schemi, l'intermittenza non migliora la finestra in vitro."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Concentrazione libera del farmaco nei tessuti sani (midollo, intestino) a dose clinica",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Fraction of p53 degradato dipendente da MDM2 vs altre E3 per tipo cellulare",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Frequenza di amplificazione di MDM2 pan-tumorale",
+     "stato": "misurato",
+     "valore": "3,5% (3.650/102.878)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30148248",
+      "verificata": false
+     }
+    },
+    {
+     "nome": "Tasso di comparsa di cloni TP53-mutati sotto MDM2i",
+     "stato": "stimato per analogia",
+     "valore": "solo andamento nel tempo, nessun tasso per cellula",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27576846",
+      "verificata": true
+     }
+    }
+   ]
+  }
+ ]
 }
