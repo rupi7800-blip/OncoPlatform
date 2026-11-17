@@ -3,7 +3,7 @@
   {
    "id": "mdm2-tp53",
    "name": "MDM2–TP53 (inibizione dell'interazione)",
-   "note": "Bozza v0. Verificati direttamente su PubMed in sessione solo 8 PMID (marcati 'verificata'). Gli altri sono stati letti da sotto-agenti ma non ricontrollati: restano 'non verificata'. Il registro ClinicalTrials.gov NON è stato consultato (host non raggiungibile): stati dei trial e trial mai pubblicati sono un buco aperto del passo 4. Il passo 6 è provvisorio per lo stesso motivo.",
+   "note": "Bozza v0. Verificati direttamente in sessione: 8 PMID su PubMed e 6 record sul registro ClinicalTrials.gov (marcati 'verificata'). Il resto è stato letto da sotto-agenti ma non ricontrollato. Il registro è stato interrogato per nome del composto: la copertura dei composti e la ricerca di pubblicazioni per NCT non sono esaustive. Il passo 6 resta provvisorio.",
    "normale": [
     {
      "testo": "MDM2 è una E3 ubiquitina ligasi che degrada p53 e ne è bersaglio trascrizionale (feedback negativo). La letalità embrionale dei topi Mdm2-null è interamente salvata dalla delezione di p53.",
@@ -199,11 +199,83 @@
      }
     },
     {
-     "composto": "idasanutlin, milademetan, siremadlin, navtemadlin: altri programmi",
+     "composto": "idasanutlin + citarabina",
+     "bersaglio": "MDM2–p53",
+     "fase": "III in AML (registro)",
+     "esito": "terminato",
+     "ragione": "futilità all'analisi ad interim, nessun segnale di sicurezza inatteso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02545283",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "milademetan vs trabectedina",
      "bersaglio": "MDM2",
-     "fase": "non reperita",
-     "esito": "registro non consultato: stato, trial terminati/ritirati e trial mai pubblicati non determinati",
-     "ragione": "non reperita",
+     "fase": "III in liposarcoma dedifferenziato (registro)",
+     "esito": "terminato; risultati presenti nel registro",
+     "ragione": "'Sponsor Decision' (testo del registro): motivo scientifico non esplicitato",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04979442",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "brigimadlin + altro (Brightline-3)",
+     "bersaglio": "MDM2–p53",
+     "fase": "III in sarcoma (registro)",
+     "esito": "ritirato, senza risultati",
+     "ragione": "'Sponsor decision' (testo del registro); nessuna pubblicazione cercata a nome del trial oltre al registro",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06370871",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "brigimadlin + anti-PD1",
+     "bersaglio": "MDM2–p53",
+     "fase": "II (registro)",
+     "esito": "ritirato, senza risultati",
+     "ragione": "'Discontinuation of molecule development' (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06084689",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ALRN-6924",
+     "bersaglio": "MDM2/MDMX",
+     "fase": "I, protezione dalla mielosoppressione da chemioterapia (registro)",
+     "esito": "terminato dopo 4 pazienti: neutropenia di grado 4 e alopecia dopo il ciclo 1; endpoint primario non raggiunto",
+     "ragione": "inefficacia/tossicità (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05622058",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "navtemadlin (AMG 232)",
+     "bersaglio": "MDM2",
+     "fase": "I in glioblastoma ricorrente (registro)",
+     "esito": "terminato, senza risultati nel registro; pubblicazione esistente secondo il sotto-agente (PMID 39970230, da verificare)",
+     "ragione": "problemi di fornitura del farmaco (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03107780",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "riepilogo di 98 studi con 20 termini (idasanutlin, milademetan, siremadlin, navtemadlin, brigimadlin, alrizomadlin, ALRN-6924, MK-8242, altri)",
+     "bersaglio": "MDM2",
+     "fase": "varie",
+     "esito": "45 non attivi: 28 terminati, 7 ritirati, 10 'unknown', 0 sospesi (conteggi del sotto-agente, non ricontrollati). 15 programmi terminati/ritirati senza risultati nel registro e senza pubblicazione trovata cercando per NCT; l'assenza non esclude una pubblicazione",
+     "ragione": "nei record letti prevalgono 'business/sponsor decision', accrual, fornitura: la ragione scientifica non è pubblica",
      "fonte": null
     }
    ],
