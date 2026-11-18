@@ -4834,81 +4834,83 @@
      "prova": "meta-analisi"
     },
     {
-     "testo": "Radiazioni a basse dosi: nei dati dei sopravvissuti alle bombe atomiche giapponesi ci sono solo lievi indizi di scostamento dalla linearità; il fattore di estrapolazione a basse dosi è generalmente 1,1-2,0 (limiti superiori anche oltre 10), sotto 1 nella fascia sotto 0,5 Gy ma con grande incertezza: i dati non mostrano chiaramente né una soglia né una riduzione di rischio a basse dosi.",
+     "testo": "Radiazioni a basse dosi: nei dati dei sopravvissuti alle bombe atomiche giapponesi ci sono solo lievi indizi di scostamento dalla linearità; il fattore di estrapolazione a basse dosi è generalmente 1,1-2,0 (limiti superiori anche oltre 10), sotto 1 nella fascia sotto 0,5 Gy ma con grande incertezza: i dati non mostrano chiaramente né una soglia né una riduzione di rischio a basse dosi; un'analisi precedente degli stessi dati trova un fattore maggiore di 1 per alcuni esiti con intervalli che includono 1.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "39799958",
       "verificata": true
      },
-     "prova": "correlativa"
+     "prova": "correlativa",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "36161867",
+       "verificata": true
+      }
+     ]
     },
     {
-     "testo": "Posizioni sul modello lineare senza soglia: rassegne e gruppi di esperti sostengono che non sia valido a basse dosi e dose-rate o che esistano risposte ormetiche alle radiazioni (alcune pubblicate in riviste della società dell'ormesi); le fonti hanno un interesse dichiarato verso la conclusione. Il rapporto BEIR VII non è stato letto: fonte non reperita.",
+     "testo": "Posizioni critiche sul modello lineare senza soglia: una rassegna singola, un gruppo di lavoro di una società di medicina nucleare e due critiche al rapporto BEIR VII sostengono che non sia valido a basse dosi o dose-rate, e una di queste fonti è in una rivista della società dell'ormesi (Dose-Response); l'ormesi da radiazioni è sostenuta in una rassegna. Il rapporto BEIR VII non è stato letto: fonte non reperita.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "30262515",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna e opinione",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "31107746",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "30792613",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "29475999",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "36161867",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Vie proposte come mediatori: ROS a bassa dose, SKN-1/Nrf2 e HSF-1 in C. elegans e nel lievito; in umani una scoping review descrive un aumento transitorio dello stress ossidativo dopo esercizio acuto e uno spostamento dello stato redox con programmi cronici; un modello catabolico-anabolico propone cicli di esercizio e digiuno. Livello: invertebrati e rassegne; AMPK, sirtuine e autofagia come mediatori ormetici in umani: fonte non reperita.",
+     "testo": "Vie proposte come mediatori in modelli semplici: ROS a basso livello che attivano SKN-1 (omologo di Nrf2) estendono la vita in C. elegans; nel lievito il calore allunga la vita richiedendo metabolismo respiratorio e riciclo del glutatione; un modello catabolico-anabolico teorico propone cicli di esercizio e digiuno; una scoping review di 141 studi (37 animali, 104 umani) descrive un aumento transitorio dello stress ossidativo dopo esercizio acuto intenso e uno spostamento verso uno stato più ridotto con programmi cronici di almeno 6 settimane. AMPK, sirtuine e autofagia come mediatori ormetici in umani: fonte non reperita.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "28676501",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale e rassegna",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "30227387",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "39551161",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "42977485",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Contrasto sul ruolo delle ROS: in topi con catalasi mitocondriale la riduzione delle ROS allunga la vita, in tensione con l'idea che ROS a bassa dose siano il segnale protettivo; la differenza di modello (modifica genetica costitutiva contro stress transitorio) non è verificata.",
+     "testo": "Contrasto sul ruolo delle ROS: una rassegna sui topi con catalasi mitocondriale riporta che la riduzione delle ROS allunga la vita, in tensione (interpretazione) con l'idea che ROS a basse dosi siano il segnale protettivo; la differenza fra modifica genetica costitutiva e stress transitorio non è leggibile nell'abstract.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "28253986",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna",
      "inferenza": true
@@ -4980,12 +4982,12 @@
      ]
     },
     {
-     "testo": "Meccanismo nell'esercizio: nei lavori letti i dati sono correlativi (un'analisi esplorativa in 60 sopravvissuti a tumore del colon-retto mostra minore sCD30 e più cellule NK) o ipotesi di rassegna (IL-6, SPARC, NK, asse insulina/IGF-1); nessun lavoro oncologico letto mostra che l'attivazione di Nrf2, AMPK o HSF1 causi l'esito: fonte non reperita.",
+     "testo": "Meccanismo nell'esercizio: nei lavori letti sono ipotesi di rassegna (IL-6, SPARC, cellule NK, asse insulina/IGF-1) o endpoint esplorativi (in un'analisi secondaria di RCT su 60 sopravvissuti a tumore del colon-retto, il calo di sCD30 di 153 pg/mL e più cellule NK, senza esiti di sopravvivenza); l'attivazione di Nrf2, AMPK o HSF1 come causa dell'esito non è citata negli abstract letti: fonte non reperita.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "42808444",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa",
      "inferenza": true,
@@ -4993,7 +4995,7 @@
       {
        "tipo": "PMID",
        "id": "42738403",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -5028,19 +5030,19 @@
      "prova": "RCT pilota"
     },
     {
-     "testo": "Freddo: in topi l'esposizione a 4 °C con nanofarmaci e radioterapia agisce con termogenesi del grasso bruno che sottrae glucosio al tumore (affamamento), non con riparazione; dati clinici oncologici sul freddo come stimolo ormetico: fonte non reperita.",
+     "testo": "Freddo: in topi BALB/c con tumore mammario l'esposizione a 4 °C combinata con un nanofarmaco a ossido nitrico e radioterapia induce 'tumor starvation' (calo di ATP e glutatione nel tumore); una rassegna sul freddo e il metabolismo cita studi preclinici e umani sull'inibizione della crescita tumorale (dati clinici specifici non leggibili nell'abstract); il freddo come stimolo ormetico in pazienti oncologici: fonte non reperita.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "39401104",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "41947493",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -5376,12 +5378,12 @@
      "composto": "Ipertermia capacitiva con radioterapia o chemioterapia (ipertermia terapeutica, non ormetica)",
      "bersaglio": "controllo locale",
      "fase": "revisione sistematica di 9 RCT di fase 3",
-     "esito": "controllo locale o sopravvivenza migliori in 3 trial su 5 nel tumore della cervice, nessun beneficio nel polmone non a piccole cellule; tossicità lieve",
+     "esito": "controllo locale e sopravvivenza migliori in 3 trial su 5 nel tumore della cervice, nessun beneficio nel polmone non a piccole cellule; tossicità lieve-moderata",
      "ragione": "non applicabile",
      "fonte": {
       "tipo": "PMID",
       "id": "42334174",
-      "verificata": false
+      "verificata": true
      }
     },
     {
@@ -5423,12 +5425,12 @@
       {
        "tipo": "PMID",
        "id": "28669606",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "42762320",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -5443,17 +5445,17 @@
      "prova": "revisione sistematica"
     },
     {
-     "testo": "Calore: l'ipertermia clinica ha tossicità lieve-moderata nelle revisioni, ma è una procedura a dose clinica e non una dose ormetica; ustioni e rischio cardiovascolare dell'ipertermia corporea in oncologia: fonte non reperita.",
+     "testo": "Calore: l'ipertermia clinica ha tossicità lieve-moderata nelle revisioni, ma è una procedura a dose clinica (interpretazione: non è uno stimolo ormetico); ustioni e rischio cardiovascolare dell'ipertermia corporea in oncologia: fonte non reperita.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "42334174",
-      "verificata": false
+      "verificata": true
      },
      "prova": "revisione sistematica"
     },
     {
-     "testo": "Rischio specifico: lo stimolo ormetico può proteggere anche il tumore (HSF1 e Nrf2 attivi in molti tumori, resistenza ai farmaci) o stimolarne la crescita a basse dosi (vedi passo 3); non è documentato in pazienti in vivo.",
+     "testo": "Rischio specifico: lo stimolo ormetico può proteggere anche il tumore (Nrf2 attivo in molti tumori favorisce la chemioresistenza, con ruolo duale secondo una rassegna; HSF1 è pro-tumorale in modelli murini di tumore del colon) o stimolarne la crescita a basse dosi di farmaci in vitro (passo 3); l'effetto in pazienti in vivo non è documentato nei lavori letti (inferenza dall'assenza di dati).",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
@@ -5475,9 +5477,10 @@
       {
        "tipo": "PMID",
        "id": "42919975",
-       "verificata": false
+       "verificata": true
       }
-     ]
+     ],
+     "inferenza": true
     },
     {
      "testo": "Variabilità individuale (età, fragilità, comorbidità, stato nutrizionale) e tempistica (prima, durante, dopo la terapia): fonte non reperita con confronto di eventi.",
