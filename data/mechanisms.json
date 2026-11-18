@@ -3,15 +3,15 @@
   {
    "id": "toft",
    "name": "TOFT: Tissue Organization Field Theory (Soto e Sonnenschein)",
-   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati direttamente in sessione: 6 PMID su PubMed e 4 record sul registro ClinicalTrials.gov (marcati 'verificata'); il resto è stato letto da sotto-agenti e non ricontrollato. Passo 6 provvisorio.",
+   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
    "normale": [
     {
-     "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto ('sviluppo andato storto') e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
+     "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "11170258",
-      "verificata": false
+      "verificata": true
      },
      "prova": "teorica"
     },
@@ -43,12 +43,12 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Stroma alterato → perdita di organizzazione tissutale → proliferazione di default → cancro: nessuna misura diretta nei lavori letti; il passaggio poggia su ragionamento teorico e sul postulato della proliferazione come stato di base.",
+     "testo": "Stroma alterato → perdita di organizzazione tissutale → proliferazione di default → cancro: valutazione di questa revisione: nessuna misura diretta nei lavori letti; l'articolo è teorico e il passaggio poggia su ragionamento teorico e sul postulato della proliferazione come stato di base.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "27498170",
-      "verificata": false
+      "verificata": true
      },
      "prova": "teorica",
      "inferenza": true
@@ -90,12 +90,12 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Lo stesso approccio su colonie già formate porta a morte cellulare invece che a reversione (differenza di protocollo: cellula singola vs colonia).",
+     "testo": "Su colonie già formate l'inibizione di beta1 integrina induce apoptosi, non reversione; la reversione a cellula singola è citata come risultato di lavori precedenti (differenza di protocollo).",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
       "id": "16452209",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     }
@@ -114,42 +114,42 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "A favore del ruolo causale delle mutazioni: in 7.664 tumori di 29 tipi la selezione positiva supera la negativa, con circa 4 driver per tumore. Dato genomico osservazionale: non dimostra sufficienza.",
+      "testo": "A favore del ruolo causale delle mutazioni: in 7.664 tumori di 29 tipi la selezione positiva supera la negativa, con ~4 sostituzioni codificanti sotto selezione positiva per tumore. Dato genomico osservazionale: non dimostra sufficienza.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "29056346",
-       "verificata": false
+       "verificata": true
       },
       "prova": "correlativa"
      },
      {
-      "testo": "Mutazioni e cloni sono comuni in tessuti morfologicamente normali (1.737 biopsie, 9 organi): le mutazioni da sole non producono necessariamente tumore, compatibile con un ruolo del contesto; non dimostra TOFT.",
+      "testo": "L'abstract documenta mutazioni e cloni diffusi in 1.737 biopsie di tessuti morfologicamente normali di 9 organi; non discute il passaggio a tumore, e non dimostra TOFT.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "34433965",
-       "verificata": false
+       "verificata": true
       },
       "prova": "correlativa"
      },
      {
-      "testo": "Nelle lesioni precancerose esofagee la perdita biallelica di TP53 precede le alterazioni del numero di copie, definita 'prerequisito' dagli autori: sequenza osservata, non esperimento.",
+      "testo": "Nelle lesioni precancerose esofagee la perdita biallelica di TP53 aumenta precocemente e gli autori la definiscono 'prerequisito' per le alterazioni del numero di copie: sequenza osservata, non esperimento.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "38039962",
-       "verificata": false
+       "verificata": true
       },
       "prova": "correlativa"
      },
      {
-      "testo": "Le due teorie sono discusse come compatibili in alcune rassegne (mutazioni come trigger iniziali, contesto come modulatore): nessuna è una prova sperimentale.",
+      "testo": "Una rassegna propone che le due teorie siano conciliabili (mutazioni come trigger iniziali, contesto come modulatore); non è una prova sperimentale.",
       "livello": "ipotesi",
       "fonte": {
        "tipo": "PMID",
        "id": "37268024",
-       "verificata": false
+       "verificata": true
       }
      },
      {
@@ -194,23 +194,23 @@
      "bersaglio": "Hedgehog",
      "fase": "II in PDAC metastatico (n=71)",
      "esito": "nessun miglioramento rispetto ai controlli storici (PFS 5,42 mesi, OS 9,79 mesi); gli autori sconsigliano ulteriori studi in questo contesto",
-     "ragione": "inefficacia",
+     "ragione": "nessun miglioramento rispetto ai controlli storici (gli autori sconsigliano ulteriori studi in questo contesto)",
      "fonte": {
       "tipo": "PMID",
       "id": "31857726",
-      "verificata": false
+      "verificata": true
      }
     },
     {
      "composto": "PEGPH20 + pembrolizumab",
      "bersaglio": "matrice/HA",
      "fase": "II (n=8 trattati)",
-     "esito": "studio chiuso in anticipo; nessuna efficacia significativa; campione troppo piccolo per escludere un beneficio",
+     "esito": "studio chiuso in anticipo; nessuna efficacia significativa; (valutazione di questa revisione, non dell'abstract: campione troppo piccolo per escludere un beneficio)",
      "ragione": "chiuso dallo sponsor",
      "fonte": {
       "tipo": "PMID",
       "id": "41681979",
-      "verificata": false
+      "verificata": true
      }
     },
     {
@@ -278,32 +278,32 @@
      "prova": "sperimentale + correlativa"
     },
     {
-     "testo": "Contraddizione: la deplezione di cellule FAP+ con CAR-T ha frenato la crescita in xenotrapianti e tumori pancreatici murini. Differenze: cellula bersaglio (FAP+ vs alphaSMA+), metodo, stato immunitario, stadio.",
+     "testo": "Contraddizione: la deplezione di cellule FAP+ con CAR-T ha frenato la crescita in xenotrapianti e tumori pancreatici murini. Differenze possibili, dedotte dal confronto fra gli studi e non dichiarate negli abstract: cellula bersaglio (FAP+ vs alphaSMA+), metodo, stato immunitario, stadio.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "25979873",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "L'inibizione dello Hedgehog ha accelerato la progressione in modelli murini di PDAC e ridotto la desmoplasia; gli autori collegano il dato al fallimento clinico degli inibitori.",
+     "testo": "La delezione di Shh in un modello murino di PDAC ha dato tumori con meno stroma e più aggressivi; l'inibizione di Smoothened ha replicato l'effetto.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "24856585",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Tossicità note degli inibitori Hh: crampi, disgeusia, alopecia, astenia; Hh è attivo nella pelle sana.",
+     "testo": "Fase I di vismodegib: generalmente tollerato; eventi riportati iponatremia, affaticamento, dolore addominale; 6 pazienti (8,8%) con eventi di grado 4. GLI1 si riduce nella pelle non coinvolta, compatibile con Hh attivo nella pelle sana.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "21300762",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica"
     },
@@ -313,7 +313,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "37767814",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
@@ -323,7 +323,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "37696945",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
@@ -373,13 +373,13 @@
      }
     },
     {
-     "nome": "Tasso di mutazioni driver in tessuto normale per clone e anno",
-     "stato": "stimato per analogia",
-     "valore": "solo osservazioni per organo, nessun tasso unico",
+     "nome": "Tasso di mutazioni in tessuto normale per clone e anno",
+     "stato": "assente",
+     "valore": "l'abstract non riporta un tasso per clone e anno; dati descritti per organo",
      "fonte": {
       "tipo": "PMID",
       "id": "34433965",
-      "verificata": false
+      "verificata": true
      }
     },
     {
