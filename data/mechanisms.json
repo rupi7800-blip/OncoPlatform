@@ -2753,17 +2753,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "28111071",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Barriere alla riprogrammazione: OSKM induce p53, p16INK4a e p21 (senescenza) e il locus Ink4/Arf è silenziato nelle iPSC; Arf è la barriera principale nel topo e INK4a nei fibroblasti umani; le cellule di organismi anziani riprogrammano meno. Cellule con Arf o p53 deficitari o immortalizzate riprogrammano più in fretta; gli autori sottolineano somiglianze fra pluripotenza indotta e tumorigenesi (interpretazione degli autori).",
+     "testo": "Barriere alla riprogrammazione: OSKM induce p53, p16INK4a e p21 e rimodella la cromatina del locus INK4a/ARF; eliminare questi effettori migliora la riprogrammazione. Dato in cellule in coltura.",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
       "id": "19696146",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
@@ -2801,6 +2801,12 @@
      "testo": "Dati clinici di efficacia della riprogrammazione parziale: fonte non reperita; un solo trial di fase 1 con OSK è registrato e in reclutamento (vedi passo 4).",
      "livello": "ipotesi",
      "fonte": null
+    },
+    {
+     "testo": "Arf come barriera principale nel topo, INK4a nei fibroblasti umani, minore riprogrammabilità di cellule di organismi anziani e somiglianze con la tumorigenesi: non leggibile nell'abstract, resta da verificare sul testo completo.",
+     "livello": "in_vitro",
+     "fonte": null,
+     "inferenza": true
     }
    ],
    "catena": [
@@ -2815,12 +2821,12 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Rimodellamento → minore età epigenetica → recupero funzionale: il nesso orologio-funzione è il punto più debole; una rassegna avverte che un calo dell'orologio non è prova di ringiovanimento senza confronto con funzione, morbilità e mortalità, e in un modello di invecchiamento accelerato inibitori della via TGF-beta riproducono in parte il ripristino dell'orologio senza riprogrammazione.",
+     "testo": "Una rassegna avverte che un calo dell'orologio epigenetico va interpretato rispetto a funzione, healthspan, morbilità e mortalità: gli orologi possono confondere cambi causali e compensatori. Il nesso orologio-funzione resta quindi il punto debole (inferenza).",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "42862118",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna",
      "inferenza": true
@@ -2876,22 +2882,23 @@
     "studiate": true,
     "voci": [
      {
-      "testo": "Le barriere alla riprogrammazione sono multiple e ridondanti (p53, p21, p57, p16 e p19 Arf, Mbd3): la rimozione di una sola ha effetto parziale (rassegna).",
+      "testo": "Le barriere alla riprogrammazione sono molte (p53, p21, p57, p16Ink4a/p19Arf, Mbd3; rassegna). Che siano ridondanti tra loro è inferenza, non nell'abstract.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "26566431",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "rassegna"
+      "prova": "rassegna",
+      "inferenza": true
      },
      {
-      "testo": "Contrasto su OSK senza MYC: in iPSC umane causa 'reprogramming stress' e citotossicità, attenuabile con peptidi dominanti negativi di BET; nel cuore di topo dopo infarto induce dedifferenziazione dei cardiomiociti e rigenerazione senza ingresso diretto in fase S. Differenze di modello: iPSC in vitro e cardiomiociti in vivo.",
+      "testo": "OSK senza MYC in iPSC causa 'reprogramming stress' e citotossicità, attenuabili con peptidi dominanti negativi di BET. Il dato nel cuore dopo infarto è di un'altra fonte (vedi passo 5).",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "36691621",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -2901,27 +2908,27 @@
       "fonte": {
        "tipo": "PMID",
        "id": "38322248",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Alternativa via cellule senescenti: il blocco di PD-L2 riduce l'accumulo di cellule senescenti e migliora la sensibilità insulinica in topi anziani; una revisione sistematica sui senolitici nell'uomo riporta sei studi completati con dati preliminari, campioni piccoli e follow-up breve.",
+      "testo": "Alternativa via cellule senescenti: PD-L2 più alto nelle cellule senescenti; topi KO anziani con meno senescenti e più sensibilità insulinica; anti-PD-L2 ripristina la sensibilità in topi anziani.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "42721966",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Alternativa senza fattori di Yamanaka: uno screen di cDNA ha identificato SRSF1, che in topi anziani riduce la fragilità del 44% e prolunga la vita mediana del 14% (n=9-10 per gruppo); la riprogrammazione chimica parziale riduce l'età biologica in fibroblasti e prolunga la vita di C. elegans.",
+      "testo": "Alternativa senza fattori di Yamanaka: uno screen di cDNA ha identificato SRSF1, che in topi anziani riduce la progressione della fragilità del 44% e allunga la vita mediana del 14% (n=9-10 per gruppo).",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "42875585",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -2931,7 +2938,7 @@
       "fonte": {
        "tipo": "PMID",
        "id": "40816266",
-       "verificata": false
+       "verificata": true
       },
       "prova": "correlativa + sperimentale"
      },
@@ -2941,7 +2948,7 @@
       "fonte": {
        "tipo": "PMID",
        "id": "38381405",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -2949,6 +2956,18 @@
       "testo": "Non trovati: confronto diretto di OSK con rapamicina o restrizione calorica; adattamento dopo induzioni ripetute; dati primari su teratomi con protocolli ciclici; tessuti o cellule tumorali resistenti oltre il preprint pancreatico; parabiosi eterocronica. Sono buchi, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
+     },
+     {
+      "testo": "Revisione sistematica sui senolitici nell'uomo (sei studi, dati preliminari, campioni piccoli): non sostenuta da 42721966, fonte non reperita.",
+      "livello": "clinico",
+      "fonte": null,
+      "inferenza": true
+     },
+     {
+      "testo": "Riprogrammazione chimica parziale che riduce l'età biologica in fibroblasti e prolunga la vita di C. elegans: non sostenuta da 42875585, fonte non reperita.",
+      "livello": "in_vitro",
+      "fonte": null,
+      "inferenza": true
      }
     ]
    },
@@ -3034,7 +3053,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "28296613",
-      "verificata": false
+      "verificata": true
      }
     },
     {
@@ -3068,12 +3087,12 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Induzione breve o mirata nel fegato (anche con mRNA in nanoparticelle lipidiche) migliora la rigenerazione senza insufficienza; nei neuroni corticali solo la forma ciclica migliora la cognizione (riportati da un sotto-agente): la finestra dipende da durata, organo e vettore.",
+     "testo": "Induzione transitoria dei 4 fattori negli epatociti di topo migliora la rigenerazione epatica e contrasta l'insufficienza epatica: la finestra dipende da durata e organo.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "35476977",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
@@ -3083,17 +3102,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "42013916",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Rischi del vettore e dell'induttore: tossicità gravi, a volte fatali, dell'AAV clinico (sangue, fegato, muscolo, cuore) con ruolo dell'immunità; doxiciclina a dosi diverse con effetti mitocondriali opposti nell'intestino; nessun dato di sicurezza della doxiciclina per sistemi OSKM inducibili.",
+     "testo": "Tossicità gravi, a volte fatali, dell'AAV clinico (sangue, fegato, muscolo, cuore) con ruolo dell'immunità innata e adattativa (report di workshop, non studio primario).",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "42668237",
-      "verificata": false
+      "verificata": true
      },
      "prova": "consenso e sperimentale"
     },
@@ -3108,14 +3127,26 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Teratomi in protocolli ciclici, rischio tumorale a lungo termine, soglie di dose e confronto OSKM contro OSK sulla sicurezza: fonte non reperita come dati primari; una rassegna indica teratoma, insufficienza d'organo e perdita di identità come rischi principali.",
+     "testo": "Una rassegna indica teratoma, insufficienza d'organo e perdita di identità come rischi principali dell'induzione in vivo e l'induzione ciclica come mitigazione. Dati primari su teratomi con protocolli ciclici, soglie di dose, OSKM contro OSK e rischio a lungo termine: fonte non reperita.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "41114535",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna"
+    },
+    {
+     "testo": "mRNA in nanoparticelle lipidiche e miglioramento della cognizione con espressione ciclica (non continua) nei neuroni corticali del topo: non sostenuti da 35476977, fonte non reperita.",
+     "livello": "animale",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Doxiciclina a dosi diverse con effetti mitocondriali opposti nell'intestino e assenza di dati di sicurezza per sistemi OSKM inducibili: non leggibile nell'abstract di 42668237, fonte non reperita.",
+     "livello": "animale",
+     "fonte": null,
+     "inferenza": true
     }
    ],
    "buchi": [
@@ -3158,7 +3189,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "38381405",
-      "verificata": false
+      "verificata": true
      }
     },
     {
