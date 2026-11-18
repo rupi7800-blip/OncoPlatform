@@ -1522,7 +1522,7 @@
   {
    "id": "attrattori",
    "name": "Paesaggio di Waddington e teoria degli attrattori (Kauffman, Huang)",
-   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); Giro 2: altri 14 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti; tre affermazioni erano attribuite al PMID sbagliato e sono state spostate in voci separate con il PMID corretto, marcate 'non verificata'). Giro 3 in corso. Passo 6 provvisorio.",
+   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); Giro 2: altri 14 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti; tre affermazioni erano attribuite al PMID sbagliato e sono state spostate in voci separate con il PMID corretto, marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 25 query e record del registro riletti. Esito: (A) confermata con limitazione (isteresi osservata solo in vitro); (B) confermata sul campione recuperato; (C) attenuata (una rassegna del 2026 limita esplicitamente il quasi-potenziale di Waddington e indica criteri per distinguere attrattori da cluster; critica dedicata non trovata); (D) smentita (esistono studi randomizzati con retinoidi in tumori solidi, con benefici modesti e non uniformi, e una meta-analisi senza miglioramento di sopravvivenza). Passo 6 provvisorio.",
    "normale": [
     {
      "testo": "Rassegna (Front Genet 2015) che riformula il paesaggio di Waddington come paesaggio di attrattori epigenetici di reti di regolazione genica: gli stati stabili sono interpretati come stati di destino cellulare e la rete limita le transizioni più probabili fra stati. Posizione teorica e computazionale.",
@@ -1740,7 +1740,47 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Non trovati: lineage tracing in vivo che dimostri o escluda una gerarchia stabile nei tumori solidi; knockout di un fattore di trascrizione senza fenotipo nel cancro con compensazione dimostrata (solo esempi non oncologici o premaligni); trial controllati di terapia differenziativa in tumori solidi; dipendenza dal microambiente di stati staminali reversibili (ricerca non completata). Sono buchi, non prova che la ridondanza non esista.",
+      "testo": "Isteresi osservata solo in vitro: nel carcinoma del colon un interruttore regolato da RORalpha (cicli di retroazione positiva e negativa accoppiati) produce una risposta isteretica del segnale Wnt che converte uno stato proliferativo in uno antiproliferativo, con simulazioni matematiche e biochimica in linee cellulari. Nessuna dimostrazione di isteresi o bistabilità di uno stato tumorale in vivo o in pazienti trovata (circa 20 query).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24831657",
+       "verificata": true
+      },
+      "prova": "modello + sperimentale"
+     },
+     {
+      "testo": "Valutazione critica, non dedicata: una rassegna narrativa di esperti (2026) afferma che il quasi-potenziale di Waddington è limitato (fuori dal bilancio dettagliato la dinamica non è derivabile da un gradiente e richiede un termine di flusso di probabilità) e indica isteresi, bimodalità a velocità limitata e ritorno allo stato dopo perturbazione come criteri che distinguono un attrattore da un cluster trascrittomico. Una critica peer-reviewed dedicata all'applicazione degli attrattori al cancro non è stata trovata.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42586472",
+       "verificata": true
+      },
+      "prova": "rassegna"
+     },
+     {
+      "testo": "Retinoidi in tumori solidi: uno studio randomizzato di fase III di liarozolo (inibitore del metabolismo dell'acido retinoico, descritto come terapia differenziativa per tumori solidi) contro ciproterone acetato in 321 pazienti con carcinoma prostatico metastatico mostra un rischio relativo di sopravvivenza aggiustato di 0,74 (P=0,039) ma una mediana grezza identica (10,3 mesi) e una risposta del PSA del 20% contro il 4%. Beneficio modesto, in un'analisi aggiustata, da un trial del 1998.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "9671874",
+       "verificata": true
+      },
+      "prova": "clinica randomizzata"
+     },
+     {
+      "testo": "Meta-analisi di 39 studi randomizzati (15.627 pazienti) sui retinoidi nella prevenzione e terapia dei tumori: minore recidiva (RR 0,85) e migliore risposta clinica (RR 1,24), nessun miglioramento di sopravvivenza globale, progressione o sopravvivenza libera da eventi; benefici in APL, carcinoma renale, epatocellulare, polmone e sarcoma di Kaposi, nessun effetto in testa e collo, AML, melanoma, mammella e vescica. Gli autori scrivono che i retinoidi non sono stati tradotti in terapie sistemiche efficaci per la maggior parte dei tumori solidi.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36437918",
+       "verificata": true
+      },
+      "prova": "meta-analisi"
+     },
+     {
+      "testo": "Non trovati: lineage tracing in vivo che dimostri o escluda una gerarchia stabile nei tumori solidi; knockout di un fattore di trascrizione senza fenotipo nel cancro con compensazione dimostrata (solo esempi non oncologici o premaligni); dipendenza dal microambiente di stati staminali reversibili (ricerca non completata). Sono buchi, non prova che la ridondanza non esista.",
       "livello": "ipotesi",
       "fonte": null
      }
@@ -1852,10 +1892,106 @@
      "fonte": null
     },
     {
-     "composto": "altri programmi (pinometostat, bomedemstat, vitamina D, ATO + TKI, olutasidenib, ATRA nel pancreas, PPAR-gamma nel liposarcoma)",
-     "bersaglio": "DOT1L, LSD1, VDR, RARalpha, PPAR-gamma",
+     "composto": "liarozolo",
+     "bersaglio": "metabolismo dell'acido retinoico (terapia differenziativa)",
+     "fase": "III randomizzato contro ciproterone acetato nel carcinoma prostatico metastatico (n=321)",
+     "esito": "rischio relativo di sopravvivenza aggiustato 0,74 (P=0,039), mediana grezza identica (10,3 mesi), risposta PSA 20% contro 4%; eventi avversi frequenti ma lievi o moderati (pelle secca 51%, prurito 25%)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "9671874",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "GSK2879552 (altri studi)",
+     "bersaglio": "LSD1",
+     "fase": "I/II in AML con azacitidina (NCT02929498) e I nel tumore polmonare a piccole cellule (NCT02034123) (registro)",
+     "esito": "entrambi terminati; risultati nel registro",
+     "ragione": "il rapporto rischio-beneficio non favorisce la continuazione (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02929498",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "pinometostat + chemioterapia standard",
+     "bersaglio": "DOT1L",
+     "fase": "I/II in AML di nuova diagnosi (NCT03724084, registro)",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "agente non più disponibile (testo del registro): ragione non clinica",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03724084",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "bomedemstat + immunoterapia di mantenimento",
+     "bersaglio": "LSD1",
+     "fase": "I/II in tumore polmonare a piccole cellule esteso (NCT05191797, registro)",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "chiuso per la politica del comitato scientifico sul basso arruolamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05191797",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "triossido di arsenico + ciclofosfamide",
+     "bersaglio": "differenziamento/arsenico",
+     "fase": "I in AML recidivata/refrattaria (NCT03318016, registro)",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "basso arruolamento; il comitato scientifico ha richiesto la chiusura (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03318016",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "nuovo retinoide + triossido di arsenico",
+     "bersaglio": "retinoide + arsenico",
+     "fase": "II in APL non trattata (NCT00670150, registro)",
+     "esito": "ritirato senza risultati",
+     "ragione": "lo sponsor ha ritirato il supporto (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00670150",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "olutasidenib",
+     "bersaglio": "IDH1",
+     "fase": "I in AML IDH1-mutata dopo induzione e consolidamento (NCT07130695, registro)",
+     "esito": "ritirato senza risultati",
+     "ragione": "vincoli di bilancio (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT07130695",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "targeting stromale (STAR_PAC), con ATRA",
+     "bersaglio": "stroma/differenziazione nel pancreas",
+     "fase": "I in carcinoma pancreatico (NCT03307148, registro)",
+     "esito": "completato senza risultati nel registro; esito di efficacia non reperito",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03307148",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "altri programmi (vitamina D in AML, triossido di arsenico + inibitori di tirosin-chinasi in CML, retinoidi in neuroblastoma e PPAR-gamma in liposarcoma)",
+     "bersaglio": "VDR, arsenico, RARalpha, PPAR-gamma",
      "fase": "varie (registro, letti dal sotto-agente)",
-     "esito": "molti terminati o ritirati per arruolamento, fondi, disponibilità del farmaco o decisione dello sponsor; esiti spesso non cercati o non reperiti",
+     "esito": "molti terminati o ritirati per arruolamento o fondi; esiti spesso non cercati o non reperiti",
      "ragione": "vedi registro",
      "fonte": null
     }
@@ -1950,7 +2086,7 @@
    "buchi": [
     {
      "domanda": "Gli stati fenotipici tumorali sono attrattori stabili multipli, con memoria della storia, o transizioni stocastiche senza memoria?",
-     "disegno": "Linee tumorali con stati marcati (es. melanoma MITF-alto e AXL-alto, o mammella), sorted, con barcoding e time-lapse; perturbazione graduale in andata e ritorno per cercare isteresi; stima dei tassi di transizione fra stati.",
+     "disegno": "Linee tumorali con stati marcati (es. melanoma MITF-alto e AXL-alto, o mammella), sorted, con barcoding e time-lapse; perturbazione graduale in andata e ritorno per cercare isteresi; stima dei tassi di transizione fra stati. Si parte dal precedente in vitro di risposta isteretica del segnale Wnt in cellule di colon (Shin 2014), che non riguarda uno stato fenotipico.",
      "falsificazione": "Se, dopo qualunque perturbazione, le proporzioni tornano allo stesso equilibrio senza isteresi e le transizioni sono prive di memoria, non ci sono attrattori multipli stabili; se persiste una dipendenza dalla storia, la bistabilità è sostenuta."
     },
     {
