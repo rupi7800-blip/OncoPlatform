@@ -2798,9 +2798,13 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Dati clinici di efficacia della riprogrammazione parziale: fonte non reperita; un solo trial di fase 1 con OSK è registrato e in reclutamento (vedi passo 4).",
-     "livello": "ipotesi",
-     "fonte": null
+     "testo": "Dati clinici di efficacia della riprogrammazione parziale: nessun dato di efficacia pubblicato reperito in PubMed (ricerche multiple al giro 3, assenza di risultati non è prova di assenza). Esiste un trial di fase 1 di sicurezza con OSK (NCT07290244, in reclutamento, endpoint primari di sicurezza, vedi passo 4).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT07290244",
+      "verificata": true
+     }
     },
     {
      "testo": "Arf come barriera principale nel topo, INK4a nei fibroblasti umani, minore riprogrammabilità di cellule di organismi anziani e somiglianze con la tumorigenesi: non leggibile nell'abstract, resta da verificare sul testo completo.",
@@ -2882,6 +2886,46 @@
     "studiate": true,
     "voci": [
      {
+      "testo": "Senescenza come mediatore (direzione opposta all'ipotesi 'eliminare le senescenti'): in vivo OSKM induce senescenza che richiede Ink4a/Arf e IL-6 e crea un ambiente permissivo alla riprogrammazione; lesione tissutale e invecchiamento la favoriscono.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "27884981",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Ink4a, non Arf, è necessario per la senescenza indotta da OSKM e per lo stimolo paracrino; in assenza di p53 la dipendenza da Ink4a scompare e i tessuti p53-null riprogrammano più efficacemente; i tessuti p21-null mostrano più senescenza, IL-6 e riprogrammazione; femmine giovani meno efficienti dei maschi.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "29280266",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "In vitro: fibroblasti con p19Arf basso o immortali, deficitari nella via Arf-Trp53, riprogrammano con cinetica fino a tre volte più rapida e maggiore efficienza; l'ablazione acuta di Trp53 ripristina la capacità in sottopopolazioni che non riprogrammano; gli autori sottolineano la somiglianza fra pluripotenza indotta e tumorigenesi.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "19668190",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Confronto solo indiretto fra interventi: senolisi, restrizione calorica, riprogrammazione parziale in vivo e parabiosi eterocronica condividono un programma trascrittomico (meno infiammazione, più metabolismo degli acidi grassi) su dati pubblicati di topo; non è un confronto sperimentale di durata di vita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "37698783",
+       "verificata": true
+      },
+      "prova": "analisi di dati pubblicati"
+     },
+     {
       "testo": "Le barriere alla riprogrammazione sono molte (p53, p21, p57, p16Ink4a/p19Arf, Mbd3; rassegna). Che siano ridondanti tra loro è inferenza, non nell'abstract.",
       "livello": "in_vitro",
       "fonte": {
@@ -2953,7 +2997,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Non trovati: confronto diretto di OSK con rapamicina o restrizione calorica; adattamento dopo induzioni ripetute; dati primari su teratomi con protocolli ciclici; tessuti o cellule tumorali resistenti oltre il preprint pancreatico; parabiosi eterocronica. Sono buchi, non prova di assenza.",
+      "testo": "Ricerche di giro 3 (PubMed e registro, almeno 5 query per punto; 0 risultati non è prova di assenza): non trovati confronto diretto di durata di vita OSK contro rapamicina o restrizione calorica, esperimenti di parabiosi eterocronica combinata con OSK (una rassegna la propone come ipotesi), dati primari su teratomi con protocolli ciclici a 12 mesi o più, repliche indipendenti dello studio +109%. Non cercati in modo specifico: adattamento dopo induzioni ripetute e tessuti resistenti oltre il preprint pancreatico. Sono buchi, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
      },
@@ -3067,6 +3111,26 @@
    ],
    "finestra": [
     {
+     "testo": "Rischio con induzione transitoria dei 4 fattori in vivo: teratomi da più organi (stomaco, intestino, pancreas, rene) con cellule NANOG-positive in situ nel topo; in un sistema controllato con doxiciclina l'espressione transitoria produce tumori indifferenziati displastici, tra cui un tumore renale simile al tumore di Wilms, con metilazione alterata. Il rischio dipende dal protocollo: dati con induzione non ciclica.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24025773",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Tumori dopo espressione transitoria in vivo (sistema inducibile con doxiciclina): cellule displastiche indifferenziate con metilazione alterata in vari tessuti; le iPSC derivate dalle cellule tumorali danno cellule renali non neoplastiche, quindi senza trasformazione genetica irreversibile secondo gli autori.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24529372",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
      "testo": "Con induzione continua di OSKM la letalità precoce è epatica e intestinale; evitare l'espressione in questi due organi la riduce.",
      "livello": "animale",
      "fonte": {
@@ -3161,14 +3225,16 @@
      "falsificazione": "Se un organo mostra perdita di identità o displasia oltre soglia prespecificata rispetto ai controlli, la formula 'senza perdita di identità' è falsificata per quell'organo."
     },
     {
-     "domanda": "Le barriere oncosoppressive (p53, Arf) limitano la trasformazione durante la riprogrammazione parziale in vivo?",
-     "disegno": "OSK ciclico in topi con p53 o Arf condizionalmente ridotti contro selvatici; incidenza di tumori e teratomi nel tempo; confronto in organoidi umani.",
-     "falsificazione": "Se l'incidenza di tumori non differisce, le barriere non sono limitanti nel protocollo ciclico; se aumenta con p53 o Arf ridotti, il rischio dipende dall'integrità di queste barriere."
+     "domanda": "Con OSK a impulsi in vivo, la riduzione condizionale di p53 o di Ink4a/Arf aumenta l'incidenza di lesioni displastiche o teratomatose rispetto ai selvatici?",
+     "verifica": "Parzialmente fatto: p53 e Arf sono barriere all'efficienza di riprogrammazione (PMID 19668190 in vitro; PMID 29280266 in vivo con tessuti Ink4a/Arf-, p53- e p21-null), e l'induzione transitoria in topi selvatici produce teratomi o tumori (PMID 24025773, PMID 24529372). Non trovata la combinazione OSK ciclico con p53 o Arf ridotti e incidenza tumorale nel tempo. Giro di verifica con abstract, non full text; organoidi umani non cercati in modo specifico. La formulazione precedente confondeva efficienza di riprogrammazione e trasformazione maligna.",
+     "disegno": "Topi con OSK a impulsi di doxiciclina e p53 o Ink4a/Arf ridotti condizionalmente contro selvatici, con controlli senza OSK per tumori spontanei (i topi p53-deficienti sviluppano spontaneamente tumori, nozione di fondo non verificata in sessione); dimensione del campione e dimensione minima dell'effetto prespecificate; istologia seriata per displasia e teratomi, marcatori NANOG; eventualmente organoidi umani.",
+     "falsificazione": "Falsificata se, con potenza prespecificata, l'incidenza di lesioni displastiche o teratomatose con OSK a impulsi non supera, con intervallo di confidenza al 95%, il fondo dei controlli senza OSK né differisce fra p53 o Arf ridotti e selvatici; un'incidenza nulla con pochi animali non dimostra assenza di barriera."
     },
     {
-     "domanda": "Il beneficio di OSK passa dalla rimozione o dal blocco delle cellule senescenti, oppure è additivo rispetto ad esso?",
-     "disegno": "Topi anziani con eliminazione genetica delle cellule p16-positive (modello INK-ATTAC) e OSK ciclico in disegno fattoriale; esiti di fragilità, funzione e orologio.",
-     "falsificazione": "Se il beneficio di OSK scompare dopo l'eliminazione delle cellule senescenti, l'effetto è mediato dalla senescenza; se resta additivo, è indipendente."
+     "domanda": "Il beneficio di OSK ciclico in topi anziani passa dalle cellule senescenti, oppure è additivo rispetto alla loro eliminazione?",
+     "verifica": "Disegno fattoriale non trovato. Esiste però il dato opposto sul ruolo della senescenza: in vivo la senescenza indotta da OSKM (via Ink4a e IL-6) favorisce la riprogrammazione (PMID 27884981, PMID 29280266). Quindi eliminare le cellule p16-positive potrebbe ridurre l'effetto di OSK per via della minore riprogrammazione e non per assenza di ringiovanimento: il disegno deve separare i due effetti. Verifica su abstract; query del registro rumorose e alcune liste di PMID non lette.",
+     "disegno": "Disegno 2x2 in topi anziani: OSK ciclico contro controllo, eliminazione delle cellule p16-positive (INK-ATTAC o simili; colpiscono anche cellule p16-positive non senescenti, limite da dichiarare) contro controllo. Misurare la senescenza residua (p16, p21, SASP, SA-beta-gal), un esito intermedio di riprogrammazione (cellule NANOG-positive), orologio epigenetico, fragilità e funzione, con test formale di interazione.",
+     "falsificazione": "Mediazione dalla senescenza falsificata se l'effetto di OSK su orologio e funzione resta di ampiezza simile dopo eliminazione verificata delle p16-positive, con interazione non significativa e intervallo di confidenza che esclude la riduzione minima prespecificata; additività falsificata se l'effetto si riduce o scompare con interazione significativa."
     }
    ],
    "parametri": [
