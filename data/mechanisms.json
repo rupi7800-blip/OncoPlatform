@@ -5068,109 +5068,132 @@
     "studiate": true,
     "voci": [
      {
-      "testo": "Nrf2 nell'esercizio: nei ratti Nrf2-knockout l'allenamento ripristina la funzione delle arteriole attraverso meccanismi indipendenti da Nrf2 (compensazione); nei topi l'effetto del precondizionamento ipossico sull'esercizio e quello sulla sarcopenia degli anziani sono abrogati o minimi senza Nrf2.",
+      "testo": "Nei ratti Nrf2-knockout l'allenamento ripristina solo in parte la risposta contrattile delle arteriole del soleo e non la vasodilatazione da flusso (la compensazione da vie indipendenti da Nrf2 è un'ipotesi degli autori); nelle arterie coronarie di ratti Nrf2-knockout ripristina in parte la risposta a endotelina e KCl, non la vasodilatazione mediata da NO.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "43003297",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale",
       "altre_fonti": [
        {
         "tipo": "PMID",
         "id": "40578507",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "31487225",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "34823019",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Autofagia e p53 nell'esercizio: il blocco di Atg7 non modifica prestazione né attivazione di AMPK in topi; nei topi p53-knockout l'attivazione di CaMKII e AMPK dopo esercizio è solo attenuata (ridondanza parziale). Knockout di HSF1 o AMPK nell'esercizio: fonte non reperita.",
+      "testo": "Nei topi il precondizionamento ipossico di 48 ore aumenta la capacità di esercizio nei selvatici e non nei Nrf2-knockout; in topi anziani i miglioramenti dell'esercizio sul fenotipo sarcopenico sono minimi nei knockout.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
-       "id": "25483961",
-       "verificata": false
+       "id": "31487225",
+       "verificata": true
       },
       "prova": "sperimentale",
       "altre_fonti": [
        {
         "tipo": "PMID",
-        "id": "24284795",
-        "verificata": false
+        "id": "34823019",
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Lato oscuro in oncologia: l'attivazione sostenuta di Nrf2 nei tumori protegge dall'apoptosi e dal danno ossidativo e favorisce la chemioresistenza (rassegne preclinica); in un modello di NSCLC un microRNA vescicolare che attiva Nrf2 conferisce resistenza ad anlotinib e l'effetto scompare con la mutazione del sito di legame di KEAP1.",
+      "testo": "Il blocco acuto e inducibile di Atg7 nel muscolo prima dell'esercizio non modifica prestazione, attivazione di PRKAA1/AMPK né glicemia nei topi (l'autofagia protegge però i mitocondri durante la contrazione dannosa).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25483961",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nei topi p53-knockout dopo un esercizio acuto l'attivazione di CaMKII e AMPK è solo attenuata, quella di p38 MAPK è abolita e la biogenesi mitocondriale è assente; p53 è necessaria secondo gli autori (interpretazione: ridondanza parziale fra le vie).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24284795",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "L'attivazione sostenuta di Nrf2 nei tumori favorisce sopravvivenza, proliferazione e chemioresistenza (due rassegne; la protezione da apoptosi e danno ossidativo è nell'abstract di una sola).",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "42199534",
-       "verificata": false
+       "verificata": true
       },
       "prova": "rassegna",
       "altre_fonti": [
        {
         "tipo": "PMID",
         "id": "40815486",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "42298893",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Antiossidanti e adattamento: vitamine C ed E bloccano parte degli adattamenti all'allenamento nell'uomo (proteoma dopo sprint interval training; ipertrofia e forza), ma un RCT in 28 soggetti non trova effetti su HSP e enzimi antiossidanti: dipende da esito, tipo di allenamento e dose; qui non c'è un test oncologico.",
+      "testo": "In linee di NSCLC e xenotrapianti un microRNA vescicolare attiva Nrf2 tramite il sito di legame di KEAP1 e conferisce resistenza ad anlotinib; la mutazione del sito di legame annulla la resistenza in vivo.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42298893",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nell'uomo le vitamine C ed E attenuano parte degli adattamenti all'allenamento: 1 g di vitamina C e 235 mg di vitamina E attenuano la risposta proteomica a 3 settimane di sprint interval training; in un RCT in 23 uomini allenati (12 contro 11) sembrano attenuare la forza degli arti superiori e l'ipertrofia, con 1RM simili nei due gruppi ed effetti piccoli.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "40433923",
-       "verificata": false
+       "verificata": true
       },
       "prova": "RCT",
       "altre_fonti": [
        {
         "tipo": "PMID",
         "id": "36283241",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "32153849",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Test indiretto in oncologia con supplementi antiossidanti: nello studio ATBC il beta-carotene aumenta il rischio di tumore del polmone nei fumatori (analisi secondaria); in un RCT in tumore vescicale non muscolo-invasivo la vitamina E si associa a recidiva peggiore (HR 1,46; IC 1,02-2,09; interrotto per reclutamento lento); non è una prova del meccanismo.",
+      "testo": "Contro-dato: in un RCT in 28 soggetti allenati le vitamine C ed E non modificano HSP27, HSP70, alfaB-cristallina, GPx1 e mnSOD durante l'allenamento di forza (durata non univoca fra titolo e abstract); l'effetto degli antiossidanti dipende quindi da esito, tipo di allenamento e dose. Non c'è un test oncologico.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "32153849",
+       "verificata": true
+      },
+      "prova": "RCT"
+     },
+     {
+      "testo": "Test indiretto con supplementi antiossidanti: nello studio ATBC (29.133 fumatori) un'analisi secondaria per sottogruppi di catrame e nicotina mostra che il beta-carotene aumenta il rischio di tumore del polmone in tutte le categorie (HR 1,22-1,31, con intervalli dei singoli sottogruppi che includono 1); non è una prova del meccanismo.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "29889248",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "RCT e analisi secondaria",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "37847504",
-        "verificata": false
-       }
-      ]
+      "prova": "analisi secondaria di RCT"
+     },
+     {
+      "testo": "In un RCT 2x2 in 270 pazienti con tumore vescicale non muscolo-invasivo la vitamina E si associa a una recidiva peggiore (HR 1,46; IC 1,02-2,09; P=0,04), il selenio no; lo studio è stato interrotto per lento reclutamento.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "37847504",
+       "verificata": true
+      },
+      "prova": "RCT"
      },
      {
       "testo": "Ormesi delle cellule tumorali in vitro: dosi basse di cisplatino e paclitaxel stimolano la proliferazione di cellule di carcinoma ovarico, soprattutto resistenti e in ipossia, con ROS e glutatione aumentati.",
@@ -5193,12 +5216,12 @@
       "prova": "sperimentale ex vivo"
      },
      {
-      "testo": "Contro-dato sulla direzione: plasma di argon a basse dosi stimola cellule staminali mesenchimali e riduce la crescita di osteosarcoma in vitro: la direzione dipende da cellula e stimolo.",
+      "testo": "Contro-dato sulla direzione: plasma freddo di argon a basse dosi (10-15 minuti) stimola la crescita di cellule staminali mesenchimali e riduce fino al 41% quella di cellule di osteosarcoma (linea MNNG/HOS) in vitro: la direzione dipende da cellula e stimolo.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "34202684",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -5209,7 +5232,7 @@
       "inferenza": true
      },
      {
-      "testo": "Non trovati: desensibilizzazione o tolleranza a stimoli ormetici ripetuti, esperimenti con doppio knockout, studi dedicati alla causalità inversa. Sono buchi, non prova di assenza.",
+      "testo": "Non trovati: knockout di HSF1 o AMPK nell'esercizio, desensibilizzazione o tolleranza a stimoli ormetici ripetuti, esperimenti con doppio knockout, studi dedicati alla causalità inversa. Sono buchi, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
      }
@@ -5347,7 +5370,7 @@
      "composto": "Raffreddamento e compressione della mano contro la neuropatia da taxani (effetto locale, non ormetico)",
      "bersaglio": "neuropatia indotta da chemioterapia",
      "fase": "RCT (NCT06541769, registro), 122 randomizzati",
-     "esito": "completato; nell'abstract del lavoro il grado ≥2 è 29% contro 50% (non riletto)",
+     "esito": "completato (registro); nell'abstract del lavoro 122 randomizzati e 101 analizzati (21 ritiri): neuropatia di grado ≥2 29% contro 50% (P=0,002)",
      "ragione": "non applicabile",
      "fonte": {
       "tipo": "NCT",
@@ -5358,7 +5381,7 @@
       {
        "tipo": "PMID",
        "id": "40048176",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -5399,15 +5422,15 @@
      }
     },
     {
-     "composto": "Sulforafano nel tumore prostatico (attivatore di Nrf2)",
+     "composto": "BroccoMax (sulforafano) nel tumore prostatico",
      "bersaglio": "biomarcatori",
      "fase": "RCT 4 settimane, 19 contro 22",
-     "esito": "riduzione di c-Myc, ACC1, FASN e Ki-67 nel tessuto tumorale; nessun esito clinico",
+     "esito": "riduzione di c-Myc, ACC1, FASN e Ki-67 nel tessuto tumorale; esiti clinici non riportati nell'abstract",
      "ragione": "endpoint biologico",
      "fonte": {
       "tipo": "PMID",
       "id": "41738426",
-      "verificata": false
+      "verificata": true
      }
     }
    ],
