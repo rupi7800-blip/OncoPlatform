@@ -437,6 +437,443 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "bioelettricita",
+   "name": "Bioelettricità e potenziale di membrana (cornice di Michael Levin)",
+   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Primo giro di verifica fatto: 6 PMID riletti da me su PubMed e 6 record sul registro ClinicalTrials.gov (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "Il potenziale di membrana a riposo (Vmem) regola il differenziamento: nelle cellule staminali mesenchimali umane l'iperpolarizzazione accompagna il differenziamento osteogenico e adipogenico e la depolarizzazione lo impedisce. Dato in vitro, del gruppo Levin.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19011685",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Rassegna: la depolarizzazione è associata a proliferazione in molte cellule tumorali e l'iperpolarizzazione al differenziamento delle staminali. Il nesso causale è descritto nella rassegna e non è stato verificato in studi primari.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23882223",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Depolarizzazione documentata in strutture simil-tumorali del girino indotte da Gli1, KRAS G12D, Xrel3 o p53 mutato, anche nei siti precursori prima dell'evidenza istologica. In altri tipi (glioma e neuroblastoma in vitro, mammella in vitro e xenotrapianti) il dato è correlativo. Per gli altri tipi tumorali: nessuna ricerca sistematica, fonte non reperita.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23471912",
+      "verificata": true
+     },
+     "prova": "sperimentale in vivo (girino)"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Oncogene (KRAS G12D, Gli1, Xrel3, p53 mutato) → strutture simil-tumorali depolarizzate; l'iperpolarizzazione con trasportatori riporta Vmem alla norma e riduce in modo significativo la formazione di ITLS. Riduzione, non soppressione completa. Gli autori scrivono che la modulazione di Vmem è una strategia 'nuova e promettente': giudizio degli autori.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23471912",
+      "verificata": true
+     },
+     "prova": "sperimentale; gruppo Levin"
+    },
+    {
+     "testo": "Passaggio a valle proposto: Vmem → SLC5A8 (scambiatore del butirrato) → butirrato → inibizione delle HDAC. Gli autori scrivono che il butirrato 'might be responsible': ipotesi. Un esperimento dominante-negativo implica HDAC1; i dati sugli antibiotici suggeriscono che il butirrato rilevante derivi da un batterio nativo.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24830454",
+      "verificata": true
+     },
+     "prova": "genetica/farmacologica in un solo modello",
+     "inferenza": true
+    },
+    {
+     "testo": "Canali iperpolarizzanti espressi in siti distanti riducono l'incidenza dei tumori KRAS; anche i canali nativi CLIC1 con farmaci. Effetto a lungo raggio, in un solo modello animale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24830454",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Optogenetica (ChR2D156A, Arch): l'iperpolarizzazione riduce l'incidenza dei tumori KRAS; se attivata dopo la formazione aumenta la frequenza di regressione ('normalizzazione'). È una frequenza aumentata, non una normalizzazione completa o universale; numero di animali non riportato nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26988909",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Meccanismo indipendente dal girino: la depolarizzazione induce nanoclustering di K-Ras e potenzia la via MAPK in fibroblasti, cellule di neuroblastoma e neuroni di Drosophila; la ripolarizzazione la inibisce. Gruppo diverso da Levin, ma non in un modello tumorale.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26293964",
+      "verificata": true
+     },
+     "prova": "biochimica + animale (Drosophila)"
+    },
+    {
+     "testo": "Cellule 'istruttrici' GlyCl depolarizzate inducono nei melanociti vicini un fenotipo simil-neoplastico mediato dalla serotonina (girino, e melanociti umani in coltura).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20959630",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Collegamento Vmem → Hippo/YAP: non trovato in PubMed. L'unico dato vicino riguarda KCNA2/Kv1.2 nel sarcoma di Ewing (controllo di YAP/Hippo), senza misurare Vmem.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39695664",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "inferenza": true
+    },
+    {
+     "testo": "Istologia di malignità e metastasi delle ITLS del girino: fonte non reperita. L'abstract del 2014 le descrive come iperproliferazione, nuclei più grandi, ipossia, acidità, attrazione di leucociti.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24830454",
+      "verificata": true
+     },
+     "prova": "descrittiva"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Contraddizione sulla direzione: in Drosophila e cellule MDCK, la depolarizzazione dei cloni scribble-deficienti stabilizza Smoothened e attiva Hedgehog, eliminando i cloni precancerosi (effetto tumor-soppressivo). Differenze di modello: competizione cellulare di cloni precancerosi contro tumori già formati, Drosophila e cellule canine invece di Xenopus, via Hedgehog invece di KRAS.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42190941",
+       "verificata": true
+      },
+      "prova": "genetica + co-coltura"
+     },
+     {
+      "testo": "Apparente opposizione: nel carcinoma mammario il blocco di Kir2.1 (che depolarizza) ripristina la sensibilità ai farmaci; l'endpoint è la resistenza ai farmaci, non la formazione del tumore, quindi i due risultati non sono confrontabili direttamente.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40367066",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Meccanismo metabolico/pH, non di Vmem: in Nav1.5 nel carcinoma mammario l'attività del canale aumenta glicolisi e acidificazione, con feedback positivo; il livello correla con metastasi e sopravvivenza ridotta.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39048659",
+       "verificata": false
+      },
+      "prova": "in vitro + xenotrapianto + correlativa"
+     },
+     {
+      "testo": "Funzioni non conduttive: Kv1.3 nel melanoma agisce anche come 'hub di segnalazione' (via STAT3-p53) secondo un interattoma; nessun mutante non conduttivo testato nell'abstract, quindi la funzione non conduttiva è dedotta.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39231216",
+       "verificata": false
+      },
+      "prova": "BioID + animale",
+      "inferenza": true
+     },
+     {
+      "testo": "Il cancerogeno 4NQO produce tumori localizzati con effetti variabili sul Vmem corporeo: Vmem non è sempre associato alla tumorigenesi.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "23196890",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Dipende dall'oncogene: pp60v-src depolarizza di circa 30 mV cellule di ratto (1987), mentre il virus di Kirsten non altera il potenziale in modo significativo.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "2434484",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Rimodellamento di canali nel linfoma: Kv1.3 e KCa3.1 tendono a essere sostituiti da canali hERG1, e la disattivazione del complesso riduce la proliferazione. È un rimodellamento osservato, non una compensazione dimostrata sul fenotipo.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41083090",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Non trovati: replica indipendente del sistema girino/KRAS; Vmem contro KRAS in topo, zebrafish o xenotrapianti; knockout di canali ionici senza il fenotipo atteso; adattamento a blocco cronico di canali; studio che stabilisca se Vmem cambia a valle di KRAS. Sono buchi, non prova che la ridondanza non esista.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "riluzolo + radioterapia dell'encefalo",
+     "bersaglio": "glutammato/Nav",
+     "fase": "I in metastasi cerebrali (NCT01018836, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "arruolamento lento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01018836",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "riluzolo",
+     "bersaglio": "glutammato/Nav",
+     "fase": "I in carcinoma mammario (NCT00903214, registro)",
+     "esito": "ritirato",
+     "ragione": "fine dei finanziamenti (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00903214",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "riluzolo",
+     "bersaglio": "glutammato/Nav",
+     "fase": "II in melanoma stadio III-IV (NCT00866840, registro)",
+     "esito": "completato; risultati presenti nel registro (non letti); pubblicazione non reperita",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00866840",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "digossina + FOLFIRINOX",
+     "bersaglio": "Na/K-ATPasi",
+     "fase": "II in pancreas resecabile (NCT04141995, registro)",
+     "esito": "terminato; risultati nel registro (non letti); articolo non trovato",
+     "ragione": "basso arruolamento e futilità (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04141995",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "mibefradil + temozolomide",
+     "bersaglio": "canale del calcio T-type",
+     "fase": "I in gliomi di alto grado ricorrenti (n=27)",
+     "esito": "MTD 87,5 mg 4 volte/die; DLT: aumento di ALT/AST di grado 3 e bradicardia sinusale; riduzione del segnale PET in 2 pazienti su 10 su 18F-FLT",
+     "ragione": "non applicabile; gli autori propongono ulteriori studi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28371832",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ivermectina + balstilimab o pembrolizumab",
+     "bersaglio": "canale GluCl (non confermato)",
+     "fase": "I/II (NCT05318469, registro)",
+     "esito": "in reclutamento, senza risultati; nessun dato clinico oncologico trovato in PubMed",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05318469",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "mibefradil + temozolomide (altri trial)",
+     "bersaglio": "T-type",
+     "fase": "I in glioma ricorrente (NCT01480050, registro)",
+     "esito": "completato, senza risultati nel registro; collegamento con la pubblicazione non verificato",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01480050",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "SOR-C13",
+     "bersaglio": "TRPV6",
+     "fase": "I (n=23)",
+     "esito": "ipocalcemia transitoria di grado 2; stabilità di malattia 54,5%; risposta migliore -27%",
+     "ragione": "sviluppo successivo non reperito",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28150073",
+      "verificata": false
+     }
+    },
+    {
+     "composto": "approcci 'bioelettrici' veri e propri (iperpolarizzazione trasgenica, optogenetica, normalizzazione di Vmem)",
+     "bersaglio": "Vmem",
+     "fase": "nessuna",
+     "esito": "nessun trial clinico trovato nel registro con i termini 'bioelectric' e 'membrane potential' (solo diagnostica o bioimpedenza)",
+     "ragione": "non applicabile",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Cuore: il blocco di hERG è il meccanismo principale del prolungamento del QT indotto da farmaci; le mutazioni di SCN5A (Nav1.5) danno sindrome del QT lungo o Brugada a seconda della direzione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29798782",
+      "verificata": false
+     },
+     "prova": "clinica/genetica"
+    },
+    {
+     "testo": "Pancreas endocrino: la perdita di funzione dei canali KATP causa ipoglicemia grave (iperinsulinismo congenito), il guadagno di funzione diabete neonatale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15963039",
+      "verificata": false
+     },
+     "prova": "clinica/genetica"
+    },
+    {
+     "testo": "Sistema nervoso centrale: la perdita di funzione di SCN1A causa crisi epilettiche (sindrome di Dravet).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20831750",
+      "verificata": false
+     },
+     "prova": "rassegna + animale"
+    },
+    {
+     "testo": "Muscolo e sviluppo: le mutazioni di Kir2.1 (KCNJ2) causano la sindrome di Andersen-Tawil.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "12796536",
+      "verificata": false
+     },
+     "prova": "clinica/genetica"
+    },
+    {
+     "testo": "Sistema immunitario: Kv1.3 è alto nelle cellule T effettrici di memoria; la sua inibizione è immunosoppressiva.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19538097",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Mibefradil in fase I: tossicità epatica di grado 3 e bradicardia sinusale come DLT.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28371832",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Selettività tumore/tessuto sano: non dimostrata nei lavori letti. La rassegna che definisce la depolarizzazione un 'hallmark' osserva comparabilità quantitativa limitata e assenza di standardizzazione clinica.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42165099",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Rene, midollo, epitelio intestinale ed embrione: tossicità da modulazione di canali, fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "L'iperpolarizzazione normalizza una proliferazione guidata da KRAS in epitelio di mammifero con tumori istologicamente definiti, e non solo in strutture simil-tumorali del girino?",
+     "disegno": "Organoidi epiteliali isogenici con KRAS G12D inducibile (murini e umani), iperpolarizzati con canale o optogenetica (es. Arch) e confrontati con controlli; misura di Vmem (FLIM o coloranti), proliferazione, invasione, fosfo-ERK e istologia dell'organoide.",
+     "falsificazione": "Se Vmem risulta ripristinato ma proliferazione, invasione e fosfo-ERK non cambiano in almeno due linee indipendenti, l'effetto non si trasferisce al mammifero."
+    },
+    {
+     "domanda": "La depolarizzazione è causa necessaria o conseguenza della segnalazione di KRAS?",
+     "disegno": "Cellule con KRAS G12D inducibile e registrazione continua di Vmem; clamp del potenziale (patch-clamp o optogenetica) a valori iperpolarizzati o depolarizzati prima e dopo l'induzione; misura di nanoclustering di K-Ras, MAPK e proliferazione.",
+     "falsificazione": "Se la proliferazione e il MAPK indotti da KRAS restano invariati con Vmem clampato in iperpolarizzazione, Vmem non è necessario per l'effetto di KRAS."
+    },
+    {
+     "domanda": "Perché la depolarizzazione elimina cloni precancerosi in Drosophila e promuove la proliferazione in altri contesti?",
+     "disegno": "Colture miste di epitelio di mammifero con cloni oncogenici (scribble o KRAS) in mosaico; depolarizzazione selettiva del clone o dei vicini; misura di eliminazione, espansione e attivazione di Hedgehog.",
+     "falsificazione": "Se i cloni si espandono sempre con la depolarizzazione indipendentemente dai vicini, l'effetto di competizione non è conservato nel mammifero."
+    },
+    {
+     "domanda": "Le funzioni di Kv1.3 e KCNA2 nel tumore dipendono dalla conduzione ionica?",
+     "disegno": "Linee di melanoma e sarcoma di Ewing con knockout e re-espressione di canali selvatici o mutanti non conduttivi; proliferazione, STAT3, p53 e YAP.",
+     "falsificazione": "Se i mutanti non conduttivi non recuperano il fenotipo, la funzione dipende dalla conduzione; se lo recuperano, il canale agisce come proteina di segnalazione."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Concentrazione plasmatica massima di mibefradil alla dose massima tollerata",
+     "stato": "misurato",
+     "valore": "1693 ± 287 ng/mL",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28371832",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Vmem a riposo di tumori umani in vivo rispetto al tessuto sano dello stesso organo",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Soglia di Vmem che separa fenotipo normale e tumorale",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Numero di animali e incidenza per gruppo negli esperimenti sul girino",
+     "stato": "assente",
+     "valore": "non riportati negli abstract",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
