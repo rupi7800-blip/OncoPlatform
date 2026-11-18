@@ -3942,6 +3942,684 @@
      "verificata": true
     }
    ]
+  },
+  {
+   "id": "allostasi",
+   "name": "Omeostasi e allostasi (Cannon; Sterling e McEwen) e stress cronico",
+   "note": "Bozza v0. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita); nell'uomo una meta-analisi su dati individuali di 22 coorti non trova associazione fra fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea. Non c'è un RCT di sopravvivenza adeguato per i beta-bloccanti perioperatori (PROSPER chiuso per reclutamento lento); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Giro 1 di verifica: 18 PMID riletti e 10 record del registro riletti (marcati 'verificata'); gli altri identificativi sono letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "McEwen e Stellar (1993) sostengono che il concetto di omeostasi non aiuta a capire il costo nascosto dello stress cronico: invece di mantenere costanza, i sistemi fisiologici fluttuano per rispondere alle richieste (allostasi); il carico allostatico è il costo dell'esposizione cronica a risposte neurali o neuroendocrine fluttuanti o elevate. Definizione e ipotesi degli autori, in una rassegna.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "8379800",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Romero e colleghi: l'allostasi era stata proposta per sostituire il termine ambiguo 'stress', ma sia il termine sia il modello hanno suscitato critiche; il Reactive Scope Model colloca le variazioni circadiane e stagionali (omeostasi predittiva) e le risposte a eventi imprevisti (omeostasi reattiva) dentro il range omeostatico, e descrive il carico come perdita di ampiezza di quel range. Modello teorico.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19470371",
+      "verificata": true
+     },
+     "prova": "modello teorico"
+    },
+    {
+     "testo": "Un workshop elenca i limiti del campo: manca una definizione univoca di fenotipo da stress, un biomarcatore robusto, modelli quantitativi predittivi e la comprensione della transizione da stress acuto a cronico. Opinione di consenso.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26365223",
+      "verificata": true
+     },
+     "prova": "opinione di consenso"
+    },
+    {
+     "testo": "Teoria dei sistemi di controllo: i sistemi omeostatici hanno errore stazionario nullo o quasi, mentre quelli allostatici hanno un livello stazionario che dipende dai tassi di input; è una definizione formale e falsificabile, ma sviluppata su esempi teorici (metabolici, farmacologici, ecologici), non su misure umane di set-point.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28554610",
+      "verificata": true
+     },
+     "prova": "modello teorico",
+     "inferenza": true
+    },
+    {
+     "testo": "Fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988): fonte non reperita come record PubMed; le loro definizioni sono citate solo di seconda mano.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Carico allostatico e rischio di cancro: in un caso-controllo annidato in EPIC-Granada (955 casi e 955 controlli, 16 biomarcatori misurati in media 15 anni prima della diagnosi) un indice a cut-off clinici dà OR 1,30 per unità e OR 2,24 per il quarto contro il primo quartile; i risultati variano con la costruzione dell'indice. Clinico osservazionale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42801852",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "In 336.945 partecipanti di UK Biobank un carico allostatico alto contro normale si associa a rischio di tumore polmonare (HR 1,629), più forte per il microcitoma; associazione, non prova di causalità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42873766",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Misura nell'uomo: una revisione integrativa di 15 studi riporta indici da 5 a 14 biomarcatori con punteggi incompatibili e nessuna catecolamina misurata; un preprint trova che stress percepito e diagnosi di cancro non sono associati al carico allostatico.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43024971",
+      "verificata": false
+     },
+     "prova": "revisione",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42922638",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Tipi tumorali senza associazione documentata fra carico allostatico e rischio: fonte non reperita nei lavori letti; un confronto sperimentale in cui l'allostasi predica meglio dell'omeostasi: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Stress comportamentale cronico in un modello ortotopico di carcinoma ovarico in topi nudi aumenta catecolamine tissutali, carico tumorale e invasione; gli autori attribuiscono l'effetto soprattutto alla via cAMP-PKA del recettore beta-2 (ADRB2) con più vascolarizzazione e VEGF, MMP2 e MMP9. L'ipotesi terapeutica è degli autori.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16862152",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Stress psicosociale (affollamento o isolamento) in topi con melanoma B16 o fibrosarcoma Meth A aumenta la crescita tumorale; il propranololo abolisce l'effetto, mentre il corticosterone cronico da solo causa atrofia di timo e milza senza aumentare la crescita tumorale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "12149137",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Contenzione cronica in topi p53+/- accelera la tumorigenesi indotta da radiazioni e favorisce xenotrapianti in modo in gran parte p53-dipendente; i glucocorticoidi inducono SGK1, che aumenta MDM2 e riduce p53. Differenza di modello rispetto al lavoro precedente: cocarcinogenesi con radiazioni in animali p53+/- e xenotrapianti, contro trapianto singeneico con corticosterone esogeno: i due risultati sul ruolo dei glucocorticoidi non sono sovrapponibili.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22509031",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Contro-dato: nei topi MMTV-PyMT l'esposizione a stress riduce il carico del tumore primario (più apoptosi) tramite recettori beta; nadololo annulla l'effetto, ma nei topi non stressati il blocco beta aumenta le metastasi polmonari e le cellule soppressorie di derivazione mieloide; le metastasi non sono alterate dallo stress. Il segno dell'effetto dipende dal modello.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32595275",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Specificità del recettore: in un modello pancreatico la noradrenalina agirebbe su ADRB1 degli epatociti (complemento C5a, reclutamento di MDSC) e l'atenololo riduce la crescita; in un modello gastrico il propranololo e un antagonista ADRB2 riducono proliferazione e metastasi, l'atenololo no. Prove soprattutto farmacologiche; knockout genetico di ADRB2 nel tumore: fonte non reperita.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41417111",
+      "verificata": false
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31624248",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Incidenza nell'uomo: una meta-analisi di 165 studi associa i fattori psicosociali legati allo stress a maggiore incidenza di cancro in popolazioni inizialmente sane, ma gli eventi di vita stressanti non sono associati a incidenza maggiore; gli autori segnalano bias di pubblicazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18493231",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Meta-analisi su dati individuali di 22 coorti (fino a 421.799 persone, 35.319 casi di cancro): nessun fattore psicosociale (supporto percepito, perdita, stato di coppia, nevroticismo, distress) è associato a un rischio aumentato di cancro complessivo, mammario, prostatico o colorettale; per il polmone alcune associazioni (HR 1,09-1,55) si attenuano dopo aggiustamento per fumo e storia familiare.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41866892",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Beta-bloccanti e sopravvivenza (osservazionale): una meta-analisi di 84 studi su 603.827 pazienti con tumori solidi associa l'uso a OS HR 0,88 e PFS HR 0,82, con effetti più forti per esposizione dopo la diagnosi; gli autori avvertono eterogeneità e natura osservazionale; non è un test del ruolo dello stress.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41863389",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Firma trascrittomica conservata di risposta avversa (CTRA) come biomarcatore: un'analisi esplorativa post hoc in 78 riceventi di trapianto per leucemia mieloide acuta associa CTRA alto a recidiva maggiore; in un'altra coorte CTRA tumorale alto si associa a OS peggiore; correlativo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26286914",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41188960",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anelli non reperiti nei lavori letti: effetto dello stress su anoikis, riparo del DNA in modo diretto, misura diretta della noradrenalina o del cortisolo nel tumore umano.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Denervazione: in modelli mammari murini solo la 6-idrossidopamina sopprime la crescita tumorale, mentre la denervazione simpatica genetica e quella chirurgica no; l'effetto della 6-OHDA passa da IFN-beta, macrofagi e cellule T1, quindi è un effetto immunitario oltre l'ablazione simpatica.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41856110",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Contro-dati sulla 6-OHDA: in un modello di metastasi polmonari da pre-metastasi la 6-OHDA riduce le MDSC e le metastasi, attribuito al simpatico; la differenza di modello (tumore, tempo, dose) non è leggibile negli abstract.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36142564",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "38331165",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Via vagale e colinergica: la vagotomia gastrica riduce le trappole extracellulari dei neutrofili e la crescita in modelli gastrici sotto stress, con segnali sinergici (CGRP, cGAS-STING; NGF/TrkA).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "43039101",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42215706",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Via dei glucocorticoidi: in un modello intracranico murino surrenectomia, inibitori dell'attivazione dei glucocorticoidi, antagonisti del recettore e delezione del recettore nelle cellule T aboliscono la soppressione immunitaria e la crescita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39044027",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Via di segnale parallela a livello del recettore: le catecolamine via ADRB2 danneggiano il DNA tramite beta-arrestina-1 (bypass Gs-PKA) in cellule umane e topi Arrb1-/-; non è un modello tumorale.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "21857681",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Meta-analisi di esperimenti murini (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42941861",
+       "verificata": false
+      },
+      "prova": "revisione sistematica e meta-analisi"
+     },
+     {
+      "testo": "Spiegazione alternativa: una meta-analisi aggiornata di 24 RCT (4.795 pazienti) di interventi psicosociali trova OS SHR 0,87 (IC 0,77-0,99), 0,75 nei pazienti trattati con intento curativo; l'abstract non riporta misure di cortisolo o catecolamine, quindi non separa la biologia dello stress da aderenza, supporto e accesso alle cure (inferenza); eterogeneità moderata, sottogruppi.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42968372",
+       "verificata": true
+      },
+      "prova": "meta-analisi di RCT",
+      "inferenza": true
+     },
+     {
+      "testo": "Contrasto: una meta-analisi di RCT di interventi psicologici in oncologia precoce trova OS HR 0,97 e RFS HR 0,99, non significativi, con qualità di vita migliorata; differenza di inclusione (tumori precoci) rispetto alla meta-analisi precedente.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38853187",
+       "verificata": false
+      },
+      "prova": "meta-analisi di RCT"
+     },
+     {
+      "testo": "Confondimento: gli effetti psicosociali sul rischio di cancro polmonare si attenuano dopo aggiustamento per fumo e storia familiare.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41866892",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Non trovati: esperimenti con doppio blocco beta e glucocorticoidi in un modello di stress tumorale, misura diretta della compensazione di un asse dopo blocco di un altro, desensibilizzazione beta in vivo nel tumore, studi dedicati alla causalità inversa e all'accesso alle cure. Sono buchi, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Propranololo + etodolac perioperatori (PROSPER)",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II, resezione per tumore pancreatico (DRKS00014054)",
+     "esito": "chiuso in anticipo: 26 randomizzati, 6 mai iniziati, 9 trattati e 11 placebo; eventi avversi gravi 6 contro 14; DFS mediana 16,36 contro 11,25 mesi con intervalli molto ampi (1,18-non raggiunto contro 2,2-17,25); recidive a distanza 11,1% contro 54,5%; gli autori parlano di dati preliminari",
+     "ragione": "reclutamento lento e aderenza limitata",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40402347",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac in tumore prostatico con progressione",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II (NCT01857817, registro)",
+     "esito": "terminato, 35 arruolati, risultati non letti",
+     "ragione": "reclutamento scarso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01857817",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo neoadiuvante in tumore mammario",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT02596867, registro)",
+     "esito": "terminato, 2 arruolati",
+     "ragione": "accrual scarso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02596867",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo in pazienti con tumore prostatico sottoposti a chirurgia",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT03152786, registro)",
+     "esito": "terminato, 46 arruolati",
+     "ragione": "gli sperimentatori principali non intendevano proseguire (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03152786",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Blocco beta-adrenergico in tumore cervicale",
+     "bersaglio": "beta-adrenergico",
+     "fase": "studio di fattibilità (NCT01902966, registro)",
+     "esito": "terminato, 6 arruolati",
+     "ragione": "scarso arruolamento e mancanza di fondi (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01902966",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + pembrolizumab in melanoma avanzato",
+     "bersaglio": "beta-adrenergico",
+     "fase": "I/II (NCT03384836, registro)",
+     "esito": "sospeso, 47 arruolati",
+     "ragione": "analisi intermedia (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03384836",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo per prevenire la progressione del melanoma",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT01988831, registro)",
+     "esito": "sospeso, 450 previsti",
+     "ragione": "ritardo per motivi finanziari (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01988831",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + sunitinib in carcinoma renale metastatico",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT03323710, registro)",
+     "esito": "ritirato, 0 arruolati",
+     "ragione": "scarso reclutamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03323710",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo (con etodolac) in studi con endpoint biologici, tumori mammario e colorettale",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II/RCT su biomarcatori, n=34-60 (vedi PMID)",
+     "esito": "tollerato; biomarcatori prometastatici e immunitari modificati; nessun esito di sopravvivenza",
+     "ragione": "endpoint biologico, non di sopravvivenza",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28490464",
+      "verificata": false
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31754048",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "32533792",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "26969754",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel nel carcinoma ovarico platino-resistente (ROSELLA)",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "III, open-label, 381 pazienti (NCT05257408)",
+     "esito": "PFS HR 0,70 (IC 0,54-0,91), mediana 6,54 contro 5,52 mesi; OS finale HR 0,65 (IC 0,51-0,83), 16,0 contro 11,9 mesi; eventi avversi simili a parità di esposizione; nessun nuovo segnale di sicurezza; autori con finanziamento aziendale",
+     "ragione": "non interrotto, trial in corso; relacorilant dato il giorno prima, il giorno stesso e il giorno dopo il nab-paclitaxel",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40473448",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41974149",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05257408",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel nel tumore pancreatico metastatico",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "III (NCT04329949, registro)",
+     "esito": "terminato, 43 arruolati: la risposta osservata non ha raggiunto la soglia predefinita; il comitato di monitoraggio non ha trovato problemi di sicurezza",
+     "ragione": "soglia di risposta non raggiunta (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04329949",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Mifepristone + pembrolizumab in tumore mammario HER2-negativo",
+     "bersaglio": "recettori glucocorticoide e progesterone",
+     "fase": "II (NCT03225547, registro)",
+     "esito": "terminato, 24 arruolati",
+     "ragione": "effetti collaterali (rash) (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03225547",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Interventi psicosociali con endpoint di sopravvivenza",
+     "bersaglio": "stress, supporto",
+     "fase": "meta-analisi di 24 RCT, 4.795 pazienti",
+     "esito": "OS SHR 0,87 (IC 0,77-0,99); sottogruppo con intento curativo SHR 0,75; moderata eterogeneità; meta-analisi con risultati diversi in oncologia precoce",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42968372",
+      "verificata": true
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Beta-bloccanti perioperatori: in PROSPER nessun problema di sicurezza dichiarato, ma 6 eventi avversi gravi nel braccio trattato contro 14 nel placebo, con aderenza ridotta nel gruppo trattato; un'analisi di 4 RCT (n=148) riporta bradicardia nel 12% contro il 3%, risolta sospendendo il farmaco.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40402347",
+      "verificata": true
+     },
+     "prova": "RCT piccolo",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42088573",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Mascheramento dell'ipoglicemia e altri rischi dei beta-bloccanti: la ricerca dedicata non ha prodotto fonti; fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Stress acuto e cronico: nei modelli animali e in rassegne lo stress acuto potenzia la risposta immune (ad esempio l'ipersensibilità cutanea ritardata), quello cronico la sopprime; l'effetto dipende da durata, tempo e dose ormonale; bloccare indiscriminatamente la risposta allo stress potrebbe perciò ridurre anche una risposta protettiva (inferenza).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11268419",
+      "verificata": false
+     },
+     "prova": "sperimentale",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "19571591",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Recettore dei glucocorticoidi: ruolo fisiologico essenziale in animali (topi scid surrenectomizzati muoiono senza steroidi); relacorilant in ROSELLA è dato in modo intermittente (150 mg il giorno prima, del giorno e dopo nab-paclitaxel), con neutropenia (64%), anemia (61%), affaticamento e nausea come eventi più frequenti e nessun nuovo segnale; dati umani su insufficienza surrenalica o ipokaliemia con blocco cronico in oncologia: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41974149",
+      "verificata": true
+     },
+     "prova": "RCT di fase 3",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "10459860",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Glucocorticoidi come farmaci di supporto in oncologia e immunoterapia: segnali discordanti in analisi retrospettive (desametasone ridotto associato a PFS migliore in un sottogruppo di 38 pazienti; beneficio maggiore con corticosteroidi in metastasi cerebrali da polmone); confondimento per indicazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42834953",
+      "verificata": false
+     },
+     "prova": "retrospettiva",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40016281",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Ritmo del cortisolo: cortisolo serale e medio elevati si associano a PFS peggiore in un piccolo studio di tumori testa-collo (n=40, osservazionale); intervento sul ritmo come strategia terapeutica: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39634268",
+      "verificata": false
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Contro-dato sul segno: in un modello murino di mieloma lo stress cronico da contenzione riduce la carica tumorale midollare, mentre l'agonismo beta riduce l'efficacia di immunoterapie ex vivo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42641866",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "La noradrenalina a esposizione cronica o pulsatile desensibilizza ADRB2 nelle cellule tumorali, riducendo l'effetto su proliferazione e invasione, come atteso da un sistema che si adatta?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Colture 3D di linee tumorali (ovaio, stomaco, pancreas) esposte a noradrenalina continua, a impulsi o con ritmo circadiano per 14 giorni, con lavaggio e nuova stimolazione; misure di cAMP, pCREB, VEGF, invasione; knockout CRISPR di ADRB2 e antagonista selettivo ADRB1 contro ADRB2 come controlli.",
+     "falsificazione": "Falsificata se la risposta non cambia con durata e schema dell'esposizione (nessuna desensibilizzazione) o se il knockout di ADRB2 non modifica l'effetto: in quel caso il recettore non media la risposta o il sistema non si adatta come predetto."
+    },
+    {
+     "domanda": "Il segnale beta-adrenergico e quello dei glucocorticoidi agiscono in modo ridondante, additivo o sinergico sulle cellule tumorali e immunitarie?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Disegno fattoriale 2x2 in cocolture tumore-macrofagi-linfociti T: noradrenalina con o senza ICI118,551, cortisolo con o senza relacorilant; misure di funzione Th1 e CD8, IDO, PD-L1, proliferazione; test formale dell'interazione.",
+     "falsificazione": "Se non c'è interazione, gli assi sono indipendenti e additivi; se il blocco di un asse annulla l'effetto dell'altro c'è convergenza o ridondanza; se il blocco di uno non cambia la risposta all'altro, non c'è compensazione."
+    },
+    {
+     "domanda": "L'effetto antitumorale della 6-OHDA in vitro dipende dalla deplezione di noradrenalina o da una azione diretta sull'IFN-beta e sui macrofagi?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Cocolture di cellule tumorali mammarie e monociti con 6-OHDA, con noradrenalina aggiunta, con ADRB2 spento nel tumore o nei macrofagi; misura di IFN-beta, geni stimolati dall'interferone e differenziazione dei macrofagi.",
+     "falsificazione": "Se l'effetto sull'IFN-beta resta in assenza di cellule nervose e di noradrenalina, la 6-OHDA agisce fuori dall'asse simpatico; se scompare con noradrenalina aggiunta o ADRB2 spento, l'asse è coinvolto."
+    },
+    {
+     "domanda": "Il cortisolo con ritmo circadiano conservato rispetto a un livello costante a dose totale uguale modifica la sensibilità tumorale alla chemioterapia e a un antagonista del recettore dei glucocorticoidi?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Linee tumorali (ovaio, pancreas) esposte a cortisolo costante o con oscillazione circadiana a pari dose giornaliera, poi nab-paclitaxel con o senza relacorilant; misura di bersagli del recettore dei glucocorticoidi, apoptosi e vitalità.",
+     "falsificazione": "Se non c'è differenza fra cortisolo costante e oscillante, la dinamica non conta; se relacorilant sensibilizza anche in assenza di cortisolo, l'effetto è indipendente dal glucocorticoide."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Concentrazione di catecolamine tissutali nel tumore dopo stress cronico murino",
+     "stato": "assente",
+     "valore": "aumento qualitativo, valore non nell'abstract",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16862152",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Rapporto di rischio di cancro per quarto contro primo quartile di carico allostatico (clinico, EPIC-Granada)",
+     "stato": "misurato",
+     "valore": "OR 2,24 (IC 1,68-2,99), dipendente dalla costruzione dell'indice",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42801852",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Dose di relacorilant in ROSELLA",
+     "stato": "misurato",
+     "valore": "150 mg orali il giorno prima, il giorno stesso e il giorno dopo nab-paclitaxel",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40473448",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Cinetica di desensibilizzazione di ADRB2 nelle cellule tumorali",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Dose-risposta noradrenalina-effetto tumorale a livello cellulare",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
