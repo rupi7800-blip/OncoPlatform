@@ -17,21 +17,24 @@ function src(f){
   return `<span class="b ${ok?'ok':'ko'}">${esc(f.tipo)} ${esc(f.id)} · ${ok?'verificata':'non verificata'}</span>`;
 }
 const LIV = {in_vitro:'in vitro', animale:'modello animale', clinico:'clinico', ipotesi:'ipotesi dell\'autore'};
+function altre(o){
+  return o && o.altre_fonti && o.altre_fonti.length ? `<div class="meta">Altre fonti citate nel testo: ${o.altre_fonti.map(src).join(' ')}</div>` : '';
+}
 function claim(c){
   return `<div class="card"><div>${esc(c.testo)}</div>
-  <div class="meta">${c.livello?esc(LIV[c.livello]||c.livello)+' · ':''}${c.prova?'prova: '+esc(c.prova)+' · ':''}${src(c.fonte)}${c.inferenza?' · <b>inferenza, non misura diretta</b>':''}</div></div>`;
+  <div class="meta">${c.livello?esc(LIV[c.livello]||c.livello)+' · ':''}${c.prova?'prova: '+esc(c.prova)+' · ':''}${src(c.fonte)}${c.inferenza?' · <b>inferenza, non misura diretta</b>':''}</div>${altre(c)}</div>`;
 }
 function list(arr, empty){
   return arr && arr.length ? arr.map(claim).join('') : `<p class="meta">${empty}</p>`;
 }
 function tentativi(arr){
   if(!arr.length) return '<p class="meta">Nessun tentativo registrato. Cercare anche trial sospesi, terminati o mai pubblicati; se la ragione non è pubblica, scriverlo.</p>';
-  const rows = arr.map(t=>`<tr><td>${esc(t.composto)}</td><td>${esc(t.bersaglio)}</td><td>${esc(t.fase)}</td><td>${esc(t.esito)}</td><td>${esc(t.ragione||'non reperita')}</td><td>${src(t.fonte)}</td></tr>`).join('');
+  const rows = arr.map(t=>`<tr><td>${esc(t.composto)}</td><td>${esc(t.bersaglio)}</td><td>${esc(t.fase)}</td><td>${esc(t.esito)}</td><td>${esc(t.ragione||'non reperita')}</td><td>${src(t.fonte)}${altre(t)}</td></tr>`).join('');
   return `<div class="tw"><table><thead><tr><th>Composto</th><th>Bersaglio</th><th>Fase</th><th>Esito</th><th>Ragione interruzione</th><th>Fonte</th></tr></thead><tbody>${rows}</tbody></table></div>`;
 }
 function buchi(arr){
   if(!arr.length) return '<p class="meta">Compilare solo dopo i punti 1-5.</p>';
-  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>`:''}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
+  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>${altre(b)}`:''}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
 }
 function parametri(arr){
   if(!arr.length) return '<p class="meta">Nessuna simulazione prodotta. Qui si elencano i parametri necessari: misurato (con fonte), stimato per analogia, oppure assente.</p>';
