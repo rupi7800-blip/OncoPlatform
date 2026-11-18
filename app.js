@@ -62,4 +62,4 @@ fetch('data/mechanisms.json').then(r=>{ if(!r.ok) throw new Error('HTTP '+r.stat
   sel.innerHTML = d.mechanisms.map(m=>`<option value="${esc(m.id)}">${esc(m.name)}</option>`).join('');
   const go = () => { try { render(d.mechanisms.find(m=>m.id===sel.value)); } catch(e){ $('#main').innerHTML='<div class="note">Errore nella visualizzazione della scheda ('+esc(e.message||e)+').</div>'; } };
   sel.addEventListener('change', go); go();
-}, e=>{ $('#main').innerHTML='<div class="note">Impossibile caricare o leggere data/mechanisms.json ('+esc(e.message||e)+'). Se il sito è aperto da file locale, servirlo via HTTP.</div>'; });
+}).catch(e=>{ $('#main').innerHTML='<div class="note">Impossibile caricare o leggere data/mechanisms.json ('+esc(e.message||e)+'). Se il sito è aperto da file locale, servirlo via HTTP.</div>'; });

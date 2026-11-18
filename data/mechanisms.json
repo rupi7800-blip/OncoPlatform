@@ -3934,19 +3934,12 @@
      "valore": "",
      "fonte": null
     }
-   ],
-   "altre_fonti": [
-    {
-     "tipo": "NCT",
-     "id": "NCT07290244",
-     "verificata": true
-    }
    ]
   },
   {
    "id": "allostasi",
    "name": "Omeostasi e allostasi (Cannon; Sterling e McEwen) e stress cronico",
-   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita; in cellule orali l'attivazione di ADRB2 riduce il tumore). Nell'uomo due grandi analisi su dati individuali non trovano associazione fra stress lavorativo o fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea e non risulta un confronto con indici omeostatici semplici. Non c'è un RCT di sopravvivenza adeguatamente potenziato e con risultati pubblicati sui beta-bloccanti perioperatori (PROSPER chiuso per reclutamento; un trial di fase 3 sul colon-retto, NCT00888797, senza risultati reperiti); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Verifica: giro 1 con 24 PMID e 10 record del registro riletti direttamente; giro 2 con confronto dei 26 identificativi rimanenti con gli abstract (12 testi corretti per attribuzioni troppo estese); giro 3 con controllo indipendente delle affermazioni negative, di 12 record del registro e di altri 6 lavori riletti. Le verifiche sono su abstract e registro, non su testo completo.",
+   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita; in cellule orali l'attivazione di ADRB2 riduce il tumore). Nell'uomo due grandi analisi su dati individuali non trovano associazione fra stress lavorativo o fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea e non risulta un confronto con indici omeostatici semplici. Non c'è un RCT di sopravvivenza adeguatamente potenziato e con risultati pubblicati sui beta-bloccanti perioperatori (PROSPER chiuso per reclutamento; un trial di fase 3 sul colon-retto, NCT00888797, senza risultati reperiti); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Verifica: giro 1 con 18 PMID e 10 record del registro riletti direttamente; giro 2 con confronto di 26 identificativi con gli abstract, con correzioni di testo su diverse voci (attribuzioni troppo estese, numeri o specie non presenti negli abstract); giro 3 con controllo indipendente delle affermazioni negative; durante il passo 6 e il giro 3 sono stati riletti direttamente altri 10 PMID e 10 record del registro (in tutto 28 PMID e 20 record, non tutti citati nella scheda). Le verifiche sono su abstract e registro, non su testo completo.",
    "normale": [
     {
      "testo": "McEwen e Stellar (1993) sostengono che il concetto di omeostasi non aiuta a capire il costo nascosto dello stress cronico: invece di mantenere costanza, i sistemi fisiologici fluttuano per rispondere alle richieste (allostasi); il carico allostatico è il costo dell'esposizione cronica a risposte neurali o neuroendocrine fluttuanti o elevate. Definizione e ipotesi degli autori, in una rassegna.",
@@ -4006,7 +3999,7 @@
      "prova": "correlativa"
     },
     {
-     "testo": "In 336.945 partecipanti di UK Biobank un carico allostatico alto contro normale si associa a rischio di tumore polmonare (HR 1,629), più forte per il microcitoma; associazione, non prova di causalità.",
+     "testo": "In una coorte prospettica osservazionale di 336.945 partecipanti di UK Biobank un carico allostatico alto contro normale si associa a rischio di tumore polmonare (HR 1,629), più forte per il microcitoma; associazione, non prova di causalità.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -4141,7 +4134,7 @@
      "prova": "correlativa"
     },
     {
-     "testo": "Contro-dato sul segno del recettore: in cellule di carcinoma squamoso orale l'agonista beta-2 isossuprina e l'isoprenalina riducono i marcatori mesenchimali e la motilità, effetto invertito dal propranololo e dalla delezione CRISPR di ADRB2, e l'isossuprina riduce la crescita di xenotrapianti sottocutanei: la direzione dell'effetto di ADRB2 dipende dal tipo di tumore.",
+     "testo": "Contro-dato sul segno del recettore: in vitro, in cellule di carcinoma squamoso orale, l'agonista beta-2 isossuprina e l'isoprenalina riducono i marcatori mesenchimali e la motilità, effetto invertito dal propranololo e dalla delezione CRISPR di ADRB2, e l'isossuprina riduce la crescita di xenotrapianti sottocutanei nel topo: la direzione dell'effetto di ADRB2 dipende dal tipo di tumore.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -4258,7 +4251,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Meta-analisi di studi in vivo su mammiferi (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
+      "testo": "Meta-analisi di studi in vivo su mammiferi, specie non precisate nell'abstract (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
@@ -4289,7 +4282,7 @@
       "prova": "meta-analisi di RCT"
      },
      {
-      "testo": "Confondimento: gli effetti psicosociali sul rischio di cancro polmonare si attenuano dopo aggiustamento per fumo e storia familiare.",
+      "testo": "Confondimento: in una meta-analisi osservazionale su dati individuali di 22 coorti (fino a 421.799 persone) gli effetti psicosociali sul rischio di cancro polmonare si attenuano dopo aggiustamento per fumo e storia familiare.",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
@@ -4674,7 +4667,7 @@
    "buchi": [
     {
      "domanda": "In almeno due linee tumorali, un pretrattamento di 14 giorni con un agonista beta a schema continuo o pulsatile, a pari AUC, riduce ADRB2 di superficie e la risposta cAMP dopo lavaggio, cioè le cellule si desensibilizzano?",
-     "verifica": "Parzialmente fatto: l'esposizione acuta a noradrenalina o adrenalina aumenta l'invasione di linee ovariche, bloccata dal propranololo, e l'isoproterenolo aumenta il tumore in vivo (PMID 16428474); gli agonisti beta riducono la deformabilità e aumentano l'invasione in più linee tumorali, effetto prevenuto da beta-blocco o knockout del recettore (PMID 27875276, esperimento acuto); lo stress cronico agisce in vivo via ADRB2-cAMP-PKA (PMID 16862152); l'isoproterenolo cronico riduce ADRB2 e aumenta beta-arrestina-1 nell'ippocampo di topo, ma non è un modello tumorale e non c'è un braccio pulsatile (PMID 42097394). Non trovato: confronto continuo contro pulsatile in linee tumorali con misura dell'ADRB2 di superficie e della risposta cAMP dopo lavaggio. Domanda riformulata: la versione precedente non fissava una soglia, confondeva la desensibilizzazione del recettore con la tachifilassi a valle (PDE, Gs/AC, feedback ERK) e usava il knockout, che testa la mediazione e non la desensibilizzazione.",
+     "verifica": "Parzialmente fatto: l'esposizione acuta a noradrenalina o adrenalina aumenta l'invasione di linee ovariche, bloccata dal propranololo, e l'isoproterenolo aumenta il tumore in topi nudi (PMID 16428474); gli agonisti beta riducono la deformabilità e aumentano l'invasione in più linee tumorali, effetto prevenuto da beta-blocco o knockout del recettore (PMID 27875276, esperimento acuto); lo stress cronico agisce in vivo via ADRB2-cAMP-PKA (PMID 16862152); l'isoproterenolo cronico riduce ADRB2 e aumenta beta-arrestina-1 nell'ippocampo di topo, ma non è un modello tumorale e non c'è un braccio pulsatile (PMID 42097394). Non trovato: confronto continuo contro pulsatile in linee tumorali con misura dell'ADRB2 di superficie e della risposta cAMP dopo lavaggio. Domanda riformulata: la versione precedente non fissava una soglia, confondeva la desensibilizzazione del recettore con la tachifilassi a valle (PDE, Gs/AC, feedback ERK) e usava il knockout, che testa la mediazione e non la desensibilizzazione.",
      "disegno": "Almeno due linee tumorali (per esempio ovaio e stomaco); pretrattamento di 14 giorni con isoproterenolo a schema continuo o pulsatile a pari AUC (la noradrenalina si ossida nel terreno, quindi serve un controllo di stabilità e di manipolazione senza agonista); misure ai giorni 1, 3, 7 e 14 di ADRB2 di superficie (citometria), mRNA e proteina, reclutamento di beta-arrestina, Emax ed EC50 del cAMP dopo lavaggio e nuovo stimolo; controllo di selettività beta2 contro beta1 e alfa; il knockout CRISPR di ADRB2 è un controllo separato per la mediazione.",
      "falsificazione": "Nessuna desensibilizzazione se in tutte le linee la riduzione dell'Emax del cAMP è inferiore al 30% (soglia da fissare prima) rispetto a cellule non pretrattate, con intervallo di confidenza al 95% su almeno 3 replicati biologici che include 0; lo schema non conta se la differenza fra continuo e pulsatile a pari AUC sta entro un margine di equivalenza prefissato.",
      "altre_fonti": [
