@@ -3,7 +3,7 @@
   {
    "id": "toft",
    "name": "TOFT: Tissue Organization Field Theory (Soto e Sonnenschein)",
-   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
+   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Terzo giro: altri 8 record del registro riletti direttamente (saridegib, galunisertib, sibrotuzumab, cilengitide) e controllo indipendente delle tre affermazioni negative (nessuna critica indipendente, nessuna replica indipendente, nessun sequenziamento dopo reversione). Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
    "normale": [
     {
      "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
@@ -217,8 +217,8 @@
      "composto": "cilengitide (anti-integrine)",
      "bersaglio": "integrine alphavbeta3/5",
      "fase": "III in glioblastoma (NCT00689221, registro)",
-     "esito": "completato; risultati nel registro ma non letti; pubblicazione non reperita in sessione. Altri trial dello stesso farmaco terminati (NCT01044225: sostegno ritirato dal produttore dopo la fase III; NCT01558687: sviluppo interrotto) non ricontrollati",
-     "ragione": "commerciale/interruzione dello sviluppo (testo del registro, da verificare)",
+     "esito": "completato; risultati nel registro ma non letti; pubblicazione non reperita in sessione. Altri due trial dello stesso farmaco, terminati (registro): NCT01044225 ('i risultati della fase III RTOG0525 hanno indotto il produttore a terminare il supporto') e NCT01558687 ('discontinuation of development program')",
+     "ragione": "commerciale/interruzione dello sviluppo (testo del registro)",
      "fonte": {
       "tipo": "NCT",
       "id": "NCT00689221",
@@ -236,14 +236,6 @@
       "id": "NCT01472198",
       "verificata": true
      }
-    },
-    {
-     "composto": "saridegib, galunisertib (anti-TGF-beta R1), sibrotuzumab (anti-FAP)",
-     "bersaglio": "Hedgehog; TGF-beta; FAP",
-     "fase": "fasi I-II (registro, letti dal sotto-agente)",
-     "esito": "studi completati o terminati senza esiti pubblicati trovati; per sibrotuzumab motivo non dichiarato",
-     "ragione": "non reperita",
-     "fonte": null
     },
     {
      "composto": "esperimenti storici di embrione (Mintz, Papaioannou, altri)",
@@ -264,6 +256,42 @@
      "esito": "nessun trial su stroma trovato nel registro con la ricerca per intervento (risultati solo AML e asma)",
      "ragione": "non reperita",
      "fonte": null
+    },
+    {
+     "composto": "saridegib (IPI-926)",
+     "bersaglio": "Smoothened/Hedgehog",
+     "fase": "I (NCT00761696), I con FOLFIRINOX in pancreas (NCT01383538), I/II con gemcitabina (NCT01130142) (registro)",
+     "esito": "tutti 'completed' senza risultati nel registro; esiti pubblicati non reperiti",
+     "ragione": "non dichiarata (stato completato)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01383538",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "galunisertib (LY2157299)",
+     "bersaglio": "TGF-beta recettore I",
+     "fase": "I/II (NCT01373164) e I in pancreas (NCT02154646) (registro)",
+     "esito": "completati; risultati presenti nel registro solo per NCT01373164 (non letti); pubblicazioni non reperite",
+     "ragione": "non dichiarata (stato completato)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01373164",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "131I-sibrotuzumab",
+     "bersaglio": "FAP",
+     "fase": "I a dose singola crescente (NCT02209727, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "non dichiarata: stato 'terminated' senza campo whyStopped",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02209727",
+      "verificata": true
+     }
     }
    ],
    "finestra": [
