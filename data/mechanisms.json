@@ -4016,21 +4016,24 @@
      "prova": "correlativa"
     },
     {
-     "testo": "Misura nell'uomo: una revisione integrativa di 15 studi riporta indici da 5 a 14 biomarcatori con punteggi incompatibili e nessuna catecolamina misurata; un preprint trova che stress percepito e diagnosi di cancro non sono associati al carico allostatico.",
+     "testo": "Misura nell'uomo: una revisione integrativa di 15 studi (1.288 record) riporta indici da 5 a 14 biomarcatori con punteggi incompatibili fra studi e nessuna catecolamina misurata.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "43024971",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "revisione",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "42922638",
-       "verificata": false
-      }
-     ]
+     "prova": "revisione"
+    },
+    {
+     "testo": "Un preprint trasversale (HERSTORY, 303 donne, e ATLAS, 709) in donne con rischio familiare di cancro non trova associazione fra diagnosi pregressa di cancro, preoccupazione per il cancro o stress percepito e carico allostatico; preprint non sottoposto a revisione paritaria.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42922638",
+      "verificata": true
+     },
+     "prova": "correlativa"
     },
     {
      "testo": "Tipi tumorali senza associazione documentata fra carico allostatico e rischio: fonte non reperita nei lavori letti; un confronto sperimentale in cui l'allostasi predica meglio dell'omeostasi: fonte non reperita.",
@@ -4081,19 +4084,19 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Specificità del recettore: in un modello pancreatico la noradrenalina agirebbe su ADRB1 degli epatociti (complemento C5a, reclutamento di MDSC) e l'atenololo riduce la crescita; in un modello gastrico il propranololo e un antagonista ADRB2 riducono proliferazione e metastasi, l'atenololo no. Prove soprattutto farmacologiche; knockout genetico di ADRB2 nel tumore: fonte non reperita.",
+     "testo": "Specificità del recettore: in un modello murino pancreatico la noradrenalina agirebbe su ADRB1 degli epatociti (complemento C5a, reclutamento di MDSC) e l'atenololo riduce la crescita; in un modello gastrico (cellule e xenotrapianti) propranololo e ICI118,551 riducono proliferazione, invasione e metastasi, mentre l'atenololo ha quasi nessun effetto su proliferazione e invasione (metastasi non riportate per l'atenololo). Prove soprattutto farmacologiche; knockout genetico di ADRB2 nel tumore: fonte non reperita.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "41417111",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "31624248",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -4128,21 +4131,24 @@
      "prova": "correlativa"
     },
     {
-     "testo": "Firma trascrittomica conservata di risposta avversa (CTRA) come biomarcatore: un'analisi esplorativa post hoc in 78 riceventi di trapianto per leucemia mieloide acuta associa CTRA alto a recidiva maggiore; in un'altra coorte CTRA tumorale alto si associa a OS peggiore; correlativo.",
+     "testo": "Firma trascrittomica di risposta avversa conservata (CTRA): in 78 riceventi di trapianto per leucemia mieloide acuta, CTRA misurato sui leucociti prima del trapianto è associato a recidiva maggiore e minore sopravvivenza libera da leucemia; analisi post hoc esplorativa.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "26286914",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "correlativa",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "41188960",
-       "verificata": false
-      }
-     ]
+     "prova": "correlativa"
+    },
+    {
+     "testo": "In 1.082 pazienti TCGA con carcinoma mammario, CTRA tumorale alto è associato a OS peggiore (HR 1,36; IC 1,04-1,78); correlativo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41188960",
+      "verificata": true
+     },
+     "prova": "correlativa"
     },
     {
      "testo": "Anelli non reperiti nei lavori letti: effetto dello stress su anoikis, riparo del DNA in modo diretto, misura diretta della noradrenalina o del cortisolo nel tumore umano.",
@@ -4170,61 +4176,64 @@
       "fonte": {
        "tipo": "PMID",
        "id": "36142564",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "sperimentale",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "38331165",
-        "verificata": false
-       }
-      ]
+      "prova": "sperimentale"
      },
      {
-      "testo": "Via vagale e colinergica: la vagotomia gastrica riduce le trappole extracellulari dei neutrofili e la crescita in modelli gastrici sotto stress, con segnali sinergici (CGRP, cGAS-STING; NGF/TrkA).",
+      "testo": "Modello gastrico con stress cronico in topi con xenotrapianto: tumori più grandi, ADRB2 e PlexinA1 più alti; la simpatectomia con 6-OHDA e l'antagonista ADRB2 ICI118,551 invertono gli effetti; in 36 pazienti con tumore gastrico la correlazione è solo associativa.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38331165",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Vie neuropeptidica e colinergica: in modelli gastrici sotto stress la vagotomia gastrica attenua le trappole extracellulari dei neutrofili (NETs) e la crescita; un lavoro descrive un asse CGRP-NGF con sinergia CGRP/RAMP1 e cGAS-STING/NLRP3 (cachessia), l'altro un asse acetilcolina-NGF con sinergia NGF/TrkA e CD300ld (metastasi linfonodali).",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "43039101",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale",
       "altre_fonti": [
        {
         "tipo": "PMID",
         "id": "42215706",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Via dei glucocorticoidi: in un modello intracranico murino surrenectomia, inibitori dell'attivazione dei glucocorticoidi, antagonisti del recettore e delezione del recettore nelle cellule T aboliscono la soppressione immunitaria e la crescita.",
+      "testo": "Via dei glucocorticoidi: in un modello intracranico murino surrenectomia, inibitori dell'attivazione dei glucocorticoidi, antagonisti del recettore e delezione del recettore nelle cellule T possono abrogare la soppressione immunitaria e la crescita.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "39044027",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Via di segnale parallela a livello del recettore: le catecolamine via ADRB2 danneggiano il DNA tramite beta-arrestina-1 (bypass Gs-PKA) in cellule umane e topi Arrb1-/-; non è un modello tumorale.",
+      "testo": "Via di segnale parallela a livello del recettore: le catecolamine via ADRB2 danneggiano il DNA tramite beta-arrestina-1, che facilita la degradazione di p53 via MDM2, in parallelo e in sinergia con la via Gs-PKA; cellule umane e topi Arrb1-/-; non è un modello tumorale.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "21857681",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Meta-analisi di esperimenti murini (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
+      "testo": "Meta-analisi di studi in vivo su mammiferi (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "42941861",
-       "verificata": false
+       "verificata": true
       },
       "prova": "revisione sistematica e meta-analisi"
      },
@@ -4240,12 +4249,12 @@
       "inferenza": true
      },
      {
-      "testo": "Contrasto: una meta-analisi di RCT di interventi psicologici in oncologia precoce trova OS HR 0,97 e RFS HR 0,99, non significativi, con qualità di vita migliorata; differenza di inclusione (tumori precoci) rispetto alla meta-analisi precedente.",
+      "testo": "Contrasto: una meta-analisi di RCT di interventi psicologici in tumori in stadio precoce trova OS HR 0,97 (IC 0,87-1,08) e RFS HR 0,99 (IC 0,84-1,16), non significativi, con qualità di vita migliorata; il confronto con la meta-analisi precedente non è verificabile dall'abstract (diverso ambito: tumori precoci).",
       "livello": "clinico",
       "fonte": {
        "tipo": "PMID",
        "id": "38853187",
-       "verificata": false
+       "verificata": true
       },
       "prova": "meta-analisi di RCT"
      },
@@ -4364,33 +4373,52 @@
      }
     },
     {
-     "composto": "Propranololo (con etodolac) in studi con endpoint biologici, tumori mammario e colorettale",
-     "bersaglio": "beta-adrenergico",
-     "fase": "II/RCT su biomarcatori, n=34-60 (vedi PMID)",
-     "esito": "tollerato; biomarcatori prometastatici e immunitari modificati; nessun esito di sopravvivenza",
-     "ragione": "endpoint biologico, non di sopravvivenza",
+     "composto": "Propranololo + etodolac perioperatori in tumore mammario",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II randomizzato contro placebo, n=38",
+     "esito": "ben tollerato; biomarcatori prometastatici modificati; nessun endpoint di sopravvivenza",
+     "ragione": "endpoint biologico",
      "fonte": {
       "tipo": "PMID",
       "id": "28490464",
-      "verificata": false
-     },
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "31754048",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "32533792",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "26969754",
-       "verificata": false
-      }
-     ]
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo preoperatorio in tumore mammario",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II randomizzato triplo cieco, n=60",
+     "esito": "biomarcatori prometastatici e immunitari modificati; nessun esito di sopravvivenza",
+     "ragione": "endpoint biologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31754048",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac perioperatori in tumore colorettale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "RCT su biomarcatori, n=34",
+     "esito": "ben tollerato; biomarcatori di metastasi, immunità e infiammazione modificati; ricorrenza a 3 anni solo descrittiva (ITT 12,5% contro 33,3%, p=0,239; per protocollo 0% contro 29,4%, p=0,054), non significativa",
+     "ragione": "endpoint biologico, non di sopravvivenza",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32533792",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + parecoxib in mastectomia radicale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "RCT, tumore mammario (n non leggibile nell'abstract)",
+     "esito": "il propranololo attenua l'aumento dei linfociti T regolatori indotto dallo stress chirurgico",
+     "ragione": "endpoint immunologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26969754",
+      "verificata": true
+     }
     },
     {
      "composto": "Relacorilant + nab-paclitaxel nel carcinoma ovarico platino-resistente (ROSELLA)",
@@ -4455,7 +4483,7 @@
    ],
    "finestra": [
     {
-     "testo": "Beta-bloccanti perioperatori: in PROSPER nessun problema di sicurezza dichiarato, ma 6 eventi avversi gravi nel braccio trattato contro 14 nel placebo, con aderenza ridotta nel gruppo trattato; un'analisi di 4 RCT (n=148) riporta bradicardia nel 12% contro il 3%, risolta sospendendo il farmaco.",
+     "testo": "Beta-bloccanti perioperatori: in PROSPER nessun problema di sicurezza dichiarato, ma 6 eventi avversi gravi nel braccio trattato contro 14 nel placebo, con aderenza ridotta nel gruppo trattato; un'analisi di 4 RCT (148 pazienti: mammella 38, colorettale 34 e 46, pancreas 30) riporta bradicardia nel 12% contro il 3% (p=0,057, non significativa), risolta sospendendo temporaneamente il beta-bloccante.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -4467,7 +4495,7 @@
       {
        "tipo": "PMID",
        "id": "42088573",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -4483,7 +4511,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "11268419",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale",
      "inferenza": true,
@@ -4491,51 +4519,54 @@
       {
        "tipo": "PMID",
        "id": "19571591",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Recettore dei glucocorticoidi: ruolo fisiologico essenziale in animali (topi scid surrenectomizzati muoiono senza steroidi); relacorilant in ROSELLA è dato in modo intermittente (150 mg il giorno prima, del giorno e dopo nab-paclitaxel), con neutropenia (64%), anemia (61%), affaticamento e nausea come eventi più frequenti e nessun nuovo segnale; dati umani su insufficienza surrenalica o ipokaliemia con blocco cronico in oncologia: fonte non reperita.",
+     "testo": "Recettore dei glucocorticoidi: relacorilant in ROSELLA è dato in modo intermittente (150 mg il giorno prima, il giorno stesso e il giorno dopo nab-paclitaxel); neutropenia (64%), anemia (61%), affaticamento (54%) e nausea (44%) sono gli eventi più frequenti nel braccio relacorilant e non sono emersi nuovi segnali di sicurezza; dati umani su insufficienza surrenalica o ipokaliemia con blocco cronico in oncologia: fonte non reperita.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "41974149",
       "verificata": true
      },
-     "prova": "RCT di fase 3",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "10459860",
-       "verificata": false
-      }
-     ]
+     "prova": "RCT di fase 3"
     },
     {
-     "testo": "Glucocorticoidi come farmaci di supporto in oncologia e immunoterapia: segnali discordanti in analisi retrospettive (desametasone ridotto associato a PFS migliore in un sottogruppo di 38 pazienti; beneficio maggiore con corticosteroidi in metastasi cerebrali da polmone); confondimento per indicazione.",
+     "testo": "Ruolo essenziale del surrene: in topi scid surrenectomizzati i controlli muoiono dopo l'intervento; la somministrazione di steroidi evita parte della mortalità precoce ma non è assolutamente necessaria (modello di trapianto di cellule corticosurrenali bovine).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10459860",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Glucocorticoidi come farmaci di supporto e immunoterapia: in un sottogruppo esplorativo istituzionale di 38 pazienti di KEYNOTE-966 (randomizzato con placebo) la PFS è HR 0,360 (IC 0,178-0,728) con pembrolizumab + terapia con glucocorticoidi contro placebo, con desametasone minimizzato per pratica istituzionale; in uno studio retrospettivo di 138 pazienti con metastasi cerebrali da tumore polmonare, nel sottogruppo che richiede corticosteroidi o mannitolo l'immunoterapia con radioterapia è associata a prognosi migliore (P=0,05).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "42834953",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "retrospettiva",
+     "prova": "sottogruppo esplorativo e retrospettiva",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "40016281",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Ritmo del cortisolo: cortisolo serale e medio elevati si associano a PFS peggiore in un piccolo studio di tumori testa-collo (n=40, osservazionale); intervento sul ritmo come strategia terapeutica: fonte non reperita.",
+     "testo": "Ritmo del cortisolo: in un pilota prospettico di tumori testa-collo (n=40) cortisolo serale elevato (HR 1,85) e media diurna elevata (HR 2,66) sono associati a PFS peggiore; osservazionale; intervento sul ritmo come strategia terapeutica: fonte non reperita.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "39634268",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa"
     },
@@ -4545,35 +4576,98 @@
      "fonte": {
       "tipo": "PMID",
       "id": "42641866",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     }
    ],
    "buchi": [
     {
-     "domanda": "La noradrenalina a esposizione cronica o pulsatile desensibilizza ADRB2 nelle cellule tumorali, riducendo l'effetto su proliferazione e invasione, come atteso da un sistema che si adatta?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Colture 3D di linee tumorali (ovaio, stomaco, pancreas) esposte a noradrenalina continua, a impulsi o con ritmo circadiano per 14 giorni, con lavaggio e nuova stimolazione; misure di cAMP, pCREB, VEGF, invasione; knockout CRISPR di ADRB2 e antagonista selettivo ADRB1 contro ADRB2 come controlli.",
-     "falsificazione": "Falsificata se la risposta non cambia con durata e schema dell'esposizione (nessuna desensibilizzazione) o se il knockout di ADRB2 non modifica l'effetto: in quel caso il recettore non media la risposta o il sistema non si adatta come predetto."
+     "domanda": "In almeno due linee tumorali, un pretrattamento di 14 giorni con un agonista beta a schema continuo o pulsatile, a pari AUC, riduce ADRB2 di superficie e la risposta cAMP dopo lavaggio, cioè le cellule si desensibilizzano?",
+     "verifica": "Parzialmente fatto: l'esposizione acuta a noradrenalina o adrenalina aumenta l'invasione di linee ovariche, bloccata dal propranololo, e l'isoproterenolo aumenta il tumore in vivo (PMID 16428474); gli agonisti beta riducono la deformabilità e aumentano l'invasione in più linee tumorali, effetto prevenuto da beta-blocco o knockout del recettore (PMID 27875276, esperimento acuto); lo stress cronico agisce in vivo via ADRB2-cAMP-PKA (PMID 16862152); l'isoproterenolo cronico riduce ADRB2 e aumenta beta-arrestina-1 nell'ippocampo di topo, ma non è un modello tumorale e non c'è un braccio pulsatile (PMID 42097394). Non trovato: confronto continuo contro pulsatile in linee tumorali con misura dell'ADRB2 di superficie e della risposta cAMP dopo lavaggio. Domanda riformulata: la versione precedente non fissava una soglia, confondeva la desensibilizzazione del recettore con la tachifilassi a valle (PDE, Gs/AC, feedback ERK) e usava il knockout, che testa la mediazione e non la desensibilizzazione.",
+     "disegno": "Almeno due linee tumorali (per esempio ovaio e stomaco); pretrattamento di 14 giorni con isoproterenolo a schema continuo o pulsatile a pari AUC (la noradrenalina si ossida nel terreno, quindi serve un controllo di stabilità e di manipolazione senza agonista); misure ai giorni 1, 3, 7 e 14 di ADRB2 di superficie (citometria), mRNA e proteina, reclutamento di beta-arrestina, Emax ed EC50 del cAMP dopo lavaggio e nuovo stimolo; controllo di selettività beta2 contro beta1 e alfa; il knockout CRISPR di ADRB2 è un controllo separato per la mediazione.",
+     "falsificazione": "Nessuna desensibilizzazione se in tutte le linee la riduzione dell'Emax del cAMP è inferiore al 30% (soglia da fissare prima) rispetto a cellule non pretrattate, con intervallo di confidenza al 95% su almeno 3 replicati biologici che include 0; lo schema non conta se la differenza fra continuo e pulsatile a pari AUC sta entro un margine di equivalenza prefissato.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "16428474",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27875276",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16862152",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42097394",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Il segnale beta-adrenergico e quello dei glucocorticoidi agiscono in modo ridondante, additivo o sinergico sulle cellule tumorali e immunitarie?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Disegno fattoriale 2x2 in cocolture tumore-macrofagi-linfociti T: noradrenalina con o senza ICI118,551, cortisolo con o senza relacorilant; misure di funzione Th1 e CD8, IDO, PD-L1, proliferazione; test formale dell'interazione.",
-     "falsificazione": "Se non c'è interazione, gli assi sono indipendenti e additivi; se il blocco di un asse annulla l'effetto dell'altro c'è convergenza o ridondanza; se il blocco di uno non cambia la risposta all'altro, non c'è compensazione."
+     "domanda": "Sulla scala prescelta, il termine di interazione fra noradrenalina e cortisolo su proliferazione e funzione T è diverso da zero, e il pattern della tabella 2x2 indica ridondanza, convergenza o additività?",
+     "verifica": "Parzialmente fatto per la convergenza a singolo fattore in un modello non tumorale: in macrofagi peritoneali murini (sepsi) adrenalina, noradrenalina, idrocortisone e desametasone sopprimono da soli l'IL-17 e antagonizzano tutti JNK, senza test di interazione (PMID 23499051); in linee ovariche la noradrenalina aumenta l'invasione in tutte e tre e il cortisolo solo in SKOV3 (PMID 16428474, singolo fattore). Non trovato: un disegno fattoriale 2x2 con test di interazione in cocoltura tumore-macrofagi-linfociti T. Domanda riformulata: il criterio precedente confondeva additività e indipendenza (dipendono dalla scala scelta), non distingueva i pattern attesi per ridondanza e convergenza, non aveva soglie e mancavano controlli (siero trattato con carbone, antagonista beta1 e controllo alfa, perché ICI118,551 blocca solo beta2).",
+     "disegno": "Cocoltura tumore-macrofagi-linfociti T in siero trattato con carbone; disegno 2x2: noradrenalina con o senza antagonisti beta (ICI118,551 più un antagonista beta1, con controllo alfa) per cortisolo con o senza relacorilant; scala dell'effetto fissata prima (log o modello di Bliss); almeno due linee tumorali e 3 replicati biologici; pattern attesi prefissati: ridondanza = ogni blocco da solo senza effetto e solo il doppio blocco ne ha; convergenza o gerarchia = un blocco annulla l'effetto dell'altro; additività = nessuna interazione.",
+     "falsificazione": "Nessuna interazione se l'intervallo di confidenza al 95% del termine di interazione include 0 o è inferiore a un margine minimo prefissato; il tipo di relazione si decide dal pattern della tabella 2x2 prefissata, non dalla sola significatività.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "23499051",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16428474",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "L'effetto antitumorale della 6-OHDA in vitro dipende dalla deplezione di noradrenalina o da una azione diretta sull'IFN-beta e sui macrofagi?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Cocolture di cellule tumorali mammarie e monociti con 6-OHDA, con noradrenalina aggiunta, con ADRB2 spento nel tumore o nei macrofagi; misura di IFN-beta, geni stimolati dall'interferone e differenziazione dei macrofagi.",
-     "falsificazione": "Se l'effetto sull'IFN-beta resta in assenza di cellule nervose e di noradrenalina, la 6-OHDA agisce fuori dall'asse simpatico; se scompare con noradrenalina aggiunta o ADRB2 spento, l'asse è coinvolto."
+     "domanda": "La 6-OHDA induce IFN-beta in cellule tumorali purificate, in terreno privo di catecolamine e con ADRB2 spento, con la stessa ampiezza del controllo?",
+     "verifica": "Parzialmente fatto: in modelli mammari murini solo la 6-OHDA sopprime la crescita, mentre denervazione genetica e chirurgica no; l'effetto passa da IFN-beta delle cellule tumorali, macrofagi con firma interferone e cellule T1 (PMID 41856110). Dall'abstract non risulta se l'induzione di IFN-beta sia stata mostrata in cellule tumorali purificate né se siano stati fatti add-back di noradrenalina o knockout di ADRB2: fonte non reperita (testo completo non letto). Non trovate cocolture tumore-macrofagi con 6-OHDA più noradrenalina o ADRB2 spento. Domanda riformulata: la versione precedente aveva un test 'senza cellule nervose' ridondante con quello 'senza catecolamine', nessuna soglia e nessun controllo ossidante; la 6-OHDA genera specie reattive dell'ossigeno (nozione di fondo non verificata in sessione), quindi un effetto da stress ossidativo non è distinguibile dall'asse simpatico senza un controllo dedicato.",
+     "disegno": "Cellule tumorali mammarie purificate (senza monociti né neuroni) con o senza 6-OHDA, in siero trattato con carbone; noradrenalina aggiunta in un intervallo fisiologico prefissato; ADRB2 spento nel tumore; controllo ossidante a pari danno cellulare (per esempio catalasi o un ossidante non catecolaminergico); misura di IFN-beta per ELISA o qPCR; in un secondo passaggio, cocoltura con monociti per la differenziazione con firma interferone.",
+     "falsificazione": "L'asse simpatico non è necessario se l'induzione di IFN-beta persiste con ADRB2 spento e senza catecolamine entro una soglia prefissata dal controllo wild-type (per esempio meno del 20%); è coinvolto se la noradrenalina aggiunta riduce l'induzione oltre la stessa soglia.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41856110",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Il cortisolo con ritmo circadiano conservato rispetto a un livello costante a dose totale uguale modifica la sensibilità tumorale alla chemioterapia e a un antagonista del recettore dei glucocorticoidi?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Linee tumorali (ovaio, pancreas) esposte a cortisolo costante o con oscillazione circadiana a pari dose giornaliera, poi nab-paclitaxel con o senza relacorilant; misura di bersagli del recettore dei glucocorticoidi, apoptosi e vitalità.",
-     "falsificazione": "Se non c'è differenza fra cortisolo costante e oscillante, la dinamica non conta; se relacorilant sensibilizza anche in assenza di cortisolo, l'effetto è indipendente dal glucocorticoide."
+     "domanda": "A pari AUC giornaliera di glucocorticoide, un profilo circadiano rispetto a un livello costante modifica la sensibilità di cellule ovariche e pancreatiche a nab-paclitaxel, e l'effetto di relacorilant dipende dal profilo e dal ligando?",
+     "verifica": "Parzialmente fatto: antagonista del recettore glucocorticoide con taxano: in cellule OVCAR5 relacorilant inverte l'effetto dannoso dei glucocorticoidi sul paclitaxel, in xenotrapianto MIA PaCa-2 riduce la crescita con paclitaxel e una fase 1 con nab-paclitaxel mostra controllo di malattia prolungato in alcuni pazienti (PMID 35583817); trial di fase 3 ROSELLA (PMID 40473448, PMID 41974149). Ritmo: nel glioblastoma murino i glucocorticoidi giornalieri favoriscono o sopprimono la crescita a seconda dell'ora del giorno e dei geni dell'orologio, via recettore glucocorticoide (PMID 39672168). Non trovato: cortisolo oscillante contro costante a pari AUC su linee ovariche o pancreatiche con nab-paclitaxel con o senza antagonista. Domanda riformulata: la versione precedente non aveva soglie, non specificava se il glucocorticoide fosse cortisolo o desametasone (molti lavori usano desametasone), mancavano siero privo di cortisolo e knockout del recettore per definire un effetto indipendente dal ligando.",
+     "disegno": "Linee ovariche e pancreatiche in siero trattato con carbone; cortisolo costante contro profilo circadiano a pari AUC; nab-paclitaxel a dosi prefissate con o senza relacorilant; controlli senza glucocorticoide con o senza relacorilant e con recettore glucocorticoide spento.",
+     "falsificazione": "Il profilo non conta se non c'è interazione (ANOVA a due vie o modello di Bliss) né spostamento dell'IC50 del paclitaxel oltre una soglia prefissata (per esempio 2 volte); l'effetto di relacorilant è indipendente dal ligando se sensibilizza anche senza cortisolo e nelle cellule con recettore spento.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35583817",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39672168",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40473448",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41974149",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
