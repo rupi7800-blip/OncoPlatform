@@ -2,4 +2,5 @@
 # Questi file restano nel repository ma non vengono pubblicati.
 exclude:
   - CLAUDE.md
+  - README.md
   - .claude
