@@ -1518,6 +1518,421 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "attrattori",
+   "name": "Paesaggio di Waddington e teoria degli attrattori (Kauffman, Huang)",
+   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "La teoria formalizza il paesaggio di Waddington come paesaggio di attrattori di una rete di regolazione genica: i tipi cellulari sono stati stabili, la differenziazione è la discesa verso un attrattore. Posizione teorica e computazionale.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25954305",
+      "verificata": false
+     },
+     "prova": "modello"
+    },
+    {
+     "testo": "Critica interna alla metafora (preprint non peer-reviewed): in 122 modelli booleani gli attrattori dei tipi maturi risultano meno stabili delle traiettorie che vi conducono.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41279382",
+      "verificata": false
+     },
+     "prova": "modello computazionale"
+    },
+    {
+     "testo": "Misura sperimentale di transizioni di stato, non di attrattori: in progenitori eritroidi di pollo l'analisi a singola cellula mostra che cellule in reversione assomigliano a quelle indifferenziate; in HL-60 con ATRA esiste una proteomica nucleare nel tempo senza misura di paesaggio. Non sono sistemi tumorali con dinamica di attrattore misurata.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35794592",
+      "verificata": false
+     },
+     "prova": "misura diretta a singola cellula"
+    },
+    {
+     "testo": "Applicazioni a tipi tumorali: melanoma (modello con più attrattori e predizione sul PD-L1 validata in tre linee), glioblastoma e glioma, colon-retto (ricostruzioni da dati di espressione), p53 in silico. Attrattore misurato in vivo o in pazienti: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37678920",
+      "verificata": true
+     },
+     "prova": "modello + validazione sperimentale della predizione"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Mutazioni o cambiamenti epigenetici rimodellano il paesaggio: plausibile in modelli (p53 inattivato produce un bacino 'cancro' in silico) e in parte correlativo in cellule (espressione basale, cromatina); non misurato come stato stabile.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29856751",
+      "verificata": false
+     },
+     "prova": "modello",
+     "inferenza": true
+    },
+    {
+     "testo": "Il paesaggio rimodellato produce un attrattore anomalo: nel melanoma un modello minimo (MITF, SOX10, SOX9, JUN, ZEB1) identifica più 'attrattori' e la predizione sul PD-L1 è validata in tre linee e in set di RNA-seq; lo stato stabile in sé non è misurato.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37678920",
+      "verificata": true
+     },
+     "prova": "modello + misura della predizione"
+    },
+    {
+     "testo": "Attrattori del cancro ricostruiti da dati di espressione di pazienti (modelli Hopfield, centroidi di scRNA-seq nel glioblastoma): stime dalla struttura dei dati, senza osservare la transizione nel tempo.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28458684",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "inferenza": true
+    },
+    {
+     "testo": "Attrattore anomalo → fenotipo maligno e perturbazione che sposta verso uno stato normale ('ricanalizzazione'): proposta argomentata a livello teorico, senza test clinico né sperimentale diretto trovati.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23792873",
+      "verificata": false
+     },
+     "prova": "teorica",
+     "inferenza": true
+    },
+    {
+     "testo": "Misura in vivo o clinica di un attrattore tumorale: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Alternativa stocastica ai modelli gerarchici: in linee di cancro mammario le sottopopolazioni purificate tornano alle proporzioni di equilibrio nel tempo; un modello di Markov con transizioni stocastiche spiega il fenomeno e prevede che cellule staminali-simili nascano de novo da cellule non staminali. Dato in linee e xenotrapianti; la generalizzazione ai tumori umani è un'ipotesi.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "21854987",
+       "verificata": true
+      },
+      "prova": "sperimentale + modello"
+     },
+     {
+      "testo": "Selezione clonale e stati adattivi coesistono nello stesso sistema (resistenza a palbociclib in cellule mammarie ESR1 mutate); un'analisi su glioblastoma dichiara irrisolto il conflitto fra modelli gerarchici e modelli di plasticità.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42365380",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nella leucemia IDH1-mutata trattata con ivosidenib (174 pazienti) mutazioni di vie RTK sono associate a resistenza primaria e più meccanismi coesistono nello stesso paziente per la resistenza acquisita, fra cui mutazioni IDH1 di secondo sito e mutazioni IDH2 che ripristinano il 2-HG: più vie convergono sullo stesso blocco del differenziamento.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "32380538",
+       "verificata": true
+      },
+      "prova": "correlativa su campioni clinici"
+     },
+     {
+      "testo": "Riprogrammazione e rischio tumorigenico: l'induzione transitoria di Oct4, Sox2, Klf4 e c-Myc nel topo produce teratomi da più organi (tumore di origine germinale, non generalizzabile al carcinoma).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24025773",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Contraddizione sulla riprogrammazione di cellule tumorali: in carcinoma ovarico OVCAR-3 OSKM produce cellule tumorigeniche e più resistenti al paclitaxel, mentre in carcinoma vescicale HTB-5 la riprogrammazione con virus Sendai normalizza 297 proteine senza test di tumorigenesi nell'abstract. Differenze di modello: tumore, vettore e endpoint diversi.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36085021",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Resistenza ad ATRA in APL da mutazioni del dominio di legame di PML/RARalpha (un paziente e una linea); in CML, invece, ATRA induce differenziamento e blocca l'acquisizione di mutazioni BCR-ABL T315I: la differenziazione può proteggere in un contesto e ospitare resistenza in un altro.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "12239173",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Non trovati: lineage tracing in vivo che dimostri o escluda una gerarchia stabile nei tumori solidi; knockout di un fattore di trascrizione senza fenotipo nel cancro con compensazione dimostrata (solo esempi non oncologici o premaligni); trial controllati di terapia differenziativa in tumori solidi; dipendenza dal microambiente di stati staminali reversibili (ricerca non completata). Sono buchi, non prova che la ridondanza non esista.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "tamibarotene + azacitidina",
+     "bersaglio": "RARalpha (differenziazione indotta)",
+     "fase": "III SELECT-MDS-1 in MDS ad alto rischio con sovraespressione di RARA (NCT04797780, registro)",
+     "esito": "endpoint primario di remissione completa non raggiunto: 23,81% contro 18,75% con azacitidina, P=0,2084 (246 randomizzati)",
+     "ragione": "'sponsor decision' (testo del registro)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40334070",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "tamibarotene + venetoclax + azacitidina",
+     "bersaglio": "RARalpha",
+     "fase": "II randomizzato in leucemia mieloide acuta RARA-positiva non idonea (NCT04905407, registro)",
+     "esito": "CR/CRi 60,0% contro 69,2% con venetoclax + azacitidina (parte 2, n=51); criteri di futilità raggiunti",
+     "ragione": "interrotto per futilità; 'sponsor decision' nel registro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42761251",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "tamibarotene + azacitidina (SY-1425)",
+     "bersaglio": "RARalpha",
+     "fase": "II in AML/MDS selezionati per biomarcatore (NCT02807558, registro)",
+     "esito": "completato; risultati nel registro (non letti); il sotto-agente riporta CR 50% nei pazienti RARA+ (n=18 valutabili) e 19% nei recidivati (non verificato)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02807558",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "GSK2879552",
+     "bersaglio": "LSD1",
+     "fase": "I in leucemia mieloide acuta (NCT02177812, registro); altri due studi (NCT02929498, NCT02034123) non riletti",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "il rapporto rischio-beneficio nella leucemia recidivata/refrattaria non favorisce la continuazione (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02177812",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "brequinar",
+     "bersaglio": "DHODH",
+     "fase": "I/II in leucemia mieloide acuta recidivata/refrattaria (NCT03760666, registro)",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "nessuna efficacia osservata; la COVID-19 ha causato la chiusura dei centri (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03760666",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "iadademstat + paclitaxel",
+     "bersaglio": "LSD1",
+     "fase": "II in tumore polmonare a piccole cellule ricorrente (NCT05420636, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "chiuso all'arruolamento per bassa probabilità di successo (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05420636",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "azacitidina a basse dosi + pioglitazone + ATRA",
+     "bersaglio": "PPAR-gamma, differenziazione",
+     "fase": "II in leucemia mieloide acuta di pazienti ≥60 anni (NCT02942758, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "motivi finanziari (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02942758",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ivosidenib",
+     "bersaglio": "IDH1 (rimozione del blocco di differenziamento)",
+     "fase": "I in leucemia mieloide acuta IDH1-mutata recidivata/refrattaria (NCT02074839 indicato nell'abstract; n=174 analizzati)",
+     "esito": "risposte cliniche in un sottogruppo; resistenza primaria associata a mutazioni RTK e resistenza acquisita multifattoriale",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32380538",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ATRA + triossido di arsenico (APL); inibitori IDH (AML); isotretinoina (neuroblastoma)",
+     "bersaglio": "differenziamento",
+     "fase": "vari (rassegne e studi riportati dai sotto-agenti)",
+     "esito": "APL: successo clinico con remissioni elevate (secondo rassegne e uno studio di fase 2); inibitori IDH: CR 47% nei nuovi diagnosticati e 21% nei recidivati/refrattari in una meta-analisi, con beneficio di sopravvivenza discusso; isotretinoina: EFS a 5 anni 70% contro 63% (P=0,67) nel sottogruppo ad alto rischio analizzato. Tutti non verificati da me",
+     "ragione": "varie",
+     "fonte": null
+    },
+    {
+     "composto": "altri programmi (pinometostat, bomedemstat, vitamina D, ATO + TKI, olutasidenib, ATRA nel pancreas, PPAR-gamma nel liposarcoma)",
+     "bersaglio": "DOT1L, LSD1, VDR, RARalpha, PPAR-gamma",
+     "fase": "varie (registro, letti dal sotto-agente)",
+     "esito": "molti terminati o ritirati per arruolamento, fondi, disponibilità del farmaco o decisione dello sponsor; esiti spesso non cercati o non reperiti",
+     "ragione": "vedi registro",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Sindrome da differenziamento (APL): sintomi (dispnea, febbre, ipotensione, infiltrati polmonari, versamenti, insufficienza renale); trattamento con steroidi e sospensione del farmaco nei casi gravi; efficacia della profilassi steroidea incerta.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31410848",
+      "verificata": false
+     },
+     "prova": "rassegna clinica"
+    },
+    {
+     "testo": "Sindrome da differenziamento con inibitori IDH: in un'analisi FDA su 179 pazienti con ivosidenib e 214 con enasidenib, circa 40% dei casi potenziali ma solo 19% confermati; grado ≥3 nel 68% e 66%; decessi 6% e 5%.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32393603",
+      "verificata": false
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Cuore: QTc elevato nel 6% degli ECG in pazienti con APL trattati con arsenico (29 pazienti, retrospettivo); nessuna aritmia.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41090510",
+      "verificata": false
+     },
+     "prova": "clinica retrospettiva"
+    },
+    {
+     "testo": "Midollo e piastrine: gli inibitori di LSD1 causano piastrinopenia (CC-90011 in tumori solidi; bomedemstat in mielofibrosi: 48% dei pazienti, titolata per mantenere 50-75 x10^9/L).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42054549",
+      "verificata": false
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Retinoidi: teratogenicità (embriopatia da isotretinoina, caso clinico); effetti mucocutanei e transaminasi elevate con acitretina; la nicchia midollare protegge le cellule staminali ematopoietiche dall'acido retinoico tramite CYP26.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29308367",
+      "verificata": false
+     },
+     "prova": "clinica/rassegna"
+    },
+    {
+     "testo": "Riprogrammazione: l'induzione transitoria di Oct4, Sox2, Klf4 e c-Myc produce teratomi nel topo (tessuti a rischio: stomaco, intestino, pancreas, rene).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24025773",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Selettività quantitativa tumore/cellule staminali ematopoietiche sane: non dimostrata per nessuna classe. Intestino, cuore e fegato adulti come bersagli dei programmi di differenziamento e tossicità epatica di ATRA e arsenico: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Gli stati fenotipici tumorali sono attrattori stabili multipli, con memoria della storia, o transizioni stocastiche senza memoria?",
+     "disegno": "Linee tumorali con stati marcati (es. melanoma MITF-alto e AXL-alto, o mammella), sorted, con barcoding e time-lapse; perturbazione graduale in andata e ritorno per cercare isteresi; stima dei tassi di transizione fra stati.",
+     "falsificazione": "Se, dopo qualunque perturbazione, le proporzioni tornano allo stesso equilibrio senza isteresi e le transizioni sono prive di memoria, non ci sono attrattori multipli stabili; se persiste una dipendenza dalla storia, la bistabilità è sostenuta."
+    },
+    {
+     "domanda": "Un trattamento differenziante sposta le cellule leucemiche verso la traiettoria normale o verso un nuovo stato anomalo?",
+     "disegno": "Cellule di leucemia mieloide (linee e primarie) trattate con ATRA, inibitori IDH o LSD1; trascrittoma a singola cellula nel tempo; distanza rispetto alla traiettoria di differenziamento mieloide normale.",
+     "falsificazione": "Se le cellule trattate occupano uno stato distinto che non converge alla traiettoria normale in almeno tre modelli, 'spingere verso la valle normale' non descrive l'effetto osservato."
+    },
+    {
+     "domanda": "La mancata efficacia di tamibarotene in leucemie con sovraespressione di RARA dipende dal fatto che il biomarcatore è sbagliato (dipendenza dall'oncoproteina e non dall'espressione di RARA)?",
+     "disegno": "Linee con RARA sovraespresso, con PML-RARA e con altre dipendenze, esposte ad agonisti di RARalpha; misura di differenziamento, livelli dell'oncoproteina e dei bersagli di RARA.",
+     "falsificazione": "Se il differenziamento dipende dalla degradazione dell'oncoproteina e non dall'espressione di RARA, il biomarcatore di selezione è errato; se segue l'espressione di RARA, il fallimento clinico ha un'altra causa."
+    },
+    {
+     "domanda": "La riprogrammazione parziale di cellule tumorali aumenta o riduce la tumorigenicità?",
+     "disegno": "Cellule isogeniche di più tumori (ovario, vescica, altri) con induzione transitoria di OSKM; xenotrapianti seriali con tumorigenicità e profilo proteomico e trascrittomico.",
+     "falsificazione": "Se la tumorigenicità aumenta in metà o più delle linee, la normalizzazione per riprogrammazione non è generalmente sicura; se cala in modo concorde, la contraddizione fra i due lavori è dovuta al modello."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Proporzione di remissione completa con tamibarotene + azacitidina contro placebo + azacitidina in MDS RARA+",
+     "stato": "misurato",
+     "valore": "23,81% contro 18,75% (P=0,2084)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40334070",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Proporzione di CR/CRi con tamibarotene + venetoclax + azacitidina contro venetoclax + azacitidina",
+     "stato": "misurato",
+     "valore": "60,0% contro 69,2% (parte 2, n=51)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42761251",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Altezza delle barriere e profondità dei bacini degli attrattori tumorali",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Tassi di transizione fra stati fenotipici di cellule tumorali in vivo",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Numero di stati stabili di una rete di regolazione tumorale misurato sperimentalmente",
+     "stato": "assente",
+     "valore": "solo stime da modelli e da dati di espressione",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28458684",
+      "verificata": false
+     }
+    }
+   ]
   }
  ]
 }
