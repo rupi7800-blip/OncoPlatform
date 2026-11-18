@@ -1,16 +1,394 @@
 {
-  "mechanisms": [
+ "mechanisms": [
+  {
+   "id": "toft",
+   "name": "TOFT: Tissue Organization Field Theory (Soto e Sonnenschein)",
+   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
+   "normale": [
     {
-      "id": "modello",
-      "name": "Modello vuoto (nessun meccanismo ancora analizzato)",
-      "note": "Scheda segnaposto: ogni campo resta vuoto finché non c'è una fonte verificata su PubMed o su un registro di trial.",
-      "normale": [],
-      "catena": [],
-      "ridondanze": {"studiate": false, "voci": []},
-      "tentativi": [],
-      "finestra": [],
-      "buchi": [],
-      "parametri": []
+     "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11170258",
+      "verificata": true
+     },
+     "prova": "teorica"
+    },
+    {
+     "testo": "In ghiandola mammaria di ratto, l'epitelio trapiantato forma tumori solo se lo stroma è stato esposto in vivo al cancerogeno NMU, indipendentemente dall'esposizione dell'epitelio; l'epitelio esposto in vitro forma dotti normali in stroma non trattato. La mutazione Ha-ras-1 non correla con l'iniziazione. Un solo cancerogeno, un solo modello, gruppo dei proponenti di TOFT.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "14996910",
+      "verificata": true
+     },
+     "prova": "sperimentale in vivo"
+    },
+    {
+     "testo": "Altri tipi tumorali in cui l'alterazione dello stroma sia documentata come causa: fonte non reperita. Evidenza clinica diretta a favore di TOFT: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null
     }
-  ]
+   ],
+   "catena": [
+    {
+     "testo": "Esposizione a cancerogeno → alterazione dello stroma: dato in vivo in un solo modello (ratto, mammella).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "14996910",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Stroma alterato → perdita di organizzazione tissutale → proliferazione di default → cancro: valutazione di questa revisione: nessuna misura diretta nei lavori letti; l'articolo è teorico e il passaggio poggia su ragionamento teorico e sul postulato della proliferazione come stato di base.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27498170",
+      "verificata": true
+     },
+     "prova": "teorica",
+     "inferenza": true
+    },
+    {
+     "testo": "Cellule di teratocarcinoma 'maligne' (cariotipo modale normale, tumore ascitico per 8 anni) iniettate in blastocisti: 93 animali vivi, 14 analizzati, 3 mosaici con contributi in molti tessuti normali; contributo alla linea germinale. Gli autori parlano di base non mutazionale della trasformazione. Il numero di animali con tumori non è nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "1059147",
+      "verificata": true
+     },
+     "prova": "sperimentale; interpretazione degli autori"
+    },
+    {
+     "testo": "Controparte con altre linee: cellule di teratocarcinoma da linee in vitro (tutte con cariotipo anomalo) in blastocisti: tumori in 6/74 nati (C86); linea C17 13 chimere su 77, di cui 5 solo normali e 8 con tumori; chimerismo basso, nessuna trasmissione germinale. Non è chiaro quale differenza (origine, cariotipo, numero) conti.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "650144",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Reversione del fenotipo non implica genoma normale: le linee in vitro avevano cariotipi anomali; non è stato letto nessun lavoro che sequenzi il genoma delle cellule normalizzate. Il teratocarcinoma è un tumore di origine embrionale, caso particolare e non generalizzabile ad altri carcinomi.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Reversione in 3D con anticorpo anti-beta1 integrina in cellule di carcinoma mammario umano: acini normali, tumori ridotti in numero e dimensione nel topo nudo; fenotipo reversibile alla rimozione dell'anticorpo. 'Il fenotipo tissutale domina sul genotipo' è interpretazione degli autori.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "9105051",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Su colonie già formate l'inibizione di beta1 integrina induce apoptosi, non reversione; la reversione a cellula singola è citata come risultato di lavori precedenti (differenza di protocollo).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16452209",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Il dato più diretto sul fatto che lo stroma da solo non basta viene dalla vescica di ratto: lo stroma esposto al cancerogeno con urotelio normale non dà alterazioni neoplastiche; agisce da terreno favorevole su urotelio già trattato (tumori più grandi). Un solo modello.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "2304182",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "A favore del ruolo causale delle mutazioni: in 7.664 tumori di 29 tipi la selezione positiva supera la negativa, con ~4 sostituzioni codificanti sotto selezione positiva per tumore. Dato genomico osservazionale: non dimostra sufficienza.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "29056346",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "L'abstract documenta mutazioni e cloni diffusi in 1.737 biopsie di tessuti morfologicamente normali di 9 organi; non discute il passaggio a tumore, e non dimostra TOFT.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "34433965",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Nelle lesioni precancerose esofagee la perdita biallelica di TP53 aumenta precocemente e gli autori la definiscono 'prerequisito' per le alterazioni del numero di copie: sequenza osservata, non esperimento.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38039962",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Una rassegna propone che le due teorie siano conciliabili (mutazioni come trigger iniziali, contesto come modulatore); non è una prova sperimentale.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "37268024",
+       "verificata": true
+      }
+     },
+     {
+      "testo": "Le critiche pubblicate a TOFT come tale non sono state trovate; quelle reperite riguardano altri argomenti (es. rischio di cancro e divisioni staminali) o sono citazioni indirette: fonte non reperita. Replica indipendente dell'esperimento stroma→cancro in un altro mammifero: fonte non reperita.",
+      "livello": "ipotesi",
+      "fonte": null
+     },
+     {
+      "testo": "Nessuno studio trovato che nello stesso modello mostri se stroma e mutazioni siano entrambi necessari e sufficienti: buco nella conoscenza che impedisce di confrontare le due teorie.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "PEGPH20 (ialuronidasi) + nab-paclitaxel/gemcitabina",
+     "bersaglio": "matrice/acido ialuronico dello stroma pancreatico",
+     "fase": "III (NCT02715804, registro)",
+     "esito": "terminato; risultati presenti nel registro (esito non riletto da me); una pubblicazione (da verificare) discute 'perché HALO 301 è fallito'",
+     "ragione": "'Sponsor decision' (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02715804",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "vismodegib (inibitore Hh)",
+     "bersaglio": "stroma pancreatico via Hedgehog",
+     "fase": "II preoperatoria in PDAC (NCT01096732, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "reclutamento lento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01096732",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "vismodegib + gemcitabina + nab-paclitaxel",
+     "bersaglio": "Hedgehog",
+     "fase": "II in PDAC metastatico (n=71)",
+     "esito": "nessun miglioramento rispetto ai controlli storici (PFS 5,42 mesi, OS 9,79 mesi); gli autori sconsigliano ulteriori studi in questo contesto",
+     "ragione": "nessun miglioramento rispetto ai controlli storici (gli autori sconsigliano ulteriori studi in questo contesto)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31857726",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "PEGPH20 + pembrolizumab",
+     "bersaglio": "matrice/HA",
+     "fase": "II (n=8 trattati)",
+     "esito": "studio chiuso in anticipo; nessuna efficacia significativa; (valutazione di questa revisione, non dell'abstract: campione troppo piccolo per escludere un beneficio)",
+     "ragione": "chiuso dallo sponsor",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41681979",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "cilengitide (anti-integrine)",
+     "bersaglio": "integrine alphavbeta3/5",
+     "fase": "III in glioblastoma (NCT00689221, registro)",
+     "esito": "completato; risultati nel registro ma non letti; pubblicazione non reperita in sessione. Altri trial dello stesso farmaco terminati (NCT01044225: sostegno ritirato dal produttore dopo la fase III; NCT01558687: sviluppo interrotto) non ricontrollati",
+     "ragione": "commerciale/interruzione dello sviluppo (testo del registro, da verificare)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00689221",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "simtuzumab (anti-LOXL2) + gemcitabina",
+     "bersaglio": "LOXL2 (matrice)",
+     "fase": "II in PDAC (NCT01472198, registro)",
+     "esito": "completato senza risultati nel registro; pubblicazione non reperita: programma senza esito pubblico noto",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01472198",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "saridegib, galunisertib (anti-TGF-beta R1), sibrotuzumab (anti-FAP)",
+     "bersaglio": "Hedgehog; TGF-beta; FAP",
+     "fase": "fasi I-II (registro, letti dal sotto-agente)",
+     "esito": "studi completati o terminati senza esiti pubblicati trovati; per sibrotuzumab motivo non dichiarato",
+     "ragione": "non reperita",
+     "fonte": null
+    },
+    {
+     "composto": "esperimenti storici di embrione (Mintz, Papaioannou, altri)",
+     "bersaglio": "microambiente embrionale",
+     "fase": "preclinico",
+     "esito": "vedi passo 2: reversione in alcuni modelli, tumori in altri; nessun programma terapeutico derivato",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "650144",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ATRA/retinoidi sul microambiente nei tumori solidi",
+     "bersaglio": "differenziazione indotta",
+     "fase": "non reperita",
+     "esito": "nessun trial su stroma trovato nel registro con la ricerca per intervento (risultati solo AML e asma)",
+     "ragione": "non reperita",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Nel carcinoma pancreatico di topo, la deplezione dei miofibroblasti alphaSMA+ ha prodotto tumori invasivi e indifferenziati con meno sopravvivenza; l'anti-CTLA4 ha invertito l'accelerazione. Nei pazienti, meno miofibroblasti correlano con sopravvivenza ridotta (osservazionale).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24856586",
+      "verificata": true
+     },
+     "prova": "sperimentale + correlativa"
+    },
+    {
+     "testo": "Contraddizione: la deplezione di cellule FAP+ con CAR-T ha frenato la crescita in xenotrapianti e tumori pancreatici murini. Differenze possibili, dedotte dal confronto fra gli studi e non dichiarate negli abstract: cellula bersaglio (FAP+ vs alphaSMA+), metodo, stato immunitario, stadio.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25979873",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "La delezione di Shh in un modello murino di PDAC ha dato tumori con meno stroma e più aggressivi; l'inibizione di Smoothened ha replicato l'effetto.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24856585",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Fase I di vismodegib: generalmente tollerato; eventi riportati iponatremia, affaticamento, dolore addominale; 6 pazienti (8,8%) con eventi di grado 4. GLI1 si riduce nella pelle non coinvolta, compatibile con Hh attivo nella pelle sana.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21300762",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Osso in crescita: vismodegib sistemico in topi giovani causa fusione prematura della cartilagine di accrescimento. Tessuto a rischio in età pediatrica.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37767814",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Cuore dopo infarto: fibroblasti e matrice sono necessari alla riparazione (rottura cardiaca nei knock-out di fibulin-3). Dato in danno acuto, non in tessuto sano.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37696945",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Fegato, midollo e intestino (tossicità di manipolazione dello stroma in tessuto sano): fonte non reperita o solo dati indiretti.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Un driver definito in un epitelio isogenico produce invasione solo in uno stroma alterato, solo in uno normale, o in entrambi?",
+     "disegno": "Disegno fattoriale 2x2 in 3D: epitelio isogenico con e senza un driver (es. TP53 o PIK3CA, CRISPR) combinato con fibroblasti/matrice normali o esposti a cancerogeno; esiti: invasione, polarità, proliferazione, EMT, con sequenziamento dell'epitelio.",
+     "falsificazione": "Se l'epitelio mutante invade in modo equivalente in stroma normale ed esposto, e l'epitelio normale non si trasforma mai in stroma esposto, TOFT nella sua forma forte è falsificata in questo modello; se accade il contrario, lo è la forma mutazionale forte."
+    },
+    {
+     "domanda": "L'effetto 'stroma esposto al cancerogeno trasforma l'epitelio' si replica in un altro tessuto e senza mutazioni epiteliali rilevabili?",
+     "disegno": "Ricombinazione organoidi epiteliali sani + fibroblasti/matrice esposti o no al cancerogeno, in tessuti diversi (mammella, vescica, intestino); readout di trasformazione (crescita in assenza di ancoraggio, invasione) e sequenziamento profondo dell'epitelio prima e dopo.",
+     "falsificazione": "Se la trasformazione compare solo con esposizione diretta dell'epitelio, o se compaiono mutazioni epiteliali che spiegano il fenotipo, l'ipotesi stroma-primario non regge in quel tessuto."
+    },
+    {
+     "domanda": "Le cellule che regrediscono nel microambiente conservano i driver e ritornano maligne al cambio di contesto?",
+     "disegno": "Cloni singoli di linee tumorali portati in 3D/embrione ex vivo con valutazione di fenotipo, quindi dissociati e reimpiantati in contesto permissivo; confronto di genoma (driver, copy number) prima e dopo, test di tumorigenicità seriale.",
+     "falsificazione": "Se la reversione è stabile dopo il ritorno al contesto permissivo e il genoma resta alterato, 'il fenotipo domina sul genotipo' è sostenuto; se la reversione scompare sempre alla dissociazione, è un effetto di contesto non stabile."
+    },
+    {
+     "domanda": "Perché la deplezione di sottopopolazioni diverse di fibroblasti (alphaSMA+, FAP+, Hh-responsive) dà effetti opposti sul tumore pancreatico?",
+     "disegno": "Co-colture di organoidi PDAC con sottopopolazioni di fibroblasti purificate, con e senza linfociti T; deplezione selettiva e misura di invasione, EMT, conversione in Treg e risposta a farmaci.",
+     "falsificazione": "Se tutte le deplezioni danno lo stesso effetto nello stesso sistema, la differenza osservata in vivo dipende dal modello e non dal tipo cellulare."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Proporzione minima di stroma esposto/alterato necessaria a trasformare epitelio normale",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Frazione di animali mosaici con tumore dopo iniezione di cellule di teratocarcinoma",
+     "stato": "misurato",
+     "valore": "varia: 6/74 e 8/13 chimere in Papaioannou 1978 (linee diverse); non riportato nell'abstract di Mintz 1975",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "650144",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Tasso di mutazioni in tessuto normale per clone e anno",
+     "stato": "assente",
+     "valore": "l'abstract non riporta un tasso per clone e anno; dati descritti per organo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34433965",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Soglia di integrità della matrice sotto la quale la proliferazione di default prevale",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
+  }
+ ]
 }
