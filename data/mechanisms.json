@@ -2175,6 +2175,420 @@
      }
     }
    ]
+  },
+  {
+   "id": "complessita",
+   "name": "Strutture dissipative e fisiologia frattale (Prigogine, Goldberger): perdita di complessità",
+   "note": "Bozza v0. La frase di partenza ('la salute è complessità organizzata, la malattia è perdita di complessità') regge solo in parte: la perdita di complessità dell'intervallo fra battiti con l'età è misurata (associazione trasversale), ma la variabilità cardiaca dipende fortemente dalla frequenza cardiaca, 'complessità' e 'variabilità' non sono sinonimi (i bambini hanno complessità simile ai giovani con variabilità più bassa), esistono controesempi in cui la complessità aumenta in malattia, e il nesso causale 'perdita di complessità → malattia' resta ipotesi senza intervento che lo verifichi. Per le strutture dissipative di Prigogine non è stato trovato un test sperimentale che le distingua dall'omeostasi classica; la fonte originale non è in PubMed. Nel cancro la HRV è più bassa che nei controlli (certezza molto bassa) ma il suo valore prognostico è incoerente fra gli studi. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 6 record del registro (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "Strutture dissipative (Prigogine): sistemi lontani dall'equilibrio che si mantengono producendo entropia; il sistema nervoso autonomo è stato proposto come struttura dissipativa e le oscillazioni biologiche come esempi (Goldbeter, Recordati). Posizioni teoriche: la fonte originale non è in PubMed e non risultano test sperimentali che distinguano la cornice dissipativa da quella omeostatica classica.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11812179",
+      "verificata": false
+     },
+     "prova": "teorica"
+    },
+    {
+     "testo": "Ipotesi di Lipsitz e Goldberger (1992): con l'invecchiamento i sistemi fisiologici perdono complessità e quindi capacità di adattarsi allo stress. Dichiarata come ipotesi dagli autori.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "1482430",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Misura: in 114 soggetti sani di 1-82 anni l'entropia approssimata dell'intervallo RR e la scala frattale cambiano con l'età: 'perdita progressiva di complessità' dalla mezza età alla vecchiaia (ApEn r=-0,69); i bambini hanno complessità simile ai giovani adulti pur con variabilità spettrale più bassa. Dato trasversale, 24 ore di ECG.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10421600",
+      "verificata": true
+     },
+     "prova": "misura diretta, trasversale"
+    },
+    {
+     "testo": "Nel cancro: meta-analisi di 28 studi (3232 partecipanti; 5 raggruppati): SDNN più basso di 14 ms e RMSSD di 16,8 ms rispetto ai controlli, con certezza molto bassa e quattro cause non separabili (malattia, cardiotossicità, ritiro vagale perioperatorio, rimodellamento da sopravvivenza). La dimensione frattale dei vasi tumorali differisce fra tumore e tessuto non tumorale (epatocarcinoma, un solo studio).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42809037",
+      "verificata": true
+     },
+     "prova": "meta-analisi osservazionale"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Invecchiamento → minore complessità dell'HRV: associazione misurata, trasversale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10421600",
+      "verificata": true
+     },
+     "prova": "misura diretta"
+    },
+    {
+     "testo": "Minore complessità → minore capacità di adattamento: ipotesi dichiarata dagli autori; nessun intervento umano trovato che la verifichi.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "1482430",
+      "verificata": false
+     },
+     "prova": "teorica",
+     "inferenza": true
+    },
+    {
+     "testo": "Minore complessità → malattia o morte: associazioni osservazionali in cardiopatia (rottura delle correlazioni a lungo raggio dell'intervallo RR nel rischio di morte improvvisa) e in condizioni acute; la causalità non è dimostrata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "8656130",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "inferenza": true
+    },
+    {
+     "testo": "Stress e infiammazione → perdita di accoppiamento fra sottosistemi → perdita di complessità: fonte non reperita per il primo passaggio.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Confondente centrale: l'HRV dipende in modo esponenziale decrescente dalla frequenza cardiaca in tutti i preparati (uomo, animale, cellule del nodo del seno); secondo gli autori l'associazione fra HRV e morbilità o mortalità è in gran parte attribuibile alla variazione concomitante della frequenza, e molti studi non l'hanno aggiustata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25225208",
+      "verificata": true
+     },
+     "prova": "modello biofisico + dati"
+    },
+    {
+     "testo": "Nel cancro: nell'epitelio colorettale primario (428 pazienti) l'HRV preoperatoria non è associata a sopravvivenza né a recidiva; gli autori propongono che l'associazione esista solo nella direzione opposta (il tumore riduce la HRV).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32817663",
+      "verificata": true
+     },
+     "prova": "coorte retrospettiva"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Alternativa: HRV, anche non lineare, dipende dalla frequenza cardiaca; la frequenza più alta riduce complessità e variabilità, e la denervazione dopo trapianto dà tachicardia e HRV ridotta.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25225208",
+       "verificata": true
+      },
+      "prova": "modello biofisico + dati"
+     },
+     {
+      "testo": "'Complessità' e 'variabilità' non coincidono: i bambini hanno complessità simile ai giovani adulti con variabilità spettrale più bassa; la perdita di complessità con l'età coincide con intervalli RR più regolari.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "10421600",
+       "verificata": true
+      },
+      "prova": "misura diretta"
+     },
+     {
+      "testo": "Controesempio nel cuore: nella fibrillazione atriale sostenuta, gli elettrogrammi del seno coronarico hanno entropia campionaria più alta rispetto a quella autolimitante (0,29 contro 0,15; 142 pazienti): più irregolarità non vuol dire più salute. È un segnale elettrico atriale, non l'intervallo RR.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31778260",
+       "verificata": true
+      },
+      "prova": "misura diretta"
+     },
+     {
+      "testo": "Controesempio nei tumori, direzioni opposte: dimensione frattale vascolare più alta con invasione microvascolare nell'epatocarcinoma e nei gliomi di alto grado (imaging, non verificato), ma nel glioblastoma una dimensione frattale microvascolare alta è associata a migliore sopravvivenza e risposta alla chemioterapia (immunoistochimica). Modelli e metodi diversi.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "29765109",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Artefatti e parametri: nelle serie di neonati con sepsi l'entropia campionaria cala per la presenza di spike e non per la regolarità; le misure di entropia sono molto sensibili ai parametri scelti (tolleranza) e al rumore.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "12185014",
+       "verificata": false
+      },
+      "prova": "metodologica"
+     },
+     {
+      "testo": "Alternative esplicative: infiammazione (SDNN inversamente associata alla PCR in 11 studi), allostasi e carico allostatico, perdita di riserva fisiologica e fragilità; nessuna richiede strutture dissipative.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41750686",
+       "verificata": false
+      },
+      "prova": "rassegna sistematica osservazionale"
+     },
+     {
+      "testo": "Valore aggiunto delle misure non lineari: incoerente: l'alfa1 DFA predice la mortalità nello scompenso e in emodialisi, ma in altri studi gli indici lineari sono migliori o equivalenti.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "11152835",
+       "verificata": false
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Nel cancro: associazione fra HRV bassa e sopravvivenza positiva in alcuni studi (polmone con metastasi cerebrali, hospice) e assente in altri (colon-retto, verificato); l'HRV bassa può essere conseguenza del tumore o di cachessia (alterazioni simpatiche e neuropatia, non solo ritiro vagale).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "32817663",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Non trovati: HRV prima e dopo beta-bloccanti; rapporto fra sensibilità barocettiva e HRV; HRV dopo allenamento; confronto diretto in patologia fra complessità e misure lineari con aggiustamento per frequenza; test sperimentali che distinguano strutture dissipative e omeostasi classica. Sono buchi, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "biofeedback della HRV",
+     "bersaglio": "HRV (tono vagale)",
+     "fase": "NA in pazienti sottoposti a trapianto di cellule staminali ematopoietiche (NCT04275830, registro)",
+     "esito": "completato senza risultati; nessuna pubblicazione trovata cercando per NCT",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04275830",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "biofeedback della HRV",
+     "bersaglio": "HRV",
+     "fase": "NA in sopravvissuti a tumore cerebrale (NCT01772498, registro)",
+     "esito": "sospeso senza risultati",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01772498",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "HRV in pazienti con tumore polmonare",
+     "bersaglio": "HRV",
+     "fase": "NA (NCT03674450, registro)",
+     "esito": "ritirato: nessun soggetto arruolato",
+     "ragione": "cambi di personale e tecnologia (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03674450",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "disfunzione autonomica in sopravvissuti pediatrici a tumore",
+     "bersaglio": "HRV",
+     "fase": "studio (NCT05132673, registro)",
+     "esito": "ritirato",
+     "ragione": "mancanza di finanziamento: il reclutamento non è mai iniziato (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05132673",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "stimolazione del nervo vago durante radioterapia nel tumore polmonare non a piccole cellule",
+     "bersaglio": "nervo vago, infiammazione",
+     "fase": "NA (NCT03553485, registro)",
+     "esito": "stato sconosciuto; pubblicazione non trovata cercando per NCT",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03553485",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "coerenza cardiaca + attività fisica in oncologia",
+     "bersaglio": "HRV",
+     "fase": "NA (NCT03356171, registro)",
+     "esito": "completato senza risultati nel registro; il sotto-agente riporta solo il protocollo",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03356171",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "biofeedback della HRV per sonno, sintomi e insonnia in pazienti oncologici e palliativi",
+     "bersaglio": "HRV",
+     "fase": "RCT e pilota pubblicati (riportati dai sotto-agenti)",
+     "esito": "esiti non estratti: non valutabili; nessun trial con HRV come endpoint primario che dimostri aumento della variabilità come terapia in oncologia",
+     "ragione": "non applicabile",
+     "fonte": null
+    },
+    {
+     "composto": "stimolazione vagale in oncologia (altri trial per dolore, insonnia, neuropatia da chemioterapia)",
+     "bersaglio": "nervo vago",
+     "fase": "vari, molti in corso o non ancora avviati (registro, letti dal sotto-agente)",
+     "esito": "senza esiti pubblicati",
+     "ragione": "non applicabile",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Cuore: bradicardia severa con stimolazione vagale impiantata e riflessi vagali durante anestesia o chirurgia (casi clinici); gli studi randomizzati piccoli di stimolazione auricolare in chirurgia non mostrano bradicardia o ipotensione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42740342",
+      "verificata": false
+     },
+     "prova": "casi clinici + RCT piccoli"
+    },
+    {
+     "testo": "Selettività: la stimolazione vagale non ha un effetto univoco sul tumore: nel topo con tumore polmonare a piccole cellule la sezione del vago riduce la progressione (preprint); con doxorubicina la stimolazione inibisce crescita e metastasi; con radioterapia in un modello polmonare non c'è effetto, e in 7 pazienti con NSCLC non variano i parametri immunitari periferici.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38425841",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Cardiotossicità da trastuzumab: nel ratto lo squilibrio simpato-vagale accompagna la disfunzione ventricolare e la stimolazione vagale o il donepezil riducono il danno mitocondriale; ipotesi di meccanismo, non dimostrata nell'uomo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37816466",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Contraddizione sull'effetto sulla HRV: la stimolazione auricolare riduce RMSSD e HF in 36 volontari sani e aumenta l'HRV in pazienti con emorragia subaracnoidea; differenze di popolazione, durata e modello.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40007175",
+      "verificata": false
+     },
+     "prova": "RCT piccoli"
+    },
+    {
+     "testo": "Biofeedback della HRV: sicurezza aritmica non documentata nelle popolazioni a rischio (studi escludono i cardiopatici); beta-bloccanti: broncospasmo in casi clinici e assenza di aumento di riacutizzazioni in coorti.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40252198",
+      "verificata": false
+     },
+     "prova": "rassegne e casi"
+    },
+    {
+     "testo": "Interazione degli interventi con la chemioterapia nell'uomo, neuropatia autonomica nel paziente oncologico e dipendenza metabolica dal vago nell'uomo: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "La differenza di complessità dell'attività del nodo del seno fra giovani e anziani (o malati) persiste quando la frequenza di stimolazione è fissata?",
+     "disegno": "Preparati isolati (nodo del seno o cuore perfuso) da animali giovani e anziani, con frequenza di stimolazione fissata ad ampiezze uguali; complessità (ApEn, DFA) e variabilità misurate a frequenza fissata e a frequenza libera.",
+     "falsificazione": "Se le differenze di complessità scompaiono a frequenza fissata, la frequenza spiega la differenza; se persistono, esiste una perdita intrinseca indipendente dalla frequenza."
+    },
+    {
+     "domanda": "Il mezzo condizionato da tumore o citochine infiammatorie riduce la complessità intrinseca dell'attività del pacemaker, indipendentemente dal controllo autonomico?",
+     "disegno": "Cardiomiociti derivati da iPSC o cellule del nodo del seno in coltura, esposti a mezzo condizionato da tumore, IL-6, TNF o chemioterapici; complessità della frequenza spontanea a frequenza media fissata, senza controllo autonomico.",
+     "falsificazione": "Se non cambia la complessità in assenza di innervazione, l'effetto osservato nei pazienti è extrinseco (autonomico o di stato generale); se cambia, esiste un effetto diretto del mezzo tumorale o infiammatorio."
+    },
+    {
+     "domanda": "La complessità frattale dei vasi tumorali predice perfusione, ipossia, consegna di farmaco e invasione, una volta tenuta fissa la densità vascolare?",
+     "disegno": "Tumori su chip vascolarizzati con complessità vascolare regolabile a densità fissa; perfusione, ipossia, penetrazione di un farmaco e invasione.",
+     "falsificazione": "Se la dimensione frattale non predice nessuno degli esiti oltre la densità, non ha un ruolo funzionale; se prevede esiti in direzioni diverse a seconda del tumore, il segno dipende dal contesto."
+    },
+    {
+     "domanda": "Ripristinare la complessità, a parità di media e varianza, migliora la risposta adattativa a uno stress più di una stimolazione periodica?",
+     "disegno": "Tessuti cardiaci ingegnerizzati o preparati isolati stimolati con sequenze periodiche o frattali con stessa media e varianza; challenge con ipossia o farmaco e misura del recupero.",
+     "falsificazione": "Se stimolazione periodica e frattale danno la stessa risposta adattativa, la complessità in sé non è protettiva."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Differenza di SDNN fra pazienti oncologici e controlli (registrazioni brevi a riposo)",
+     "stato": "misurato",
+     "valore": "-14,05 ms (IC95% da -18,20 a -9,90); certezza molto bassa",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42809037",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Differenza di RMSSD fra pazienti oncologici e controlli",
+     "stato": "misurato",
+     "valore": "-16,76 ms (IC95% da -21,23 a -12,28); certezza molto bassa",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42809037",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Associazione fra HRV preoperatoria e sopravvivenza nel carcinoma colorettale (HR aggiustato, SDNN <20 ms)",
+     "stato": "misurato",
+     "valore": "0,952 (0,607-1,493), non significativa",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32817663",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Parte della variazione di HRV spiegata dalla frequenza cardiaca",
+     "stato": "stimato per analogia",
+     "valore": "relazione esponenziale decrescente; frazione non quantificata nell'abstract",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25225208",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Produzione di entropia di un tumore o di un tessuto sano",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
