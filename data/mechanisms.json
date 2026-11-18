@@ -441,7 +441,7 @@
   {
    "id": "bioelettricita",
    "name": "Bioelettricità e potenziale di membrana (cornice di Michael Levin)",
-   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Giro 1: 6 PMID riletti da me su PubMed e 6 record del registro. Giro 2: altri 17 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti perché l'abstract non sosteneva tutto). Giro 3 in corso. Restano non verificati gli identificativi non ancora riletti e i dati senza identificativo. Passo 6 provvisorio.",
+   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Giro 1: 6 PMID riletti da me su PubMed e 6 record del registro. Giro 2: altri 17 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti perché l'abstract non sosteneva tutto). Giro 3: quattro affermazioni negative controllate in modo indipendente con circa 45 query (tutte confermate nei limiti della ricerca) e record del registro riletti. Restano non verificati gli identificativi non ancora riletti e i dati senza identificativo. Passo 6 provvisorio.",
    "normale": [
     {
      "testo": "Il potenziale di membrana a riposo (Vmem) regola il differenziamento: nelle cellule staminali mesenchimali umane l'iperpolarizzazione accompagna il differenziamento osteogenico e adipogenico e la depolarizzazione lo impedisce. Dato in vitro, del gruppo Levin.",
@@ -633,7 +633,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Non trovati: replica indipendente del sistema girino/KRAS; Vmem contro KRAS in topo, zebrafish o xenotrapianti; knockout di canali ionici senza il fenotipo atteso; adattamento a blocco cronico di canali; studio che stabilisca se Vmem cambia a valle di KRAS. Sono buchi, non prova che la ridondanza non esista.",
+      "testo": "Assenze verificate al terzo giro (circa 45 query PubMed, nei limiti della ricerca; l'assenza di risultati non è prova di assenza): (1) nessuna replica indipendente del sistema Xenopus KRAS + Vmem: i lavori del 2013, 2014 e 2016 sono del gruppo Levin/Tufts; (2) nessuno studio in topo, zebrafish o xenotrapianti in cui la manipolazione di Vmem o dei canali ripristini un fenotipo indotto specificamente da KRAS o BRAF (esistono studi in vivo di canali su tumori non definiti da KRAS/BRAF); (3) nessun mutante non conduttivo di un canale testato nel cancro: una rassegna del 2026 su ANO1 afferma che la separazione fra funzione di canale e di segnalazione 'remains incompletely established'; (4) nessuna critica peer-reviewed indipendente diretta ai lavori sul girino (PubMed non indicizza ogni commento). Non trovati inoltre: knockout di canali senza fenotipo atteso, adattamento a blocco cronico, studio sul fatto che Vmem cambi a valle di KRAS. Sono buchi, non prova che la ridondanza non esista.",
       "livello": "ipotesi",
       "fonte": null
      }
@@ -715,8 +715,8 @@
     {
      "composto": "mibefradil + temozolomide (altri trial)",
      "bersaglio": "T-type",
-     "fase": "I in glioma ricorrente (NCT01480050, registro)",
-     "esito": "completato, senza risultati nel registro; collegamento con la pubblicazione non verificato",
+     "fase": "I in glioma ricorrente (NCT01480050); mibefradil + re-irradiazione in glioblastoma ricorrente (NCT02202993) (registro)",
+     "esito": "entrambi 'completed' senza risultati nel registro; collegamento con la pubblicazione non verificato",
      "ragione": "non dichiarata",
      "fonte": {
       "tipo": "NCT",
@@ -727,9 +727,9 @@
     {
      "composto": "SOR-C13",
      "bersaglio": "TRPV6",
-     "fase": "I (n=23)",
-     "esito": "ipocalcemia transitoria di grado 2 in 4 pazienti; stabilità di malattia nel 54,5% dei 22 valutabili; migliore risposta: riduzione del 27% di un tumore pancreatico a 6,2 mg/kg",
-     "ragione": "sviluppo successivo non reperito",
+     "fase": "I (n=23 trattati, 22 valutabili); altri due trial dello stesso farmaco: NCT01578564 e NCT03784677 (registro)",
+     "esito": "ipocalcemia transitoria di grado 2 in 4 pazienti; stabilità di malattia nel 54,5% dei 22 valutabili; migliore risposta: riduzione del 27% di un tumore pancreatico a 6,2 mg/kg; i due trial registrati risultano 'completed' senza risultati nel registro",
+     "ragione": "non dichiarata; sviluppo successivo non reperito",
      "fonte": {
       "tipo": "PMID",
       "id": "28150073",
