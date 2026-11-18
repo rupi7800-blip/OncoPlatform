@@ -3946,7 +3946,7 @@
   {
    "id": "allostasi",
    "name": "Omeostasi e allostasi (Cannon; Sterling e McEwen) e stress cronico",
-   "note": "Bozza v0. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita); nell'uomo una meta-analisi su dati individuali di 22 coorti non trova associazione fra fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea. Non c'è un RCT di sopravvivenza adeguato per i beta-bloccanti perioperatori (PROSPER chiuso per reclutamento lento); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Giro 1 di verifica: 18 PMID riletti e 10 record del registro riletti (marcati 'verificata'); gli altri identificativi sono letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita; in cellule orali l'attivazione di ADRB2 riduce il tumore). Nell'uomo due grandi analisi su dati individuali non trovano associazione fra stress lavorativo o fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea e non risulta un confronto con indici omeostatici semplici. Non c'è un RCT di sopravvivenza adeguatamente potenziato e con risultati pubblicati sui beta-bloccanti perioperatori (PROSPER chiuso per reclutamento; un trial di fase 3 sul colon-retto, NCT00888797, senza risultati reperiti); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Verifica: giro 1 con 24 PMID e 10 record del registro riletti direttamente; giro 2 con confronto dei 26 identificativi rimanenti con gli abstract (12 testi corretti per attribuzioni troppo estese); giro 3 con controllo indipendente delle affermazioni negative, di 12 record del registro e di altri 6 lavori riletti. Le verifiche sono su abstract e registro, non su testo completo.",
    "normale": [
     {
      "testo": "McEwen e Stellar (1993) sostengono che il concetto di omeostasi non aiuta a capire il costo nascosto dello stress cronico: invece di mantenere costanza, i sistemi fisiologici fluttuano per rispondere alle richieste (allostasi); il carico allostatico è il costo dell'esposizione cronica a risposte neurali o neuroendocrine fluttuanti o elevate. Definizione e ipotesi degli autori, in una rassegna.",
@@ -4036,7 +4036,7 @@
      "prova": "correlativa"
     },
     {
-     "testo": "Tipi tumorali senza associazione documentata fra carico allostatico e rischio: fonte non reperita nei lavori letti; un confronto sperimentale in cui l'allostasi predica meglio dell'omeostasi: fonte non reperita.",
+     "testo": "Tipi tumorali senza associazione documentata fra carico allostatico e rischio: fonte non reperita nei lavori letti; confronto diretto in cui un indice allostatico (regolazione anticipatoria) predice l'esito oncologico meglio di indici omeostatici semplici o dei singoli biomarcatori: non trovato in 4 ricerche di giro 3, in cui gli studi sul carico allostatico non fanno confronti con biomarcatori singoli.",
      "livello": "ipotesi",
      "fonte": null,
      "inferenza": true
@@ -4119,6 +4119,36 @@
       "verificata": true
      },
      "prova": "correlativa"
+    },
+    {
+     "testo": "Stress lavorativo: una meta-analisi su dati individuali di 12 coorti europee (116.056 persone, 5.765 casi di cancro, mediana 12 anni) non trova associazione fra job strain e rischio di cancro complessivo (HR 0,97; IC 0,90-1,04) né colorettale (1,16), polmonare (1,17), mammario (0,97) o prostatico (0,86); gli autori concludono che è improbabile un fattore di rischio importante.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23393080",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Orario di lavoro: in un'analisi multicoorte di 116.462 persone non emerge associazione con il rischio complessivo di cancro né con colon-retto, polmone e prostata; lavorare almeno 55 ore a settimana si associa a mammella con HR 1,60 (IC 1,12-2,29), possibile confondimento residuo da parità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26889978",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Contro-dato sul segno del recettore: in cellule di carcinoma squamoso orale l'agonista beta-2 isossuprina e l'isoprenalina riducono i marcatori mesenchimali e la motilità, effetto invertito dal propranololo e dalla delezione CRISPR di ADRB2, e l'isossuprina riduce la crescita di xenotrapianti sottocutanei: la direzione dell'effetto di ADRB2 dipende dal tipo di tumore.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33007125",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
      "testo": "Beta-bloccanti e sopravvivenza (osservazionale): una meta-analisi di 84 studi su 603.827 pazienti con tumori solidi associa l'uso a OS HR 0,88 e PFS HR 0,82, con effetti più forti per esposizione dopo la diagnosi; gli autori avvertono eterogeneità e natura osservazionale; non è un test del ruolo dello stress.",
@@ -4269,7 +4299,7 @@
       "prova": "correlativa"
      },
      {
-      "testo": "Non trovati: esperimenti con doppio blocco beta e glucocorticoidi in un modello di stress tumorale, misura diretta della compensazione di un asse dopo blocco di un altro, desensibilizzazione beta in vivo nel tumore, studi dedicati alla causalità inversa e all'accesso alle cure. Sono buchi, non prova di assenza.",
+      "testo": "Non trovati nei lavori letti e in ricerche di giro 3 (0 risultati o risultati non pertinenti non provano assenza): esperimenti con doppio blocco beta e glucocorticoidi in un modello di stress cronico e tumore (esiste solo un doppio blocco acuto non tumorale del 1997 con propranololo e RU486); misura diretta della compensazione di un asse dopo blocco di un altro; desensibilizzazione funzionale di ADRB2 nel tumore in vivo sotto stress cronico; knockout genetico di ADRB2 specifico del tumore in modello di stress cronico (un knockout CRISPR di ADRB2 in cellule orali esiste ma senza stress); studi dedicati alla causalità inversa e all'accesso alle cure. Sono buchi, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
      }
@@ -4369,6 +4399,66 @@
      "fonte": {
       "tipo": "NCT",
       "id": "NCT03323710",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac per prevenire la recidiva del cancro colorettale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "III (NCT00888797, registro)",
+     "esito": "stato sconosciuto, 400 previsti, avvio 2010; nessun risultato nel registro",
+     "ragione": "non dichiarata (registro non aggiornato)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00888797",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo perioperatorio in prostatectomia",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT05679193, registro)",
+     "esito": "completato, 40 arruolati; nessun risultato postato nel registro",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05679193",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + radioterapia preoperatoria in sarcoma dei tessuti molli",
+     "bersaglio": "beta-adrenergico",
+     "fase": "I (NCT06670976, registro)",
+     "esito": "ritirato, 0 arruolati",
+     "ragione": "'to be submitted at a later date' (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06670976",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel in carcinoma ovarico ricorrente",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "II (NCT03776812, registro)",
+     "esito": "completato, 178 arruolati, con risultati nel registro (valori non riletti)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03776812",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Mifepristone a uso compassionevole in tumori del sistema nervoso e altri",
+     "bersaglio": "recettori glucocorticoide e progesterone",
+     "fase": "uso compassionevole (NCT00832871, registro)",
+     "esito": "terminato, 4 arruolati fra 2008 e 2015, risultati nel registro",
+     "ragione": "scarso arruolamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00832871",
       "verificata": true
      }
     },
