@@ -3,7 +3,7 @@
   {
    "id": "toft",
    "name": "TOFT: Tissue Organization Field Theory (Soto e Sonnenschein)",
-   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, non è stata trovata una critica sperimentale indipendente né una replica indipendente (esistono due analisi teoriche peer-reviewed indipendenti sull'argomentazione di incompatibilità). Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Terzo giro: altri 8 record del registro riletti direttamente (saridegib, galunisertib, sibrotuzumab, cilengitide) e controllo indipendente delle tre affermazioni negative: 'nessuna critica indipendente' è risultata errata nella forma letterale e corretta (due analisi teoriche peer-reviewed riletta da me); 'nessuna replica indipendente' e 'nessun sequenziamento dopo reversione' confermate come non reperite, senza valore di prova di assenza. Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti da me; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
+   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, non è stata trovata una critica sperimentale indipendente né una replica indipendente (esistono due analisi teoriche peer-reviewed indipendenti sull'argomentazione di incompatibilità). Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Terzo giro: altri 8 record del registro riletti direttamente (saridegib, galunisertib, sibrotuzumab, cilengitide) e controllo indipendente delle tre affermazioni negative: 'nessuna critica indipendente' è risultata errata nella forma letterale e corretta (due analisi teoriche peer-reviewed rilette in questa revisione); 'nessuna replica indipendente' e 'nessun sequenziamento dopo reversione' confermate come non reperite, senza valore di prova di assenza. Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti in questa revisione; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
    "normale": [
     {
      "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
@@ -74,7 +74,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Reversione del fenotipo non implica genoma normale: le linee in vitro di Papaioannou avevano cariotipi anomali. In circa 13 query PubMed non è stato trovato nessun lavoro che abbia sequenziato il genoma di cellule tumorali dopo reversione in embrione o in 3D: le analisi trovate sono cariotipiche, con marcatori genetici, epigenetiche o di espressione (controllo di un sotto-agente su titoli e abstract, non ricontrollato da me). Il teratocarcinoma è un tumore di origine embrionale, caso particolare e non generalizzabile ad altri carcinomi.",
+     "testo": "Reversione del fenotipo non implica genoma normale: le linee in vitro di Papaioannou avevano cariotipi anomali. In circa 13 query PubMed non è stato trovato nessun lavoro che abbia sequenziato il genoma di cellule tumorali dopo reversione in embrione o in 3D: le analisi trovate sono cariotipiche, con marcatori genetici, epigenetiche o di espressione (controllo di un sotto-agente su titoli e abstract, non ricontrollato in questa revisione). Il teratocarcinoma è un tumore di origine embrionale, caso particolare e non generalizzabile ad altri carcinomi.",
      "livello": "ipotesi",
      "fonte": null,
      "inferenza": true
@@ -189,7 +189,7 @@
      "composto": "PEGPH20 (ialuronidasi) + nab-paclitaxel/gemcitabina",
      "bersaglio": "matrice/acido ialuronico dello stroma pancreatico",
      "fase": "III (NCT02715804, registro)",
-     "esito": "terminato; risultati presenti nel registro (esito non riletto da me); una pubblicazione (da verificare) discute 'perché HALO 301 è fallito'",
+     "esito": "terminato; risultati presenti nel registro (esito non riletto in questa revisione); una pubblicazione (da verificare) discute 'perché HALO 301 è fallito'",
      "ragione": "'Sponsor decision' (testo del registro)",
      "fonte": {
       "tipo": "NCT",
@@ -243,7 +243,19 @@
       "tipo": "NCT",
       "id": "NCT00689221",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01044225",
+       "verificata": false
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT01558687",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "simtuzumab (anti-LOXL2) + gemcitabina",
@@ -287,7 +299,19 @@
       "tipo": "NCT",
       "id": "NCT01383538",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT00761696",
+       "verificata": false
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT01130142",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "galunisertib (LY2157299)",
@@ -299,7 +323,14 @@
       "tipo": "NCT",
       "id": "NCT01373164",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02154646",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "131I-sibrotuzumab",
@@ -386,25 +417,88 @@
      "domanda": "In un epitelio isogenico con un driver definito, l'invasione dipende dallo stato dello stroma (normale maturo, normale giovane o esposto a cancerogeno) più dell'effetto del driver stesso?",
      "verifica": "Parzialmente fatto, con cancerogeno e non con un driver definito: nel ratto lo stroma esposto a NMU è il bersaglio con trasformazione solo se esposto in vivo (PMID 14996910, riletto) e lo stroma maturo normalizza cellule neoplastiche, con incidenza di tumori dal 75% a 24 giorni al 18% a 150 giorni e 0% in nullipare due volte (PMID 16251424, non verificato). Non trovato: un disegno 2x2 con driver ingegnerizzato (TP53, PIK3CA) in 3D umano. La domanda originale era mal posta: 'stroma alterato' mescola esposizione a cancerogeno ed età o parità, che hanno effetti diversi, e 'stroma normale' non era definito.",
      "disegno": "Disegno fattoriale in 3D: epitelio isogenico con e senza driver (CRISPR) combinato con tre tipi di stroma definiti (fibroblasti normali giovani, normali maturi, esposti a cancerogeno); invasione, polarità, proliferazione ed EMT, con sequenziamento dell'epitelio.",
-     "falsificazione": "Si prespecifica un'interazione driver per stroma (analisi della varianza a due vie) e una soglia di effetto. Se l'epitelio mutante invade in modo equivalente in tutti gli stromi e l'epitelio normale non si trasforma in nessuno, la forma forte di TOFT è falsificata in quel modello; se l'invasione dipende solo dallo stroma e non dal driver, lo è la forma mutazionale forte; un'interazione significativa indica che servono entrambi."
+     "falsificazione": "Si prespecifica un'interazione driver per stroma (analisi della varianza a due vie) e una soglia di effetto. Se l'epitelio mutante invade in modo equivalente in tutti gli stromi e l'epitelio normale non si trasforma in nessuno, la forma forte di TOFT è falsificata in quel modello; se l'invasione dipende solo dallo stroma e non dal driver, lo è la forma mutazionale forte; un'interazione significativa indica che servono entrambi.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "14996910",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16251424",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "La trasformazione dell'epitelio da stroma esposto a cancerogeno compare in tessuti diversi dalla mammella, con organoidi epiteliali sani e senza mutazioni epiteliali oltre una soglia di rilevazione dichiarata?",
      "verifica": "Parzialmente fatto nel solo tessuto mammario di ratto, in vivo, con trapianto di cellule (PMID 14996910, riletto). Per vescica, intestino e altri tessuti con ricombinazione di organoidi: non trovato; nella vescica di ratto lo stroma esposto con urotelio normale non produce neoplasia (PMID 2304182, riletto). Il criterio originale 'senza mutazioni epiteliali rilevabili' era mal posto: l'esperimento di riferimento controllava un solo gene (Ha-ras) e non esclude mutazioni in altri geni.",
      "disegno": "Ricombinazione di organoidi epiteliali sani con fibroblasti e matrice esposti o no al cancerogeno, in almeno tre tessuti; trasformazione (crescita senza ancoraggio, invasione); sequenziamento profondo dell'epitelio prima e dopo, con frequenza allelica minima e copertura dichiarate, e barcode per la clonalità.",
-     "falsificazione": "Si dichiarano soglia di rilevazione e clonalità prima dell'esperimento. Se la trasformazione compare solo con esposizione diretta dell'epitelio, o se compaiono mutazioni epiteliali che la spiegano oltre la soglia, l'ipotesi stroma-primario non regge in quel tessuto; se compare solo con stroma esposto e senza mutazioni oltre la soglia, è sostenuta."
+     "falsificazione": "Si dichiarano soglia di rilevazione e clonalità prima dell'esperimento. Se la trasformazione compare solo con esposizione diretta dell'epitelio, o se compaiono mutazioni epiteliali che la spiegano oltre la soglia, l'ipotesi stroma-primario non regge in quel tessuto; se compare solo con stroma esposto e senza mutazioni oltre la soglia, è sostenuta.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "14996910",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "2304182",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Le cellule tumorali che regrediscono in un microambiente normale conservano le alterazioni genomiche e tornano maligne se rimesse in un contesto permissivo?",
      "verifica": "Parzialmente fatto, nel solo sistema murino degli anni '70: cellule di teratocarcinoma con cariotipo quasi normale hanno contribuito a tessuti normali in 3 mosaici su 14 analizzati (PMID 1059147, riletto); in cloni da singola cellula 'tutti i topi mosaico sono finora privi di teratomi', ma in un caso la cellula ha contribuito solo al pancreas e ha dato un tumore simile ad adenocarcinoma pancreatico (PMID 1061157, riletto). Non trovato: rimozione di cloni con fenotipo normale, rilascio in contesto permissivo con tumorigenicità seriale e confronto genomico sullo stesso clone. La domanda presupponeva un driver causale, che nel sistema del 1975 non era noto.",
      "disegno": "Cloni singoli di linee tumorali con barcode, portati in 3D o in embrione ex vivo; confronto genomico (WGS, numero di copie) prima e dopo sullo stesso clone; dissociazione e reimpianto in contesto permissivo con tumorigenicità seriale; controllo di cellule dissociate mai esposte al contesto normale.",
-     "falsificazione": "Falsificata se il cambio di fenotipo richiede variazioni genomiche nuove oltre il limite di rilevazione, o se le cellule rimesse a fenotipo normale non ridiventano mai tumorigeniche mentre quelle non riverse lo sono. Se lo stesso clone cambia fenotipo con il contesto senza nuove variazioni e torna maligno nel contesto permissivo, 'il fenotipo domina sul genotipo' è sostenuto."
+     "falsificazione": "Falsificata se il cambio di fenotipo richiede variazioni genomiche nuove oltre il limite di rilevazione, o se le cellule rimesse a fenotipo normale non ridiventano mai tumorigeniche mentre quelle non riverse lo sono. Se lo stesso clone cambia fenotipo con il contesto senza nuove variazioni e torna maligno nel contesto permissivo, 'il fenotipo domina sul genotipo' è sostenuto.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "1059147",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "1061157",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "L'esito della deplezione di sottopopolazioni di fibroblasti nel pancreas dipende più dall'identità del sottotipo o dall'organizzazione della matrice, a sottotipo fissato?",
      "verifica": "Parzialmente fatto in vivo: la deplezione di fibroblasti FAP+ aumenta la sopravvivenza mentre quella di alphaSMA+ la riduce, con accumulo di cellule T regolatorie e IL6 (PMID 35348629, riletto); la deplezione di miofibroblasti alphaSMA+ accelera il tumore (PMID 24856586, riletto); la deplezione di miofibroblasti senescenti ritarda la progressione (PMID 38683144, riletto), mentre per LRRC15+ e per il collagene dei miofibroblasti nelle metastasi esistono lavori non verificati (PMID 36171287, 33905375). La discordanza fra alphaSMA+ e senescenti può dipendere da metodo di deplezione, stadio e sovrapposizione delle popolazioni: inferenza di questa revisione. Non trovato: co-colture di organoidi con sottopopolazioni purificate, con e senza linfociti T, che misurino invasione, conversione in Treg e risposta ai farmaci. La domanda originale era un falso dilemma e non discriminava TOFT da altre teorie.",
      "disegno": "Co-colture di organoidi PDAC con sottopopolazioni purificate di fibroblasti (alphaSMA+, FAP+, senescenti) con e senza linfociti T; matrice con organizzazione normalizzata o alterata a sottotipo fisso; scRNA-seq o lineage tracing per verificare la specificità della deplezione; invasione, EMT, conversione in Treg e risposta ai farmaci.",
-     "falsificazione": "Soglia fissata prima dell'esperimento. Se l'identità del sottotipo spiega la maggior parte della varianza dell'invasione in tutte le condizioni di matrice, TOFT è sfavorita su questo esito; se l'organizzazione della matrice spiega più varianza del sottotipo, è sostenuta; se contano entrambi in modo indipendente, le due letture non si escludono."
+     "falsificazione": "Soglia fissata prima dell'esperimento. Se l'identità del sottotipo spiega la maggior parte della varianza dell'invasione in tutte le condizioni di matrice, TOFT è sfavorita su questo esito; se l'organizzazione della matrice spiega più varianza del sottotipo, è sostenuta; se contano entrambi in modo indipendente, le due letture non si escludono.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35348629",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "24856586",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38683144",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "36171287",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "33905375",
+       "verificata": false
+      }
+     ]
     }
    ],
    "parametri": [
@@ -445,7 +539,7 @@
   {
    "id": "bioelettricita",
    "name": "Bioelettricità e potenziale di membrana (cornice di Michael Levin)",
-   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Giro 1: 6 PMID riletti da me su PubMed e 6 record del registro. Giro 2: altri 17 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti perché l'abstract non sosteneva tutto). Giro 3: quattro affermazioni negative controllate in modo indipendente con circa 45 query (tutte confermate nei limiti della ricerca) e record del registro riletti. Restano non verificati gli identificativi non ancora riletti e i dati senza identificativo. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti da me; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
+   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Giro 1: 6 PMID riletti in questa revisione su PubMed e 6 record del registro. Giro 2: altri 17 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti perché l'abstract non sosteneva tutto). Giro 3: quattro affermazioni negative controllate in modo indipendente con circa 45 query (tutte confermate nei limiti della ricerca) e record del registro riletti. Restano non verificati gli identificativi non ancora riletti e i dati senza identificativo. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti in questa revisione; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
    "normale": [
     {
      "testo": "Il potenziale di membrana a riposo (Vmem) regola il differenziamento: nelle cellule staminali mesenchimali umane l'iperpolarizzazione accompagna il differenziamento osteogenico e adipogenico e la depolarizzazione lo impedisce. Dato in vitro, del gruppo Levin.",
@@ -726,7 +820,14 @@
       "tipo": "NCT",
       "id": "NCT01480050",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02202993",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "SOR-C13",
@@ -738,7 +839,19 @@
       "tipo": "PMID",
       "id": "28150073",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01578564",
+       "verificata": false
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT03784677",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "approcci 'bioelettrici' veri e propri (iperpolarizzazione trasgenica, optogenetica, normalizzazione di Vmem)",
@@ -761,7 +874,7 @@
      "prova": "clinica/genetica"
     },
     {
-     "testo": "Il blocco del canale hERG è il meccanismo principale del prolungamento del QT indotto da farmaci (rassegna di farmacologia; non letta da me).",
+     "testo": "Il blocco del canale hERG è il meccanismo principale del prolungamento del QT indotto da farmaci (rassegna di farmacologia).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -841,25 +954,88 @@
      "domanda": "L'iperpolarizzazione normalizza una proliferazione guidata da KRAS in epitelio di mammifero con tumori istologicamente definiti, separando l'effetto del potenziale da quello del flusso ionico?",
      "verifica": "Parzialmente fatto nel girino: l'iperpolarizzazione riduce le strutture tumorali KRAS (PMID 23471912, 24830454, riletti) e l'optogenetica ne aumenta la regressione dopo la formazione (PMID 26988909, riletto); nel mammifero la depolarizzazione potenzia il raggruppamento di K-Ras e la via MAPK in cellule non tumorali (PMID 26293964, riletto). Non trovato: un organoide epiteliale di mammifero con KRAS inducibile e iperpolarizzazione, con istologia. Un controllo di pH elettroneutro è descritto in un lavoro non verificato (PMID 23519324).",
      "disegno": "Organoidi epiteliali isogenici con KRAS G12D inducibile (murini e umani), iperpolarizzati con canale o optogenetica (Arch), con controllo elettroneutro del pH; misura di Vmem, proliferazione, invasione, fosfo-ERK e istologia; prevenzione (iperpolarizzazione prima dell'induzione) distinta da normalizzazione (dopo la formazione).",
-     "falsificazione": "Si fissano prima l'effetto minimo e il numero di linee. Se Vmem risulta ripristinato ma proliferazione, invasione e fosfo-ERK non cambiano oltre l'effetto minimo in almeno tre linee indipendenti, l'effetto non si trasferisce al mammifero; il controllo elettroneutro separa l'effetto del potenziale da quello del flusso ionico."
+     "falsificazione": "Si fissano prima l'effetto minimo e il numero di linee. Se Vmem risulta ripristinato ma proliferazione, invasione e fosfo-ERK non cambiano oltre l'effetto minimo in almeno tre linee indipendenti, l'effetto non si trasferisce al mammifero; il controllo elettroneutro separa l'effetto del potenziale da quello del flusso ionico.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "23471912",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "24830454",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "26988909",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "26293964",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "23519324",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "Quale frazione della segnalazione MAPK indotta da KRAS dipende dal potenziale di membrana, e il potenziale cambia prima del raggruppamento di K-Ras?",
      "verifica": "Parzialmente fatto, in sistemi diversi: nel mammifero la depolarizzazione aumenta il raggruppamento di K-Ras e il MAPK e la ripolarizzazione li riduce (PMID 26293964, riletto); nel girino la depolarizzazione è già presente nelle strutture indotte da KRAS e nei siti precursori (PMID 23471912, riletto). Non trovato: clamp del potenziale in cellule di mammifero con KRAS inducibile, con misura nello stesso sistema di raggruppamento, MAPK e proliferazione. La domanda originale 'causa necessaria o conseguenza' era mal posta: i dati indicano un accoppiamento bidirezionale e un test binario rischia falsi negativi con effetti parziali.",
      "disegno": "Cellule con KRAS G12D inducibile e registrazione continua di Vmem; clamp (patch-clamp o optogenetica) a valori iperpolarizzati e depolarizzati prima e dopo l'induzione; misura nel tempo di raggruppamento di K-Ras, MAPK e proliferazione, per stimare la frazione dipendente da Vmem e l'ordine temporale.",
-     "falsificazione": "Si fissa prima una soglia per la frazione. Se il clamp iperpolarizzante riduce il MAPK indotto da KRAS meno della soglia in almeno due linee e il cambio di Vmem non precede quello del raggruppamento, la dipendenza è respinta; se la frazione supera la soglia, Vmem modula il guadagno di KRAS."
+     "falsificazione": "Si fissa prima una soglia per la frazione. Se il clamp iperpolarizzante riduce il MAPK indotto da KRAS meno della soglia in almeno due linee e il cambio di Vmem non precede quello del raggruppamento, la dipendenza è respinta; se la frazione supera la soglia, Vmem modula il guadagno di KRAS.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "26293964",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "23471912",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Nei cloni oncogenici di epitelio di mammifero in co-coltura, la depolarizzazione selettiva del clone (rispetto ai vicini) ne causa l'eliminazione o l'espansione, e questo passa per Smoothened e Hedgehog?",
      "verifica": "Parzialmente fatto, e la domanda originale univa due affermazioni: la depolarizzazione dei cloni scribble-deficienti in Drosophila e in cellule MDCK stabilizza Smoothened e attiva Hedgehog, con eliminazione dei cloni (PMID 42190941, riletto); nel disco alare di Drosophila la depolarizzazione promuove la localizzazione di Smoothened e rafforza Hh indipendentemente da Patched (PMID 33629503, riletto). Non trovato: cloni KRAS in epitelio di mammifero sottoposti a depolarizzazione, né espansione per depolarizzazione nello stesso sistema. L'abstract su MDCK è troncato: i dettagli sui cloni di mammifero vanno verificati sul testo completo.",
      "disegno": "MDCK con scribble ridotto o KRAS inducibile in co-coltura a mosaico; depolarizzazione solo nei cloni o solo nei vicini (canali o optogenetica); misura di vincita o perdita del clone; inibitore di Smo o knockdown di Smo o Hh per testare la necessità.",
-     "falsificazione": "Se l'eliminazione avviene anche quando si depolarizzano solo i vicini, il meccanismo non è autonomo del clone ma di competizione; se con KRAS la depolarizzazione dà espansione, il segno dell'effetto dipende dal contesto genetico e la domanda va separata in due; se l'inibizione di Smo non blocca l'eliminazione, Hh non è necessario."
+     "falsificazione": "Se l'eliminazione avviene anche quando si depolarizzano solo i vicini, il meccanismo non è autonomo del clone ma di competizione; se con KRAS la depolarizzazione dà espansione, il segno dell'effetto dipende dal contesto genetico e la domanda va separata in due; se l'inibizione di Smo non blocca l'eliminazione, Hh non è necessario.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42190941",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "33629503",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "La proliferazione e la via STAT3/p53 mediate da Kv1.3 (melanoma) e da Kv1.2 (sarcoma di Ewing) richiedono la conduzione di potassio o solo la presenza della proteina, distinguendo membrana plasmatica e mitocondrio?",
      "verifica": "Non trovato per il disegno con mutanti non conduttivi. Esistono il knockout di Kv1.3 in melanoma, con riduzione di proliferazione e crescita tumorale e via STAT3-p53 (PMID 39231216, riletto), e il silenziamento di KCNA2 nel sarcoma di Ewing con riduzione di proliferazione e modulazione di YAP/Hippo (PMID 39695664, riletto). La domanda originale univa due canali diversi (KCNA2 codifica Kv1.2, non Kv1.3) e la pool mitocondriale di Kv1.3 è un confondente.",
      "disegno": "Knockout e ri-espressione con canale selvatico o mutanti non conduttivi del poro (es. filtro di selettività) per Kv1.3 e per Kv1.2 separatamente, con verifica di espressione e localizzazione (membrana plasmatica o mitocondrio); proliferazione, fosfo-STAT3, p53 e YAP.",
-     "falsificazione": "Se il mutante non conduttivo, con espressione e localizzazione verificate, non recupera il fenotipo, la funzione è conduttiva; se lo recupera, agisce come proteina di segnalazione. Se il mutante è mal espresso o mal localizzato, il risultato non è interpretabile e il criterio è condizionato a questa verifica."
+     "falsificazione": "Se il mutante non conduttivo, con espressione e localizzazione verificate, non recupera il fenotipo, la funzione è conduttiva; se lo recupera, agisce come proteina di segnalazione. Se il mutante è mal espresso o mal localizzato, il risultato non è interpretabile e il criterio è condizionato a questa verifica.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39231216",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39695664",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
@@ -896,7 +1072,7 @@
   {
    "id": "meccanobiologia",
    "name": "Meccanobiologia: rigidità della matrice e YAP/TAZ",
-   "note": "Bozza v0. L'affermazione di partenza ('un tessuto più rigido favorisce l'invasione tumorale tramite YAP/TAZ') regge solo in parte: la rigidità è confusa con reticolazione del collagene, adesione alle integrine, densità, allineamento delle fibre e viscoelasticità; esistono controesempi in vitro e in vivo; nel fegato la viscoelasticità promuove il tumore indipendentemente dalla rigidità; LOXL2 favorisce metastasi senza modificare la rigidità; in un modello mammario YAP sopprime le metastasi. Una pubblicazione sulla fissione mitocondriale come regolatore di YAP/TAZ risulta 'Retracted' in PubMed ed è esclusa. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro ClinicalTrials.gov (marcati 'verificata'); Giro 2: altri 15 PMID confrontati con gli abstract da un sotto-agente Haiku (9 testi corretti perché l'abstract non sosteneva tutto; le parti non verificate sono state spostate in voci separate marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 35 query e record del registro riletti. Esito: (A) confermata in modo provvisorio; (B) smentita per il glioblastoma, confermata in modo provvisorio per il pancreas; (C) smentita (knockout di YAP in cancro mammario che non riduce l'invasione); (D) attenuata. Il risultato indebolisce ulteriormente il nesso rigidità → YAP/TAZ → invasione come regola generale. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti da me; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
+   "note": "Bozza v0. L'affermazione di partenza ('un tessuto più rigido favorisce l'invasione tumorale tramite YAP/TAZ') regge solo in parte: la rigidità è confusa con reticolazione del collagene, adesione alle integrine, densità, allineamento delle fibre e viscoelasticità; esistono controesempi in vitro e in vivo; nel fegato la viscoelasticità promuove il tumore indipendentemente dalla rigidità; LOXL2 favorisce metastasi senza modificare la rigidità; in un modello mammario YAP sopprime le metastasi. Una pubblicazione sulla fissione mitocondriale come regolatore di YAP/TAZ risulta 'Retracted' in PubMed ed è esclusa. Giro 1 di verifica: 6 PMID riletti in questa revisione su PubMed e 7 record del registro ClinicalTrials.gov (marcati 'verificata'); Giro 2: altri 15 PMID confrontati con gli abstract da un sotto-agente Haiku (9 testi corretti perché l'abstract non sosteneva tutto; le parti non verificate sono state spostate in voci separate marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 35 query e record del registro riletti. Esito: (A) confermata in modo provvisorio; (B) smentita per il glioblastoma, confermata in modo provvisorio per il pancreas; (C) smentita (knockout di YAP in cancro mammario che non riduce l'invasione); (D) attenuata. Il risultato indebolisce ulteriormente il nesso rigidità → YAP/TAZ → invasione come regola generale. Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 100 query) per vedere se gli esperimenti fossero già stati fatti; sei lavori chiave riletti in questa revisione; tutte risultano 'parzialmente fatte o non trovate' e sono state riformulate, con le domande mal poste corrette.",
    "normale": [
     {
      "testo": "YAP e TAZ agiscono da relè nucleari dei segnali meccanici di rigidità della matrice e forma cellulare: la regolazione richiede attività delle Rho GTPasi e tensione dell'actomiosina ed è indipendente dalla cascata Hippo/LATS; sono necessari per il differenziamento delle cellule staminali mesenchimali indotto dalla rigidità.",
@@ -1024,7 +1200,14 @@
        "id": "21654799",
        "verificata": true
       },
-      "prova": "sperimentale"
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "30135582",
+        "verificata": false
+       }
+      ]
      },
      {
       "testo": "Controesempio alla rigidità come causa: topi Fn1;PyMT con sito sinergico della fibronectina mutato hanno insorgenza tumorale ritardata e organoidi di cellule luminali su fibronectina rigida mostrano meno tratti invasivi.",
@@ -1044,7 +1227,14 @@
        "id": "35957513",
        "verificata": false
       },
-      "prova": "sperimentale"
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "26331248",
+        "verificata": false
+       }
+      ]
      },
      {
       "testo": "Densità del collagene: più collagene stromale nel topo aumenta la formazione tumorale di circa tre volte e le metastasi polmonari di circa tre volte; l'abstract non misura la rigidità.",
@@ -1064,7 +1254,19 @@
        "id": "17190588",
        "verificata": false
       },
-      "prova": "sperimentale"
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "30554026",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "25030168",
+        "verificata": false
+       }
+      ]
      },
      {
       "testo": "Nel muscolo liscio adulto il doppio knockout di YAP/TAZ è letale entro 2 settimane per pseudo-ostruzione colica; gli autori definiscono YAP e TAZ 'mutually redundant'. Studi con singolo knockout in un modello di invasione a rigidità controllata e fenotipo quantificato: fonte non reperita.",
@@ -1084,7 +1286,14 @@
        "id": "37556373",
        "verificata": false
       },
-      "prova": "genetica"
+      "prova": "genetica",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "32994166",
+        "verificata": false
+       }
+      ]
      },
      {
       "testo": "In carcinoma epatocellulare la rigidità induce invadopodi via integrina-beta1/RhoA/ROCK1 e Piezo1/calcio/MLCK, con Src come nodo comune; l'abstract non misura YAP/TAZ, quindi l'indipendenza non è dimostrata.",
@@ -1127,7 +1336,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Rottura del paradigma in cancro mammario: secondo gli autori la meccanotrasduzione avviene indipendentemente da YAP in campioni di pazienti e colture 3D a rigidità regolabile; l'assenza di attività di YAP in 3D e in vivo si associa alla mancanza di fibre da stress e a una riduzione di circa un ordine di grandezza dell'area nucleare rispetto alla coltura 2D. Dal testo completo letto da un sotto-agente: il knockout inducibile di YAP in MCF10A in matrici a 2 e 20 kPa non riduce l'invasione indotta dalla rigidità (non rilevato da me; TAZ non testato come knockout). Il modello è mammario, non glioblastoma o pancreas.",
+      "testo": "Rottura del paradigma in cancro mammario: secondo gli autori la meccanotrasduzione avviene indipendentemente da YAP in campioni di pazienti e colture 3D a rigidità regolabile; l'assenza di attività di YAP in 3D e in vivo si associa alla mancanza di fibre da stress e a una riduzione di circa un ordine di grandezza dell'area nucleare rispetto alla coltura 2D. Dal testo completo letto da un sotto-agente: il knockout inducibile di YAP in MCF10A in matrici a 2 e 20 kPa non riduce l'invasione indotta dalla rigidità (non rilevato in questa revisione; TAZ non testato come knockout). Il modello è mammario, non glioblastoma o pancreas.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
@@ -1169,7 +1378,29 @@
      {
       "testo": "Assenze al terzo giro (circa 35 query PubMed, nei limiti della ricerca): (A) nessun lavoro trovato che mostri la correlazione fra rigidità misurata (AFM, elastografia o reologia) e localizzazione nucleare di YAP/TAZ nello stesso campione tumorale umano; due lavori vicini (PMID 41634388 sul pancreas con elastografia, PMID 41850468 sul carcinoma squamoso cutaneo) richiedono il testo completo; (B) il test diretto della rigidità sull'invasione con matrici a rigidità controllata esiste per il glioblastoma (vedi sopra) ma per il pancreas non risulta nei dati consultati; (C) esiste almeno un knockout singolo di YAP in modello a rigidità controllata con invasione quantificata (mammella, Lee 2019); un knockout singolo di TAZ non è stato trovato; (D) non risulta uno studio che dimostri esplicitamente RhoA/ROCK, calcio, NF-kB o p38 come vie indipendenti da YAP/TAZ: RhoA/ROCK/MLCK sono collegati alla motilità dipendente dalla rigidità nel glioblastoma senza misura di YAP/TAZ e il calcio è riportato a monte di YAP (PMID 40667648, 39490703, non verificati). Sono buchi nella letteratura cercata, non prova di assenza.",
       "livello": "ipotesi",
-      "fonte": null
+      "fonte": null,
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "41634388",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "41850468",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "40667648",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "39490703",
+        "verificata": false
+       }
+      ]
      }
     ]
    },
@@ -1184,7 +1415,14 @@
       "tipo": "NCT",
       "id": "NCT01472198",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28246206",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "simtuzumab + FOLFIRI",
@@ -1196,7 +1434,14 @@
       "tipo": "NCT",
       "id": "NCT01479465",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28246207",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "simtuzumab",
@@ -1268,7 +1513,14 @@
       "tipo": "PMID",
       "id": "41111090",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04665206",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "BPI-460372 (inibitore della palmitoilazione di TEAD)",
@@ -1475,25 +1727,103 @@
      "domanda": "A parità degli altri due fattori, l'invasione dipende dal modulo elastico, dal rilassamento dello stress o dalla densità della matrice, per ciascun esito (migrazione singola, invasione di sferoidi)?",
      "verifica": "Parzialmente fatto: in idrogeli di alginato e collagene con rigidità, rilassamento e densità regolabili in modo indipendente, in cellule mammarie, l'invasione di sferoidi è favorita da alta rigidità, rilassamento veloce e alta densità, mentre la migrazione di singola cellula è massima con alta rigidità, bassa densità e rilassamento lento; l'effetto passa per Sp1 e non per YAP (PMID 41106320, riletto). Nel fegato la viscoelasticità promuove l'invasione a rigidità invariata via integrina-beta1-tensina-1-YAP (PMID 38297127, riletto). Nel glioblastoma esistono risultati in conflitto sulla direzione del rilassamento (PMID 42627894, 42875926, 41820485, non verificati). Non trovato: il disegno fattoriale completo in più tessuti con misura di YAP/TAZ nucleare e fosfo-FAK. La domanda originale era mal posta perché 'invasione' include esiti che vanno in direzioni diverse a pari gel.",
      "disegno": "Idrogel 3D regolabili con disegno fattoriale su modulo, tempo di rilassamento e densità; linee di mammella, fegato, pancreas e glioblastoma; un esito primario scelto prima per ciascuna linea (migrazione singola o invasione di sferoidi); YAP/TAZ nucleare, fosfo-FAK e Sp1 come mediatori.",
-     "falsificazione": "L'effetto principale del modulo a rilassamento e densità fissi, con intervallo di confidenza, si valuta per ciascun esito. Se l'invasione segue solo il rilassamento o la densità e non cambia con il modulo, 'la rigidità favorisce l'invasione' è falsificata in quel modello; se cresce con il modulo indipendentemente dalle altre due, è sostenuta."
+     "falsificazione": "L'effetto principale del modulo a rilassamento e densità fissi, con intervallo di confidenza, si valuta per ciascun esito. Se l'invasione segue solo il rilassamento o la densità e non cambia con il modulo, 'la rigidità favorisce l'invasione' è falsificata in quel modello; se cresce con il modulo indipendentemente dalle altre due, è sostenuta.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41106320",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "38297127",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42627894",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42875926",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "41820485",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "YAP e TAZ sono necessari per l'invasione indotta dalla rigidità nei tumori diversi dal mammario? (domanda separata: TAZ da solo e il doppio knockout cambiano il risultato osservato per YAP?)",
      "verifica": "Parzialmente fatto: in cancro mammario la meccanotrasduzione avviene indipendentemente da YAP (PMID 31015465, riletto); in fegato c'è dipendenza da YAP (PMID 38297127, riletto) e un knockdown di YAP attenua in parte l'effetto in HCC a rigidità controllata (PMID 42983723, non verificato); nel pancreas YAP1 guida la conversione dei CAF e la rigidità stromale, non l'invasione delle cellule tumorali (PMID 41634388, non verificato). Non trovato: knockout di YAP1, WWTR1 e doppio su linee di fegato, pancreas e glioblastoma con invasione misurata a rigidità controllata. La domanda originale univa due questioni, e fissare la viscoelasticità presupponeva che il rilassamento non agisse tramite YAP, mentre nel fegato agisce tramite YAP.",
      "disegno": "Linee isogeniche con knockout di YAP1, di WWTR1 e doppio (CRISPR), con ri-espressione di mutanti; due bracci: rigidità variabile a rilassamento fisso, e rilassamento variabile a rigidità fissa; esito primario scelto prima; localizzazione nucleare e trascrittoma; confronto con il risultato mammario.",
-     "falsificazione": "Se i knockout invadono almeno quanto le parentali a rigidità alta in due o più tessuti, YAP/TAZ non sono necessari in quei tessuti; se l'invasione cala solo nel doppio knockout, c'è ridondanza fra i paraloghi; se il rilassamento agisce tramite YAP ma la rigidità no, le due vie vanno separate."
+     "falsificazione": "Se i knockout invadono almeno quanto le parentali a rigidità alta in due o più tessuti, YAP/TAZ non sono necessari in quei tessuti; se l'invasione cala solo nel doppio knockout, c'è ridondanza fra i paraloghi; se il rilassamento agisce tramite YAP ma la rigidità no, le due vie vanno separate.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31015465",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38297127",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42983723",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "41634388",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "Quale frazione della repressione di YAP/TAZ a bassa rigidità passa per RAP2→LATS1/2 e quale per vie indipendenti da LATS?",
      "verifica": "Parzialmente fatto, e la domanda originale era mal posta come alternativa: nel modello RAP2 la bassa rigidità attiva RAP2, che attiva LATS1/2 e inibisce YAP/TAZ; la delezione di RAP2 blocca la regolazione di YAP/TAZ da parte della rigidità, e la delezione di YAP e TAZ abolisce il trascrittoma sensibile alla rigidità (PMID 30135582, riletto). Una via indipendente da LATS legata alla rigidità è descritta in fibroblasti polmonari (TBK1, PMID 32159970, non verificato). Non trovato: il confronto diretto fra knockout di LATS1/2 e di RAP2 su gel a rigidità graduata in cellule tumorali.",
      "disegno": "Cellule tumorali con knockout di LATS1/2, di RAP2, di entrambi e di TBK1 su gel di rigidità graduata; localizzazione, fosforilazione e attività trascrizionale di YAP/TAZ.",
-     "falsificazione": "Il modello RAP2-LATS prevede che il knockout di LATS1/2 e quello di RAP2 aboliscano entrambi la risposta a bassa rigidità; il modello indipendente da LATS prevede che il knockout di LATS1/2 non la abolisca. Se la risposta persiste nei knockout di LATS1/2 e di RAP2, c'è una terza via; la frazione si stima dal residuo."
+     "falsificazione": "Il modello RAP2-LATS prevede che il knockout di LATS1/2 e quello di RAP2 aboliscano entrambi la risposta a bassa rigidità; il modello indipendente da LATS prevede che il knockout di LATS1/2 non la abolisca. Se la risposta persiste nei knockout di LATS1/2 e di RAP2, c'è una terza via; la frazione si stima dal residuo.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "30135582",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "32159970",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "Quale frazione dell'invasione dipendente dalla rigidità sopravvive al blocco di YAP/TAZ, e attraverso quale via (MRTF/SRF, lamina A, Piezo1)?",
      "verifica": "Parzialmente fatto, senza il blocco combinatorio: nel glioblastoma YAP serve a migrazione e invasione, MRTF-A all'adesione, entrambi alla proliferazione (PMID 29887596, non verificato); nel cancro mammario S1P attiva in parallelo MRTF-A e YAP (PMID 30844311, non verificato); in vescica compare un compenso Piezo1-integrina in una sola linea (PMID 42473352, non verificato). Non trovato: il disegno combinatorio su gel rigidi con invasione e trascrittoma. La domanda originale presupponeva un sostituto e il criterio era invertito: un effetto non additivo del doppio blocco indica che le vie stanno nella stessa catena, non che non c'è ridondanza.",
      "disegno": "Gel rigidi e morbidi; knockout di YAP/TAZ con inibizione di MRTF, di Piezo1 o riduzione di lamina A, a singolo e combinato; invasione e trascrittoma; esposizione cronica a un inibitore di TEAD.",
-     "falsificazione": "Tre criteri separati: ridondanza se ciascun blocco singolo ha effetto piccolo e il doppio ha effetto molto maggiore (sinergia); epistasi (stessa catena) se il doppio non aggiunge nulla al singolo; compenso se dopo il blocco singolo aumenta un esito alternativo. Se l'invasione residua dopo il blocco di YAP/TAZ è trascurabile, non serve cercare un sostituto."
+     "falsificazione": "Tre criteri separati: ridondanza se ciascun blocco singolo ha effetto piccolo e il doppio ha effetto molto maggiore (sinergia); epistasi (stessa catena) se il doppio non aggiunge nulla al singolo; compenso se dopo il blocco singolo aumenta un esito alternativo. Se l'invasione residua dopo il blocco di YAP/TAZ è trascurabile, non serve cercare un sostituto.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29887596",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30844311",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42473352",
+       "verificata": false
+      }
+     ]
     }
    ],
    "parametri": [
@@ -1534,7 +1864,7 @@
   {
    "id": "attrattori",
    "name": "Paesaggio di Waddington e teoria degli attrattori (Kauffman, Huang)",
-   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); Giro 2: altri 14 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti; tre affermazioni erano attribuite al PMID sbagliato e sono state spostate in voci separate con il PMID corretto, marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 25 query e record del registro riletti. Esito: (A) confermata con limitazione (isteresi osservata solo in vitro); (B) confermata sul campione recuperato; (C) attenuata (una rassegna del 2026 limita esplicitamente il quasi-potenziale di Waddington e indica criteri per distinguere attrattori da cluster; critica dedicata non trovata); (D) smentita (esistono studi randomizzati con retinoidi in tumori solidi, con benefici modesti e non uniformi, e una meta-analisi senza miglioramento di sopravvivenza). Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 60 query) per vedere se gli esperimenti erano già stati fatti; sette lavori chiave riletti da me; tutte e quattro risultano 'parzialmente fatte' e sono state riformulate (la domanda sul biomarcatore di tamibarotene era mal posta).",
+   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti in questa revisione su PubMed e 7 record del registro (marcati 'verificata'); Giro 2: altri 14 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti; tre affermazioni erano attribuite al PMID sbagliato e sono state spostate in voci separate con il PMID corretto, marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 25 query e record del registro riletti. Esito: (A) confermata con limitazione (isteresi osservata solo in vitro); (B) confermata sul campione recuperato; (C) attenuata (una rassegna del 2026 limita esplicitamente il quasi-potenziale di Waddington e indica criteri per distinguere attrattori da cluster; critica dedicata non trovata); (D) smentita (esistono studi randomizzati con retinoidi in tumori solidi, con benefici modesti e non uniformi, e una meta-analisi senza miglioramento di sopravvivenza). Passo 6 verificato contro la letteratura: le quattro domande sono state controllate con sotto-agenti (circa 60 query) per vedere se gli esperimenti erano già stati fatti; sette lavori chiave riletti in questa revisione; tutte e quattro risultano 'parzialmente fatte' e sono state riformulate (la domanda sul biomarcatore di tamibarotene era mal posta).",
    "normale": [
     {
      "testo": "Rassegna (Front Genet 2015) che riformula il paesaggio di Waddington come paesaggio di attrattori epigenetici di reti di regolazione genica: gli stati stabili sono interpretati come stati di destino cellulare e la rete limita le transizioni più probabili fra stati. Posizione teorica e computazionale.",
@@ -1819,7 +2149,14 @@
       "tipo": "PMID",
       "id": "40334070",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04797780",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "tamibarotene + venetoclax + azacitidina",
@@ -1831,7 +2168,14 @@
       "tipo": "PMID",
       "id": "42761251",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04905407",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "tamibarotene + azacitidina (SY-1425)",
@@ -1855,7 +2199,19 @@
       "tipo": "NCT",
       "id": "NCT02177812",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02929498",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT02034123",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "brequinar",
@@ -1903,13 +2259,20 @@
       "tipo": "PMID",
       "id": "32380538",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02074839",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "ATRA + triossido di arsenico (APL); inibitori IDH (AML); isotretinoina (neuroblastoma)",
      "bersaglio": "differenziamento",
      "fase": "vari (rassegne e studi riportati dai sotto-agenti)",
-     "esito": "APL: successo clinico con remissioni elevate (secondo rassegne e uno studio di fase 2); inibitori IDH: CR 47% nei nuovi diagnosticati e 21% nei recidivati/refrattari in una meta-analisi, con beneficio di sopravvivenza discusso; isotretinoina: EFS a 5 anni 70% contro 63% (P=0,67) nel sottogruppo ad alto rischio analizzato. Tutti non verificati da me",
+     "esito": "APL: successo clinico con remissioni elevate (secondo rassegne e uno studio di fase 2); inibitori IDH: CR 47% nei nuovi diagnosticati e 21% nei recidivati/refrattari in una meta-analisi, con beneficio di sopravvivenza discusso; isotretinoina: EFS a 5 anni 70% contro 63% (P=0,67) nel sottogruppo ad alto rischio analizzato. Tutti non verificati in questa revisione",
      "ragione": "varie",
      "fonte": null
     },
@@ -1935,7 +2298,14 @@
       "tipo": "NCT",
       "id": "NCT02929498",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02034123",
+       "verificata": false
+      }
+     ]
     },
     {
      "composto": "pinometostat + chemioterapia standard",
@@ -2110,25 +2480,128 @@
      "domanda": "Gli stati fenotipici tumorali sono attrattori stabili multipli con memoria della storia, oppure l'isteresi osservata nasce da rilassamento lento o da rumore di ripartizione alla divisione?",
      "verifica": "Parzialmente fatto. Isteresi o memoria sono documentate in più sistemi: traiettoria isteretica in melanoma BRAF-mutato dopo inibizione dell'oncogene e rilascio, con campioni di pazienti (PMID 41986344, riletto); EMT mammaria con repressione isteretica della E-caderina (PMID 30479345, non verificato); TNBC in PDX con isteresi nel ritorno dopo il farmaco (PMID 39026273, non verificato); organoidi colorettali con memoria di resistenza ai farmaci mirati e plasticità transitoria alla chemioterapia (PMID 40499006, non verificato). Un modello mostra che l'isteresi a livello di popolazione può nascere dal rumore di ripartizione alla divisione, senza bistabilità intracellulare (PMID 32040502, riletto). Non trovato: due stati stabili coesistenti alle stesse condizioni, isteresi su sottopopolazioni marcate con barcode e time-lapse, tassi di transizione dipendenti dalla storia.",
      "disegno": "Linea con due stati marcati da reporter (es. melanoma MITF-alto e AXL-alto), barcode lentivirale e time-lapse a singola cellula; rampa di perturbazione in salita e in discesa a più velocità, con repliche indipendenti; per ogni stato, tasso di transizione condizionato alla storia (dose massima, durata, tempo dal ritiro); confronto di cellule che raggiungono la stessa dose da direzioni opposte; correlazione di stato fra cellule figlie e misura della ripartizione di molecole alla divisione.",
-     "falsificazione": "H0 (nessuna memoria né bistabilità): le frazioni di stato coincidono in salita e in discesa alla stessa dose, i tassi di uscita non dipendono dalla storia e il rilassamento è esponenziale. H1 (isteresi con memoria): l'area del ciclo supera il rumore di replica e non si chiude per rampe lente, i tassi dipendono dalla storia oltre il tempo di rilassamento più rapido, le cellule figlie condividono la storia. H2 (rilassamento lento senza bistabilità): il ciclo si chiude con rampe abbastanza lente e la memoria scompare dopo un'attesa libera da farmaco. H3 (rumore di ripartizione): la storia della singola cellula non predice lo stato futuro quando si condiziona sul rapporto di ripartizione. Senza la rampa lenta e la correlazione fra cellule figlie un risultato negativo non distingue H0 da H2 o H3."
+     "falsificazione": "H0 (nessuna memoria né bistabilità): le frazioni di stato coincidono in salita e in discesa alla stessa dose, i tassi di uscita non dipendono dalla storia e il rilassamento è esponenziale. H1 (isteresi con memoria): l'area del ciclo supera il rumore di replica e non si chiude per rampe lente, i tassi dipendono dalla storia oltre il tempo di rilassamento più rapido, le cellule figlie condividono la storia. H2 (rilassamento lento senza bistabilità): il ciclo si chiude con rampe abbastanza lente e la memoria scompare dopo un'attesa libera da farmaco. H3 (rumore di ripartizione): la storia della singola cellula non predice lo stato futuro quando si condiziona sul rapporto di ripartizione. Senza la rampa lenta e la correlazione fra cellule figlie un risultato negativo non distingue H0 da H2 o H3.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41986344",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30479345",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "39026273",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "40499006",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "32040502",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "Un trattamento differenziante sposta le cellule leucemiche verso la traiettoria normale o verso un nuovo stato anomalo, misurato come distanza da una mappa di riferimento dell'emopoiesi normale?",
      "verifica": "Parzialmente fatto. Esistono singole componenti: scRNA-seq e scATAC-seq dopo ATRA nella linea APL NB4 con traiettoria verso la granulopoiesi (PMID 39984714, non verificato); in leucemie non APL una barriera metabolica blocca la maturazione terminale dopo ATRA (PMID 42116148, non verificato); un inibitore di LSD1 in cellule AML e nel topo fa accumulare progenitori di megacariociti con tratti staminali, non verso lo stato maturo normale (PMID 32422235, riletto); recidive con ivosidenib associate a cloni con ritardo di differenziamento in 8 pazienti (PMID 41191518, non verificato). Non trovato: distanza quantificata dalla traiettoria normale in più modelli e con più classi di farmaco; persistenza della mutazione nelle cellule mature a singola cellula dopo trattamento. Le prove disponibili sono compatibili con entrambe le ipotesi.",
      "disegno": "Almeno tre modelli (linea APL NB4, linea non APL, cellule primarie o PDX IDH-mutate con inibitore IDH, primarie con inibitore di LSD1); scRNA-seq a più punti (0, 3, 7, 14 giorni) separando cellule mature e immature; proiezione su un atlante emopoietico normale comune; metrica di distanza dalla curva di pseudotempo normale, con controllo della distanza fra stato normale e leucemico non trattato perché la traiettoria normale è continua; genotipizzazione a singola cellula delle cellule differenziate.",
-     "falsificazione": "Soglie fissate prima di vedere i dati. L'ipotesi 'spinge verso la valle normale' è falsificata se, in almeno tre modelli, la distanza dalla traiettoria normale non diminuisce in modo significativo rispetto al controllo non trattato, oppure se le cellule trattate occupano un cluster assente dal riferimento normale che persiste oltre il tempo di trattamento."
+     "falsificazione": "Soglie fissate prima di vedere i dati. L'ipotesi 'spinge verso la valle normale' è falsificata se, in almeno tre modelli, la distanza dalla traiettoria normale non diminuisce in modo significativo rispetto al controllo non trattato, oppure se le cellule trattate occupano un cluster assente dal riferimento normale che persiste oltre il tempo di trattamento.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39984714",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42116148",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "32422235",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "41191518",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "La sensibilità a tamibarotene dipende dal livello della proteina RARA e dal super-enhancer di RARA, o da un'altra variabile che co-varia (soglia del test, TP53, MYC)? Il biomarcatore usato nella fase 3 era adeguato?",
      "verifica": "Parzialmente fatto, e la domanda originale era mal posta: nelle leucemie e MDS RARA-alte non APL non esiste un'oncoproteina di fusione da degradare, quindi l'opposizione 'oncoproteina contro espressione di RARA' non ha un equivalente. Fatto: il super-enhancer di RARA e l'mRNA alto predispongono la sensibilità a SY-1425 e solo le PDX RARA-alte rispondono (PMID 28729405, riletto); in una fase 2 non randomizzata CR/CRi 61% in 18 pazienti RARA-positivi contro risposte compatibili con azacitidina da sola in 28 RARA-negativi (PMID 36477975, riletto); la fase 3 non ha raggiunto l'endpoint (PMID 40334070, riletto); una rassegna del 2026 suggerisce selezione biologica dei pazienti e attenzione a TP53 inattivato (PMID 41175364, riletto). Non trovato: misura della proteina RARA prima e dopo l'agonista, test di necessità e sufficienza di RARA (knockdown e sovraespressione), analisi di una soglia diversa nei dati della fase 3.",
      "disegno": "Linee non APL con RARA mRNA e proteina alti o bassi e super-enhancer caratterizzato (H3K27ac), con NB4 come riferimento positivo; dose-risposta a tamibarotene con misura a 24-72 ore di proteina e mRNA di RARA, geni di risposta all'acido retinoico e differenziamento (CD11b, CD14 o morfologia); knockdown di RARA nelle linee RARA-alte e sovraespressione ectopica nelle RARA-basse; analisi retrospettiva dei pazienti con livello continuo di RARA, se i dati individuali sono accessibili.",
-     "falsificazione": "Se la sensibilità segue il livello di RARA (la sovraespressione rende sensibili le RARA-basse, il knockdown toglie la sensibilità, la degradazione non predice la risposta), il biomarcatore è corretto e il fallimento della fase 3 ha un'altra causa (popolazione, soglia, combinazione). Se la sensibilità dipende dalla degradazione di RARA indotta dall'agonista e non dal livello di base, o da una variabile indipendente da RARA (MYC, un altro super-enhancer), il biomarcatore è incompleto o errato."
+     "falsificazione": "Se la sensibilità segue il livello di RARA (la sovraespressione rende sensibili le RARA-basse, il knockdown toglie la sensibilità, la degradazione non predice la risposta), il biomarcatore è corretto e il fallimento della fase 3 ha un'altra causa (popolazione, soglia, combinazione). Se la sensibilità dipende dalla degradazione di RARA indotta dall'agonista e non dal livello di base, o da una variabile indipendente da RARA (MYC, un altro super-enhancer), il biomarcatore è incompleto o errato.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28729405",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "36477975",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "40334070",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41175364",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "La riprogrammazione parziale transitoria di cellule tumorali aumenta o riduce la tumorigenicità, e la direzione dipende dal protocollo (transitorio o stabile, con o senza MYC) più che dal tumore?",
      "verifica": "Parzialmente fatto, con esiti opposti. Riduce: OSKM transitorio in cellule polmonari trasformate riduce la crescita in vivo (PMID 39587064, riletto); linee di colon-retto riprogrammate a iPSC e differenziate con tumorigenicità ridotta (PMID 38072050, non verificato). Aumenta: cellule di carcinoma ovarico riprogrammate con tumorigenesi e resistenza al paclitaxel (PMID 36085021, verificato sull'abstract), linee colorettali con tumorigenicità elevata (PMID 30284085, non verificato) e colangiocarcinoma dopo coltura lunga con c-MYC endogeno attivato (PMID 20381452, non verificato). Il lavoro sulla vescica (PMID 41645083) non misura la tumorigenicità, quindi non è una contraddizione diretta con quello ovarico. Non trovato: confronto su più tumori isogenici con bracci transitorio e stabile, con e senza MYC, con xenotrapianti seriali e proteomica più trascrittomica nello stesso lavoro.",
      "disegno": "Linee isogeniche di almeno tre tumori (ovario, vescica, altro) con quattro bracci per linea: OSKM transitorio con finestra fissa; OSKM stabile fino a iPSC; transitorio senza MYC (OSKG o L-Myc); controllo non tumorale con la stessa induzione. Endpoint: tasso di attecchimento (diluizione limitante) e latenza, misurati prima dell'induzione, a fine induzione, dopo passaggi seriali e dopo differenziamento (per cellule pluripotenti residue), con trascrittoma e proteoma negli stessi passaggi; margine di equivalenza fissato prima; modello misto con la linea come effetto casuale e un numero di linee calcolato per la potenza.",
-     "falsificazione": "Per linea e braccio, effetto come log-rapporto del tasso di attecchimento contro la parentale, con intervallo di confidenza: aumento se l'intervallo sta sopra il margine, riduzione se sotto, nessun effetto se dentro. Se il braccio transitorio aumenta la tumorigenicità in metà o più delle linee, la normalizzazione transitoria non è generalmente sicura. Se il braccio transitorio riduce in modo concorde e quello stabile aumenta nelle stesse linee, la variabile è il protocollo e non il tumore. Se entrambi riducono in modo concorde, la differenza fra gli studi precedenti dipende dal modello."
+     "falsificazione": "Per linea e braccio, effetto come log-rapporto del tasso di attecchimento contro la parentale, con intervallo di confidenza: aumento se l'intervallo sta sopra il margine, riduzione se sotto, nessun effetto se dentro. Se il braccio transitorio aumenta la tumorigenicità in metà o più delle linee, la normalizzazione transitoria non è generalmente sicura. Se il braccio transitorio riduce in modo concorde e quello stabile aumenta nelle stesse linee, la variabile è il protocollo e non il tumore. Se entrambi riducono in modo concorde, la differenza fra gli studi precedenti dipende dal modello.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39587064",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38072050",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "36085021",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30284085",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "20381452",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "41645083",
+       "verificata": false
+      }
+     ]
     }
    ],
    "parametri": [
@@ -2179,7 +2652,7 @@
   {
    "id": "complessita",
    "name": "Strutture dissipative e fisiologia frattale (Prigogine, Goldberger): perdita di complessità",
-   "note": "Bozza v0. La frase di partenza ('la salute è complessità organizzata, la malattia è perdita di complessità') regge solo in parte: la perdita di complessità dell'intervallo fra battiti con l'età è misurata (associazione trasversale), ma la variabilità cardiaca dipende fortemente dalla frequenza cardiaca, 'complessità' e 'variabilità' non sono sinonimi (i bambini hanno complessità simile ai giovani con variabilità più bassa), esistono controesempi in cui la complessità aumenta in malattia, e il nesso causale 'perdita di complessità → malattia' resta ipotesi senza intervento che lo verifichi. Per le strutture dissipative di Prigogine non è stato trovato un test sperimentale che le distingua dall'omeostasi classica; la fonte originale non è in PubMed. Nel cancro la HRV è più bassa che nei controlli (certezza molto bassa) e una meta-analisi di coorti lo associa alla sopravvivenza con rapporti di rischio non aggiustati e molta eterogeneità, mentre in singoli studi (colon-retto) non c'è associazione. Giro 1: 6 PMID riletti da me su PubMed e 6 record del registro. Giro 2: altri 11 PMID confrontati con gli abstract da un sotto-agente Haiku (9 testi corretti; l'errore più importante riguardava il numero '11 studi' di una revisione). Giro 3: quattro affermazioni negative controllate con circa 25 query: (A) nessun RCT con esito oncologico mirato all'HRV, confermata (gli RCT riportano sintomi, sonno, ansia); (B) nessun test che distingua le strutture dissipative dall'omeostasi classica, attenuata; (C) 'nessun valore prognostico della complessità oltre HRV lineare' attenuata: due studi piccoli mostrano indici di complessità indipendenti dopo aggiustamento e una meta-analisi di 11 coorti associa HRV e indici non lineari alla sopravvivenza (rapporti di rischio non aggiustati); (D) nessuna misura diretta della produzione di entropia di un tumore, attenuata: una misura diretta in tessuto polmonare patologico non mostra differenze fra tumore e infiammazione. Passo 6 verificato contro la letteratura (circa 60 query, sei lavori riletti da me): tutte e quattro le domande risultano parzialmente fatte o non trovate e sono state riformulate. Restano non verificati gli identificativi non ancora riletti.",
+   "note": "Bozza v0. La frase di partenza ('la salute è complessità organizzata, la malattia è perdita di complessità') regge solo in parte: la perdita di complessità dell'intervallo fra battiti con l'età è misurata (associazione trasversale), ma la variabilità cardiaca dipende fortemente dalla frequenza cardiaca, 'complessità' e 'variabilità' non sono sinonimi (i bambini hanno complessità simile ai giovani con variabilità più bassa), esistono controesempi in cui la complessità aumenta in malattia, e il nesso causale 'perdita di complessità → malattia' resta ipotesi senza intervento che lo verifichi. Per le strutture dissipative di Prigogine non è stato trovato un test sperimentale che le distingua dall'omeostasi classica; la fonte originale non è in PubMed. Nel cancro la HRV è più bassa che nei controlli (certezza molto bassa) e una meta-analisi di coorti lo associa alla sopravvivenza con rapporti di rischio non aggiustati e molta eterogeneità, mentre in singoli studi (colon-retto) non c'è associazione. Giro 1: 6 PMID riletti in questa revisione su PubMed e 6 record del registro. Giro 2: altri 11 PMID confrontati con gli abstract da un sotto-agente Haiku (9 testi corretti; l'errore più importante riguardava il numero '11 studi' di una revisione). Giro 3: quattro affermazioni negative controllate con circa 25 query: (A) nessun RCT con esito oncologico mirato all'HRV, confermata (gli RCT riportano sintomi, sonno, ansia); (B) nessun test che distingua le strutture dissipative dall'omeostasi classica, attenuata; (C) 'nessun valore prognostico della complessità oltre HRV lineare' attenuata: due studi piccoli mostrano indici di complessità indipendenti dopo aggiustamento e una meta-analisi di 11 coorti associa HRV e indici non lineari alla sopravvivenza (rapporti di rischio non aggiustati); (D) nessuna misura diretta della produzione di entropia di un tumore, attenuata: una misura diretta in tessuto polmonare patologico non mostra differenze fra tumore e infiammazione. Passo 6 verificato contro la letteratura (circa 60 query, sei lavori riletti in questa revisione): tutte e quattro le domande risultano parzialmente fatte o non trovate e sono state riformulate. Restano non verificati gli identificativi non ancora riletti.",
    "normale": [
     {
      "testo": "Recordati (2002) propone il sistema nervoso viscerale come struttura dissipativa lontana dall'equilibrio, con ritmi e oscillazioni periodiche: ipotesi teorica. La fonte originale di Prigogine non è in PubMed e non risultano test sperimentali che distinguano la cornice dissipativa da quella omeostatica classica.",
@@ -2672,25 +3145,98 @@
      "domanda": "A parità di frequenza media (ottenuta con farmaci o per regressione, senza stimolazione a frequenza fissa), la complessità (ApEn, DFA) del ritmo spontaneo di un nodo del seno o atrio isolato differisce fra giovani e anziani, aggiustando per fragilità?",
      "verifica": "Parzialmente fatto: la perdita di complessità con l'età è misurata in vivo (PMID 10421600, riletto); nel topo l'HRV in vivo è ridotta con l'età e correla con la fragilità, mentre in atrii isolati e dopo blocco autonomico l'HRV aumenta con l'età, con alta variabilità fra animali (PMID 34371195, riletto); la frequenza intrinseca cala dopo i 15 mesi (PMID 38967697, non verificato). Non trovato: il confronto per età a frequenza media uguale con ApEn o DFA in preparato isolato. La domanda originale era mal posta: un nodo stimolato a frequenza fissa non ha variabilità intrinseca, e le misure di entropia dipendono da media e lunghezza della serie.",
      "disegno": "Nodo del seno o atrio isolato di animali giovani e anziani con indice di fragilità misurato; frequenza media resa uguale con isoproterenolo o carbacolo o per regressione; ApEn, DFA e variabilità con dati surrogati di controllo e serie di lunghezza fissa.",
-     "falsificazione": "Se la differenza di complessità scompare dopo l'appaiamento della media e dell'indice di fragilità, la frequenza o la fragilità spiegano l'effetto; se persiste, esiste una perdita intrinseca indipendente dalla frequenza; senza surrogati un risultato negativo non è interpretabile."
+     "falsificazione": "Se la differenza di complessità scompare dopo l'appaiamento della media e dell'indice di fragilità, la frequenza o la fragilità spiegano l'effetto; se persiste, esiste una perdita intrinseca indipendente dalla frequenza; senza surrogati un risultato negativo non è interpretabile.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "10421600",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "34371195",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "38967697",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "Il mezzo condizionato da tumore o le citochine (IL-6, TNF) riducono la complessità del battito spontaneo di cardiomiociti derivati da iPSC, a frequenza media uguale, con e senza fibroblasti?",
      "verifica": "Parzialmente fatto: in cardiomiociti da iPSC la doxorubicina riduce frequenza, ampiezza e variazioni battito per battito, con analisi di Poincaré e DFA, ma la frequenza cala insieme alla variabilità e i due effetti non sono separati (PMID 22613982, riletto). Il mezzo condizionato da tumore riduce l'ampiezza di contrazione senza misura di complessità (PMID 40919387, preprint non verificato); le cellule pacemaker dipendono dai fibroblasti (PMID 35611699, non verificato). Non trovato: effetto di citochine o mezzo tumorale sulla complessità. Il criterio originale non regge: l'assenza di effetto in coltura senza fibroblasti non dimostra che l'effetto nel paziente sia extrinseco.",
      "disegno": "Cardiomiociti da iPSC (con e senza fibroblasti) esposti a mezzo condizionato da tumore, IL-6, TNF o chemioterapici; frequenza media resa uguale; ApEn e DFA con dati surrogati; senza innervazione autonoma.",
-     "falsificazione": "Nessuna riduzione a frequenza uguale in entrambe le condizioni indica un effetto mediato dalla frequenza; riduzione solo con fibroblasti indica un effetto mediato da interazioni cellulari e non diretto sul pacemaker; riduzione in entrambe indica un effetto diretto."
+     "falsificazione": "Nessuna riduzione a frequenza uguale in entrambe le condizioni indica un effetto mediato dalla frequenza; riduzione solo con fibroblasti indica un effetto mediato da interazioni cellulari e non diretto sul pacemaker; riduzione in entrambe indica un effetto diretto.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "22613982",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "40919387",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "35611699",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "La complessità frattale dei vasi tumorali, a densità vascolare controllata, predice ipossia, penetrazione del farmaco e invasione, con segno atteso dichiarato per ciascuno?",
      "verifica": "Parzialmente fatto, solo osservazionale: nel glioblastoma una dimensione frattale microvascolare alta si associa a migliore sopravvivenza e risposta alla chemioterapia (PMID 29765109, riletto); in epatocarcinoma, gliomi e metastasi colorettali epatiche una dimensione frattale più alta si associa a invasione microvascolare (PMID 40775092 e 42919290, non verificati); nel coniglio la dimensione frattale correla con la densità microvascolare (rho 0,65; PMID 42788884, non verificato), quindi la densità è un confondente. Non trovato: manipolazione della complessità vascolare a densità fissa, né tumori su chip con complessità regolabile. La domanda originale era in parte mal posta: 'complessità a densità fissa' non ha definizione operativa indipendente dalla densità e perfusione, farmaco e invasione sono costrutti diversi.",
      "disegno": "Tumori su chip vascolarizzati con complessità regolabile e densità fissata (o densità come covariata, a fasce); misura per box-counting su rete perfusa con scala dichiarata; esiti separati: ipossia (pimonidazolo), profondità di penetrazione di un farmaco fluorescente, fronte di invasione.",
-     "falsificazione": "Per ciascun esito, coefficiente parziale della dimensione frattale controllato per densità, con segno atteso dichiarato prima; il segno 'dipende dal contesto' si traduce in un termine di interazione testato. Se l'intervallo include 0 per tutti e tre gli esiti, la complessità non ha ruolo funzionale oltre la densità."
+     "falsificazione": "Per ciascun esito, coefficiente parziale della dimensione frattale controllato per densità, con segno atteso dichiarato prima; il segno 'dipende dal contesto' si traduce in un termine di interazione testato. Se l'intervallo include 0 per tutti e tre gli esiti, la complessità non ha ruolo funzionale oltre la densità.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29765109",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40775092",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42919290",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42788884",
+       "verificata": false
+      }
+     ]
     },
     {
      "domanda": "A pari media, varianza e spettro, una stimolazione frattale migliora la risposta adattativa a uno stress più di una periodica e più di un surrogato che ne distrugge la struttura non lineare?",
      "verifica": "Non trovato come test diretto. Vicini: in respirazione guidata la maggior parte delle misure di complessità cala mentre la dimensione di Higuchi aumenta, quindi il segno dipende dalla misura (PMID 33800469, non verificato); il tessuto isolato del nodo del seno di coniglio è frattale con entropia approssimata più bassa (PMID 24713624, non verificato); la variabilità e il comportamento a legge di potenza in cardiomiociti da iPSC sono descritti senza sfida di stress (PMID 22261196, non verificato). La domanda originale era mal posta: 'a parità di media e varianza' non controlla spettro e autocorrelazione, e 'stress' e 'risposta adattativa' non erano definiti.",
      "disegno": "Tessuti cardiaci ingegnerizzati o preparati isolati con tre bracci: stimolazione periodica a frequenza dichiarata, frattale originale, surrogato IAAFT con stessi spettro e distribuzione e struttura non lineare distrutta; sfida di stress (ipossia o farmaco); esito primario prespecificato (tempo o ampiezza del recupero) e misura di complessità dichiarata (alfa DFA o entropia campionaria).",
-     "falsificazione": "Se frattale e surrogato non differiscono, la complessità non conta oltre lo spettro; se frattale e periodica non differiscono a spettro controllato, la complessità non è protettiva; se il frattale recupera meglio di entrambi, la complessità ha un ruolo."
+     "falsificazione": "Se frattale e surrogato non differiscono, la complessità non conta oltre lo spettro; se frattale e periodica non differiscono a spettro controllato, la complessità non è protettiva; se il frattale recupera meglio di entrambi, la complessità ha un ruolo.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "33800469",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "24713624",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "22261196",
+       "verificata": false
+      }
+     ]
     }
    ],
    "parametri": [
@@ -2745,7 +3291,7 @@
   {
    "id": "riprogrammazione",
    "name": "Riprogrammazione cellulare e riprogrammazione parziale (fattori di Yamanaka)",
-   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('la riprogrammazione parziale ringiovanisce i tessuti nei topi senza cancellarne l'identità') è sostenuta solo in parte e con protocolli ciclici o mirati: con induzione sistemica continua di OSKM i topi muoiono presto per insufficienza epatica e intestinale con dedifferenziazione degli epatociti, l'induzione transitoria in topi wild-type può produrre teratomi e tumori, e un riesame di dati a 7 mesi segnala possibile stress proliferativo nella milza. Il ringiovanimento è misurato soprattutto con orologi epigenetici e funzioni in pochi organi; il nesso orologio-funzione è il punto più debole (co-occorrenza, non causalità dimostrata). Nessun dato di efficacia clinica pubblicato reperito; un solo trial di fase 1 di sicurezza con OSK registrato (NCT07290244). Il dato più forte sulla durata di vita (+109%) viene da uno studio con affiliazione aziendale, non replicato nelle ricerche fatte. Le fonti sono verificate a livello di abstract e registro, non di testo completo; il giro 2 ha corretto 9 attribuzioni troppo estese. Il passo 6 mostra che due domande erano mal poste (causalità solo da co-variazione; identità conservata come affermazione universale) e le riformula con soglie. Il tema della tumorigenicità dopo riprogrammazione di cellule tumorali è trattato nella scheda 'Paesaggio di Waddington e teoria degli attrattori'.",
+   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('la riprogrammazione parziale ringiovanisce i tessuti nei topi senza cancellarne l'identità') è sostenuta solo in parte e con protocolli ciclici o mirati: con induzione sistemica continua di OSKM i topi muoiono presto per insufficienza epatica e intestinale con dedifferenziazione degli epatociti, l'induzione transitoria in topi wild-type può produrre teratomi e tumori, e un riesame di dati a 7 mesi segnala possibile stress proliferativo nella milza. Il ringiovanimento è misurato soprattutto con orologi epigenetici e funzioni in pochi organi; il nesso orologio-funzione è il punto più debole (co-occorrenza, non causalità dimostrata). Nessun dato di efficacia clinica pubblicato reperito; un solo trial di fase 1 di sicurezza con OSK registrato (NCT07290244). Il dato più forte sulla durata di vita (+109% di vita residua mediana nel topo anziano) viene da uno studio con affiliazione aziendale, non replicato nelle ricerche fatte. Le fonti sono verificate a livello di abstract e registro, non di testo completo; il giro 2 ha corretto 9 attribuzioni troppo estese. Il passo 6 mostra che due domande erano mal poste (causalità solo da co-variazione; identità conservata come affermazione universale) e le riformula con soglie. Il tema della tumorigenicità dopo riprogrammazione di cellule tumorali è trattato nella scheda 'Paesaggio di Waddington e teoria degli attrattori'.",
    "normale": [
     {
      "testo": "Meccanismo in vitro: nella riprogrammazione OSKM, i fattori legano enhancer somatici attivi all'inizio, ne riducono l'attività redistribuendo i fattori somatici e reclutano Hdac1; la riprogrammazione completa porta a pluripotenza. Dato in cellule murine in coltura.",
@@ -2768,7 +3314,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Espressione ciclica breve di OSKM in un modello murino di invecchiamento precoce migliora segni cellulari e fisiologici di invecchiamento e prolunga la vita; in topi anziani non progeroidi migliora il recupero da malattia metabolica e da lesione muscolare. Il numero di animali e la durata del protocollo non sono nell'abstract.",
+     "testo": "Espressione ciclica breve di OSKM in un modello murino di invecchiamento precoce migliora segni cellulari e fisiologici di invecchiamento e prolunga la vita (nel topo progeroide); in topi anziani non progeroidi migliora il recupero da malattia metabolica e da lesione muscolare. Il numero di animali e la durata del protocollo non sono nell'abstract.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -2856,7 +3402,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "L'induzione sistemica prolungata di OSKM causa letalità precoce con dedifferenziazione degli epatociti e stress ossidativo, senza tumori; le femmine resistono di più e la N-acetilcisteina migliora la sopravvivenza senza ridurre la plasticità cellulare indotta.",
+     "testo": "Nel topo, l'induzione sistemica prolungata di OSKM causa letalità precoce con dedifferenziazione degli epatociti e stress ossidativo, senza tumori; le femmine resistono di più e la N-acetilcisteina migliora la sopravvivenza nel modello senza ridurre la plasticità cellulare indotta.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -2866,7 +3412,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Protocolli ciclici o mirati: un AAV con fattori di riprogrammazione parziale diretto alle cellule invecchiate prolunga la vita in topi progeroidi e in topi anziani senza alterare l'incidenza di tumori secondo l'abstract; studio di un'azienda e follow-up tumorale non descritto in dettaglio; i nomi dei geni non sono leggibili nell'abstract.",
+     "testo": "Protocolli ciclici o mirati: un AAV con fattori di riprogrammazione parziale diretto alle cellule invecchiate prolunga la vita nel topo (progeroide e anziano) senza alterare l'incidenza di tumori secondo l'abstract; studio di un'azienda e follow-up tumorale non descritto in dettaglio; i nomi dei geni non sono leggibili nell'abstract.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -2997,7 +3543,7 @@
       "prova": "correlativa + sperimentale"
      },
      {
-      "testo": "Singolo studio con affiliazione aziendale: un AAV con OSK inducibile in topi di 124 settimane prolunga la vita residua mediana del 109%; non replicato nelle ricerche fatte.",
+      "testo": "Singolo studio con affiliazione aziendale: un AAV con OSK inducibile in topi di 124 settimane prolunga nel topo la vita residua mediana del 109% (dato murino, non umano); non replicato nelle ricerche fatte.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
@@ -3015,13 +3561,27 @@
       "testo": "Revisione sistematica sui senolitici nell'uomo (sei studi, dati preliminari, campioni piccoli): non sostenuta da 42721966, fonte non reperita.",
       "livello": "clinico",
       "fonte": null,
-      "inferenza": true
+      "inferenza": true,
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42721966",
+        "verificata": true
+       }
+      ]
      },
      {
       "testo": "Riprogrammazione chimica parziale che riduce l'età biologica in fibroblasti e prolunga la vita di C. elegans: non sostenuta da 42875585, fonte non reperita.",
       "livello": "in_vitro",
       "fonte": null,
-      "inferenza": true
+      "inferenza": true,
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42875585",
+        "verificata": true
+       }
+      ]
      }
     ]
    },
@@ -3161,7 +3721,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Stress ossidativo come motore dell'insufficienza epatica con induzione prolungata; N-acetilcisteina migliora la sopravvivenza; nessun tumore osservato in quel modello.",
+     "testo": "Nel topo: stress ossidativo come motore dell'insufficienza epatica con induzione prolungata; N-acetilcisteina migliora la sopravvivenza nel modello; nessun tumore osservato in quel modello.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -3224,13 +3784,27 @@
      "testo": "mRNA in nanoparticelle lipidiche e miglioramento della cognizione con espressione ciclica (non continua) nei neuroni corticali del topo: non sostenuti da 35476977, fonte non reperita.",
      "livello": "animale",
      "fonte": null,
-     "inferenza": true
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35476977",
+       "verificata": true
+      }
+     ]
     },
     {
      "testo": "Doxiciclina a dosi diverse con effetti mitocondriali opposti nell'intestino e assenza di dati di sicurezza per sistemi OSKM inducibili: non leggibile nell'abstract di 42668237, fonte non reperita.",
      "livello": "animale",
      "fonte": null,
-     "inferenza": true
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42668237",
+       "verificata": true
+      }
+     ]
     }
    ],
    "buchi": [
@@ -3238,25 +3812,93 @@
      "domanda": "Nei tessuti di topi anziani trattati con OSK a dosi e durate diverse, la variazione dell'orologio epigenetico spiega la variazione funzionale oltre a dose e durata, o i due fenomeni sono dissociabili?",
      "verifica": "Parzialmente fatto: in retina le azioni di OSK richiedono TET1 e TET2 per la funzione (PMID 33268865), ma non è riportato nell'abstract se l'orologio sia stato misurato nei knock-out; in topi che invecchiano fisiologicamente la reversione dell'orologio e i benefici funzionali coesistono e la durata del trattamento modula l'effetto (PMID 37118377): è co-occorrenza. Una rassegna pone la dissociazione fra ringiovanimento, dedifferenziazione e orologio come domanda aperta (PMID 31578938, rassegna). Non trovati: braccio di dissociazione (orologio ridotto senza guadagno funzionale o viceversa), confronto diretto con inibitori di TGF-beta su orologio e funzione. Verifica su abstract. Domanda riformulata: 'è causale?' non è risolvibile con un disegno di sola co-variazione.",
      "disegno": "Topi anziani con OSK a gradiente di dose e durata; per animale misurare orologio epigenetico e una funzione (per esempio rigenerazione assonale o contrattilità muscolare); controlli: knock-out TET1/TET2 senza OSK, e inibitore di TGF-beta come stimolo funzionale con effetto sull'orologio da validare prima.",
-     "falsificazione": "Dopo aggiustamento per dose e durata, la pendenza della funzione sull'orologio, con intervallo di confidenza al 95%, esclude un effetto minimo prespecificato: in tal caso l'orologio non è surrogato causale; soglia numerica da fissare prima dell'esperimento."
+     "falsificazione": "Dopo aggiustamento per dose e durata, la pendenza della funzione sull'orologio, con intervallo di confidenza al 95%, esclude un effetto minimo prespecificato: in tal caso l'orologio non è surrogato causale; soglia numerica da fissare prima dell'esperimento.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "33268865",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37118377",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31578938",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Nei singoli organi, l'OSK ciclico a lungo termine conserva l'identità cellulare e l'assenza di displasia e tumori, oppure la perdita di identità supera una soglia prespecificata?",
      "verifica": "Parzialmente fatto: l'induzione transitoria di OSKM in topi produce teratomi da più organi (PMID 24025773, regime non ciclico controllato); un riesame di RNA-seq bulk di fegato, rene e milza dopo 7 mesi di riprogrammazione ciclica non trova eventi chiave nel rene e segnala possibile stress genomico e proliferativo nella milza (PMID 42954813); i regimi a lungo termine mostrano benefici dose-dipendenti in rene e pelle (PMID 37118377). Non trovati: scRNA-seq multi-organo con tracciamento di lignaggio a 3, 6 e 12 mesi, istologia per displasia e tumori a più tempi con sopravvivenza, punteggio di identità prespecificato per organo. Verifica su abstract. Formula 'senza perdita di identità' è un'affermazione universale di assenza: non confermabile da un disegno, va testata organo per organo con soglie numeriche.",
      "disegno": "Topi anziani con tracciamento di lignaggio e OSK ciclico (schema da fissare), con e senza MYC; per fegato, rene e milza scRNA-seq con punteggio di identità di riferimento a 3, 6 e 12 mesi, istologia per displasia e tumori, sopravvivenza; braccio con dedifferenziazione transitoria attesa per distinguere perdita reversibile da permanente; dimensione del campione giustificata per affermazioni di assenza.",
-     "falsificazione": "Per ogni organo e tempo, se la differenza di identità o l'incidenza di displasia o tumori, con intervallo di confidenza al 95%, supera la soglia numerica prespecificata, la formula 'senza perdita di identità' è falsificata per quell'organo."
+     "falsificazione": "Per ogni organo e tempo, se la differenza di identità o l'incidenza di displasia o tumori, con intervallo di confidenza al 95%, supera la soglia numerica prespecificata, la formula 'senza perdita di identità' è falsificata per quell'organo.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "24025773",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42954813",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37118377",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Con OSK a impulsi in vivo, la riduzione condizionale di p53 o di Ink4a/Arf aumenta l'incidenza di lesioni displastiche o teratomatose rispetto ai selvatici?",
      "verifica": "Parzialmente fatto: p53 e Arf sono barriere all'efficienza di riprogrammazione (PMID 19668190 in vitro; PMID 29280266 in vivo con tessuti Ink4a/Arf-, p53- e p21-null), e l'induzione transitoria in topi selvatici produce teratomi o tumori (PMID 24025773, PMID 24529372). Non trovata la combinazione OSK ciclico con p53 o Arf ridotti e incidenza tumorale nel tempo. Giro di verifica con abstract, non full text; organoidi umani non cercati in modo specifico. La formulazione precedente confondeva efficienza di riprogrammazione e trasformazione maligna.",
      "disegno": "Topi con OSK a impulsi di doxiciclina e p53 o Ink4a/Arf ridotti condizionalmente contro selvatici, con controlli senza OSK per tumori spontanei (i topi p53-deficienti sviluppano spontaneamente tumori, nozione di fondo non verificata in sessione); dimensione del campione e dimensione minima dell'effetto prespecificate; istologia seriata per displasia e teratomi, marcatori NANOG; eventualmente organoidi umani.",
-     "falsificazione": "Falsificata se, con potenza prespecificata, l'incidenza di lesioni displastiche o teratomatose con OSK a impulsi non supera, con intervallo di confidenza al 95%, il fondo dei controlli senza OSK né differisce fra p53 o Arf ridotti e selvatici; un'incidenza nulla con pochi animali non dimostra assenza di barriera."
+     "falsificazione": "Falsificata se, con potenza prespecificata, l'incidenza di lesioni displastiche o teratomatose con OSK a impulsi non supera, con intervallo di confidenza al 95%, il fondo dei controlli senza OSK né differisce fra p53 o Arf ridotti e selvatici; un'incidenza nulla con pochi animali non dimostra assenza di barriera.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "19668190",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "29280266",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "24025773",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "24529372",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Il beneficio di OSK ciclico in topi anziani passa dalle cellule senescenti, oppure è additivo rispetto alla loro eliminazione?",
      "verifica": "Disegno fattoriale non trovato. Esiste però il dato opposto sul ruolo della senescenza: in vivo la senescenza indotta da OSKM (via Ink4a e IL-6) favorisce la riprogrammazione (PMID 27884981, PMID 29280266). Quindi eliminare le cellule p16-positive potrebbe ridurre l'effetto di OSK per via della minore riprogrammazione e non per assenza di ringiovanimento: il disegno deve separare i due effetti. Verifica su abstract; query del registro rumorose e alcune liste di PMID non lette.",
      "disegno": "Disegno 2x2 in topi anziani: OSK ciclico contro controllo, eliminazione delle cellule p16-positive (INK-ATTAC o simili; colpiscono anche cellule p16-positive non senescenti, limite da dichiarare) contro controllo. Misurare la senescenza residua (p16, p21, SASP, SA-beta-gal), un esito intermedio di riprogrammazione (cellule NANOG-positive), orologio epigenetico, fragilità e funzione, con test formale di interazione.",
-     "falsificazione": "Mediazione dalla senescenza falsificata se l'effetto di OSK su orologio e funzione resta di ampiezza simile dopo eliminazione verificata delle p16-positive, con interazione non significativa e intervallo di confidenza che esclude la riduzione minima prespecificata; additività falsificata se l'effetto si riduce o scompare con interazione significativa."
+     "falsificazione": "Mediazione dalla senescenza falsificata se l'effetto di OSK su orologio e funzione resta di ampiezza simile dopo eliminazione verificata delle p16-positive, con interazione non significativa e intervallo di confidenza che esclude la riduzione minima prespecificata; additività falsificata se l'effetto si riduce o scompare con interazione significativa.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "27884981",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "29280266",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
@@ -3272,8 +3914,8 @@
     },
     {
      "nome": "Estensione della vita residua mediana con AAV-OSK inducibile in topi di 124 settimane",
-     "stato": "stimato per analogia",
-     "valore": "+109%, studio singolo con affiliazione aziendale",
+     "stato": "misurato",
+     "valore": "+109% nel topo (studio singolo con affiliazione aziendale, non replicato nelle ricerche fatte)",
      "fonte": {
       "tipo": "PMID",
       "id": "38381405",
@@ -3288,6 +3930,868 @@
     },
     {
      "nome": "Incidenza di tumori o teratomi con protocolli ciclici a follow-up di 12 mesi o più",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
+  },
+  {
+   "id": "allostasi",
+   "name": "Omeostasi e allostasi (Cannon; Sterling e McEwen) e stress cronico",
+   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('l'ordine non è uno stato fisso ma una regolazione anticipatoria; lo stress cronico rompe questo equilibrio') regge solo in parte. (1) La contrapposizione omeostasi fissa contro allostasi anticipatoria è una caratterizzazione dei proponenti: chi ha riesaminato il concetto colloca la regolazione predittiva dentro l'omeostasi e riconosce critiche al termine; le fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988) non sono reperibili come record PubMed. (2) 'Lo stress cronico rompe l'equilibrio' è un'ipotesi: in modelli murini la via simpatica beta-adrenergica favorisce la crescita tumorale, ma con contro-dati (lo stress riduce il tumore primario in un modello mammario; il blocco beta in animali non stressati aumenta le metastasi; la denervazione genetica non riduce la crescita; in cellule orali l'attivazione di ADRB2 riduce il tumore). Nell'uomo due grandi analisi su dati individuali non trovano associazione fra stress lavorativo o fattori psicosociali e incidenza complessiva di cancro; il carico allostatico alto si associa al rischio in coorti, ma la costruzione dell'indice è eterogenea e non risulta un confronto con indici omeostatici semplici. Non c'è un RCT di sopravvivenza adeguatamente potenziato e con risultati pubblicati sui beta-bloccanti perioperatori (PROSPER chiuso per reclutamento; un trial di fase 3 sul colon-retto, NCT00888797, senza risultati reperiti); il solo antagonista del recettore glucocorticoide con beneficio di sopravvivenza in un trial di fase 3 fra i lavori letti è relacorilant nel carcinoma ovarico platino-resistente (open-label, con effetto interpretato dagli autori come sensibilizzazione alla chemioterapia, non come prova del ruolo dello stress). Verifica: giro 1 con 18 PMID e 10 record del registro riletti direttamente; giro 2 con confronto di 26 identificativi con gli abstract, con correzioni di testo su diverse voci (attribuzioni troppo estese, numeri o specie non presenti negli abstract); giro 3 con controllo indipendente delle affermazioni negative; durante il passo 6 e il giro 3 sono stati riletti direttamente altri 10 PMID e 10 record del registro (in tutto 28 PMID e 20 record, non tutti citati nella scheda). Le verifiche sono su abstract e registro, non su testo completo.",
+   "normale": [
+    {
+     "testo": "McEwen e Stellar (1993) sostengono che il concetto di omeostasi non aiuta a capire il costo nascosto dello stress cronico: invece di mantenere costanza, i sistemi fisiologici fluttuano per rispondere alle richieste (allostasi); il carico allostatico è il costo dell'esposizione cronica a risposte neurali o neuroendocrine fluttuanti o elevate. Definizione e ipotesi degli autori, in una rassegna.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "8379800",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Romero e colleghi: l'allostasi era stata proposta per sostituire il termine ambiguo 'stress', ma sia il termine sia il modello hanno suscitato critiche; il Reactive Scope Model colloca le variazioni circadiane e stagionali (omeostasi predittiva) e le risposte a eventi imprevisti (omeostasi reattiva) dentro il range omeostatico, e descrive il carico come perdita di ampiezza di quel range. Modello teorico.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19470371",
+      "verificata": true
+     },
+     "prova": "modello teorico"
+    },
+    {
+     "testo": "Un workshop elenca i limiti del campo: manca una definizione univoca di fenotipo da stress, un biomarcatore robusto, modelli quantitativi predittivi e la comprensione della transizione da stress acuto a cronico. Opinione di consenso.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26365223",
+      "verificata": true
+     },
+     "prova": "opinione di consenso"
+    },
+    {
+     "testo": "Teoria dei sistemi di controllo: i sistemi omeostatici hanno errore stazionario nullo o quasi, mentre quelli allostatici hanno un livello stazionario che dipende dai tassi di input; è una definizione formale e falsificabile, ma sviluppata su esempi teorici (metabolici, farmacologici, ecologici), non su misure umane di set-point.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28554610",
+      "verificata": true
+     },
+     "prova": "modello teorico",
+     "inferenza": true
+    },
+    {
+     "testo": "Fonti primarie di Cannon (1932) e di Sterling ed Eyer (1988): fonte non reperita come record PubMed; le loro definizioni sono citate solo di seconda mano.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Carico allostatico e rischio di cancro: in un caso-controllo annidato in EPIC-Granada (955 casi e 955 controlli, 16 biomarcatori misurati in media 15 anni prima della diagnosi) un indice a cut-off clinici dà OR 1,30 per unità e OR 2,24 per il quarto contro il primo quartile; i risultati variano con la costruzione dell'indice. Clinico osservazionale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42801852",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "In una coorte prospettica osservazionale di 336.945 partecipanti di UK Biobank un carico allostatico alto contro normale si associa a rischio di tumore polmonare (HR 1,629), più forte per il microcitoma; associazione, non prova di causalità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42873766",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Misura nell'uomo: una revisione integrativa di 15 studi (1.288 record) riporta indici da 5 a 14 biomarcatori con punteggi incompatibili fra studi e nessuna catecolamina misurata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43024971",
+      "verificata": true
+     },
+     "prova": "revisione"
+    },
+    {
+     "testo": "Un preprint trasversale (HERSTORY, 303 donne, e ATLAS, 709) in donne con rischio familiare di cancro non trova associazione fra diagnosi pregressa di cancro, preoccupazione per il cancro o stress percepito e carico allostatico; preprint non sottoposto a revisione paritaria.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42922638",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Tipi tumorali senza associazione documentata fra carico allostatico e rischio: fonte non reperita nei lavori letti; confronto diretto in cui un indice allostatico (regolazione anticipatoria) predice l'esito oncologico meglio di indici omeostatici semplici o dei singoli biomarcatori: non trovato in 4 ricerche di giro 3, in cui gli studi sul carico allostatico non fanno confronti con biomarcatori singoli.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Stress comportamentale cronico in un modello ortotopico di carcinoma ovarico in topi nudi aumenta catecolamine tissutali, carico tumorale e invasione; gli autori attribuiscono l'effetto soprattutto alla via cAMP-PKA del recettore beta-2 (ADRB2) con più vascolarizzazione e VEGF, MMP2 e MMP9. L'ipotesi terapeutica è degli autori.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16862152",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Stress psicosociale (affollamento o isolamento) in topi con melanoma B16 o fibrosarcoma Meth A aumenta la crescita tumorale; il propranololo abolisce l'effetto, mentre il corticosterone cronico da solo causa atrofia di timo e milza senza aumentare la crescita tumorale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "12149137",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Contenzione cronica in topi p53+/- accelera la tumorigenesi indotta da radiazioni e favorisce xenotrapianti in modo in gran parte p53-dipendente; i glucocorticoidi inducono SGK1, che aumenta MDM2 e riduce p53. Differenza di modello rispetto al lavoro precedente: cocarcinogenesi con radiazioni in animali p53+/- e xenotrapianti, contro trapianto singeneico con corticosterone esogeno: i due risultati sul ruolo dei glucocorticoidi non sono sovrapponibili.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22509031",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Contro-dato: nei topi MMTV-PyMT l'esposizione a stress riduce il carico del tumore primario (più apoptosi) tramite recettori beta; nadololo annulla l'effetto, ma nei topi non stressati il blocco beta aumenta le metastasi polmonari e le cellule soppressorie di derivazione mieloide; le metastasi non sono alterate dallo stress. Il segno dell'effetto dipende dal modello.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32595275",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Specificità del recettore: in un modello murino pancreatico la noradrenalina agirebbe su ADRB1 degli epatociti (complemento C5a, reclutamento di MDSC) e l'atenololo riduce la crescita; in un modello gastrico (cellule e xenotrapianti) propranololo e ICI118,551 riducono proliferazione, invasione e metastasi, mentre l'atenololo ha quasi nessun effetto su proliferazione e invasione (metastasi non riportate per l'atenololo). Prove soprattutto farmacologiche; knockout genetico di ADRB2 nel tumore: fonte non reperita.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41417111",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31624248",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Incidenza nell'uomo: una meta-analisi di 165 studi associa i fattori psicosociali legati allo stress a maggiore incidenza di cancro in popolazioni inizialmente sane, ma gli eventi di vita stressanti non sono associati a incidenza maggiore; gli autori segnalano bias di pubblicazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18493231",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Meta-analisi su dati individuali di 22 coorti (fino a 421.799 persone, 35.319 casi di cancro): nessun fattore psicosociale (supporto percepito, perdita, stato di coppia, nevroticismo, distress) è associato a un rischio aumentato di cancro complessivo, mammario, prostatico o colorettale; per il polmone alcune associazioni (HR 1,09-1,55) si attenuano dopo aggiustamento per fumo e storia familiare.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41866892",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Stress lavorativo: una meta-analisi su dati individuali di 12 coorti europee (116.056 persone, 5.765 casi di cancro, mediana 12 anni) non trova associazione fra job strain e rischio di cancro complessivo (HR 0,97; IC 0,90-1,04) né colorettale (1,16), polmonare (1,17), mammario (0,97) o prostatico (0,86); gli autori concludono che è improbabile un fattore di rischio importante.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23393080",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Orario di lavoro: in un'analisi multicoorte di 116.462 persone non emerge associazione con il rischio complessivo di cancro né con colon-retto, polmone e prostata; lavorare almeno 55 ore a settimana si associa a mammella con HR 1,60 (IC 1,12-2,29), possibile confondimento residuo da parità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26889978",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Contro-dato sul segno del recettore: in vitro, in cellule di carcinoma squamoso orale, l'agonista beta-2 isossuprina e l'isoprenalina riducono i marcatori mesenchimali e la motilità, effetto invertito dal propranololo e dalla delezione CRISPR di ADRB2, e l'isossuprina riduce la crescita di xenotrapianti sottocutanei nel topo: la direzione dell'effetto di ADRB2 dipende dal tipo di tumore.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33007125",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Beta-bloccanti e sopravvivenza (osservazionale): una meta-analisi di 84 studi su 603.827 pazienti con tumori solidi associa l'uso a OS HR 0,88 e PFS HR 0,82, con effetti più forti per esposizione dopo la diagnosi; gli autori avvertono eterogeneità e natura osservazionale; non è un test del ruolo dello stress.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41863389",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Firma trascrittomica di risposta avversa conservata (CTRA): in 78 riceventi di trapianto per leucemia mieloide acuta, CTRA misurato sui leucociti prima del trapianto è associato a recidiva maggiore e minore sopravvivenza libera da leucemia; analisi post hoc esplorativa.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26286914",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "In 1.082 pazienti TCGA con carcinoma mammario, CTRA tumorale alto è associato a OS peggiore (HR 1,36; IC 1,04-1,78); correlativo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41188960",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Anelli non reperiti nei lavori letti: effetto dello stress su anoikis, riparo del DNA in modo diretto, misura diretta della noradrenalina o del cortisolo nel tumore umano.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Denervazione: in modelli mammari murini solo la 6-idrossidopamina sopprime la crescita tumorale, mentre la denervazione simpatica genetica e quella chirurgica no; l'effetto della 6-OHDA passa da IFN-beta, macrofagi e cellule T1, quindi è un effetto immunitario oltre l'ablazione simpatica.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41856110",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Contro-dati sulla 6-OHDA: in un modello di metastasi polmonari da pre-metastasi la 6-OHDA riduce le MDSC e le metastasi, attribuito al simpatico; la differenza di modello (tumore, tempo, dose) non è leggibile negli abstract.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36142564",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Modello gastrico con stress cronico in topi con xenotrapianto: tumori più grandi, ADRB2 e PlexinA1 più alti; la simpatectomia con 6-OHDA e l'antagonista ADRB2 ICI118,551 invertono gli effetti; in 36 pazienti con tumore gastrico la correlazione è solo associativa.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38331165",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Vie neuropeptidica e colinergica: in modelli gastrici sotto stress la vagotomia gastrica attenua le trappole extracellulari dei neutrofili (NETs) e la crescita; un lavoro descrive un asse CGRP-NGF con sinergia CGRP/RAMP1 e cGAS-STING/NLRP3 (cachessia), l'altro un asse acetilcolina-NGF con sinergia NGF/TrkA e CD300ld (metastasi linfonodali).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "43039101",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42215706",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Via dei glucocorticoidi: in un modello intracranico murino surrenectomia, inibitori dell'attivazione dei glucocorticoidi, antagonisti del recettore e delezione del recettore nelle cellule T possono abrogare la soppressione immunitaria e la crescita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39044027",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Via di segnale parallela a livello del recettore: le catecolamine via ADRB2 danneggiano il DNA tramite beta-arrestina-1, che facilita la degradazione di p53 via MDM2, in parallelo e in sinergia con la via Gs-PKA; cellule umane e topi Arrb1-/-; non è un modello tumorale.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "21857681",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Meta-analisi di studi in vivo su mammiferi, specie non precisate nell'abstract (362 studi, 1.291 esperimenti): il blocco di ciascuno degli otto sistemi segnalatori nervosi riduce il carico tumorale di circa il 34-70% (media 44,8%), l'attivazione lo aumenta; forte effetto dei piccoli studi (Egger p<0,001) e stime in parte digitalizzate.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42941861",
+       "verificata": true
+      },
+      "prova": "revisione sistematica e meta-analisi"
+     },
+     {
+      "testo": "Spiegazione alternativa: una meta-analisi aggiornata di 24 RCT (4.795 pazienti) di interventi psicosociali trova OS SHR 0,87 (IC 0,77-0,99), 0,75 nei pazienti trattati con intento curativo; l'abstract non riporta misure di cortisolo o catecolamine, quindi non separa la biologia dello stress da aderenza, supporto e accesso alle cure (inferenza); eterogeneità moderata, sottogruppi.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42968372",
+       "verificata": true
+      },
+      "prova": "meta-analisi di RCT",
+      "inferenza": true
+     },
+     {
+      "testo": "Contrasto: una meta-analisi di RCT di interventi psicologici in tumori in stadio precoce trova OS HR 0,97 (IC 0,87-1,08) e RFS HR 0,99 (IC 0,84-1,16), non significativi, con qualità di vita migliorata; il confronto con la meta-analisi precedente non è verificabile dall'abstract (diverso ambito: tumori precoci).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38853187",
+       "verificata": true
+      },
+      "prova": "meta-analisi di RCT"
+     },
+     {
+      "testo": "Confondimento: in una meta-analisi osservazionale su dati individuali di 22 coorti (fino a 421.799 persone) gli effetti psicosociali sul rischio di cancro polmonare si attenuano dopo aggiustamento per fumo e storia familiare.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41866892",
+       "verificata": true
+      },
+      "prova": "correlativa"
+     },
+     {
+      "testo": "Non trovati nei lavori letti e in ricerche di giro 3 (0 risultati o risultati non pertinenti non provano assenza): esperimenti con doppio blocco beta e glucocorticoidi in un modello di stress cronico e tumore (esiste solo un doppio blocco acuto non tumorale del 1997 con propranololo e RU486); misura diretta della compensazione di un asse dopo blocco di un altro; desensibilizzazione funzionale di ADRB2 nel tumore in vivo sotto stress cronico; knockout genetico di ADRB2 specifico del tumore in modello di stress cronico (un knockout CRISPR di ADRB2 in cellule orali esiste ma senza stress); studi dedicati alla causalità inversa e all'accesso alle cure. Sono buchi, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Propranololo + etodolac perioperatori (PROSPER)",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II, resezione per tumore pancreatico (DRKS00014054)",
+     "esito": "chiuso in anticipo: 26 randomizzati, 6 mai iniziati, 9 trattati e 11 placebo; eventi avversi gravi 6 contro 14; DFS mediana 16,36 contro 11,25 mesi con intervalli molto ampi (1,18-non raggiunto contro 2,2-17,25); recidive a distanza 11,1% contro 54,5%; gli autori parlano di dati preliminari",
+     "ragione": "reclutamento lento e aderenza limitata",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40402347",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac in tumore prostatico con progressione",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II (NCT01857817, registro)",
+     "esito": "terminato, 35 arruolati, risultati non letti",
+     "ragione": "reclutamento scarso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01857817",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo neoadiuvante in tumore mammario",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT02596867, registro)",
+     "esito": "terminato, 2 arruolati",
+     "ragione": "accrual scarso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02596867",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo in pazienti con tumore prostatico sottoposti a chirurgia",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT03152786, registro)",
+     "esito": "terminato, 46 arruolati",
+     "ragione": "gli sperimentatori principali non intendevano proseguire (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03152786",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Blocco beta-adrenergico in tumore cervicale",
+     "bersaglio": "beta-adrenergico",
+     "fase": "studio di fattibilità (NCT01902966, registro)",
+     "esito": "terminato, 6 arruolati",
+     "ragione": "scarso arruolamento e mancanza di fondi (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01902966",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + pembrolizumab in melanoma avanzato",
+     "bersaglio": "beta-adrenergico",
+     "fase": "I/II (NCT03384836, registro)",
+     "esito": "sospeso, 47 arruolati",
+     "ragione": "analisi intermedia (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03384836",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo per prevenire la progressione del melanoma",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT01988831, registro)",
+     "esito": "sospeso, 450 previsti",
+     "ragione": "ritardo per motivi finanziari (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01988831",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + sunitinib in carcinoma renale metastatico",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT03323710, registro)",
+     "esito": "ritirato, 0 arruolati",
+     "ragione": "scarso reclutamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03323710",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac per prevenire la recidiva del cancro colorettale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "III (NCT00888797, registro)",
+     "esito": "stato sconosciuto, 400 previsti, avvio 2010; nessun risultato nel registro",
+     "ragione": "non dichiarata (registro non aggiornato)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00888797",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo perioperatorio in prostatectomia",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II (NCT05679193, registro)",
+     "esito": "completato, 40 arruolati; nessun risultato postato nel registro",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05679193",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + radioterapia preoperatoria in sarcoma dei tessuti molli",
+     "bersaglio": "beta-adrenergico",
+     "fase": "I (NCT06670976, registro)",
+     "esito": "ritirato, 0 arruolati",
+     "ragione": "'to be submitted at a later date' (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06670976",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel in carcinoma ovarico ricorrente",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "II (NCT03776812, registro)",
+     "esito": "completato, 178 arruolati, con risultati nel registro (valori non riletti)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03776812",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Mifepristone a uso compassionevole in tumori del sistema nervoso e altri",
+     "bersaglio": "recettori glucocorticoide e progesterone",
+     "fase": "uso compassionevole (NCT00832871, registro)",
+     "esito": "terminato, 4 arruolati fra 2008 e 2015, risultati nel registro",
+     "ragione": "scarso arruolamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00832871",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac perioperatori in tumore mammario",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "II randomizzato contro placebo, n=38",
+     "esito": "ben tollerato; biomarcatori prometastatici modificati; nessun endpoint di sopravvivenza",
+     "ragione": "endpoint biologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28490464",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo preoperatorio in tumore mammario",
+     "bersaglio": "beta-adrenergico",
+     "fase": "II randomizzato triplo cieco, n=60",
+     "esito": "biomarcatori prometastatici e immunitari modificati; nessun esito di sopravvivenza",
+     "ragione": "endpoint biologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31754048",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + etodolac perioperatori in tumore colorettale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "RCT su biomarcatori, n=34",
+     "esito": "ben tollerato; biomarcatori di metastasi, immunità e infiammazione modificati; ricorrenza a 3 anni solo descrittiva (ITT 12,5% contro 33,3%, p=0,239; per protocollo 0% contro 29,4%, p=0,054), non significativa",
+     "ragione": "endpoint biologico, non di sopravvivenza",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32533792",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Propranololo + parecoxib in mastectomia radicale",
+     "bersaglio": "beta-adrenergico e COX-2",
+     "fase": "RCT, tumore mammario (n non leggibile nell'abstract)",
+     "esito": "il propranololo attenua l'aumento dei linfociti T regolatori indotto dallo stress chirurgico",
+     "ragione": "endpoint immunologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26969754",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel nel carcinoma ovarico platino-resistente (ROSELLA)",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "III, open-label, 381 pazienti (NCT05257408)",
+     "esito": "PFS HR 0,70 (IC 0,54-0,91), mediana 6,54 contro 5,52 mesi; OS finale HR 0,65 (IC 0,51-0,83), 16,0 contro 11,9 mesi; eventi avversi simili a parità di esposizione; nessun nuovo segnale di sicurezza; autori con finanziamento aziendale",
+     "ragione": "non interrotto, trial in corso; relacorilant dato il giorno prima, il giorno stesso e il giorno dopo il nab-paclitaxel",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40473448",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41974149",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05257408",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Relacorilant + nab-paclitaxel nel tumore pancreatico metastatico",
+     "bersaglio": "recettore dei glucocorticoidi",
+     "fase": "III (NCT04329949, registro)",
+     "esito": "terminato, 43 arruolati: la risposta osservata non ha raggiunto la soglia predefinita; il comitato di monitoraggio non ha trovato problemi di sicurezza",
+     "ragione": "soglia di risposta non raggiunta (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04329949",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Mifepristone + pembrolizumab in tumore mammario HER2-negativo",
+     "bersaglio": "recettori glucocorticoide e progesterone",
+     "fase": "II (NCT03225547, registro)",
+     "esito": "terminato, 24 arruolati",
+     "ragione": "effetti collaterali (rash) (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03225547",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Interventi psicosociali con endpoint di sopravvivenza",
+     "bersaglio": "stress, supporto",
+     "fase": "meta-analisi di 24 RCT, 4.795 pazienti",
+     "esito": "OS SHR 0,87 (IC 0,77-0,99); sottogruppo con intento curativo SHR 0,75; moderata eterogeneità; meta-analisi con risultati diversi in oncologia precoce",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42968372",
+      "verificata": true
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Beta-bloccanti perioperatori: in PROSPER nessun problema di sicurezza dichiarato, ma 6 eventi avversi gravi nel braccio trattato contro 14 nel placebo, con aderenza ridotta nel gruppo trattato; un'analisi di 4 RCT (148 pazienti: mammella 38, colorettale 34 e 46, pancreas 30) riporta bradicardia nel 12% contro il 3% (p=0,057, non significativa), risolta sospendendo temporaneamente il beta-bloccante.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40402347",
+      "verificata": true
+     },
+     "prova": "RCT piccolo",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42088573",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Mascheramento dell'ipoglicemia e altri rischi dei beta-bloccanti: la ricerca dedicata non ha prodotto fonti; fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "Stress acuto e cronico: nei modelli animali e in rassegne lo stress acuto potenzia la risposta immune (ad esempio l'ipersensibilità cutanea ritardata), quello cronico la sopprime; l'effetto dipende da durata, tempo e dose ormonale; bloccare indiscriminatamente la risposta allo stress potrebbe perciò ridurre anche una risposta protettiva (inferenza).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11268419",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "19571591",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Recettore dei glucocorticoidi: relacorilant in ROSELLA è dato in modo intermittente (150 mg il giorno prima, il giorno stesso e il giorno dopo nab-paclitaxel); neutropenia (64%), anemia (61%), affaticamento (54%) e nausea (44%) sono gli eventi più frequenti nel braccio relacorilant e non sono emersi nuovi segnali di sicurezza; dati umani su insufficienza surrenalica o ipokaliemia con blocco cronico in oncologia: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41974149",
+      "verificata": true
+     },
+     "prova": "RCT di fase 3"
+    },
+    {
+     "testo": "Ruolo essenziale del surrene: in topi scid surrenectomizzati i controlli muoiono dopo l'intervento; la somministrazione di steroidi evita parte della mortalità precoce ma non è assolutamente necessaria (modello di trapianto di cellule corticosurrenali bovine).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10459860",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Glucocorticoidi come farmaci di supporto e immunoterapia: in un sottogruppo esplorativo istituzionale di 38 pazienti di KEYNOTE-966 (randomizzato con placebo) la PFS è HR 0,360 (IC 0,178-0,728) con pembrolizumab + terapia con glucocorticoidi contro placebo, con desametasone minimizzato per pratica istituzionale; in uno studio retrospettivo di 138 pazienti con metastasi cerebrali da tumore polmonare, nel sottogruppo che richiede corticosteroidi o mannitolo l'immunoterapia con radioterapia è associata a prognosi migliore (P=0,05).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42834953",
+      "verificata": true
+     },
+     "prova": "sottogruppo esplorativo e retrospettiva",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40016281",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Ritmo del cortisolo: in un pilota prospettico di tumori testa-collo (n=40) cortisolo serale elevato (HR 1,85) e media diurna elevata (HR 2,66) sono associati a PFS peggiore; osservazionale; intervento sul ritmo come strategia terapeutica: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39634268",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Contro-dato sul segno: in un modello murino di mieloma lo stress cronico da contenzione riduce la carica tumorale midollare, mentre l'agonismo beta riduce l'efficacia di immunoterapie ex vivo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42641866",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "In almeno due linee tumorali, un pretrattamento di 14 giorni con un agonista beta a schema continuo o pulsatile, a pari AUC, riduce ADRB2 di superficie e la risposta cAMP dopo lavaggio, cioè le cellule si desensibilizzano?",
+     "verifica": "Parzialmente fatto: l'esposizione acuta a noradrenalina o adrenalina aumenta l'invasione di linee ovariche, bloccata dal propranololo, e l'isoproterenolo aumenta il tumore in topi nudi (PMID 16428474); gli agonisti beta riducono la deformabilità e aumentano l'invasione in più linee tumorali, effetto prevenuto da beta-blocco o knockout del recettore (PMID 27875276, esperimento acuto); lo stress cronico agisce in vivo via ADRB2-cAMP-PKA (PMID 16862152); l'isoproterenolo cronico riduce ADRB2 e aumenta beta-arrestina-1 nell'ippocampo di topo, ma non è un modello tumorale e non c'è un braccio pulsatile (PMID 42097394). Non trovato: confronto continuo contro pulsatile in linee tumorali con misura dell'ADRB2 di superficie e della risposta cAMP dopo lavaggio. Domanda riformulata: la versione precedente non fissava una soglia, confondeva la desensibilizzazione del recettore con la tachifilassi a valle (PDE, Gs/AC, feedback ERK) e usava il knockout, che testa la mediazione e non la desensibilizzazione.",
+     "disegno": "Almeno due linee tumorali (per esempio ovaio e stomaco); pretrattamento di 14 giorni con isoproterenolo a schema continuo o pulsatile a pari AUC (la noradrenalina si ossida nel terreno, quindi serve un controllo di stabilità e di manipolazione senza agonista); misure ai giorni 1, 3, 7 e 14 di ADRB2 di superficie (citometria), mRNA e proteina, reclutamento di beta-arrestina, Emax ed EC50 del cAMP dopo lavaggio e nuovo stimolo; controllo di selettività beta2 contro beta1 e alfa; il knockout CRISPR di ADRB2 è un controllo separato per la mediazione.",
+     "falsificazione": "Nessuna desensibilizzazione se in tutte le linee la riduzione dell'Emax del cAMP è inferiore al 30% (soglia da fissare prima) rispetto a cellule non pretrattate, con intervallo di confidenza al 95% su almeno 3 replicati biologici che include 0; lo schema non conta se la differenza fra continuo e pulsatile a pari AUC sta entro un margine di equivalenza prefissato.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "16428474",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27875276",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16862152",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42097394",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "domanda": "Sulla scala prescelta, il termine di interazione fra noradrenalina e cortisolo su proliferazione e funzione T è diverso da zero, e il pattern della tabella 2x2 indica ridondanza, convergenza o additività?",
+     "verifica": "Parzialmente fatto per la convergenza a singolo fattore in un modello non tumorale: in macrofagi peritoneali murini (sepsi) adrenalina, noradrenalina, idrocortisone e desametasone sopprimono da soli l'IL-17 e antagonizzano tutti JNK, senza test di interazione (PMID 23499051); in linee ovariche la noradrenalina aumenta l'invasione in tutte e tre e il cortisolo solo in SKOV3 (PMID 16428474, singolo fattore). Non trovato: un disegno fattoriale 2x2 con test di interazione in cocoltura tumore-macrofagi-linfociti T. Domanda riformulata: il criterio precedente confondeva additività e indipendenza (dipendono dalla scala scelta), non distingueva i pattern attesi per ridondanza e convergenza, non aveva soglie e mancavano controlli (siero trattato con carbone, antagonista beta1 e controllo alfa, perché ICI118,551 blocca solo beta2).",
+     "disegno": "Cocoltura tumore-macrofagi-linfociti T in siero trattato con carbone; disegno 2x2: noradrenalina con o senza antagonisti beta (ICI118,551 più un antagonista beta1, con controllo alfa) per cortisolo con o senza relacorilant; scala dell'effetto fissata prima (log o modello di Bliss); almeno due linee tumorali e 3 replicati biologici; pattern attesi prefissati: ridondanza = ogni blocco da solo senza effetto e solo il doppio blocco ne ha; convergenza o gerarchia = un blocco annulla l'effetto dell'altro; additività = nessuna interazione.",
+     "falsificazione": "Nessuna interazione se l'intervallo di confidenza al 95% del termine di interazione include 0 o è inferiore a un margine minimo prefissato; il tipo di relazione si decide dal pattern della tabella 2x2 prefissata, non dalla sola significatività.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "23499051",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16428474",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "domanda": "La 6-OHDA induce IFN-beta in cellule tumorali purificate, in terreno privo di catecolamine e con ADRB2 spento, con la stessa ampiezza del controllo?",
+     "verifica": "Parzialmente fatto: in modelli mammari murini solo la 6-OHDA sopprime la crescita, mentre denervazione genetica e chirurgica no; l'effetto passa da IFN-beta delle cellule tumorali, macrofagi con firma interferone e cellule T1 (PMID 41856110). Dall'abstract non risulta se l'induzione di IFN-beta sia stata mostrata in cellule tumorali purificate né se siano stati fatti add-back di noradrenalina o knockout di ADRB2: fonte non reperita (testo completo non letto). Non trovate cocolture tumore-macrofagi con 6-OHDA più noradrenalina o ADRB2 spento. Domanda riformulata: la versione precedente aveva un test 'senza cellule nervose' ridondante con quello 'senza catecolamine', nessuna soglia e nessun controllo ossidante; la 6-OHDA genera specie reattive dell'ossigeno (nozione di fondo non verificata in sessione), quindi un effetto da stress ossidativo non è distinguibile dall'asse simpatico senza un controllo dedicato.",
+     "disegno": "Cellule tumorali mammarie purificate (senza monociti né neuroni) con o senza 6-OHDA, in siero trattato con carbone; noradrenalina aggiunta in un intervallo fisiologico prefissato; ADRB2 spento nel tumore; controllo ossidante a pari danno cellulare (per esempio catalasi o un ossidante non catecolaminergico); misura di IFN-beta per ELISA o qPCR; in un secondo passaggio, cocoltura con monociti per la differenziazione con firma interferone.",
+     "falsificazione": "L'asse simpatico non è necessario se l'induzione di IFN-beta persiste con ADRB2 spento e senza catecolamine entro una soglia prefissata dal controllo wild-type (per esempio meno del 20%); è coinvolto se la noradrenalina aggiunta riduce l'induzione oltre la stessa soglia.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41856110",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "domanda": "A pari AUC giornaliera di glucocorticoide, un profilo circadiano rispetto a un livello costante modifica la sensibilità di cellule ovariche e pancreatiche a nab-paclitaxel, e l'effetto di relacorilant dipende dal profilo e dal ligando?",
+     "verifica": "Parzialmente fatto: antagonista del recettore glucocorticoide con taxano: in cellule OVCAR5 relacorilant inverte l'effetto dannoso dei glucocorticoidi sul paclitaxel, in xenotrapianto MIA PaCa-2 riduce la crescita con paclitaxel e una fase 1 con nab-paclitaxel mostra controllo di malattia prolungato in alcuni pazienti (PMID 35583817); trial di fase 3 ROSELLA (PMID 40473448, PMID 41974149). Ritmo: nel glioblastoma murino i glucocorticoidi giornalieri favoriscono o sopprimono la crescita a seconda dell'ora del giorno e dei geni dell'orologio, via recettore glucocorticoide (PMID 39672168). Non trovato: cortisolo oscillante contro costante a pari AUC su linee ovariche o pancreatiche con nab-paclitaxel con o senza antagonista. Domanda riformulata: la versione precedente non aveva soglie, non specificava se il glucocorticoide fosse cortisolo o desametasone (molti lavori usano desametasone), mancavano siero privo di cortisolo e knockout del recettore per definire un effetto indipendente dal ligando.",
+     "disegno": "Linee ovariche e pancreatiche in siero trattato con carbone; cortisolo costante contro profilo circadiano a pari AUC; nab-paclitaxel a dosi prefissate con o senza relacorilant; controlli senza glucocorticoide con o senza relacorilant e con recettore glucocorticoide spento.",
+     "falsificazione": "Il profilo non conta se non c'è interazione (ANOVA a due vie o modello di Bliss) né spostamento dell'IC50 del paclitaxel oltre una soglia prefissata (per esempio 2 volte); l'effetto di relacorilant è indipendente dal ligando se sensibilizza anche senza cortisolo e nelle cellule con recettore spento.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35583817",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39672168",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40473448",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41974149",
+       "verificata": true
+      }
+     ]
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Concentrazione di catecolamine tissutali nel tumore dopo stress cronico murino",
+     "stato": "assente",
+     "valore": "aumento qualitativo, valore non nell'abstract",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16862152",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Rapporto di rischio di cancro per quarto contro primo quartile di carico allostatico (clinico, EPIC-Granada)",
+     "stato": "misurato",
+     "valore": "OR 2,24 (IC 1,68-2,99), dipendente dalla costruzione dell'indice",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42801852",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Dose di relacorilant in ROSELLA",
+     "stato": "misurato",
+     "valore": "150 mg orali il giorno prima, il giorno stesso e il giorno dopo nab-paclitaxel",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40473448",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Cinetica di desensibilizzazione di ADRB2 nelle cellule tumorali",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Dose-risposta noradrenalina-effetto tumorale a livello cellulare",
      "stato": "assente",
      "valore": "",
      "fonte": null

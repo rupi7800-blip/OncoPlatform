@@ -11,5 +11,3 @@ Anteprima locale: `python3 -m http.server` nella radice.
 
 Indirizzo pubblico (GitHub Pages, dopo l'attivazione in Settings → Pages, ramo `main`, cartella `/ (root)`):
 https://rupi7800-blip.github.io/OncoPlatform/
-
-Versione privata di anteprima: https://claude.ai/artifact/8Cm1kcDMs1qwxNDqqoCDfQ
