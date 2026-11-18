@@ -441,7 +441,7 @@
   {
    "id": "bioelettricita",
    "name": "Bioelettricità e potenziale di membrana (cornice di Michael Levin)",
-   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Primo giro di verifica fatto: 6 PMID riletti da me su PubMed e 6 record sul registro ClinicalTrials.gov (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "note": "Bozza v0. L'affermazione di partenza va ridimensionata: nel girino si studiano 'strutture simil-tumorali' (ITLS) indotte da oncogeni, non tumori in senso istologico/clinico, e gli abstract parlano di riduzione dell'incidenza e di regressione più frequente, non di normalizzazione completa. Tutti i lavori primari sul girino sono dello stesso gruppo e non sono state trovate repliche indipendenti nello stesso sistema. 'Promettente' compare come giudizio degli autori nell'abstract del 2013, non come dato. Giro 1: 6 PMID riletti da me su PubMed e 6 record del registro. Giro 2: altri 17 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti perché l'abstract non sosteneva tutto). Giro 3 in corso. Restano non verificati gli identificativi non ancora riletti e i dati senza identificativo. Passo 6 provvisorio.",
    "normale": [
     {
      "testo": "Il potenziale di membrana a riposo (Vmem) regola il differenziamento: nelle cellule staminali mesenchimali umane l'iperpolarizzazione accompagna il differenziamento osteogenico e adipogenico e la depolarizzazione lo impedisce. Dato in vitro, del gruppo Levin.",
@@ -449,17 +449,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "19011685",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Rassegna: la depolarizzazione è associata a proliferazione in molte cellule tumorali e l'iperpolarizzazione al differenziamento delle staminali. Il nesso causale è descritto nella rassegna e non è stato verificato in studi primari.",
+     "testo": "Rassegna: la depolarizzazione è associata a proliferazione in molte cellule tumorali; l'iperpolarizzazione è descritta come 'necessary for stem cell differentiation'. Il nesso causale non è verificabile dall'abstract.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "23882223",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna"
     },
@@ -532,17 +532,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "20959630",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Collegamento Vmem → Hippo/YAP: non trovato in PubMed. L'unico dato vicino riguarda KCNA2/Kv1.2 nel sarcoma di Ewing (controllo di YAP/Hippo), senza misurare Vmem.",
+     "testo": "Collegamento Vmem → Hippo/YAP: non trovato nelle ricerche fatte. L'unico dato vicino riguarda KCNA2/Kv1.2 nel sarcoma di Ewing, che regola la via YAP/Hippo ('KCNA2 expression drives the Hippo/YAP signalling pathway'); il lavoro non misura Vmem.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "39695664",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa",
      "inferenza": true
@@ -572,12 +572,12 @@
       "prova": "genetica + co-coltura"
      },
      {
-      "testo": "Apparente opposizione: nel carcinoma mammario il blocco di Kir2.1 (che depolarizza) ripristina la sensibilità ai farmaci; l'endpoint è la resistenza ai farmaci, non la formazione del tumore, quindi i due risultati non sono confrontabili direttamente.",
+      "testo": "Nell'abstract il blocco di Kir2.1 'restored treatment sensitivity' in tumori aggressivi; l'endpoint è la resistenza ai farmaci, non la formazione del tumore. L'effetto depolarizzante e il confronto con gli altri risultati sono interpretazioni di questa revisione e non sono nell'abstract.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "40367066",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -587,7 +587,7 @@
       "fonte": {
        "tipo": "PMID",
        "id": "39048659",
-       "verificata": false
+       "verificata": true
       },
       "prova": "in vitro + xenotrapianto + correlativa"
      },
@@ -597,18 +597,18 @@
       "fonte": {
        "tipo": "PMID",
        "id": "39231216",
-       "verificata": false
+       "verificata": true
       },
       "prova": "BioID + animale",
       "inferenza": true
      },
      {
-      "testo": "Il cancerogeno 4NQO produce tumori localizzati con effetti variabili sul Vmem corporeo: Vmem non è sempre associato alla tumorigenesi.",
+      "testo": "Il cancerogeno 4NQO produce tumori localizzati con effetto ampio e variabile sulle proprietà bioelettriche dell'intero corpo; l'abstract conclude però che il potenziale depolarizzato è 'functionally instructive' per la tumorigenesi indotta da oncogeni.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "23196890",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -618,7 +618,7 @@
       "fonte": {
        "tipo": "PMID",
        "id": "2434484",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -628,7 +628,7 @@
       "fonte": {
        "tipo": "PMID",
        "id": "41083090",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
@@ -728,12 +728,12 @@
      "composto": "SOR-C13",
      "bersaglio": "TRPV6",
      "fase": "I (n=23)",
-     "esito": "ipocalcemia transitoria di grado 2; stabilità di malattia 54,5%; risposta migliore -27%",
+     "esito": "ipocalcemia transitoria di grado 2 in 4 pazienti; stabilità di malattia nel 54,5% dei 22 valutabili; migliore risposta: riduzione del 27% di un tumore pancreatico a 6,2 mg/kg",
      "ragione": "sviluppo successivo non reperito",
      "fonte": {
       "tipo": "PMID",
       "id": "28150073",
-      "verificata": false
+      "verificata": true
      }
     },
     {
@@ -747,32 +747,42 @@
    ],
    "finestra": [
     {
-     "testo": "Cuore: il blocco di hERG è il meccanismo principale del prolungamento del QT indotto da farmaci; le mutazioni di SCN5A (Nav1.5) danno sindrome del QT lungo o Brugada a seconda della direzione.",
+     "testo": "Le mutazioni di SCN5A (Nav1.5) danno sindrome del QT lungo (guadagno di funzione) o sindrome di Brugada (perdita di funzione); la direzione della modulazione determina il rischio cardiaco.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "29798782",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica/genetica"
     },
     {
-     "testo": "Pancreas endocrino: la perdita di funzione dei canali KATP causa ipoglicemia grave (iperinsulinismo congenito), il guadagno di funzione diabete neonatale.",
+     "testo": "Il blocco del canale hERG è il meccanismo principale del prolungamento del QT indotto da farmaci (rassegna di farmacologia; non letta da me).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15389727",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Pancreas endocrino: la perdita di funzione dei canali KATP causa iperinsulinismo congenito con ipoglicemia grave; mutazioni di Kir6.2 e SUR1 sono associate a diabete neonatale e diabete mellitus (il meccanismo di guadagno di funzione non è specificato nell'abstract).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "15963039",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica/genetica"
     },
     {
-     "testo": "Sistema nervoso centrale: la perdita di funzione di SCN1A causa crisi epilettiche (sindrome di Dravet).",
+     "testo": "Sistema nervoso centrale: la perdita di funzione di SCN1A è il meccanismo della maggior parte delle mutazioni che causano la sindrome di Dravet, con crisi epilettiche.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "20831750",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna + animale"
     },
@@ -782,17 +792,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "12796536",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica/genetica"
     },
     {
-     "testo": "Sistema immunitario: Kv1.3 è alto nelle cellule T effettrici di memoria; la sua inibizione è immunosoppressiva.",
+     "testo": "Sistema immunitario: Kv1.3 è espresso in alta quantità nelle cellule T effettrici di memoria; i bloccanti selettivi ne inibiscono segnalazione del calcio, produzione di citochine e proliferazione, e l'abstract li contrappone all'immunosoppressione generale.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "19538097",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna"
     },
@@ -807,12 +817,12 @@
      "prova": "clinica"
     },
     {
-     "testo": "Selettività tumore/tessuto sano: non dimostrata nei lavori letti. La rassegna che definisce la depolarizzazione un 'hallmark' osserva comparabilità quantitativa limitata e assenza di standardizzazione clinica.",
+     "testo": "La rassegna definisce la depolarizzazione un 'conserved bioelectric hallmark of malignancy' e segnala 'limited quantitative comparability across tumour types' e 'a lack of standardisation for clinical translation'. La selettività rispetto al tessuto sano non è discussa nell'abstract: non dimostrata nei lavori letti.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "42165099",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna"
     },
