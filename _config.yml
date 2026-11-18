@@ -1,0 +1,5 @@
+# Sito statico servito da GitHub Pages (build Jekyll senza tema).
+# Questi file restano nel repository ma non vengono pubblicati.
+exclude:
+  - CLAUDE.md
+  - .claude
