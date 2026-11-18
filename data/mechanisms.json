@@ -2741,6 +2741,439 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "riprogrammazione",
+   "name": "Riprogrammazione cellulare e riprogrammazione parziale (fattori di Yamanaka)",
+   "note": "Bozza v0. La frase di partenza ('la riprogrammazione parziale ringiovanisce i tessuti nei topi senza cancellarne l'identità') è sostenuta in parte e solo con protocolli ciclici o mirati: con induzione sistemica continua di OSKM i topi muoiono presto per insufficienza epatica e intestinale con dedifferenziazione degli epatociti, e in cuore e neuroni compaiono effetti di perdita di identità o assenza di beneficio. Il ringiovanimento è misurato soprattutto con orologi epigenetici e funzioni in pochi organi; il nesso orologio-funzione è il punto più debole; non risultano dati clinici di efficacia né repliche indipendenti del dato più forte sulla durata di vita (studio di un'azienda). Giro 1 di verifica: 6 PMID riletti da me su PubMed e 6 record del registro (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio. Il tema della tumorigenicità dopo riprogrammazione di cellule tumorali è trattato nella scheda 'Paesaggio di Waddington e teoria degli attrattori'.",
+   "normale": [
+    {
+     "testo": "Meccanismo in vitro: nella riprogrammazione OSKM, i fattori legano enhancer somatici attivi all'inizio, ne riducono l'attività redistribuendo i fattori somatici e reclutano Hdac1; la riprogrammazione completa porta a pluripotenza. Dato in cellule murine in coltura.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28111071",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Barriere alla riprogrammazione: OSKM induce p53, p16INK4a e p21 (senescenza) e il locus Ink4/Arf è silenziato nelle iPSC; Arf è la barriera principale nel topo e INK4a nei fibroblasti umani; le cellule di organismi anziani riprogrammano meno. Cellule con Arf o p53 deficitari o immortalizzate riprogrammano più in fretta; gli autori sottolineano somiglianze fra pluripotenza indotta e tumorigenesi (interpretazione degli autori).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19696146",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Espressione ciclica breve di OSKM in un modello murino di invecchiamento precoce migliora segni cellulari e fisiologici di invecchiamento e prolunga la vita; in topi anziani non progeroidi migliora il recupero da malattia metabolica e da lesione muscolare. Il numero di animali e la durata del protocollo non sono nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27984723",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "OSK (senza MYC) in cellule gangliari della retina, con AAV, ripristina pattern di metilazione e trascrittoma più giovani, promuove la rigenerazione assonale e inverte la perdita visiva in un modello di glaucoma e in topi anziani; l'effetto richiede le demetilasi TET1 e TET2.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33268865",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nel cancro: un lavoro in cellule polmonari trasformate mostra che l'espressione transitoria di OSKM limita la crescita (apoptosi e senescenza via p21) e riduce la crescita tumorale in allotrapianti, trapianto ortotopico e un modello KRAS; l'adenocarcinoma pancreatico resiste alla riprogrammazione in un preprint.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39587064",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Dati clinici di efficacia della riprogrammazione parziale: fonte non reperita; un solo trial di fase 1 con OSK è registrato e in reclutamento (vedi passo 4).",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Induzione transitoria dei fattori → rimodellamento epigenetico: in vivo nei topi, con ripristino di pattern di metilazione più giovani nelle cellule gangliari retiniche e dipendenza da TET1 e TET2.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33268865",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Rimodellamento → minore età epigenetica → recupero funzionale: il nesso orologio-funzione è il punto più debole; una rassegna avverte che un calo dell'orologio non è prova di ringiovanimento senza confronto con funzione, morbilità e mortalità, e in un modello di invecchiamento accelerato inibitori della via TGF-beta riproducono in parte il ripristino dell'orologio senza riprogrammazione.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42862118",
+      "verificata": false
+     },
+     "prova": "rassegna",
+     "inferenza": true
+    },
+    {
+     "testo": "Ringiovanimento senza perdita di identità: con induzione sistemica continua di OSKM la disfunzione epatica e intestinale porta a morte prematura entro circa una settimana; evitare l'espressione in fegato e intestino riduce la letalità e la età biologica dell'organismo cala.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38012287",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "L'induzione sistemica prolungata di OSKM causa letalità precoce con dedifferenziazione degli epatociti e stress ossidativo, senza tumori; le femmine resistono di più e la N-acetilcisteina migliora la sopravvivenza senza ridurre la plasticità cellulare indotta.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42248561",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Protocolli ciclici o mirati: un AAV con fattori di riprogrammazione parziale diretto alle cellule invecchiate prolunga la vita in topi progeroidi e in topi anziani senza alterare l'incidenza di tumori secondo l'abstract; studio di un'azienda e follow-up tumorale non descritto in dettaglio; i nomi dei geni non sono leggibili nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39259812",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Neuroni: l'espressione degli ortologhi di OSK nei neuroni di C. elegans non migliora la memoria a breve termine né la durata di vita e può alterare la chemiotassi; modello invertebrato; nel topo l'espressione ciclica nei neuroni corticali migliora la cognizione mentre quella continua no (riportato da un sotto-agente).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39267613",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Identità a lungo termine in modo sistematico e rischio tumorale con follow-up primario: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Le barriere alla riprogrammazione sono multiple e ridondanti (p53, p21, p57, p16 e p19 Arf, Mbd3): la rimozione di una sola ha effetto parziale (rassegna).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "26566431",
+       "verificata": false
+      },
+      "prova": "rassegna"
+     },
+     {
+      "testo": "Contrasto su OSK senza MYC: in iPSC umane causa 'reprogramming stress' e citotossicità, attenuabile con peptidi dominanti negativi di BET; nel cuore di topo dopo infarto induce dedifferenziazione dei cardiomiociti e rigenerazione senza ingresso diretto in fase S. Differenze di modello: iPSC in vitro e cardiomiociti in vivo.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36691621",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Alternativa senza riprogrammazione: in un modello murino di invecchiamento accelerato (ERCC1) inibitori delle vie ALK5 e ALK2 (TGF-beta) riproducono in parte i benefici e ripristinano l'orologio epigenetico.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38322248",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Alternativa via cellule senescenti: il blocco di PD-L2 riduce l'accumulo di cellule senescenti e migliora la sensibilità insulinica in topi anziani; una revisione sistematica sui senolitici nell'uomo riporta sei studi completati con dati preliminari, campioni piccoli e follow-up breve.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42721966",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Alternativa senza fattori di Yamanaka: uno screen di cDNA ha identificato SRSF1, che in topi anziani riduce la fragilità del 44% e prolunga la vita mediana del 14% (n=9-10 per gruppo); la riprogrammazione chimica parziale riduce l'età biologica in fibroblasti e prolunga la vita di C. elegans.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42875585",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Deriva mesenchimale: una perdita di identità con tratti mesenchimali cresce con malattia e mortalità in oltre 40 tessuti umani (correlazione) e OSK la riduce prima della dedifferenziazione e della pluripotenza nei topi.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40816266",
+       "verificata": false
+      },
+      "prova": "correlativa + sperimentale"
+     },
+     {
+      "testo": "Singolo studio con affiliazione aziendale: un AAV con OSK inducibile in topi di 124 settimane prolunga la vita residua mediana del 109%; non replicato nelle ricerche fatte.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38381405",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Non trovati: confronto diretto di OSK con rapamicina o restrizione calorica; adattamento dopo induzioni ripetute; dati primari su teratomi con protocolli ciclici; tessuti o cellule tumorali resistenti oltre il preprint pancreatico; parabiosi eterocronica. Sono buchi, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "ER-100 (AAV con OSK, doxiciclina)",
+     "bersaglio": "riprogrammazione parziale",
+     "fase": "I in glaucoma o neuropatia ottica ischemica anteriore non arteritica (NCT07290244, registro; 18 partecipanti previsti)",
+     "esito": "in reclutamento, senza risultati: unico trial registrato con OSK; ricerca per 'Yamanaka factors' senza altri trial",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT07290244",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "CYP-001 (cellule mesenchimali da iPSC) + corticosteroidi",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "II in malattia del trapianto contro l'ospite acuta ad alto rischio (NCT05643638, registro; 65 arruolati)",
+     "esito": "terminato senza risultati nel registro",
+     "ragione": "i risultati non hanno dimostrato il beneficio clinico atteso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05643638",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "CNTY-101 (CAR-NK da iPSC)",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "I in neoplasie a cellule B CD19-positive (NCT05336409, registro; 28 arruolati)",
+     "esito": "terminato senza risultati",
+     "ragione": "decisione strategica (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05336409",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "FT500 (cellule NK da iPSC)",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "I in tumori solidi, da solo o con inibitori di checkpoint (NCT03841110, registro; 37 arruolati)",
+     "esito": "completato senza risultati nel registro",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03841110",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "HS-001 (sferoidi di cardiomiociti da iPSC)",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "I/II in scompenso cardiaco (NCT04945018, registro; 10 arruolati)",
+     "esito": "completato senza risultati nel registro",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04945018",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Eyecyte-RPE (epitelio pigmentato retinico da iPSC)",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "I/II in atrofia geografica da degenerazione maculare (NCT06394232, registro; 54 previsti)",
+     "esito": "in reclutamento, senza risultati",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06394232",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "foglietto autologo di RPE da iPSC",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "caso singolo (riportato da un sotto-agente)",
+     "esito": "un paziente con degenerazione maculare neovascolare; non valutabile come efficacia",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28296613",
+      "verificata": false
+     }
+    },
+    {
+     "composto": "altri programmi (Parkinson con cellule dopaminergiche da iPSC, altre cellule da iPSC, ricerche ritirate per fondi)",
+     "bersaglio": "terapia cellulare da iPSC",
+     "fase": "vari (registro, letti dal sotto-agente)",
+     "esito": "più trial di fase 1 in corso senza esiti; ricerche per 'epigenetic reprogramming' hanno restituito falsi positivi (TIL riprogrammati, decitabina); assenza di pubblicazioni per i trial interrotti = 'non reperita', non prova di assenza",
+     "ragione": "vedi registro",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Con induzione continua di OSKM la letalità precoce è epatica e intestinale; evitare l'espressione in questi due organi la riduce.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38012287",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Stress ossidativo come motore dell'insufficienza epatica con induzione prolungata; N-acetilcisteina migliora la sopravvivenza; nessun tumore osservato in quel modello.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42248561",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Induzione breve o mirata nel fegato (anche con mRNA in nanoparticelle lipidiche) migliora la rigenerazione senza insufficienza; nei neuroni corticali solo la forma ciclica migliora la cognizione (riportati da un sotto-agente): la finestra dipende da durata, organo e vettore.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35476977",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Cuore: OSK senza MYC induce dedifferenziazione e disassemblaggio dei sarcomeri, con blocco della citochinesi superabile e rigenerazione dopo infarto nel topo (riportato da un sotto-agente).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42013916",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Rischi del vettore e dell'induttore: tossicità gravi, a volte fatali, dell'AAV clinico (sangue, fegato, muscolo, cuore) con ruolo dell'immunità; doxiciclina a dosi diverse con effetti mitocondriali opposti nell'intestino; nessun dato di sicurezza della doxiciclina per sistemi OSKM inducibili.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42668237",
+      "verificata": false
+     },
+     "prova": "consenso e sperimentale"
+    },
+    {
+     "testo": "Selettività sul tumore: l'espressione transitoria di OSKM riduce la crescita di cellule polmonari trasformate e di allotrapianti, mentre l'espressione continua converte cellule normali in pluripotenti teratogene secondo gli autori.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39587064",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Teratomi in protocolli ciclici, rischio tumorale a lungo termine, soglie di dose e confronto OSKM contro OSK sulla sicurezza: fonte non reperita come dati primari; una rassegna indica teratoma, insufficienza d'organo e perdita di identità come rischi principali.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41114535",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "La riduzione dell'età epigenetica indotta da OSK è causalmente legata al recupero funzionale, o i due fenomeni sono separabili?",
+     "disegno": "Tessuti di topi anziani o espianti (retina, muscolo) con OSK, con e senza knockout di TET1/TET2 e con inibitori di TGF-beta come confronto; misura di orologio epigenetico, metilazione e funzione (rigenerazione assonale, contrattilità).",
+     "falsificazione": "Se il recupero funzionale avviene senza cambio dell'orologio, o l'orologio cala senza guadagno funzionale, l'orologio non è un surrogato causale."
+    },
+    {
+     "domanda": "La riprogrammazione parziale ciclica conserva l'identità cellulare in tutti gli organi a lungo termine, senza displasia né tumori?",
+     "disegno": "Topi anziani con tracciamento di lignaggio e OSK ciclico, con e senza MYC; scRNA-seq di più organi a 3, 6 e 12 mesi dai cicli con punteggio di identità; istologia per displasia e tumori; sopravvivenza.",
+     "falsificazione": "Se un organo mostra perdita di identità o displasia oltre soglia prespecificata rispetto ai controlli, la formula 'senza perdita di identità' è falsificata per quell'organo."
+    },
+    {
+     "domanda": "Le barriere oncosoppressive (p53, Arf) limitano la trasformazione durante la riprogrammazione parziale in vivo?",
+     "disegno": "OSK ciclico in topi con p53 o Arf condizionalmente ridotti contro selvatici; incidenza di tumori e teratomi nel tempo; confronto in organoidi umani.",
+     "falsificazione": "Se l'incidenza di tumori non differisce, le barriere non sono limitanti nel protocollo ciclico; se aumenta con p53 o Arf ridotti, il rischio dipende dall'integrità di queste barriere."
+    },
+    {
+     "domanda": "Il beneficio di OSK passa dalla rimozione o dal blocco delle cellule senescenti, oppure è additivo rispetto ad esso?",
+     "disegno": "Topi anziani con eliminazione genetica delle cellule p16-positive (modello INK-ATTAC) e OSK ciclico in disegno fattoriale; esiti di fragilità, funzione e orologio.",
+     "falsificazione": "Se il beneficio di OSK scompare dopo l'eliminazione delle cellule senescenti, l'effetto è mediato dalla senescenza; se resta additivo, è indipendente."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Latenza della morte con induzione sistemica continua di OSKM nel topo",
+     "stato": "misurato",
+     "valore": "circa una settimana (disfunzione epatica e intestinale)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38012287",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Estensione della vita residua mediana con AAV-OSK inducibile in topi di 124 settimane",
+     "stato": "stimato per analogia",
+     "valore": "+109%, studio singolo con affiliazione aziendale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38381405",
+      "verificata": false
+     }
+    },
+    {
+     "nome": "Durata minima della finestra di induzione per un effetto funzionale e ritorno a identità normale",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Incidenza di tumori o teratomi con protocolli ciclici a follow-up di 12 mesi o più",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
