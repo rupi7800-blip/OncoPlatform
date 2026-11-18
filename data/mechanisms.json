@@ -4797,6 +4797,765 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "ormesi",
+   "name": "Ormesi: stress dosato e sistemi di riparazione (esercizio, digiuno, freddo, calore)",
+   "note": "Bozza v0. La frase di partenza ('uno stress dosato attiva i sistemi di riparazione; esempi: esercizio, digiuno, freddo e calore; buona evidenza per l'esercizio, più limitata per gli altri') regge solo in parte. (1) L'ormesi come risposta bifasica alla dose è documentata soprattutto in colture cellulari (una rassegna che raccoglie solo inversioni sperimentali di risposta trova pochissimi esperimenti in animali) e le sintesi più ampie vengono dal proponente del concetto; i dati dei sopravvissuti alle bombe atomiche non mostrano chiaramente né una soglia né una riduzione di rischio a basse dosi. (2) 'Attiva i sistemi di riparazione' non è dimostrato nei lavori letti: dopo esercizio aerobico acuto il danno al DNA aumenta in modo transitorio e la riparazione non è misurata come tale; Nrf2, HSF1 e le difese antiossidanti sono difesa e proteostasi, non riparazione del DNA. (3) La 'buona evidenza per l'esercizio' è sostenuta per un endpoint clinico in un solo contesto (CHALLENGE, colon, RCT di fase 3: sopravvivenza libera da malattia HR 0,72) e da una meta-analisi di 13 RCT (mortalità HR 0,74, qualità moderata); ma un RCT in carcinoma ovarico non è significativo, in un modello murino l'esercizio non cambia le metastasi, le coorti osservazionali mostrano più melanoma e prostata, e il meccanismo ormetico non è mostrato. (4) Digiuno: l'effetto in xenotrapianti passa dal recettore dei glucocorticoidi, non da vie di riparazione; i trial sono piccoli e uno di fase 3 è sospeso. (5) Freddo: nessun dato oncologico ormetico; il freddo clinico è un effetto locale (neuropatia). (6) Calore: l'ipertermia terapeutica non è uno stimolo ormetico; in modelli HSF1 è pro-tumorale; la coorte sulla sauna è nulla. (7) Rischio: lo stesso stimolo ormetico può proteggere o stimolare le cellule tumorali (dosi basse di chemioterapia stimolano la proliferazione in vitro e ex vivo in 9 tumori mammari su 22). Giro 1 di verifica: 18 PMID e 10 record del registro riletti direttamente (marcati 'verificata'); gli altri identificativi sono letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "Definizione operativa e critica: molti articoli dichiarano la natura ormetica di un composto senza prova sperimentale; una rassegna include solo lavori con inversione della risposta fra basse e alte dosi per un singolo endpoint; la maggior parte dei dati è su colture cellulari (endpoint più comune: proliferazione di cellule tumorali e non) e pochissimi su animali.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32155852",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Calabrese documenta relazioni dose-risposta ormetiche di pre- e postcondizionamento per 154 agenti e più di 550 curve, con un effetto massimo tipicamente superiore del 30-60% al controllo; è una sintesi del proponente del concetto, non una verifica indipendente.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26757428",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Danno al DNA dopo esercizio: una meta-analisi di 35 studi trova un aumento immediato dopo esercizio aerobico acuto (SMD 0,875; IC 0,5-1,25), che resta significativo fra 2 ore e 1 giorno ma non a 5-28 giorni, presente con protocolli ad alta intensità (SMD 1,18) e non con la lunga distanza; gli autori definiscono la teoria ormetica 'unidimensionale'; la riparazione non è misurata come tale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31529301",
+      "verificata": true
+     },
+     "prova": "meta-analisi"
+    },
+    {
+     "testo": "Radiazioni a basse dosi: nei dati dei sopravvissuti alle bombe atomiche giapponesi ci sono solo lievi indizi di scostamento dalla linearità; il fattore di estrapolazione a basse dosi è generalmente 1,1-2,0 (limiti superiori anche oltre 10), sotto 1 nella fascia sotto 0,5 Gy ma con grande incertezza: i dati non mostrano chiaramente né una soglia né una riduzione di rischio a basse dosi.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39799958",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Posizioni sul modello lineare senza soglia: rassegne e gruppi di esperti sostengono che non sia valido a basse dosi e dose-rate o che esistano risposte ormetiche alle radiazioni (alcune pubblicate in riviste della società dell'ormesi); le fonti hanno un interesse dichiarato verso la conclusione. Il rapporto BEIR VII non è stato letto: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30262515",
+      "verificata": false
+     },
+     "prova": "rassegna e opinione",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31107746",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30792613",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "29475999",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "36161867",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Vie proposte come mediatori: ROS a bassa dose, SKN-1/Nrf2 e HSF-1 in C. elegans e nel lievito; in umani una scoping review descrive un aumento transitorio dello stress ossidativo dopo esercizio acuto e uno spostamento dello stato redox con programmi cronici; un modello catabolico-anabolico propone cicli di esercizio e digiuno. Livello: invertebrati e rassegne; AMPK, sirtuine e autofagia come mediatori ormetici in umani: fonte non reperita.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28676501",
+      "verificata": false
+     },
+     "prova": "sperimentale e rassegna",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "30227387",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "39551161",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42977485",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Contrasto sul ruolo delle ROS: in topi con catalasi mitocondriale la riduzione delle ROS allunga la vita, in tensione con l'idea che ROS a bassa dose siano il segnale protettivo; la differenza di modello (modifica genetica costitutiva contro stress transitorio) non è verificata.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28253986",
+      "verificata": false
+     },
+     "prova": "rassegna",
+     "inferenza": true
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Esercizio e sopravvivenza (RCT di fase 3, CHALLENGE): in 889 pazienti con tumore del colon resecato dopo chemioterapia adiuvante, un programma strutturato di 3 anni contro materiale educativo dà una sopravvivenza libera da malattia con HR 0,72 (IC 0,55-0,94) e 80,3% contro 73,9% a 5 anni; per la sopravvivenza globale l'HR è 0,63 (IC 0,43-0,94), presentata come risultato coerente; eventi avversi muscoloscheletrici 18,5% contro 11,5%.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40450658",
+      "verificata": true
+     },
+     "prova": "RCT",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT00819208",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Meta-analisi di 13 RCT (3.282 pazienti con tumori eterogenei): la mortalità per tutte le cause scende del 26% (HR 0,74; IC 0,63-0,87) con qualità moderata dell'evidenza e rischio di bias moderato.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41894932",
+      "verificata": true
+     },
+     "prova": "meta-analisi di RCT"
+    },
+    {
+     "testo": "Coorti: in 1,44 milioni di adulti l'attività fisica ricreativa alta contro bassa si associa a minore rischio di 13 tumori (per esempio colon HR 0,84; mammella 0,90; polmone 0,74) e a maggiore rischio di melanoma (HR 1,27) e prostata (HR 1,05); attività auto-riferita, osservazionale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27183032",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Contro-dato: in un RCT in carcinoma ovarico (n=81) un intervento combinato di esercizio e dieta non ha prodotto una differenza significativa della sopravvivenza libera da progressione (HR 1,63; IC 0,82-3,23), endpoint secondario; la dose relativa di chemioterapia ≥85% è 74,4% contro 61,5% (OR 2,04; IC 0,75-5,84).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39244208",
+      "verificata": true
+     },
+     "prova": "RCT"
+    },
+    {
+     "testo": "Modelli murini: la corsa volontaria non modifica le metastasi polmonari ed epatiche né la sopravvivenza in un modello di tumore del colon C26; in un altro studio sullo stesso tipo di tumore l'allenamento con ruota pesata riduce il peso del tumore e preserva la massa muscolare; la riduzione del tumore non spiega gli effetti muscolari. Le differenze riguardano tumore primario e metastasi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41881897",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42241015",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Meccanismo nell'esercizio: nei lavori letti i dati sono correlativi (un'analisi esplorativa in 60 sopravvissuti a tumore del colon-retto mostra minore sCD30 e più cellule NK) o ipotesi di rassegna (IL-6, SPARC, NK, asse insulina/IGF-1); nessun lavoro oncologico letto mostra che l'attivazione di Nrf2, AMPK o HSF1 causi l'esito: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42808444",
+      "verificata": false
+     },
+     "prova": "correlativa",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42738403",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Digiuno: in xenotrapianti ERα-positivi con tamoxifene il digiuno attiva il recettore dei glucocorticoidi e il suo knockout riduce l'effetto antitumorale; in pazienti con dieta che mima il digiuno aumentano progesterone e cortisolo nel sangue e nei tumori l'attivazione del recettore correla inversamente con la proliferazione (dato clinico correlativo, numero non nell'abstract). Il meccanismo non è Nrf2, HSF1 o AMPK.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41372410",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Digiuno e immunità: in topi con tumore mammario o melanoma la dieta che mima il digiuno con chemioterapia aumenta i linfociti T CD8 infiltranti; il calo di HO-1 media in parte l'effetto nel tumore mammario.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27411588",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "RCT pilota (13 pazienti, 7 a digiuno) di digiuno di 24 ore prima e dopo chemioterapia in tumore mammario HER2-negativo: eritrociti e piastrine più alti a 7 giorni; il segnale di danno al DNA gamma-H2AX nei leucociti sale a 30 minuti nei non digiunanti e non nei digiunanti; i dati non riguardano cellule tumorali né l'efficacia.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26438237",
+      "verificata": true
+     },
+     "prova": "RCT pilota"
+    },
+    {
+     "testo": "Freddo: in topi l'esposizione a 4 °C con nanofarmaci e radioterapia agisce con termogenesi del grasso bruno che sottrae glucosio al tumore (affamamento), non con riparazione; dati clinici oncologici sul freddo come stimolo ormetico: fonte non reperita.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39401104",
+      "verificata": false
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41947493",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Calore: in una coorte finlandese di 2.173 uomini seguiti 24 anni la sauna frequente non è associata al rischio di cancro (HR 0,92; IC 0,66-1,27 per 4 o più sedute a settimana); nei modelli murini di tumore del colon HSF1, sede della risposta al calore, è pro-tumorale (p53 selvatico lo sopprime e la sua perdita lo libera, stabilizzando p53 mutato).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31590079",
+      "verificata": true
+     },
+     "prova": "correlativa",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "34188043",
+       "verificata": true
+      }
+     ]
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Nrf2 nell'esercizio: nei ratti Nrf2-knockout l'allenamento ripristina la funzione delle arteriole attraverso meccanismi indipendenti da Nrf2 (compensazione); nei topi l'effetto del precondizionamento ipossico sull'esercizio e quello sulla sarcopenia degli anziani sono abrogati o minimi senza Nrf2.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "43003297",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "40578507",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "31487225",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "34823019",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Autofagia e p53 nell'esercizio: il blocco di Atg7 non modifica prestazione né attivazione di AMPK in topi; nei topi p53-knockout l'attivazione di CaMKII e AMPK dopo esercizio è solo attenuata (ridondanza parziale). Knockout di HSF1 o AMPK nell'esercizio: fonte non reperita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25483961",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "24284795",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Lato oscuro in oncologia: l'attivazione sostenuta di Nrf2 nei tumori protegge dall'apoptosi e dal danno ossidativo e favorisce la chemioresistenza (rassegne preclinica); in un modello di NSCLC un microRNA vescicolare che attiva Nrf2 conferisce resistenza ad anlotinib e l'effetto scompare con la mutazione del sito di legame di KEAP1.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42199534",
+       "verificata": false
+      },
+      "prova": "rassegna",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "40815486",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "42298893",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Antiossidanti e adattamento: vitamine C ed E bloccano parte degli adattamenti all'allenamento nell'uomo (proteoma dopo sprint interval training; ipertrofia e forza), ma un RCT in 28 soggetti non trova effetti su HSP e enzimi antiossidanti: dipende da esito, tipo di allenamento e dose; qui non c'è un test oncologico.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40433923",
+       "verificata": false
+      },
+      "prova": "RCT",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "36283241",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "32153849",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Test indiretto in oncologia con supplementi antiossidanti: nello studio ATBC il beta-carotene aumenta il rischio di tumore del polmone nei fumatori (analisi secondaria); in un RCT in tumore vescicale non muscolo-invasivo la vitamina E si associa a recidiva peggiore (HR 1,46; IC 1,02-2,09; interrotto per reclutamento lento); non è una prova del meccanismo.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "29889248",
+       "verificata": false
+      },
+      "prova": "RCT e analisi secondaria",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "37847504",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Ormesi delle cellule tumorali in vitro: dosi basse di cisplatino e paclitaxel stimolano la proliferazione di cellule di carcinoma ovarico, soprattutto resistenti e in ipossia, con ROS e glutatione aumentati.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39747971",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Ormesi in tessuto umano ex vivo: in istocoltura di 22 tumori mammari resecati l'ormesi da paclitaxel (crescita a basse dosi) compare in 9 casi su 22; nel gruppo con ormesi la dose efficace è maggiore; non è un dato in pazienti.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31903070",
+       "verificata": true
+      },
+      "prova": "sperimentale ex vivo"
+     },
+     {
+      "testo": "Contro-dato sulla direzione: plasma di argon a basse dosi stimola cellule staminali mesenchimali e riduce la crescita di osteosarcoma in vitro: la direzione dipende da cellula e stimolo.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "34202684",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Spiegazioni alternative non legate alla riparazione (perdita di peso, sensibilità insulinica, immunità, microambiente, effetto del partecipante sano): fonte non reperita in ambito oncologico.",
+      "livello": "ipotesi",
+      "fonte": null,
+      "inferenza": true
+     },
+     {
+      "testo": "Non trovati: desensibilizzazione o tolleranza a stimoli ormetici ripetuti, esperimenti con doppio knockout, studi dedicati alla causalità inversa. Sono buchi, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Esercizio strutturato di 3 anni dopo chemioterapia adiuvante (CHALLENGE)",
+     "bersaglio": "sopravvivenza, meccanismo non provato",
+     "fase": "III (NCT00819208, registro); 889 pazienti",
+     "esito": "DFS HR 0,72; OS HR 0,63; eventi avversi muscoloscheletrici maggiori",
+     "ragione": "completato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40450658",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT00819208",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Esercizio nel carcinoma colorettale metastatico durante chemioterapia palliativa",
+     "bersaglio": "funzione fisica",
+     "fase": "NA (NCT02597075, registro); 100 previsti",
+     "esito": "terminato, nessun risultato nel registro",
+     "ragione": "scarso arruolamento e motivi finanziari (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02597075",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio di precondizionamento in chirurgia oncologica",
+     "bersaglio": "funzione fisica",
+     "fase": "NA (NCT04923672, registro)",
+     "esito": "terminato, 10 arruolati",
+     "ragione": "l'azienda dell'applicazione di esercizio ha cessato l'attività (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04923672",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio di precondizionamento nel carcinoma ovarico",
+     "bersaglio": "funzione fisica",
+     "fase": "NA (NCT05029154, registro)",
+     "esito": "terminato, 8 arruolati",
+     "ragione": "arruolamento sotto i numeri previsti (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05029154",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio e dieta durante chemioterapia nel carcinoma ovarico (PADOVA)",
+     "bersaglio": "dose di chemioterapia e PFS",
+     "fase": "RCT (registro olandese NTR6300), n=81",
+     "esito": "dose relativa ≥85% 74,4% contro 61,5%; PFS non significativa (HR 1,63)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39244208",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio preoperatorio durante chemioterapia neoadiuvante in tumore mammario (Neo-Train)",
+     "bersaglio": "dimensione del tumore",
+     "fase": "NA (NCT04623554, registro)",
+     "esito": "attivo, non in reclutamento, 102 arruolati; risultati non letti",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04623554",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Dieta che mima il digiuno con chemioterapia in tumore mammario HR-positivo",
+     "bersaglio": "risposta e tossicità",
+     "fase": "III (NCT05503108, registro)",
+     "esito": "sospeso, 10 arruolati; risultati non reperiti",
+     "ragione": "il registro riporta 'fultility' (refuso, riportato così)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05503108",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Dieta che mima il digiuno per ridurre gli eventi immuno-correlati sotto immunoterapia",
+     "bersaglio": "eventi avversi",
+     "fase": "NA (NCT06438588, registro)",
+     "esito": "terminato, 2 arruolati",
+     "ragione": "scarso arruolamento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06438588",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Digiuno di 24 ore prima e dopo chemioterapia in tumore mammario HER2-negativo",
+     "bersaglio": "tossicità",
+     "fase": "RCT pilota, 13 pazienti",
+     "esito": "ben tollerato, meno tossicità ematologica; nessun dato di efficacia",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26438237",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Digiuno intermittente con chemioterapia o terapie mirate",
+     "bersaglio": "sicurezza, tossicità, esito",
+     "fase": "revisione sistematica di 9 studi (354 pazienti)",
+     "esito": "sicurezza e fattibilità confermate; nessun impatto dimostrato su esito o tossicità; insulina e IGF-1 più bassi",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40970988",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Raffreddamento e compressione della mano contro la neuropatia da taxani (effetto locale, non ormetico)",
+     "bersaglio": "neuropatia indotta da chemioterapia",
+     "fase": "RCT (NCT06541769, registro), 122 randomizzati",
+     "esito": "completato; nell'abstract del lavoro il grado ≥2 è 29% contro 50% (non riletto)",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06541769",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40048176",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "composto": "Crioterapia per la neuropatia da paclitaxel in tumore mammario (effetto locale)",
+     "bersaglio": "neuropatia e unghie",
+     "fase": "NA (NCT01243541, registro)",
+     "esito": "terminato, 33 arruolati",
+     "ragione": "decisione dello sperimentatore principale per scarso arruolamento e mancanza di fondi (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01243541",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ipertermia capacitiva con radioterapia o chemioterapia (ipertermia terapeutica, non ormetica)",
+     "bersaglio": "controllo locale",
+     "fase": "revisione sistematica di 9 RCT di fase 3",
+     "esito": "controllo locale o sopravvivenza migliori in 3 trial su 5 nel tumore della cervice, nessun beneficio nel polmone non a piccole cellule; tossicità lieve",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42334174",
+      "verificata": false
+     }
+    },
+    {
+     "composto": "Metformina + chemioterapia nel tumore pancreatico metastatico (mimetico della restrizione calorica)",
+     "bersaglio": "metabolismo, AMPK",
+     "fase": "II (NCT01167738, registro)",
+     "esito": "terminato, 60 arruolati",
+     "ragione": "timore di un effetto dannoso (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01167738",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Sulforafano nel tumore prostatico (attivatore di Nrf2)",
+     "bersaglio": "biomarcatori",
+     "fase": "RCT 4 settimane, 19 contro 22",
+     "esito": "riduzione di c-Myc, ACC1, FASN e Ki-67 nel tessuto tumorale; nessun esito clinico",
+     "ragione": "endpoint biologico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41738426",
+      "verificata": false
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Esercizio: eventi avversi muscoloscheletrici in CHALLENGE 18,5% contro 11,5%; in un RCT di fase 2 nel tumore del colon con 150 contro 300 minuti a settimana per 6 mesi gli eventi non gravi sono simili e non ci sono eventi gravi (n=39); i limiti superiori per volume o intensità in pazienti oncologici: fonte non reperita (i dati di curva a J con fibrillazione atriale negli atleti di endurance sono non oncologici).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40450658",
+      "verificata": true
+     },
+     "prova": "RCT",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28669606",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "42762320",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Digiuno: nella revisione sistematica di 9 studi la sicurezza e la fattibilità sono confermate; massa muscolare, cachessia e immunosoppressione con digiuno in chemioterapia: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40970988",
+      "verificata": true
+     },
+     "prova": "revisione sistematica"
+    },
+    {
+     "testo": "Calore: l'ipertermia clinica ha tossicità lieve-moderata nelle revisioni, ma è una procedura a dose clinica e non una dose ormetica; ustioni e rischio cardiovascolare dell'ipertermia corporea in oncologia: fonte non reperita.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42334174",
+      "verificata": false
+     },
+     "prova": "revisione sistematica"
+    },
+    {
+     "testo": "Rischio specifico: lo stimolo ormetico può proteggere anche il tumore (HSF1 e Nrf2 attivi in molti tumori, resistenza ai farmaci) o stimolarne la crescita a basse dosi (vedi passo 3); non è documentato in pazienti in vivo.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39747971",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31903070",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "34188043",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42919975",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Variabilità individuale (età, fragilità, comorbidità, stato nutrizionale) e tempistica (prima, durante, dopo la terapia): fonte non reperita con confronto di eventi.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Uno stimolo ormetico dosato aumenta la capacità di riparazione del DNA, e non solo la difesa antiossidante, in cellule normali e tumorali isogeniche, e dipende da Nrf2 o HSF1?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Fibroblasti o cellule epiteliali normali e linee tumorali isogeniche per p53 esposte a uno stimolo a bassa dose (H2O2 a basse concentrazioni, calore breve a 41-42 °C o privazione di glucosio); dopo un intervallo prespecificato, sfida con radiazione o chemioterapia; misure di gamma-H2AX e comet, cinetica di riparazione e reporter di NHEJ e HR; knockout o inibitori di Nrf2 e HSF1.",
+     "falsificazione": "Falsificata (nel senso di 'non è riparazione') se la protezione dopo la sfida non si accompagna a una cinetica di riparazione più rapida o a un'attività di riparazione maggiore; la selettività è falsificata se le cellule tumorali sono protette in misura simile a quelle normali."
+    },
+    {
+     "domanda": "Il precondizionamento ormetico sposta l'IC50 della chemioterapia nelle cellule normali più che in quelle tumorali, cioè esiste una finestra di selettività?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Cocoltura di cellule normali e tumorali dello stesso tessuto; stimolo ormetico con dose e intervallo prefissati; curve dose-risposta a otto o più concentrazioni di nab-paclitaxel o cisplatino; indice di selettività e controlli senza stimolo.",
+     "falsificazione": "Nessuna finestra se lo spostamento dell'IC50 nelle cellule tumorali è pari o superiore a quello nelle normali entro un margine prefissato; la protezione selettiva è confermata solo se supera il margine con intervallo di confidenza al 95%."
+    },
+    {
+     "domanda": "L'effetto del digiuno sull'efficacia della terapia endocrina in vitro passa dal recettore dei glucocorticoidi e non da Nrf2, AMPK o HSF1?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Cellule di carcinoma mammario ERα-positive in terreno che mima il digiuno (glucosio e siero ridotti) con o senza tamoxifene; recettore dei glucocorticoidi spento o antagonizzato; misure di bersagli del recettore, Nrf2, AMPK e HSF1, e vitalità.",
+     "falsificazione": "Il recettore non è necessario se l'effetto del terreno che mima il digiuno persiste con il recettore spento entro un margine prefissato; Nrf2, AMPK o HSF1 sono coinvolti se il loro silenziamento riduce l'effetto oltre la stessa soglia."
+    },
+    {
+     "domanda": "La risposta bifasica a basse dosi di chemioterapia nelle cellule tumorali è riproducibile con curve a molti punti e persiste in ipossia e in organoidi derivati da pazienti?",
+     "verifica": "provvisorio: da verificare",
+     "disegno": "Curve di dieci o più concentrazioni in scala logaritmica, 4 replicati biologici, normossia e ipossia, linee e organoidi di tumore ovarico e mammario; confronto fra modello a U invertita e sigmoide monotona con criterio di informazione prespecificato.",
+     "falsificazione": "Ormesi non riprodotta se il modello bifasico non migliora l'adattamento rispetto alla sigmoide monotona in una frazione prefissata di linee e organoidi, con replicati concordanti."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Ampiezza massima tipica di una risposta ormetica di precondizionamento",
+     "stato": "misurato",
+     "valore": "30-60% sopra il controllo (sintesi del proponente)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26757428",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "HR della sopravvivenza libera da malattia con esercizio strutturato dopo chemioterapia adiuvante (colon)",
+     "stato": "misurato",
+     "valore": "0,72 (IC 0,55-0,94)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40450658",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Fattore di estrapolazione a basse dosi (<0,5 Gy) nei sopravvissuti alle bombe atomiche, mortalità per tumori solidi",
+     "stato": "misurato",
+     "valore": "inferiore a 1, con limite superiore oltre 1,6: incertezza ampia",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39799958",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Dose e intervallo di uno stimolo ormetico (esercizio, digiuno, calore, freddo) oltre i quali l'effetto diventa dannoso in pazienti oncologici",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    },
+    {
+     "nome": "Cinetica di riparazione del DNA dopo uno stimolo ormetico in cellule tumorali e normali",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
