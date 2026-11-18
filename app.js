@@ -31,7 +31,7 @@ function tentativi(arr){
 }
 function buchi(arr){
   if(!arr.length) return '<p class="meta">Compilare solo dopo i punti 1-5.</p>';
-  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b><div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
+  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>`:''}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
 }
 function parametri(arr){
   if(!arr.length) return '<p class="meta">Nessuna simulazione prodotta. Qui si elencano i parametri necessari: misurato (con fonte), stimato per analogia, oppure assente.</p>';
