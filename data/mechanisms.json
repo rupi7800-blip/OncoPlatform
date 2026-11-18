@@ -2745,7 +2745,7 @@
   {
    "id": "riprogrammazione",
    "name": "Riprogrammazione cellulare e riprogrammazione parziale (fattori di Yamanaka)",
-   "note": "Bozza v0. La frase di partenza ('la riprogrammazione parziale ringiovanisce i tessuti nei topi senza cancellarne l'identità') è sostenuta in parte e solo con protocolli ciclici o mirati: con induzione sistemica continua di OSKM i topi muoiono presto per insufficienza epatica e intestinale con dedifferenziazione degli epatociti, e in cuore e neuroni compaiono effetti di perdita di identità o assenza di beneficio. Il ringiovanimento è misurato soprattutto con orologi epigenetici e funzioni in pochi organi; il nesso orologio-funzione è il punto più debole; non risultano dati clinici di efficacia né repliche indipendenti del dato più forte sulla durata di vita (studio di un'azienda). Giro 1 di verifica: 6 PMID riletti da me su PubMed e 6 record del registro (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio. Il tema della tumorigenicità dopo riprogrammazione di cellule tumorali è trattato nella scheda 'Paesaggio di Waddington e teoria degli attrattori'.",
+   "note": "Bozza v0 con tre giri di verifica e passo 6 verificato. La frase di partenza ('la riprogrammazione parziale ringiovanisce i tessuti nei topi senza cancellarne l'identità') è sostenuta solo in parte e con protocolli ciclici o mirati: con induzione sistemica continua di OSKM i topi muoiono presto per insufficienza epatica e intestinale con dedifferenziazione degli epatociti, l'induzione transitoria in topi wild-type può produrre teratomi e tumori, e un riesame di dati a 7 mesi segnala possibile stress proliferativo nella milza. Il ringiovanimento è misurato soprattutto con orologi epigenetici e funzioni in pochi organi; il nesso orologio-funzione è il punto più debole (co-occorrenza, non causalità dimostrata). Nessun dato di efficacia clinica pubblicato reperito; un solo trial di fase 1 di sicurezza con OSK registrato (NCT07290244). Il dato più forte sulla durata di vita (+109%) viene da uno studio con affiliazione aziendale, non replicato nelle ricerche fatte. Le fonti sono verificate a livello di abstract e registro, non di testo completo; il giro 2 ha corretto 9 attribuzioni troppo estese. Il passo 6 mostra che due domande erano mal poste (causalità solo da co-variazione; identità conservata come affermazione universale) e le riformula con soglie. Il tema della tumorigenicità dopo riprogrammazione di cellule tumorali è trattato nella scheda 'Paesaggio di Waddington e teoria degli attrattori'.",
    "normale": [
     {
      "testo": "Meccanismo in vitro: nella riprogrammazione OSKM, i fattori legano enhancer somatici attivi all'inizio, ne riducono l'attività redistribuendo i fattori somatici e reclutano Hdac1; la riprogrammazione completa porta a pluripotenza. Dato in cellule murine in coltura.",
@@ -2834,6 +2834,16 @@
      },
      "prova": "rassegna",
      "inferenza": true
+    },
+    {
+     "testo": "Regimi di riprogrammazione parziale a lungo termine in topi wild-type che invecchiano fisiologicamente (diversi tempi di avvio): effetti ringiovanenti in rene e pelle e a livello di organismo, associati a reversione dell'orologio epigenetico e a minore espressione di geni di infiammazione, senescenza e stress; la durata del trattamento determina l'entità del beneficio. Gli autori concludono che i protocolli possono essere sicuri ed efficaci; co-occorrenza, non dimostrazione di causalità. Autori con affiliazione Altos Labs.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37118377",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
      "testo": "Ringiovanimento senza perdita di identità: con induzione sistemica continua di OSKM la disfunzione epatica e intestinale porta a morte prematura entro circa una settimana; evitare l'espressione in fegato e intestino riduce la letalità e la età biologica dell'organismo cala.",
@@ -3131,6 +3141,16 @@
      "prova": "sperimentale"
     },
     {
+     "testo": "Segnale di rischio in un'analisi di dati pubblicati: riesame di RNA-seq bulk di fegato, rene e milza di topi anziani dopo 7 mesi di riprogrammazione parziale ciclica; in fegato e rene soppressi i processi immuno-infiammatori; nella milza aumentati ciclo cellulare, replicazione e risposta al danno del DNA, con più progenitori megacariocitico-eritroidi e meno cellule NK, e un possibile rischio di stress genomico e proliferativo sostenuto. Limiti dichiarati dagli autori: dati bulk, servono studi controllati più ampi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42954813",
+      "verificata": true
+     },
+     "prova": "analisi di dati pubblicati"
+    },
+    {
      "testo": "Con induzione continua di OSKM la letalità precoce è epatica e intestinale; evitare l'espressione in questi due organi la riduce.",
      "livello": "animale",
      "fonte": {
@@ -3215,14 +3235,16 @@
    ],
    "buchi": [
     {
-     "domanda": "La riduzione dell'età epigenetica indotta da OSK è causalmente legata al recupero funzionale, o i due fenomeni sono separabili?",
-     "disegno": "Tessuti di topi anziani o espianti (retina, muscolo) con OSK, con e senza knockout di TET1/TET2 e con inibitori di TGF-beta come confronto; misura di orologio epigenetico, metilazione e funzione (rigenerazione assonale, contrattilità).",
-     "falsificazione": "Se il recupero funzionale avviene senza cambio dell'orologio, o l'orologio cala senza guadagno funzionale, l'orologio non è un surrogato causale."
+     "domanda": "Nei tessuti di topi anziani trattati con OSK a dosi e durate diverse, la variazione dell'orologio epigenetico spiega la variazione funzionale oltre a dose e durata, o i due fenomeni sono dissociabili?",
+     "verifica": "Parzialmente fatto: in retina le azioni di OSK richiedono TET1 e TET2 per la funzione (PMID 33268865), ma non è riportato nell'abstract se l'orologio sia stato misurato nei knock-out; in topi che invecchiano fisiologicamente la reversione dell'orologio e i benefici funzionali coesistono e la durata del trattamento modula l'effetto (PMID 37118377): è co-occorrenza. Una rassegna pone la dissociazione fra ringiovanimento, dedifferenziazione e orologio come domanda aperta (PMID 31578938, rassegna). Non trovati: braccio di dissociazione (orologio ridotto senza guadagno funzionale o viceversa), confronto diretto con inibitori di TGF-beta su orologio e funzione. Verifica su abstract. Domanda riformulata: 'è causale?' non è risolvibile con un disegno di sola co-variazione.",
+     "disegno": "Topi anziani con OSK a gradiente di dose e durata; per animale misurare orologio epigenetico e una funzione (per esempio rigenerazione assonale o contrattilità muscolare); controlli: knock-out TET1/TET2 senza OSK, e inibitore di TGF-beta come stimolo funzionale con effetto sull'orologio da validare prima.",
+     "falsificazione": "Dopo aggiustamento per dose e durata, la pendenza della funzione sull'orologio, con intervallo di confidenza al 95%, esclude un effetto minimo prespecificato: in tal caso l'orologio non è surrogato causale; soglia numerica da fissare prima dell'esperimento."
     },
     {
-     "domanda": "La riprogrammazione parziale ciclica conserva l'identità cellulare in tutti gli organi a lungo termine, senza displasia né tumori?",
-     "disegno": "Topi anziani con tracciamento di lignaggio e OSK ciclico, con e senza MYC; scRNA-seq di più organi a 3, 6 e 12 mesi dai cicli con punteggio di identità; istologia per displasia e tumori; sopravvivenza.",
-     "falsificazione": "Se un organo mostra perdita di identità o displasia oltre soglia prespecificata rispetto ai controlli, la formula 'senza perdita di identità' è falsificata per quell'organo."
+     "domanda": "Nei singoli organi, l'OSK ciclico a lungo termine conserva l'identità cellulare e l'assenza di displasia e tumori, oppure la perdita di identità supera una soglia prespecificata?",
+     "verifica": "Parzialmente fatto: l'induzione transitoria di OSKM in topi produce teratomi da più organi (PMID 24025773, regime non ciclico controllato); un riesame di RNA-seq bulk di fegato, rene e milza dopo 7 mesi di riprogrammazione ciclica non trova eventi chiave nel rene e segnala possibile stress genomico e proliferativo nella milza (PMID 42954813); i regimi a lungo termine mostrano benefici dose-dipendenti in rene e pelle (PMID 37118377). Non trovati: scRNA-seq multi-organo con tracciamento di lignaggio a 3, 6 e 12 mesi, istologia per displasia e tumori a più tempi con sopravvivenza, punteggio di identità prespecificato per organo. Verifica su abstract. Formula 'senza perdita di identità' è un'affermazione universale di assenza: non confermabile da un disegno, va testata organo per organo con soglie numeriche.",
+     "disegno": "Topi anziani con tracciamento di lignaggio e OSK ciclico (schema da fissare), con e senza MYC; per fegato, rene e milza scRNA-seq con punteggio di identità di riferimento a 3, 6 e 12 mesi, istologia per displasia e tumori, sopravvivenza; braccio con dedifferenziazione transitoria attesa per distinguere perdita reversibile da permanente; dimensione del campione giustificata per affermazioni di assenza.",
+     "falsificazione": "Per ogni organo e tempo, se la differenza di identità o l'incidenza di displasia o tumori, con intervallo di confidenza al 95%, supera la soglia numerica prespecificata, la formula 'senza perdita di identità' è falsificata per quell'organo."
     },
     {
      "domanda": "Con OSK a impulsi in vivo, la riduzione condizionale di p53 o di Ink4a/Arf aumenta l'incidenza di lesioni displastiche o teratomatose rispetto ai selvatici?",
