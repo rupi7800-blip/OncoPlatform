@@ -3,7 +3,7 @@
   {
    "id": "toft",
    "name": "TOFT: Tissue Organization Field Theory (Soto e Sonnenschein)",
-   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, e non è stata trovata una critica indipendente diretta né una replica indipendente. Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Terzo giro: altri 8 record del registro riletti direttamente (saridegib, galunisertib, sibrotuzumab, cilengitide) e controllo indipendente delle tre affermazioni negative (nessuna critica indipendente, nessuna replica indipendente, nessun sequenziamento dopo reversione). Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
+   "note": "Bozza v0. TOFT è una teoria e non un singolo nodo molecolare: i passi 3 e 5 sono adattati (spiegazioni alternative e tessuti a rischio delle strategie sul microambiente). L'affermazione di partenza 'evidenza sperimentale solida' non è confermata dalla letteratura letta: il nucleo in vivo di TOFT è un modello di ratto con un cancerogeno, quasi tutta la letteratura sulla teoria è dei suoi proponenti, non è stata trovata una critica sperimentale indipendente né una replica indipendente (esistono due analisi teoriche peer-reviewed indipendenti sull'argomentazione di incompatibilità). Verificati in sessione: 6 PMID riletti direttamente su PubMed, 4 record sul registro ClinicalTrials.gov e altri 14 PMID confrontati con titolo e abstract da un sotto-agente Haiku (testi corretti dove l'abstract non sosteneva tutto). Terzo giro: altri 8 record del registro riletti direttamente (saridegib, galunisertib, sibrotuzumab, cilengitide) e controllo indipendente delle tre affermazioni negative: 'nessuna critica indipendente' è risultata errata nella forma letterale e corretta (due analisi teoriche peer-reviewed riletta da me); 'nessuna replica indipendente' e 'nessun sequenziamento dopo reversione' confermate come non reperite, senza valore di prova di assenza. Restano non verificati i dati senza identificativo e quelli che il sotto-agente non ha riletto; i dettagli dei trial citati solo come riepilogo non sono stati riletti. Passo 6 provvisorio.",
    "normale": [
     {
      "testo": "TOFT sostiene che il cancro è una malattia dell'organizzazione del tessuto e che la proliferazione è lo stato di base delle cellule, a differenza della teoria mutazionale che assume la quiescenza. È una posizione teorica dei proponenti.",
@@ -74,7 +74,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Reversione del fenotipo non implica genoma normale: le linee in vitro avevano cariotipi anomali; non è stato letto nessun lavoro che sequenzi il genoma delle cellule normalizzate. Il teratocarcinoma è un tumore di origine embrionale, caso particolare e non generalizzabile ad altri carcinomi.",
+     "testo": "Reversione del fenotipo non implica genoma normale: le linee in vitro di Papaioannou avevano cariotipi anomali. In circa 13 query PubMed non è stato trovato nessun lavoro che abbia sequenziato il genoma di cellule tumorali dopo reversione in embrione o in 3D: le analisi trovate sono cariotipiche, con marcatori genetici, epigenetiche o di espressione (controllo di un sotto-agente su titoli e abstract, non ricontrollato da me). Il teratocarcinoma è un tumore di origine embrionale, caso particolare e non generalizzabile ad altri carcinomi.",
      "livello": "ipotesi",
      "fonte": null,
      "inferenza": true
@@ -153,12 +153,32 @@
       }
      },
      {
-      "testo": "Le critiche pubblicate a TOFT come tale non sono state trovate; quelle reperite riguardano altri argomenti (es. rischio di cancro e divisioni staminali) o sono citazioni indirette: fonte non reperita. Replica indipendente dell'esperimento stroma→cancro in un altro mammifero: fonte non reperita.",
+      "testo": "Nessuno studio trovato che nello stesso modello mostri se stroma e mutazioni siano entrambi necessari e sufficienti: buco nella conoscenza che impedisce di confrontare le due teorie.",
       "livello": "ipotesi",
       "fonte": null
      },
      {
-      "testo": "Nessuno studio trovato che nello stesso modello mostri se stroma e mutazioni siano entrambi necessari e sufficienti: buco nella conoscenza che impedisce di confrontare le due teorie.",
+      "testo": "Non risultano critiche sperimentali indipendenti rivolte ai dati di TOFT. Risultano invece analisi critiche peer-reviewed di autori non coinvolti con Soto e Sonnenschein (Bedessem e Ruphy, 2015) che contestano la tesi di incompatibilità fra TOFT e teoria mutazionale: secondo loro le due teorie descrivono percorsi causali compatibili, e osservano che una dimostrazione sperimentale non ambigua della superiorità di TOFT è difficile da costruire. Riguardano l'argomentazione, non i dati.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25851566",
+       "verificata": true
+      },
+      "prova": "analisi teorica/filosofica"
+     },
+     {
+      "testo": "Replica degli stessi autori alla risposta di Bizzarri e Cucina (sostenitori di TOFT): confermano che non c'è un argomento forte per abbandonare del tutto la teoria mutazionale, che descrive un percorso causale parziale compatibile con quello di TOFT. Il dibattito è fra posizioni teoriche, non una verifica sperimentale.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "27535677",
+       "verificata": true
+      },
+      "prova": "analisi teorica/filosofica"
+     },
+     {
+      "testo": "Replica indipendente dell'esperimento 'stroma esposto al cancerogeno → trasformazione di epitelio normale': non trovata in oltre 10 query PubMed (controllo del terzo giro, un solo sotto-agente). Il lavoro più vicino è il controllo negativo nella vescica di ratto (Uchida 1990), che non replica il disegno. L'assenza di risultati non prova che la replica non esista.",
       "livello": "ipotesi",
       "fonte": null
      }
