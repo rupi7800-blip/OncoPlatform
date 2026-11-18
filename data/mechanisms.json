@@ -1522,15 +1522,15 @@
   {
    "id": "attrattori",
    "name": "Paesaggio di Waddington e teoria degli attrattori (Kauffman, Huang)",
-   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); gli altri identificativi sono stati letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "note": "Bozza v0. L'affermazione di partenza ('è la base teorica della terapia differenziativa') non è supportata dagli abstract letti: la terapia differenziativa nasce da esperimenti empirici in vitro e, nella leucemia promielocitica, il meccanismo documentato è la degradazione dell'oncoproteina PML-RARA; nessun abstract su ATRA, arsenico o inibitori IDH cita gli attrattori come fondamento. La teoria compare in rassegne come cornice interpretativa; non è stata trovata alcuna misura di un attrattore tumorale in vivo o in pazienti. Questo non falsifica la teoria: significa che il ruolo di base teorica non è dimostrato. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro (marcati 'verificata'); Giro 2: altri 14 PMID confrontati con gli abstract da un sotto-agente Haiku (10 testi corretti; tre affermazioni erano attribuite al PMID sbagliato e sono state spostate in voci separate con il PMID corretto, marcate 'non verificata'). Giro 3 in corso. Passo 6 provvisorio.",
    "normale": [
     {
-     "testo": "La teoria formalizza il paesaggio di Waddington come paesaggio di attrattori di una rete di regolazione genica: i tipi cellulari sono stati stabili, la differenziazione è la discesa verso un attrattore. Posizione teorica e computazionale.",
+     "testo": "Rassegna (Front Genet 2015) che riformula il paesaggio di Waddington come paesaggio di attrattori epigenetici di reti di regolazione genica: gli stati stabili sono interpretati come stati di destino cellulare e la rete limita le transizioni più probabili fra stati. Posizione teorica e computazionale.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "25954305",
-      "verificata": false
+      "verificata": true
      },
      "prova": "modello"
     },
@@ -1540,19 +1540,29 @@
      "fonte": {
       "tipo": "PMID",
       "id": "41279382",
-      "verificata": false
+      "verificata": true
      },
      "prova": "modello computazionale"
     },
     {
-     "testo": "Misura sperimentale di transizioni di stato, non di attrattori: in progenitori eritroidi di pollo l'analisi a singola cellula mostra che cellule in reversione assomigliano a quelle indifferenziate; in HL-60 con ATRA esiste una proteomica nucleare nel tempo senza misura di paesaggio. Non sono sistemi tumorali con dinamica di attrattore misurata.",
+     "testo": "In progenitori eritroidi di pollo l'analisi a singola cellula mostra che le cellule in reversione tornano a uno stato molecolare quasi identico a quello delle cellule indifferenziate. Sistema non tumorale; non è una misura di attrattore in senso formale.",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
       "id": "35794592",
-      "verificata": false
+      "verificata": true
      },
      "prova": "misura diretta a singola cellula"
+    },
+    {
+     "testo": "In HL-60 trattate con ATRA esiste una proteomica nucleare nel tempo (riportata da un sotto-agente), senza misura di paesaggio o di attrattore.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36291090",
+      "verificata": false
+     },
+     "prova": "misura diretta (proteomica)"
     },
     {
      "testo": "Applicazioni a tipi tumorali: melanoma (modello con più attrattori e predizione sul PD-L1 validata in tre linee), glioblastoma e glioma, colon-retto (ricostruzioni da dati di espressione), p53 in silico. Attrattore misurato in vivo o in pazienti: fonte non reperita.",
@@ -1567,15 +1577,25 @@
    ],
    "catena": [
     {
-     "testo": "Mutazioni o cambiamenti epigenetici rimodellano il paesaggio: plausibile in modelli (p53 inattivato produce un bacino 'cancro' in silico) e in parte correlativo in cellule (espressione basale, cromatina); non misurato come stato stabile.",
+     "testo": "Modello di invecchiamento cellulare (rete di regolazione con p53): l'inattivazione in silico di p53 fa emergere un attrattore 'cancro' a quattro bacini. È una simulazione; nessun dato su cellule reali nell'abstract.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "29856751",
-      "verificata": false
+      "verificata": true
      },
      "prova": "modello",
      "inferenza": true
+    },
+    {
+     "testo": "Correlazione sperimentale fra espressione basale, cromatina e segnature di dedifferenziamento (riportata da un sotto-agente): il rimodellamento del paesaggio resta ipotesi di modello.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32105732",
+      "verificata": false
+     },
+     "prova": "correlativa + modello"
     },
     {
      "testo": "Il paesaggio rimodellato produce un attrattore anomalo: nel melanoma un modello minimo (MITF, SOX10, SOX9, JUN, ZEB1) identifica più 'attrattori' e la predizione sul PD-L1 è validata in tre linee e in set di RNA-seq; lo stato stabile in sé non è misurato.",
@@ -1588,23 +1608,33 @@
      "prova": "modello + misura della predizione"
     },
     {
-     "testo": "Attrattori del cancro ricostruiti da dati di espressione di pazienti (modelli Hopfield, centroidi di scRNA-seq nel glioblastoma): stime dalla struttura dei dati, senza osservare la transizione nel tempo.",
+     "testo": "Attrattori di malattia (Parkinson, glioma e cancro colorettale) costruiti con modelli di Hopfield da profili di espressione di pazienti, come istantanee di progressione: stime della dimensione e robustezza degli attrattori, senza transizioni osservate nel tempo.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "28458684",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa",
      "inferenza": true
     },
     {
-     "testo": "Attrattore anomalo → fenotipo maligno e perturbazione che sposta verso uno stato normale ('ricanalizzazione'): proposta argomentata a livello teorico, senza test clinico né sperimentale diretto trovati.",
+     "testo": "Nel glioblastoma attrattori del cancro dedotti da dati di scRNA-seq, con i centroidi dei cluster interpretati come punti fissi (riportato da un sotto-agente): stima computazionale, transizione non osservata.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38732140",
+      "verificata": false
+     },
+     "prova": "computazionale"
+    },
+    {
+     "testo": "Review qualitativa: la terapia è vista come perturbazione di rete che fa uscire le cellule dall'attrattore tumorale e rientrare in uno normale (quasi-potenziale). Nessun test clinico o sperimentale diretto trovato nelle ricerche fatte.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "23792873",
-      "verificata": false
+      "verificata": true
      },
      "prova": "teorica",
      "inferenza": true
@@ -1630,14 +1660,24 @@
       "prova": "sperimentale + modello"
      },
      {
-      "testo": "Selezione clonale e stati adattivi coesistono nello stesso sistema (resistenza a palbociclib in cellule mammarie ESR1 mutate); un'analisi su glioblastoma dichiara irrisolto il conflitto fra modelli gerarchici e modelli di plasticità.",
+      "testo": "Selezione clonale e rimodellamento adattivo degli stati cellulari nella resistenza a palbociclib in cellule MCF7 con ESR1 mutato (Y537S).",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "42365380",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
+     },
+     {
+      "testo": "Un'analisi su glioblastoma dichiara irrisolto il conflitto fra modelli gerarchici e modelli di plasticità (riportato da un sotto-agente).",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42374477",
+       "verificata": false
+      },
+      "prova": "rassegna"
      },
      {
       "testo": "Nella leucemia IDH1-mutata trattata con ivosidenib (174 pazienti) mutazioni di vie RTK sono associate a resistenza primaria e più meccanismi coesistono nello stesso paziente per la resistenza acquisita, fra cui mutazioni IDH1 di secondo sito e mutazioni IDH2 che ripristinano il 2-HG: più vie convergono sullo stesso blocco del differenziamento.",
@@ -1660,21 +1700,41 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Contraddizione sulla riprogrammazione di cellule tumorali: in carcinoma ovarico OVCAR-3 OSKM produce cellule tumorigeniche e più resistenti al paclitaxel, mentre in carcinoma vescicale HTB-5 la riprogrammazione con virus Sendai normalizza 297 proteine senza test di tumorigenesi nell'abstract. Differenze di modello: tumore, vettore e endpoint diversi.",
+      "testo": "In carcinoma ovarico (OVCAR-3) la riprogrammazione OSKM produce cellule con capacità di sfera e tumorigenesi e maggiore resistenza al paclitaxel.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "36085021",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "In carcinoma vescicale HTB-5 la riprogrammazione con virus Sendai normalizza 297 proteine deregolate senza test di tumorigenesi nell'abstract (riportato da un sotto-agente). Inferenza di questa revisione: i due risultati non sono direttamente confrontabili (tumore, vettore ed endpoint diversi).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41645083",
        "verificata": false
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Resistenza ad ATRA in APL da mutazioni del dominio di legame di PML/RARalpha (un paziente e una linea); in CML, invece, ATRA induce differenziamento e blocca l'acquisizione di mutazioni BCR-ABL T315I: la differenziazione può proteggere in un contesto e ospitare resistenza in un altro.",
+      "testo": "Resistenza ad ATRA in APL da mutazioni nel dominio di legame di PML/RARalpha, osservate in un paziente recidivato e nella linea NB4-MRA1.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
        "id": "12239173",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "In CML, secondo un sotto-agente, ATRA induce differenziamento e blocca l'acquisizione di mutazioni BCR-ABL T315I: inferenza di questa revisione, la differenziazione può proteggere in un contesto e ospitare resistenza in un altro.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24967705",
        "verificata": false
       },
       "prova": "sperimentale"
@@ -1807,17 +1867,17 @@
      "fonte": {
       "tipo": "PMID",
       "id": "31410848",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna clinica"
     },
     {
-     "testo": "Sindrome da differenziamento con inibitori IDH: in un'analisi FDA su 179 pazienti con ivosidenib e 214 con enasidenib, circa 40% dei casi potenziali ma solo 19% confermati; grado ≥3 nel 68% e 66%; decessi 6% e 5%.",
+     "testo": "Sindrome da differenziamento con inibitori IDH in leucemia mieloide acuta recidivata/refrattaria: in un'analisi FDA su 179 pazienti con ivosidenib e 214 con enasidenib, circa 40% di casi potenziali ma solo 19% confermati come sindrome; reazioni di grado ≥3 nel 68% e 66%; fatali 6% e 5% (denominatori non esplicitati nell'abstract).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "32393603",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica"
     },
@@ -1827,29 +1887,49 @@
      "fonte": {
       "tipo": "PMID",
       "id": "41090510",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica retrospettiva"
     },
     {
-     "testo": "Midollo e piastrine: gli inibitori di LSD1 causano piastrinopenia (CC-90011 in tumori solidi; bomedemstat in mielofibrosi: 48% dei pazienti, titolata per mantenere 50-75 x10^9/L).",
+     "testo": "Bomedemstat (inibitore di LSD1) in mielofibrosi: piastrinopenia come evento più frequente (48%); dose titolata per raggiungere piastrine fra 50 e 75 x10^9/L.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "42054549",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Anche l'inibitore di LSD1 CC-90011 in tumori solidi e linfomi ha dato piastrinopenia come evento più frequente (riportato da un sotto-agente).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35737639",
       "verificata": false
      },
      "prova": "clinica"
     },
     {
-     "testo": "Retinoidi: teratogenicità (embriopatia da isotretinoina, caso clinico); effetti mucocutanei e transaminasi elevate con acitretina; la nicchia midollare protegge le cellule staminali ematopoietiche dall'acido retinoico tramite CYP26.",
+     "testo": "Embriopatia da isotretinoina: caso clinico di esposizione prenatale con malformazioni craniofacciali, cardiache e del sistema nervoso centrale.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "29308367",
-      "verificata": false
+      "verificata": true
      },
      "prova": "clinica/rassegna"
+    },
+    {
+     "testo": "Acitretina: effetti mucocutanei e transaminasi elevate; la nicchia midollare protegge le cellule staminali ematopoietiche dall'acido retinoico tramite CYP26 (riportati da sotto-agenti, non verificati).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11460037",
+      "verificata": false
+     },
+     "prova": "rassegna"
     },
     {
      "testo": "Riprogrammazione: l'induzione transitoria di Oct4, Sox2, Klf4 e c-Myc produce teratomi nel topo (tessuti a rischio: stomaco, intestino, pancreas, rene).",
@@ -1925,11 +2005,11 @@
     {
      "nome": "Numero di stati stabili di una rete di regolazione tumorale misurato sperimentalmente",
      "stato": "assente",
-     "valore": "solo stime da modelli e da dati di espressione",
+     "valore": "solo stime di dimensione e robustezza da modelli su profili di espressione; nessuna misura sperimentale riportata nell'abstract",
      "fonte": {
       "tipo": "PMID",
       "id": "28458684",
-      "verificata": false
+      "verificata": true
      }
     }
    ]
