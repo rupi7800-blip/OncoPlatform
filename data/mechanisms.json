@@ -884,6 +884,640 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "meccanobiologia",
+   "name": "Meccanobiologia: rigidità della matrice e YAP/TAZ",
+   "note": "Bozza v0. L'affermazione di partenza ('un tessuto più rigido favorisce l'invasione tumorale tramite YAP/TAZ') regge solo in parte: la rigidità è confusa con reticolazione del collagene, adesione alle integrine, densità, allineamento delle fibre e viscoelasticità; esistono controesempi in vitro e in vivo; nel fegato la viscoelasticità promuove il tumore indipendentemente dalla rigidità; LOXL2 favorisce metastasi senza modificare la rigidità; in un modello mammario YAP sopprime le metastasi. Una pubblicazione sulla fissione mitocondriale come regolatore di YAP/TAZ risulta 'Retracted' in PubMed ed è esclusa. Giro 1 di verifica: 6 PMID riletti da me su PubMed e 7 record del registro ClinicalTrials.gov (marcati 'verificata'); Giro 2: altri 15 PMID confrontati con gli abstract da un sotto-agente Haiku (9 testi corretti perché l'abstract non sosteneva tutto; le parti non verificate sono state spostate in voci separate marcate 'non verificata'). Giro 3: quattro affermazioni negative controllate con circa 35 query e record del registro riletti. Esito: (A) confermata in modo provvisorio; (B) smentita per il glioblastoma, confermata in modo provvisorio per il pancreas; (C) smentita (knockout di YAP in cancro mammario che non riduce l'invasione); (D) attenuata. Il risultato indebolisce ulteriormente il nesso rigidità → YAP/TAZ → invasione come regola generale. Passo 6 provvisorio.",
+   "normale": [
+    {
+     "testo": "YAP e TAZ agiscono da relè nucleari dei segnali meccanici di rigidità della matrice e forma cellulare: la regolazione richiede attività delle Rho GTPasi e tensione dell'actomiosina ed è indipendente dalla cascata Hippo/LATS; sono necessari per il differenziamento delle cellule staminali mesenchimali indotto dalla rigidità.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21654799",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nel tessuto mammario umano la rigidità dello stroma è maggiore al fronte invasivo dei sottotipi basal-like e HER2, i più aggressivi (metodo di misura non indicato nell'abstract); YAP/TAZ non vengono studiati.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25959051",
+      "verificata": true
+     },
+     "prova": "correlativa su tessuto umano"
+    },
+    {
+     "testo": "Alterazione documentata in più tipi: colon-retto (LOX e rigidità misurata con reologia), fegato (viscoelasticità e rigidità), mammella, pancreas (TG2 e reticolazione) e polmone (in vitro). Per prostata, glioma e cute: fonte non reperita nelle ricerche fatte, non si può concludere che manchi la documentazione.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22641216",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Matrice rigida → integrine/FAK/SRC: l'attività enzimatica della LOX irrigidisce collagene e tumori sottocutanei di carcinoma colorettale (misura reologica), con più fosforilazione di FAK/SRC e fenotipo più proliferativo e invasivo; un mutante catalitico inattivo è il controllo. Prova causale per l'attività della LOX; per la rigidità come tale resta un'associazione forte.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22641216",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Tensione del citoscheletro → YAP/TAZ nucleari: dato in cellule in coltura, con requisito di RhoA e actomiosina.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21654799",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nei fibroblasti associati al tumore YAP è necessario per irrigidire la matrice e la rigidità attiva YAP in un circuito di feed-forward, interrotto da inibizione transitoria di ROCK (solo abstract letto dal sotto-agente).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23708000",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nel fegato pre-cirrotico la viscoelasticità della matrice (più dissipazione viscosa e rilassamento dello stress, senza cambio di rigidità) promuove proliferazione e invasione del carcinoma epatocellulare tramite integrina-beta1, tensina-1 e YAP, in animale e in colture 3D: il passaggio a YAP è documentato, ma la variabile meccanica è la viscoelasticità e non la rigidità.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38297127",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "YAP/TAZ → TEAD → programma trascrizionale → invasione: il ruolo specifico di TEAD nell'invasione indotta dalla rigidità non è stato letto negli abstract; il passaggio è dedotto dalla clinica degli inibitori di TEAD (vedi passo 4).",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    },
+    {
+     "testo": "La riduzione del crosslinking del collagene mediato da LOX previene la fibrosi nel modello MMTV-Neu e abbassa l'incidenza tumorale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19931152",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Localizzazione nucleare di YAP correlata alla rigidità misurata sullo stesso campione tumorale umano: fonte non reperita. Prova clinica diretta del passaggio rigidità → YAP → invasione: fonte non reperita.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "LOXL2 promuove la metastasi polmonare del carcinoma mammario in due modelli transgenici, ma la sua deplezione o sovraespressione non modifica rigidità o organizzazione della matrice nei tumori primari e metastatici: l'effetto passa per Snail1 e citochine del pre-nicchia.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "28720577",
+       "verificata": true
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "In un modello mammario la perdita di YAP aumenta migrazione in vitro e metastasi polmonari in vivo, contrariamente al paradigma pro-invasivo; l'abstract non descrive le differenze di modello che spiegano il risultato.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "32943576",
+       "verificata": true
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "Contraddizione di meccanismo: la risposta di YAP/TAZ alla rigidità è descritta come indipendente da Hippo/LATS (Dupont 2011), mentre a bassa rigidità RAP2 (via PLCgamma1) attiva LATS1/2 e inibisce YAP/TAZ, e la delezione di RAP2 rende YAP/TAZ insensibili alla rigidità (PMID 30135582, non verificato). Possibile spiegazione (inferenza di questa revisione): rami diversi per rigidità alta e bassa e per tipo cellulare.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "21654799",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Controesempio alla rigidità come causa: topi Fn1;PyMT con sito sinergico della fibronectina mutato hanno insorgenza tumorale ritardata e organoidi di cellule luminali su fibronectina rigida mostrano meno tratti invasivi.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "42914036",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Altri controesempi riportati da un sotto-agente: il collagene denso sotto confinamento induce apoptosi nel rabdomiosarcoma; nella migrazione confinata 3D la rigidità non è il determinante principale (PMID 26331248).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "35957513",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Densità del collagene: più collagene stromale nel topo aumenta la formazione tumorale di circa tre volte e le metastasi polmonari di circa tre volte; l'abstract non misura la rigidità.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "18442412",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Altri confondenti riportati da un sotto-agente: allineamento delle fibre, rigidità di flessione delle fibrille (PMID 30554026) e tensione del glicocalice indipendente dalla contrattilità (PMID 25030168).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "17190588",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nel muscolo liscio adulto il doppio knockout di YAP/TAZ è letale entro 2 settimane per pseudo-ostruzione colica; gli autori definiscono YAP e TAZ 'mutually redundant'. Studi con singolo knockout in un modello di invasione a rigidità controllata e fenotipo quantificato: fonte non reperita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "32992050",
+       "verificata": true
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "Ridondanza parziale e non uniforme in altri tessuti (sotto-agente): nel fegato il knockout di Yap1 da solo altera lo sviluppo biliare e TAZ risulta aumentato; nella cartilagine il fenotipo del doppio e del singolo knockout differiscono (PMID 32994166).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "37556373",
+       "verificata": false
+      },
+      "prova": "genetica"
+     },
+     {
+      "testo": "In carcinoma epatocellulare la rigidità induce invadopodi via integrina-beta1/RhoA/ROCK1 e Piezo1/calcio/MLCK, con Src come nodo comune; l'abstract non misura YAP/TAZ, quindi l'indipendenza non è dimostrata.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38145655",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Altre vie riportate da sotto-agenti: MRTF/SRF, Mkl1 SAP-dipendente, lamina A/C; Piezo1 e p38, dove studiati, agiscono a monte di YAP/TAZ. Anche qui l'indipendenza da YAP/TAZ non è dimostrata.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31638828",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "L'attivazione della via MAPK ripristina un sottoinsieme dei geni bersaglio di YAP/TAZ e conferisce resistenza agli inibitori di TEAD; la combinazione TEAD + MEK blocca in modo sinergico la proliferazione in cellule di mesotelioma e polmone e riduce più efficacemente la crescita di PDX polmonari.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39103676",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Altro meccanismo riportato da un sotto-agente: l'aumento di acil-CoA compete con il farmaco nella tasca lipidica di TEAD.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40179049",
+       "verificata": false
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Rottura del paradigma in cancro mammario: secondo gli autori la meccanotrasduzione avviene indipendentemente da YAP in campioni di pazienti e colture 3D a rigidità regolabile; l'assenza di attività di YAP in 3D e in vivo si associa alla mancanza di fibre da stress e a una riduzione di circa un ordine di grandezza dell'area nucleare rispetto alla coltura 2D. Dal testo completo letto da un sotto-agente: il knockout inducibile di YAP in MCF10A in matrici a 2 e 20 kPa non riduce l'invasione indotta dalla rigidità (non rilevato da me; TAZ non testato come knockout). Il modello è mammario, non glioblastoma o pancreas.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31015465",
+       "verificata": true
+      },
+      "prova": "sperimentale 3D + campioni umani"
+     },
+     {
+      "testo": "Glioblastoma, test con rigidità controllata che contraddicono la regola 'più rigido, più invasione': cellule iniziatrici di glioblastoma umane su matrici di rigidità crescente erano in gran parte insensibili alla rigidità; l'attivazione di RhoA/ROCK/MLCK ripristina la dipendenza dalla rigidità e un RhoA costitutivamente attivo restringe l'invasione 3D e aumenta del 30% la sopravvivenza media nel xenotrapianto ortotopico. L'abstract non misura YAP/TAZ.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25634210",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Glioblastoma in idrogel viscoelastici 3D: le cellule mostrano più migrazione, proliferazione e radioresistenza in matrici soffici, e restano confinate e più resistenti alla chemioterapia in matrici rigide; l'effetto è regolato da meccanosensing nucleare e condensazione della cromatina.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39912753",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Glioma stem cells su scaffold 3D di nanofibre a rigidità regolabile: migrazione massima a 166 kPa, correlata a forma cellulare e adesioni focali; il knockout di MGAT5 (CRISPR) sopprime la dipendenza dalla rigidità.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "33894774",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Assenze al terzo giro (circa 35 query PubMed, nei limiti della ricerca): (A) nessun lavoro trovato che mostri la correlazione fra rigidità misurata (AFM, elastografia o reologia) e localizzazione nucleare di YAP/TAZ nello stesso campione tumorale umano; due lavori vicini (PMID 41634388 sul pancreas con elastografia, PMID 41850468 sul carcinoma squamoso cutaneo) richiedono il testo completo; (B) il test diretto della rigidità sull'invasione con matrici a rigidità controllata esiste per il glioblastoma (vedi sopra) ma per il pancreas non risulta nei dati consultati; (C) esiste almeno un knockout singolo di YAP in modello a rigidità controllata con invasione quantificata (mammella, Lee 2019); un knockout singolo di TAZ non è stato trovato; (D) non risulta uno studio che dimostri esplicitamente RhoA/ROCK, calcio, NF-kB o p38 come vie indipendenti da YAP/TAZ: RhoA/ROCK/MLCK sono collegati alla motilità dipendente dalla rigidità nel glioblastoma senza misura di YAP/TAZ e il calcio è riportato a monte di YAP (PMID 40667648, 39490703, non verificati). Sono buchi nella letteratura cercata, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "simtuzumab (anti-LOXL2) + gemcitabina",
+     "bersaglio": "LOXL2 (reticolazione)",
+     "fase": "II in adenocarcinoma pancreatico (NCT01472198, registro)",
+     "esito": "completato senza risultati nel registro; il sotto-agente riporta nessun beneficio su PFS e OS in una pubblicazione (PMID 28246206, non verificato)",
+     "ragione": "non dichiarata nel registro",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01472198",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "simtuzumab + FOLFIRI",
+     "bersaglio": "LOXL2",
+     "fase": "II in carcinoma colorettale (NCT01479465, registro)",
+     "esito": "terminato; risultati presenti nel registro (non letti); nessun beneficio secondo il sotto-agente (PMID 28246207, non verificato)",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01479465",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "simtuzumab",
+     "bersaglio": "LOXL2",
+     "fase": "II in fibrosi polmonare idiopatica (NCT01769196, registro; non oncologico, stesso bersaglio)",
+     "esito": "terminato; risultati nel registro",
+     "ragione": "inefficacia (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01769196",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "defactinib (VS-6063) vs placebo",
+     "bersaglio": "FAK",
+     "fase": "II in mesotelioma pleurico maligno (NCT01870609, registro)",
+     "esito": "terminato senza risultati nel registro",
+     "ragione": "analisi ad interim: sicurezza buona ma assenza di efficacia, secondo il comitato di monitoraggio (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01870609",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "IK-930",
+     "bersaglio": "TEAD",
+     "fase": "I in tumori solidi avanzati (NCT05228015, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "ragioni strategiche dello sponsor (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05228015",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "bosutinib + gemcitabina",
+     "bersaglio": "Src (off-target)",
+     "fase": "I in carcinoma pancreatico resecato (NCT01025570, registro)",
+     "esito": "terminato senza risultati",
+     "ragione": "arruolamento lento (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01025570",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "losartan",
+     "bersaglio": "fibrosi/matrice in polmone non a piccole cellule",
+     "fase": "non attivato (NCT00880386, registro)",
+     "esito": "ritirato, nessun arruolamento",
+     "ragione": "il concetto non è stato approvato dal NCI (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00880386",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "VT3989 (inibitore della palmitoilazione di TEAD)",
+     "bersaglio": "YAP/TEAD",
+     "fase": "I/II (172 pazienti, 135 con mesotelioma; NCT04665206 indicato nell'abstract)",
+     "esito": "tossicità prevalentemente di grado 1-2 (aumento del rapporto albumina/creatinina urinario, proteinuria, edema periferico, astenia); proteinuria reversibile con aggiustamento della dose, senza insufficienza renale; ORR 26% in 47 pazienti con mesotelioma a dosi ottimizzate (32% in 22 con soglia di UACR); risultati ad interim non prespecificati, studio in corso",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41111090",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "BPI-460372 (inibitore della palmitoilazione di TEAD)",
+     "bersaglio": "TEAD",
+     "fase": "Ia (28 pazienti trattati)",
+     "esito": "proteinuria evento correlato più frequente (46,4%, di cui 10,7% di grado ≥3); nessun DLT, MTD non raggiunta; ORR 3,6%",
+     "ragione": "esposizione limitante la scalata della dose",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42855739",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "defactinib (VS-6063) prima della chirurgia",
+     "bersaglio": "FAK",
+     "fase": "II 'window of opportunity' in mesotelioma pleurico resecabile (NCT02004028, registro)",
+     "esito": "terminato; risultati presenti nel registro (non letti)",
+     "ragione": "l'azienda ha deciso di interrompere per concentrarsi sui passi successivi del programma di sviluppo (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02004028",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "dasatinib + lomustina",
+     "bersaglio": "Src (off-target)",
+     "fase": "I/II in glioblastoma ricorrente (NCT00948389, registro)",
+     "esito": "terminato; risultati nel registro (non letti)",
+     "ragione": "impossibilità di raggiungere gli obiettivi del protocollo (testo del registro; riportato dal sotto-agente)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00948389",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "bosutinib + atezolizumab",
+     "bersaglio": "Src (off-target)",
+     "fase": "I/II in leucemia cronica (NCT04793399, registro; non tumore solido)",
+     "esito": "terminato; risultati nel registro (non letti)",
+     "ragione": "due tossicità limitanti la dose in due pazienti (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04793399",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "GSK2256098 + trametinib",
+     "bersaglio": "FAK + MEK",
+     "fase": "II in carcinoma pancreatico avanzato (NCT02428270, registro; riportato dal sotto-agente)",
+     "esito": "completato senza risultati nel registro; pubblicazione non reperita",
+     "ragione": "non dichiarata",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02428270",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "IAG933",
+     "bersaglio": "YAP-TEAD",
+     "fase": "I in mesotelioma e altri tumori solidi (NCT04857372, registro; riportato dal sotto-agente)",
+     "esito": "attivo, non più in reclutamento, senza risultati",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04857372",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "avutometinib + defactinib",
+     "bersaglio": "MEK + FAK",
+     "fase": "III in carcinoma sieroso ovarico di basso grado ricorrente (NCT06072781, registro; riportato dal sotto-agente)",
+     "esito": "in reclutamento",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06072781",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "altri programmi (fasudil, verteporfin, losartan nel pancreas)",
+     "bersaglio": "ROCK, YAP-TEAD, stroma",
+     "fase": "varie (registro, letti dal sotto-agente)",
+     "esito": "esiti spesso non cercati o non reperiti; nessun trial oncologico trovato per inibitori di Piezo1, netarsudil, ripasudil, né per 'matrix stiffness' o 'mechanotransduction' come bersaglio dichiarato",
+     "ragione": "vedi registro",
+     "fonte": null
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "VT3989 in fase I/II: proteinuria e aumento del rapporto albumina/creatinina urinario, edema periferico e astenia, per lo più di grado 1-2; proteinuria reversibile con aggiustamento della dose e senza insufficienza renale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41111090",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Rene (podociti): nel ratto l'inibitore di TEAD K-975 (300 mg/kg) causa proteinuria con appiattimento dei processi podocitari; dopo 2 settimane di recupero la proteinuria regredisce completamente, ma con proteinuria severa la reversibilità è incompleta.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38556354",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "In vitro gli inibitori di TEAD K-975, IK-930 e VT-107 riducono la fosforilazione ossidativa e causano morte di podociti umani immortalizzati (riportato da un sotto-agente).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42446669",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nel topo l'iperattivazione di YAP/TAZ nei podociti (delezione di LATS) induce una risposta pro-proliferativa e profibrotica glomerulare, attenuata dalla delezione di YAP o TAZ.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40560997",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "La ridotta rigidità dei podociti è una caratteristica della malattia renale proteinurica (dal titolo); l'inattivazione di YAP/TAZ associata non è stata verificata. Inferenza di questa revisione: se anche la perdita di attività di YAP/TAZ danneggia i podociti, la finestra è stretta in entrambi i sensi.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41881106",
+      "verificata": false
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Midollo: YAP/TAZ si attivano in cellule stromali mesenchimali ed endoteliali dopo mieloablazione e ne sostengono la nicchia; l'attivazione farmacologica di YAP/TAZ aumenta la rigenerazione ematopoietica. L'effetto di un inibitore sul recupero non è testato.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42329810",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Polmone: la delezione condizionale di Yap/Taz nell'epitelio polmonare adulto causa disorganizzazione alveolare e iperproduzione di muco.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34260916",
+      "verificata": true
+     },
+     "prova": "genetica"
+    },
+    {
+     "testo": "Fegato: la delezione di Yap/Taz negli epatociti non compromette la rigenerazione, mentre nei dotti biliari causa degenerazione, colestasi e ritardo della rigenerazione.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33127392",
+      "verificata": true
+     },
+     "prova": "genetica"
+    },
+    {
+     "testo": "Intestino: l'attivazione transitoria di YAP/TAZ è necessaria alla comparsa delle cellule staminali di ripristino dopo danno (rassegna riportata da un sotto-agente).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42150849",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Eventi avversi di grado 3 correlati al trattamento con ifebemtinib (FAK) + garsorasib nella coorte combinata di fase 1b/2: diarrea 18% e proteinuria 6% (denominatore non indicato nell'abstract).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42636835",
+      "verificata": true
+     },
+     "prova": "clinica"
+    },
+    {
+     "testo": "Pelle, osso, cuore adulto e tossicità di ROCK o LOX oltre i trial di efficacia: fonte non reperita. Selettività tumore/tessuto sano degli inibitori di YAP/TEAD: nessun dato clinico diretto trovato.",
+     "livello": "ipotesi",
+     "fonte": null
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "L'invasione dipende dal modulo elastico, dal rilassamento dello stress (viscoelasticità) o dalla densità della matrice, quando le tre variabili sono controllate in modo indipendente?",
+     "disegno": "Idrogel 3D regolabili (reti interpenetranti collagene-alginato) con disegno fattoriale su modulo, tempo di rilassamento dello stress e densità/ligandi costanti; linee tumorali di più tessuti (mammella, fegato, pancreas, glioblastoma); misura di invasione, localizzazione nucleare di YAP/TAZ e fosfo-FAK.",
+     "falsificazione": "Se l'invasione segue solo il rilassamento dello stress o la densità e non cambia al variare del modulo a parità delle altre due, 'la rigidità favorisce l'invasione' è falsificata in quel modello; se cresce con il modulo indipendentemente dalle altre, è sostenuta."
+    },
+    {
+     "domanda": "YAP e TAZ sono necessari per l'invasione indotta dalla rigidità in tessuti diversi dal mammario, e TAZ da solo e il doppio knockout cambiano il risultato osservato per YAP?",
+     "disegno": "Linee isogeniche di fegato, pancreas e glioblastoma con knockout di YAP1, di WWTR1 e doppio (CRISPR), con ri-espressione di mutanti, su gel a rigidità controllata e viscoelasticità fissata (circa 0,5-20 kPa); invasione quantificata, localizzazione nucleare e profilo trascrizionale; confronto con il risultato mammario (Lee 2019).",
+     "falsificazione": "Se i knockout invadono almeno quanto le parentali a rigidità alta in due o più tessuti, YAP/TAZ non sono necessari in quei tessuti; se l'invasione cala solo nel doppio knockout, c'è ridondanza fra i paraloghi."
+    },
+    {
+     "domanda": "La risposta di YAP/TAZ alla rigidità è indipendente da Hippo/LATS o dipende dal ramo RAP2-LATS a bassa rigidità?",
+     "disegno": "Cellule con knockout di LATS1/2, RAP2 o entrambi su gel di rigidità crescente, con misura di localizzazione e attività trascrizionale di YAP/TAZ e di fosforilazione di YAP.",
+     "falsificazione": "Se la risposta alla rigidità persiste uguale nelle cellule LATS1/2 null e RAP2 null, il modello indipendente da LATS regge e il ramo RAP2 non spiega la risposta; se scompare a bassa rigidità, i due rami coesistono."
+    },
+    {
+     "domanda": "Che cosa sostituisce YAP/TAZ quando sono bloccati: MRTF/SRF, lamina A, Piezo1 o altro?",
+     "disegno": "Blocco combinatorio (knockout di YAP/TAZ più inibizione di MRTF, Piezo1 o riduzione di lamina A) su gel rigidi, con misura di invasione e trascrittoma; esposizione cronica a un inibitore di TEAD per vedere i meccanismi di adattamento.",
+     "falsificazione": "Se il doppio blocco non riduce l'invasione più del singolo, le vie non sono ridondanti; se l'invasione sparisce solo con il blocco combinato, c'è ridondanza."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Proporzione di risposta di mesotelioma a VT3989 a dosi ottimizzate",
+     "stato": "misurato",
+     "valore": "26% in 47 pazienti (32% in 22 con soglia di UACR)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41111090",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Soglia del rapporto albumina/creatinina urinario per l'aggiustamento della dose",
+     "stato": "assente",
+     "valore": "non riportata nell'abstract",
+     "fonte": null
+    },
+    {
+     "nome": "Modulo elastico e tempo di rilassamento dello stress di tumori umani rispetto al tessuto sano dello stesso organo",
+     "stato": "assente",
+     "valore": "l'abstract riporta una rigidità qualitativa dello stroma mammario, senza modulo elastico né tempo di rilassamento; la viscoelasticità epatica non è nell'abstract del lavoro citato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25959051",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Frazione dell'invasione attribuibile a YAP/TAZ in tumori umani",
+     "stato": "assente",
+     "valore": "",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
