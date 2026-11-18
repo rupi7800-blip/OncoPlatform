@@ -34,7 +34,7 @@ function tentativi(arr){
 }
 function buchi(arr){
   if(!arr.length) return '<p class="meta">Compilare solo dopo i punti 1-5.</p>';
-  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>${altre(b)}`:''}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
+  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>`:''}${altre(b)}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
 }
 function parametri(arr){
   if(!arr.length) return '<p class="meta">Nessuna simulazione prodotta. Qui si elencano i parametri necessari: misurato (con fonte), stimato per analogia, oppure assente.</p>';
@@ -57,9 +57,9 @@ function render(m){
   $('#main').innerHTML = (m.note?`<div class="note">${esc(m.note)}</div>`:'') +
     SECTIONS.map(([k,t])=>`<section id="${k}"><h2>${esc(t)}</h2>${html[k]}</section>`).join('');
 }
-fetch('data/mechanisms.json').then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); }).then(d=>{
+fetch('data/mechanisms.json').then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.json(); }).then(d=>{
   const sel = $('#sel');
   sel.innerHTML = d.mechanisms.map(m=>`<option value="${esc(m.id)}">${esc(m.name)}</option>`).join('');
   const go = () => render(d.mechanisms.find(m=>m.id===sel.value));
   sel.addEventListener('change', go); go();
-}, ()=>{ $('#main').innerHTML='<div class="note">Impossibile caricare data/mechanisms.json (servire il sito via HTTP).</div>'; });
+}).catch(e=>{ $('#main').innerHTML='<div class="note">Impossibile caricare o leggere data/mechanisms.json ('+esc(e.message||e)+'). Se il sito è aperto da file locale, servirlo via HTTP.</div>'; });
