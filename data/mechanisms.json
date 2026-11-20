@@ -7793,6 +7793,38 @@
      "prova": "sperimentale"
     },
     {
+     "testo": "Lo stesso gruppo mostra che il freddo cronico di fondo (22 °C) cambia la risposta ai trattamenti: a 30 °C i tumori pancreatici murini sono più sensibili alle terapie citotossiche, la noradrenalina basale è più alta nei tumori a 22 °C, e un antagonista beta-adrenergico dà lo stesso aumento di sensibilità a 22 °C.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25756236",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "A 22 °C il segnale beta-adrenergico sopprime il fenotipo effettore dei CD8 e indebolisce l'efficacia di anti-PD-1: la riduzione dello stress adrenergico con tre strategie (ambiente termico, beta-bloccanti, topi knockout per beta2) aumenta i CD8 effettori e il rapporto CD8 effettori/T regolatori. Endpoint: immunità e risposta, non metastasi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28819022",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31021732",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "33484943",
+       "verificata": true
+      }
+     ]
+    },
+    {
      "testo": "Innervazione tumorale in prostata: lo sviluppo delle fibre autonome regola la progressione nel topo; la simpatectomia chimica o chirurgica e la delezione degli recettori beta2 e beta3 stromali impediscono le prime fasi; le fibre colinergiche promuovono la disseminazione. In 43 campioni di adenocarcinoma prostatico, la densità di fibre simpatiche e parasimpatiche è associata a esiti peggiori (analisi retrospettiva).",
      "livello": "animale",
      "fonte": {
@@ -8335,16 +8367,85 @@
    ],
    "buchi": [
     {
-     "domanda": "L'effetto antimetastatico del propranololo osservato nei topi dipende dallo stress da freddo di fondo dell'allevamento standard (20-26 °C) o persiste in animali a temperatura termoneutrale e senza stress aggiunto?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Colture di cellule tumorali con macrofagi e linfociti T CD4 trattate con noradrenalina a concentrazioni misurate nei terminali nervosi e nel tumore, con e senza propranololo, a concentrazioni clinicamente raggiungibili; poi lo stesso modello metastatico murino a 22 °C e a 30 °C, con e senza stress.",
-     "falsificazione": "L'effetto è confermato nel modello a temperatura termoneutrale se il propranololo riduce le metastasi anche lì rispetto al veicolo; è falsificato se l'effetto compare solo a 22 °C."
+     "domanda": "Nei topi, l'effetto antimetastatico del propranololo persiste a temperatura termoneutrale (30 °C) senza stress aggiunto, o dipende dal freddo cronico di fondo (22 °C) e dallo stress aggiunto? (Domanda corretta: 'persiste' va testato con un margine di equivalenza e con l'interazione farmaco × temperatura, non confrontando due valori di P; a 30 °C le metastasi sono già minori, quindi servono endpoint continui e numerosità calcolata sull'effetto a 22 °C; lo stress aggiunto va definito e trattato come fattore separato.)",
+     "verifica": "Parzialmente fatto, non nel disegno richiesto. Il confronto 22 contro 30 °C è dimostrato sulla crescita tumorale e sulla sensibilità alle terapie: tumori e metastasi minori a 30 °C (PMID 24248371), tumori pancreatici più sensibili a 30 °C o con beta-bloccante a 22 °C (PMID 25756236), risposta alla radioterapia (PMID 31021732), efficacia di anti-PD-1 (PMID 28819022), e un confronto di strategie termiche con propranololo a basso dosaggio a 22 °C su cellule soppressorie e crescita (PMID 33484943). L'effetto antimetastatico del propranololo è dimostrato in condizioni di stress aggiunto (PMID 20823155) e in più modelli murini (PMID 41249783), con segno opposto nei topi non stressati (PMID 32595275). Non trovato: un disegno 2×2 (22 contro 30 °C, propranololo contro veicolo) con le metastasi come endpoint. La temperatura di allevamento non compare negli abstract di Sloan 2010 e Fjæstad 2025: non si sa a che temperatura fossero tenuti i topi. Query strette (AND tra i termini): zero o pochi risultati, limite della ricerca.",
+     "disegno": "Modello metastatico murino con disegno fattoriale: temperatura (22 contro 30 °C) × stress (assente contro definito, per esempio isolamento o contenzione) × propranololo contro veicolo; endpoint continuo (bioluminescenza, area sotto la curva), noradrenalina misurata in plasma e tumore; un arm con antagonista beta2 selettivo o topi beta2-knockout per distinguere i recettori. In vitro, co-colture di cellule tumorali, macrofagi e linfociti T CD4 con noradrenalina a concentrazioni misurate nel tumore, con e senza propranololo.",
+     "falsificazione": "L'ipotesi 'l'effetto dipende dal freddo di fondo' è sostenuta se l'interazione temperatura × propranololo è significativa e l'effetto a 30 °C è zero entro un margine di equivalenza prespecificato; è falsificata se il propranololo riduce le metastasi anche a 30 °C, con effetto non distinguibile da quello a 22 °C.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "24248371",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "25756236",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "28819022",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "33484943",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31021732",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "20823155",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41249783",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32595275",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "L'effetto del propranololo sull'immunità antimetastatica dipende da MHC-II tumorale e linfociti T CD4, e questo meccanismo è osservabile in cellule umane?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Co-colture di linfociti T CD4 umani Th1 con cellule tumorali MHC-II positive o knockout per MHC-II, con isoproterenolo o noradrenalina e propranololo; misura di citotossicità e produzione di interferone gamma.",
-     "falsificazione": "Il meccanismo è falsificato se la citotossicità CD4 non cambia con propranololo o se è la stessa con e senza MHC-II tumorale."
+     "domanda": "Nei linfociti T CD4 umani, la riduzione del killing e dell'interferone gamma indotta da noradrenalina o isoproterenolo è rimossa dal propranololo (o da un antagonista beta2 selettivo), dipende da MHC-II sul bersaglio, e il fenotipo (Th1 contro Tr1 con IL-10 e LILRB4) è misurato in parallelo? (Domanda corretta: nel topo il test di dipendenza da CD4 e MHC-II esiste già, quindi la novità è solo nell'uomo; il killing dei CD4 non è sempre antitumorale.)",
+     "verifica": "Parzialmente fatto: nel topo, la dipendenza dai CD4 e da MHC-II tumorale è già testata (PMID 41249783: l'effetto antimetastatico del propranololo è completamente dipendente dai CD4, non da NK né CD8, e richiede MHC-II sulle cellule tumorali 'per piena efficacia'; l'entità della riduzione senza MHC-II è nel testo completo, non nell'abstract). Nell'uomo esistono solo i componenti: il segnale beta2 riduce l'interferone gamma in CD4 e CD8 umani e la citotossicità di CD8 e NK, con CD4 inibiti meno (PMID 25526818); in cellule mononucleate umane la noradrenalina blocca la proliferazione dei CD4 e gli antagonisti beta2 la ripristinano (PMID 35116419); la citotossicità dei CD4 contro melanomi umani dipende da CIITA e dall'espressione di MHC-II (PMID 37126006). Non trovato: un esperimento con CD4 umani, bersagli MHC-II positivi o negativi e propranololo o agonisti beta con killing e interferone gamma. Avvertenza: la citotossicità dei CD4 non è sempre antitumorale: cellule Tr1 citotossiche uccidono cellule dendritiche presentanti l'antigene e sopprimono l'immunoterapia nel topo (PMID 39048822).",
+     "disegno": "Co-colture di CD4 umani Th1 o citotossici (da pazienti e da donatori) con bersagli tumorali MHC-II positivi o con CIITA knockout, con noradrenalina o isoproterenolo a concentrazioni fisiologiche e con propranololo o antagonista beta2 selettivo; misura di killing, interferone gamma, IL-10 e LILRB4.",
+     "falsificazione": "Falsificata se il killing con propranololo è uguale con e senza MHC-II (interazione non significativa con margine prespecificato), o se la noradrenalina non riduce il killing dei CD4 umani alle concentrazioni misurate. Un aumento di killing accompagnato da IL-10 e LILRB4 alti non va letto come effetto protettivo.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41249783",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "25526818",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "35116419",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37126006",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39048822",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Le concentrazioni di propranololo che funzionano in vitro e nei topi sono raggiunte nel tessuto tumorale umano alle dosi tollerate?",
