@@ -8707,12 +8707,17 @@
   {
    "id": "microbioma",
    "name": "Ecologia del microbioma: disbiosi, trapianto fecale e immunoterapia",
-   "note": "Bozza v0. La frase di partenza ha tre parti. (1) \"La disbiosi è disordine\": non è stata trovata una definizione operativa univoca; le fonti lette usano 'disbiosi' come descrittore di composizione alterata, e la variabilità tra individui sani implica che esiste più di un 'normale', quindi 'disordine' presuppone un riferimento non definito. Nel cancro, l'idea di un microbioma intratumorale è controversa: un'analisi molto citata di 18.116 campioni TCGA (Poore 2020) è stata ritrattata nel luglio 2024 (motivo non letto) e una critica sostiene che la maggior parte dei microbi riportati non era presente nei campioni. (2) \"Il trapianto fecale lo corregge in modo eccellente nell'infezione da C. difficile\": vero per l'infezione ricorrente contro la vancomicina nel primo RCT (81% contro 31% e 23%, ma n=42 e studio fermato a un'analisi ad interim), meno netto altrove: nell'infezione primaria il trapianto fecale ha dimostrato la non inferiorità, non la superiorità, rispetto alla vancomicina (66,7% contro 61,2%), e il controllo con feci autologhe ha guarito il 43% dei casi; un prodotto definito a base di spore ha ridotto le recidive dal 40% al 12%. 'Eccellente' è un giudizio, e C. difficile non è un caso di cancro: non si trasferisce all'oncologia. (3) \"Il microbioma influenza la risposta all'immunoterapia\": sostenuta da associazioni osservazionali e da esperimenti murini, ma i taxa associati alla risposta non sono coerenti tra coorti, gli antibiotici sono associati a esiti peggiori in 116 coorti (HR 1,49) mentre nell'analisi con braccio placebo di PACIFIC l'interazione con il trattamento non è significativa per gli antibiotici (lo è per gli inibitori di pompa protonica), e il trapianto fecale con immunoterapia ha dati solo da studi a braccio singolo e da un unico RCT con placebo (TACITO) che non ha raggiunto l'endpoint primario (70% contro 41%, P=0,053). Verifica: giro 1, 20 PMID e 15 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "note": "Bozza v0. La frase di partenza ha tre parti. (1) \"La disbiosi è disordine\": una critica del concetto (Hooks e O'Malley 2017) segnala implicazioni problematiche per le ipotesi causali e per la distinzione normale-anormale, non è stata trovata una definizione operativa condivisa, e la variabilità tra individui sani implica che esiste più di un 'normale': 'disordine' presuppone un riferimento non definito. Nel cancro, l'idea di un microbioma intratumorale è controversa: un'analisi molto citata di 18.116 campioni TCGA (Poore 2020) è stata ritrattata nel luglio 2024 (motivo non letto) e una critica sostiene che la maggior parte dei microbi riportati non era presente nei campioni. (2) \"Il trapianto fecale lo corregge in modo eccellente nell'infezione da C. difficile\": vero per l'infezione ricorrente contro la vancomicina nel primo RCT (81% contro 31% e 23%, ma n=42 e studio fermato a un'analisi ad interim), meno netto altrove: in un RCT del 2017 il trapianto per enteroclisma non è risultato diverso dalla vancomicina (recidiva 56,2% contro 41,7%, fermato per futilità dopo 30 pazienti), il prodotto RBX2660 non ha raggiunto l'endpoint primario in fase IIb e nella fase III ha avuto successo del 70,6% contro 57,5% secondo il registro; nell'infezione primaria il trapianto fecale ha dimostrato la non inferiorità, non la superiorità, rispetto alla vancomicina (66,7% contro 61,2%), e il controllo con feci autologhe ha guarito il 43% dei casi; un prodotto definito a base di spore ha ridotto le recidive dal 40% al 12%. 'Eccellente' è un giudizio, e C. difficile non è un caso di cancro: non si trasferisce all'oncologia. (3) \"Il microbioma influenza la risposta all'immunoterapia\": sostenuta da associazioni osservazionali e da esperimenti murini, ma i taxa associati alla risposta non sono coerenti tra coorti, gli antibiotici sono associati a esiti peggiori in 116 coorti (HR 1,49) mentre nell'analisi con braccio placebo di PACIFIC l'interazione con il trattamento non è significativa per gli antibiotici (lo è per gli inibitori di pompa protonica), e il trapianto fecale con immunoterapia ha dati solo da studi a braccio singolo e da un unico RCT con placebo (TACITO) che non ha raggiunto l'endpoint primario (70% contro 41%, P=0,053). Per i probiotici esistono due RCT di fase 1 in aperto con CBM588 nel carcinoma renale (n=30 ciascuno), con endpoint primario sul microbioma non raggiunto e risposte maggiori come endpoint secondari, e un RCT di fase 3 con placebo in reclutamento. Verifica: giro 1, 34 PMID e 23 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; giro 2, altri 13 PMID confrontati con gli abstract da un sotto-agente Haiku (sette formulazioni corrette: ricerca per taxon di Vétizou, associazione umana di Fusobacterium, acetato, denominatori sugli screening dei donatori, modello murino della gemcitabina, campioni di Nejman, definizione del progetto sul microbioma umano); giro 3, sei affermazioni negative controllate con circa 40 query PubMed e registro da un secondo sotto-agente: 'nessuna critica della disbiosi' è risultata falsa (critica trovata), 'nessun RCT sui probiotici con immunoterapia' è risultata falsa (due RCT di fase 1 con CBM588 e un RCT di fase 3 in corso), 'trapianto fecale sempre efficace nella C. difficile' è risultata falsa (RCT con esito non significativo e fase IIb con endpoint primario non raggiunto), l'avviso FDA è attestato solo da una fonte secondaria, il motivo della ritrattazione di Poore resta non leggibile. Il passo 6 è stato verificato su quattro domande, tutte riformulate (una per l'effetto degli antibiotici e una per il meccanismo del trapianto fecale sono ancora in corso). Le verifiche riguardano abstract e registro, non testi completi. Nessuna informazione qui è una raccomandazione terapeutica.",
    "normale": [
     {
-     "testo": "Definizione di disbiosi: nessuna fonte letta la definisce in modo operativo né ne dà una critica; è un buco di ricerca (una ricerca di rassegne critiche non ha restituito risultati pertinenti), non la prova che il concetto sia ben definito. Le fonti lette usano il termine come descrizione di una composizione alterata rispetto a un riferimento non specificato.",
+     "testo": "Definizione di disbiosi: esiste una critica diretta del concetto. Un'analisi quantitativa e qualitativa di un'ampia selezione di definizioni contemporanee conclude che il termine è usato in modi diversi e con implicazioni problematiche, in particolare per le ipotesi causali e per la distinzione normale-anormale; gli autori chiedono di riflettere sull'uso del termine. Non è stata trovata una definizione operativa condivisa.",
      "livello": "ipotesi",
-     "fonte": null
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29018121",
+      "verificata": true
+     },
+     "prova": "analisi concettuale"
     },
     {
      "testo": "La variabilità del microbioma intestinale tra individui sani e nel tempo è ampia: una rassegna ecologica la descrive come molto diversa tra persone e variabile nel tempo, e il progetto esteso sul microbioma umano, con più punti temporali in 265 individui, scompone la variazione in componenti rapidamente variabili, moderatamente variabili e stabili. Un riferimento 'sano' unico non esiste.",
@@ -9075,13 +9080,44 @@
      "composto": "RBX2660 (prodotto derivato da feci, rettale) contro placebo, C. difficile ricorrente (PUNCH CD3)",
      "bersaglio": "microbioma (prodotto)",
      "fase": "III, n=320 (NCT03244644)",
-     "esito": "completato con risultati nel registro; il lavoro primario non è stato reperito in questa sessione",
+     "esito": "completato con risultati nel registro: successo a 8 settimane 70,6% con RBX2660 contro 57,5% con placebo (differenza 13,1 punti; IC 2,3-24,0, stima del registro); il lavoro primario non è stato reperito in questa sessione",
      "ragione": "non interrotto",
      "fonte": {
       "tipo": "NCT",
       "id": "NCT03244644",
       "verificata": true
      }
+    },
+    {
+     "composto": "RBX2660 (due dosi, una dose + placebo, o due placebo), C. difficile ricorrente (PUNCH CD2)",
+     "bersaglio": "microbioma (prodotto)",
+     "fase": "IIb randomizzato in doppio cieco, 134 pazienti (NCT02299570)",
+     "esito": "endpoint primario non raggiunto nell'analisi per intenzione di trattare: successo a 8 settimane 55,6% (due dosi) e 56,8% (una dose + placebo) contro 43,2% (placebo), P=0,2 per entrambi; significativo solo nella popolazione per protocollo con una dose (87,5% contro 58,1%, P=0,017)",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36544075",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale per enteroclisma dopo vancomicina 14 giorni contro riduzione graduale di vancomicina, C. difficile ricorrente",
+     "bersaglio": "microbioma",
+     "fase": "II/III randomizzato in aperto (NCT01226992)",
+     "esito": "recidiva 9/16 (56,2%) con trapianto contro 5/12 (41,7%) con vancomicina: non significativa; fermato a un'analisi ad interim dopo 30 pazienti per futilità (il registro indica 81 arruolati)",
+     "ragione": "registro: \"Unavailable study resources\"; il lavoro riporta la futilità",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28011612",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01226992",
+       "verificata": true
+      }
+     ]
     },
     {
      "composto": "CP101 (microbioma orale) contro placebo, C. difficile ricorrente (PRISM4)",
@@ -9340,10 +9376,60 @@
      }
     },
     {
+     "composto": "CBM588 (prodotto vivo che stimola le bifidobatteri) + nivolumab + ipilimumab, carcinoma renale metastatico",
+     "bersaglio": "microbioma (probiotico)",
+     "fase": "I randomizzato 2:1 in aperto, n=30 (NCT03829111)",
+     "esito": "endpoint primario (abbondanza di Bifidobacterium) non raggiunto e nessuna differenza nel microbioma; PFS 12,7 contro 2,5 mesi (HR 0,15; 0,05-0,47) e risposta 58% contro 20% (P=0,06) come endpoint secondari",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35228755",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03829111",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "CBM588 + cabozantinib + nivolumab, carcinoma renale",
+     "bersaglio": "microbioma (probiotico)",
+     "fase": "I randomizzato 2:1 in aperto, 30 nel lavoro (NCT05122546, 31 nel registro)",
+     "esito": "endpoint primario non raggiunto; risposta 74% (14/19) contro 20% (2/10), P=0,01, secondaria; PFS a 6 mesi 84% contro 60%",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38942995",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT05122546",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "CBM588 + immunoterapia standard contro placebo, carcinoma renale avanzato",
+     "bersaglio": "microbioma (probiotico)",
+     "fase": "III randomizzato in doppio cieco, 718 stimati (NCT07383441)",
+     "esito": "in reclutamento; endpoint primario: PFS",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT07383441",
+      "verificata": true
+     }
+    },
+    {
      "composto": "Probiotici commerciali e fibre in pazienti con melanoma in immunoterapia",
      "bersaglio": "microbioma/dieta",
      "fase": "osservazionale, 128 pazienti (Spencer 2021)",
-     "esito": "più fibre associate a PFS migliore; probiotici associati a risposta peggiore nei topi; nessun RCT sui probiotici letto",
+     "esito": "più fibre associate a PFS migliore; probiotici associati a risposta peggiore nei topi; nessun RCT sui probiotici in questo studio (vedi i due RCT di fase 1 con CBM588 più sotto)",
      "ragione": "non applicabile",
      "fonte": {
       "tipo": "PMID",
@@ -9354,14 +9440,21 @@
    ],
    "finestra": [
     {
-     "testo": "Sicurezza, trasmissione di batteri multiresistenti: in due pazienti arruolati in due trial indipendenti è comparsa batteriemia da E. coli produttore di beta-lattamasi a spettro esteso dopo trapianto fecale, con lo stesso donatore (confermato da sequenziamento); uno è morto. Segnalazione su due casi, non una stima di frequenza; l'avviso della FDA del 2019 non è stato verificato.",
+     "testo": "Sicurezza, trasmissione di batteri multiresistenti: in due pazienti arruolati in due trial indipendenti è comparsa batteriemia da E. coli produttore di beta-lattamasi a spettro esteso dopo trapianto fecale, con lo stesso donatore (confermato da sequenziamento); uno è morto. Segnalazione su due casi, non una stima di frequenza. Un commento pediatrico riporta che un avviso di sicurezza della FDA nel 2019 segnalava la trasmissione di un microrganismo multiresistente dal donatore al ricevente con la morte di un paziente; il testo primario della FDA non è stato reperito.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "31665575",
       "verificata": true
      },
-     "prova": "serie di casi"
+     "prova": "serie di casi",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "34238831",
+       "verificata": true
+      }
+     ]
     },
     {
      "testo": "Screening dei donatori: su 742 potenziali donatori valutati, 159 hanno fatto gli esami di feci e sangue e tra questi il 35,2% (56/159) portava Enterobacterales produttori di beta-lattamasi a spettro esteso; è risultato idoneo il 5,0% (37/742) dei donatori valutati.",
