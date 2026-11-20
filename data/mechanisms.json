@@ -6895,7 +6895,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "29144171",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa"
     },
@@ -7005,19 +7005,19 @@
      "fonte": {
       "tipo": "PMID",
       "id": "33653334",
-      "verificata": false
+      "verificata": true
      },
      "prova": "osservazionale (meta-analisi)",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "29126152",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "26208480",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -7027,7 +7027,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "36093575",
-      "verificata": false
+      "verificata": true
      },
      "prova": "MR"
     }
@@ -7344,30 +7344,30 @@
      ]
     },
     {
-     "testo": "Il ritmo del metabolismo dei farmaci è misurato nell'uomo sano: la DPD delle PBMC raggiunge il massimo tra 00:30 e 02:00 (rapporto picco/minimo 1,69) con forte variabilità interindividuale. Ipotesi degli autori sulle fluoropirimidine di notte: non testata in pazienti.",
+     "testo": "Il ritmo del metabolismo dei farmaci è misurato nell'uomo sano: la DPD delle PBMC raggiunge il massimo tra 00:30 e 02:00 (rapporto picco/minimo 1,69) con forte variabilità interindividuale. Gli autori ne traggono implicazioni per la cronoterapia con fluoropirimidine ad alte dosi di notte; lo studio non contiene dati in pazienti. Rapporti picco/minimo: TS nelle PBMC 1,62, DHU:U plasmatico 1,43.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "27161955",
-      "verificata": false
+      "verificata": true
      },
      "prova": "volontari sani",
      "inferenza": true
     },
     {
-     "testo": "Cardiotossicità: nei ratti la doxorubicina è più letale e più cardiotossica a 9 ore dall'accensione delle luci che a 21; nell'uomo, coorte retrospettiva di 270 pazienti (somministrazione pomeridiana: HR 2,88 per CTRCD). Confondimento possibile; auspicato un RCT.",
+     "testo": "Cardiotossicità: nei ratti maschi (doxorubicina 5 mg/kg i.p. ogni 7 giorni) la mortalità tossica è maggiore a 9 ore dall'accensione delle luci rispetto a tutti gli altri orari (3, 15, 21); il danno cardiaco (CK, MDA) e l'AUC plasmatica sono maggiori a 9 che a 21; nell'uomo, coorte retrospettiva di 270 pazienti (somministrazione pomeridiana: HR 2,88 per CTRCD). Confondimento possibile; auspicato un RCT.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "40927274",
-      "verificata": false
+      "verificata": true
      },
      "prova": "retrospettivo",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "12841941",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -7377,7 +7377,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "23578093",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     }
@@ -7430,7 +7430,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "27161955",
-      "verificata": false
+      "verificata": true
      }
     },
     {
