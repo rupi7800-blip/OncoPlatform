@@ -6960,6 +6960,56 @@
      "prova": "sperimentale"
     },
     {
+     "testo": "Anello 1, disallineamento in un modello di cancro mammario: topi p53R270H/+ WAPCre esposti per tutta la vita a inversione settimanale del ciclo luce-buio mostrano una riduzione della soppressione tumorale e un aumento di peso. Gli autori propongono desincronizzazione interna e disturbo del sonno come meccanismi, ma non li separano.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26196479",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 2, melatonina nel ratto: la luce notturna debole riduce la melatonina e conferisce resistenza al tamoxifene a xenotrapianti MCF-7; la reintegrazione notturna di melatonina la elimina. Dato in ratti con xenotrapianti, non confermato nell'uomo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25062775",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 2, luce costante: nei ratti nudi la luce costante abolisce il ritmo della melatonina e aumenta la crescita di xenotrapianti MCF-7. Contraddice in parte Filipski 2004, dove luce o buio costanti non influivano sull'osteosarcoma (tumore e modello diversi).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "12846415",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 4-5, sonno e orologio non sono separabili: nel modello murino di tumorigenesi polmonare la privazione di sonno dis-regola CLOCK (ACSL1, palmitoilazione di CLOCK) e favorisce la staminalità tumorale; la β-endorfina somministrata in un momento prefissato ripristina il ritmo e attenua il tumore.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38772364",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Avvertenza metodologica: in strutture animali una contaminazione luminosa di appena 0,2 lx nella fase di buio ha alterato i ritmi e stimolato la crescita di xenotrapianti nei ratti; il controllo della luce è quindi un confonditore sperimentale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21640027",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
      "testo": "Epidemiologia, mammella, meta-analisi: 32 studi osservazionali, effetto globale 1,11 (1,04-1,20); caso-controllo OR 1,34 (1,17-1,53); coorti RR/HR 0,98 (0,93-1,03); oltre 20 anni 1,03 (0,95-1,11); gli autori concludono che nelle coorti non c'è associazione.",
      "livello": "clinico",
      "fonte": {
@@ -7420,6 +7470,36 @@
       "verificata": true
      },
      "prova": "sperimentale"
+    },
+    {
+     "testo": "Il sesso modera l'effetto della cronomodulazione colorettale: meta-analisi di dati individuali di tre trial di fase III (345 donne, 497 uomini): sopravvivenza migliore con chronoFLO negli uomini (20,8 vs 17,5 mesi, P=0,009) e peggiore nelle donne (16,6 vs 18,4 mesi, P=0,012); interazione sesso per schema HR 1,59 (P=0,002). Gli autori chiedono una valutazione prospettica nei maschi.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22745214",
+      "verificata": true
+     },
+     "prova": "meta-analisi di tre trial randomizzati"
+    },
+    {
+     "testo": "Confondente di protocollo in vitro: in cellule di carcinoma colorettale, la variazione giornaliera di sensibilità agli antagonisti PPAR compare nel terreno standard, ma sparisce in un terreno definito che riproduce alimentazione e digiuno notturno; con Bmal1 silenziato gli autori concludono che il ritmo alimentazione-digiuno, non l'orologio del tumore, governa la sensibilità. Nel topo, la somministrazione in stato alimentato prolunga la sopravvivenza e riduce l'epatotossicità.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42993626",
+      "verificata": true
+     },
+     "prova": "sperimentale (cellule, organoidi, topo)"
+    },
+    {
+     "testo": "Efficacia in organoidi: organoidi derivati da pazienti con adenocarcinoma pancreatico mostrano un trascrittoma circadiano specifico per il tumore; l'efficacia di farmaci clinicamente rilevanti varia nel tempo e correla con il ciclo del bersaglio. Il confronto con il pancreas sano riguarda solo l'espressione (dati GTEx), non l'efficacia.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38716727",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     }
    ],
    "buchi": [
@@ -7457,16 +7537,80 @@
      ]
     },
     {
-     "domanda": "Nell'associazione lavoro a turni–cancro, il disallineamento dell'orologio ha un effetto separabile da luce notturna, soppressione di melatonina e privazione di sonno?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Topi o colture con quattro bracci: luce notturna con orologio intatto, disallineamento senza luce, melatonina reintegrata, sonno protetto; esito: tumori indotti.",
-     "falsificazione": "Se il rischio scompare quando si ripristina la melatonina, o resta identico senza luce, la separazione cambia."
+     "domanda": "Nell'associazione lavoro a turni–cancro, esiste un effetto del disallineamento dell'orologio separabile da luce notturna, soppressione di melatonina e privazione di sonno? (Domanda corretta: in un animale il 'disallineamento senza luce' non è realizzabile spostando il ciclo luce-buio, quindi va ottenuto per altra via e va dichiarato se si misura iniziazione o crescita.)",
+     "verifica": "Parzialmente fatto, ma nessun disegno separa i quattro fattori. Disallineamento (ciclo luce-buio spostato): jet lag e osteosarcoma (PMID 15520194), cancro polmonare e mutanti Per2/Bmal1 (PMID 27476975), fegato umanizzato e HCC (PMID 37890720), inversioni settimanali e cancro mammario nel topo p53 (PMID 26196479). Luce notturna e melatonina nel ratto: luce costante e crescita di xenotrapianti MCF-7 (PMID 12846415); luce notturna debole e resistenza al tamoxifene, annullata dalla melatonina notturna (PMID 25062775). Sonno e orologio inseparabili: privazione di sonno e dis-regolazione di CLOCK (PMID 38772364). Non trovato: disallineamento dell'orologio periferico con luce e SCN allineati (per esempio via timing dell'alimentazione) con esito tumorale. Una query mirata ha dato zero record, limite della ricerca. Studi sul sonno (frammentazione, privazione) hanno risultati discordanti: effetto in un modello colico e in un HCC, effetto minimo da solo in un altro, segnalato da un sotto-agente e non riletto.",
+     "disegno": "Quattro bracci in roditori: (1) disallineamento dell'orologio periferico con luce e SCN allineati (alimentazione fuori fase), luce misurata in lux; (2) luce notturna con orologio periferico allineato dal pasto; (3) luce notturna più melatonina notturna reintegrata; (4) privazione di sonno con registrazione EEG e orologio misurato in tessuto (Per2, Bmal1). Dichiarare la fase studiata: iniziazione (modello geneticamente predisposto) o crescita (xenotrapianto).",
+     "falsificazione": "Ipotesi nulla: l'eccesso di tumore è interamente spiegato da luce notturna, melatonina e sonno. L'effetto del solo disallineamento è falsificato se il braccio 1 non differisce dal controllo allineato a parità di luce; la melatonina è mediatore sufficiente in quel modello se, nel braccio 3, il tumore torna al controllo. Il braccio sonno non separa l'orologio, perché la privazione altera CLOCK: serve un controllo con orologio misurato.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "15520194",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27476975",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37890720",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "26196479",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "12846415",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "25062775",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38772364",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Un esperimento di fase prespecificato può mostrare che l'orario di somministrazione cambia l'efficacia (non la tossicità) di un farmaco oncologico, tenendo conto del sesso?",
-     "verifica": "Da verificare con agenti (passo 6). Domanda riformulata: 'ora ottimale' va specificata per farmaco, sesso ed esito.",
-     "disegno": "Organoidi paziente-derivati tumore e sano sincronizzati; esposizione a 4-6 fasi; IC50 differenziale tumore/sano per fase.",
-     "falsificazione": "Se la finestra tumore/sano non varia con la fase, l'effetto circadiano non è sfruttabile."
+     "domanda": "Un esperimento prespecificato può mostrare che l'orario di somministrazione cambia l'efficacia (non la tossicità) di un farmaco oncologico in organoidi tumorali? (Domanda corretta: efficacia e tossicità vanno misurate come due esiti separati; il sesso biologico non è testabile con il solo donatore in vitro, ed è dimostrato solo nei trial clinici retrospettivi; il protocollo di sincronizzazione e il terreno possono azzerare l'effetto.)",
+     "verifica": "Parzialmente fatto. Efficacia dipendente dalla fase in organoidi di adenocarcinoma pancreatico e linee (PMID 38716727), senza confronto di efficacia con tessuto sano. Sensibilità a antagonisti PPAR che varia nel terreno standard ma scompare con alimentazione/digiuno definiti, e Bmal1 silenziato (PMID 42993626). Nel paziente: trial randomizzato EORTC 05963 senza differenza globale di sopravvivenza ma con sesso come predittore (PMID 16877722), meta-analisi di tre trial con interazione sesso per schema (PMID 22745214), EORTC 05011 senza orario migliore nella popolazione totale (PMID 32319740). Non trovato: confronto appaiato tumore e tessuto sano con IC50 per fase e per donatore; efficacia dipendente dal sesso in vitro (una query dedicata ha dato un solo risultato non pertinente).",
+     "disegno": "Organoidi tumorali paziente-derivati sincronizzati con protocollo dichiarato (per esempio desametasone) e un braccio con terreno definito che simula alimentazione e digiuno; esposizione a 4-6 fasi; esiti separati: IC50 o AUC tumorale per fase (efficacia) e IC50 in organoidi sani per fase (tossicità), con almeno donatori di entrambi i sessi, senza trarre conclusioni sul sesso biologico.",
+     "falsificazione": "L'ipotesi 'l'orario cambia l'efficacia' è falsificata se l'ampiezza della variazione dell'IC50 tumorale per fase (cosinor o ANOVA con IC) rientra nella variabilità tra replicati e donatori, o se scompare nel terreno definito (in tal caso l'effetto segue l'alimentazione, non l'orologio del tumore). Il rapporto tumore/sano è un esito secondario.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38716727",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42993626",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "22745214",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16877722",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32319740",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
