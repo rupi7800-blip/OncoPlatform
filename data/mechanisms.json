@@ -8703,6 +8703,746 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "microbioma",
+   "name": "Ecologia del microbioma: disbiosi, trapianto fecale e immunoterapia",
+   "note": "Bozza v0. La frase di partenza ha tre parti. (1) \"La disbiosi è disordine\": non è stata trovata una definizione operativa univoca; le fonti lette usano 'disbiosi' come descrittore di composizione alterata, e la variabilità tra individui sani implica che esiste più di un 'normale', quindi 'disordine' presuppone un riferimento non definito. Nel cancro, l'idea di un microbioma intratumorale è controversa: un'analisi molto citata di 18.116 campioni TCGA (Poore 2020) è stata ritrattata nel luglio 2024 (motivo non letto) e una critica sostiene che la maggior parte dei microbi riportati non era presente nei campioni. (2) \"Il trapianto fecale lo corregge in modo eccellente nell'infezione da C. difficile\": vero per l'infezione ricorrente contro la vancomicina nel primo RCT (81% contro 31% e 23%, ma n=42 e studio fermato a un'analisi ad interim), meno netto altrove: nell'infezione primaria il trapianto fecale ha dimostrato la non inferiorità, non la superiorità, rispetto alla vancomicina (66,7% contro 61,2%), e il controllo con feci autologhe ha guarito il 43% dei casi; un prodotto definito a base di spore ha ridotto le recidive dal 40% al 12%. 'Eccellente' è un giudizio, e C. difficile non è un caso di cancro: non si trasferisce all'oncologia. (3) \"Il microbioma influenza la risposta all'immunoterapia\": sostenuta da associazioni osservazionali e da esperimenti murini, ma i taxa associati alla risposta non sono coerenti tra coorti, gli antibiotici sono associati a esiti peggiori in 116 coorti (HR 1,49) mentre nell'analisi con braccio placebo di PACIFIC l'interazione con il trattamento non è significativa per gli antibiotici (lo è per gli inibitori di pompa protonica), e il trapianto fecale con immunoterapia ha dati solo da studi a braccio singolo e da un unico RCT con placebo (TACITO) che non ha raggiunto l'endpoint primario (70% contro 41%, P=0,053). Verifica: giro 1, 20 PMID e 15 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "normale": [
+    {
+     "testo": "Definizione di disbiosi: nessuna fonte letta la definisce in modo operativo né ne dà una critica; è un buco di ricerca (una ricerca di rassegne critiche non ha restituito risultati pertinenti), non la prova che il concetto sia ben definito. Le fonti lette usano il termine come descrizione di una composizione alterata rispetto a un riferimento non specificato.",
+     "livello": "ipotesi",
+     "fonte": null
+    },
+    {
+     "testo": "La variabilità del microbioma intestinale tra individui sani e nel tempo è ampia: una rassegna ecologica la descrive come molto diversa tra persone e variabile nel tempo, e uno studio longitudinale su 265 individui scompone la variazione in componenti rapidamente variabili, moderatamente variabili e stabili. Un riferimento 'sano' unico non esiste.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22972295",
+      "verificata": false
+     },
+     "prova": "rassegna e studio osservazionale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28953883",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Melanoma: in 112 pazienti in anti-PD-1 il microbioma intestinale (feci in 43 pazienti, 30 responder e 13 non responder) mostrava più alfa-diversità e più Ruminococcaceae nei responder (P<0,01); i trapianti di feci dai responder in topi germ-free hanno aumentato la risposta immunitaria antitumorale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29097493",
+      "verificata": true
+     },
+     "prova": "osservazionale più modello murino"
+    },
+    {
+     "testo": "Tumori epiteliali: gli antibiotici hanno ridotto il beneficio degli inibitori dei checkpoint nei pazienti; il trapianto fecale da responder in topi germ-free o trattati con antibiotici ha migliorato l'effetto di anti-PD-1, quello da non responder no; la supplementazione orale di Akkermansia muciniphila dopo il trapianto da non responder ha ripristinato l'effetto in modo dipendente da IL-12.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29097494",
+      "verificata": true
+     },
+     "prova": "osservazionale più modello murino"
+    },
+    {
+     "testo": "Incoerenza tra coorti: una meta-analisi di dieci coorti di pazienti in immunoterapia trova che i marcatori tassonomici sono incoerenti tra studi e individua come taxon più coerente TANB77, un clade batterico non coltivato che la tassonomia standard non distingue; il beneficio è mostrato nel topo, anche con una proteina (pilina) derivata dal clade.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39730328",
+      "verificata": true
+     },
+     "prova": "meta-analisi di coorti e modello murino"
+    },
+    {
+     "testo": "Microbioma intratumorale: un'analisi di 18.116 campioni del TCGA aveva riportato firme microbiche nei tessuti e nel sangue di 33 tipi di tumore; l'articolo è marcato come ritrattato su PubMed e la notifica di ritrattazione (luglio 2024) non ha abstract, quindi il motivo non è stato letto. Una critica pubblicata nel 2023 sostiene che la maggior parte dei microbi riportati non era presente nei campioni e che più di una dozzina di studi successivi sono probabilmente non validi; sono affermazioni della critica, non riverificate qui.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32214244",
+      "verificata": true
+     },
+     "prova": "osservazionale (ritrattato)",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38926587",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37811944",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Un altro lavoro (Nejman 2020) descrive batteri intracellulari distinti per tipo di tumore in 1.526 campioni; non sono stati letti i controlli di contaminazione e la sua validità non è verificata qui, dato che la critica del 2023 riguarda l'analisi del TCGA.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32467386",
+      "verificata": false
+     },
+     "prova": "osservazionale"
+    },
+    {
+     "testo": "Fusobacterium nucleatum e cancro colorettale, E. coli pks+: nel topo E. coli NC101 con locus pks promuove il carcinoma invasivo e la delezione del locus lo riduce; nell'uomo la frequenza di pks+ in mucosa di colon e IBD è descritta come alta, ma l'abstract non riporta cifre.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22903521",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Anello 1, composizione → risposta clinica nell'uomo: le associazioni di composizione e risposta in melanoma e tumori epiteliali sono osservazionali (16S o metagenomica) e non dimostrano la causa; i taxa differiscono tra studi (Ruminococcaceae, Akkermansia, altri).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29097493",
+      "verificata": true
+     },
+     "prova": "osservazionale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29097494",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39730328",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Anello 2, causalità nel topo: il trasferimento di feci da responder in topi germ-free o trattati con antibiotici migliora l'effetto di anti-PD-1 (Gopalakrishnan, Routy); la supplementazione con Akkermansia dopo trapianto da non responder ripristina l'effetto con reclutamento di linfociti T CD4 CCR9+CXCR3+ in modo dipendente da IL-12.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29097494",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29097493",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Anello 2, singoli taxa nel topo: Bifidobacterium da solo migliora il controllo tumorale come anti-PD-L1 (attivazione delle cellule dendritiche, priming dei CD8); Bacteroides fragilis e B. thetaiotaomicron ripristinano la risposta a anti-CTLA-4 in topi germ-free o trattati con antibiotici.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26541606",
+      "verificata": false
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "26541610",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anello 3, metaboliti: l'inosina prodotta da Bifidobacterium pseudolongum attiva i linfociti T tramite il recettore A2A e richiede costimolazione; dato murino, non cercato nell'uomo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32792462",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 3, metaboliti con segno opposto: butirrato e propionato (Fusobacterium nucleatum nel colon-retto MSS; mannosio e F. rodentium) sono riportati favorevoli a anti-PD-1 nel topo, l'acetato è riportato sfavorevole (aumenta PD-L1 via c-Myc nel polmone). Stessa famiglia metabolica, segno opposto, e un batterio tipicamente associato al tumore appare favorevole.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39303724",
+      "verificata": false
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38702440",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anello 5, dieta: nei 128 pazienti con melanoma in immunoterapia, più fibre alimentari erano associate a una PFS migliore, con il beneficio maggiore in assenza di probiotici commerciali; nei topi, dieta povera di fibre o probiotici riducevano la risposta a anti-PD-1 con meno linfociti T citotossici IFN-gamma positivi.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34941392",
+      "verificata": true
+     },
+     "prova": "osservazionale più modello murino"
+    },
+    {
+     "testo": "Anello 5, dieta, controesempio: in più modelli tumorali murini la quantità di fibre ha un effetto debole e non coerente nella direzione su anti-PD-1; la differenza tra dieta a base di cereali e dieta purificata pesa più della quantità di fibre; secondo gli autori altri fattori dietetici correlati alle fibre possono spiegare l'associazione clinica.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40540354",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5, antibiotici: una meta-analisi di 116 coorti (97.850 pazienti) associa l'esposizione agli antibiotici a una sopravvivenza peggiore con gli inibitori dei checkpoint (OS HR 1,49; 1,34-1,65; PFS HR 1,44; 1,31-1,58); è un dato osservazionale e il confondimento per indicazione non è escluso.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42945960",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi)"
+    },
+    {
+     "testo": "Anello 5, antibiotici, analisi con placebo (PACIFIC, durvalumab dopo chemioradioterapia, 660 pazienti): nel braccio durvalumab gli antibiotici di base erano associati a PFS più breve (HR 1,50; 1,08-2,10) ma non a sopravvivenza globale diversa (HR 1,33; 0,90-1,97); nel braccio placebo nessuna associazione; l'interazione con il trattamento è significativa per gli inibitori di pompa protonica e non per gli antibiotici. Lettura prudente: potenziale attenuazione del beneficio, non causalità dimostrata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42398520",
+      "verificata": true
+     },
+     "prova": "analisi post hoc di un RCT"
+    },
+    {
+     "testo": "Anello 6, clinica: nei pazienti con melanoma refrattario il trapianto fecale con anti-PD-1 ha prodotto risposte cliniche in 3 pazienti su 10 (2 parziali, 1 completa) con cambiamenti dell'infiltrato immune; non c'era un braccio di controllo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33303685",
+      "verificata": true
+     },
+     "prova": "studio di fase I a braccio singolo"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Compenso nel ricevente (C. difficile): nei soggetti con infezione ricorrente curati con feci eterologhe (90%) contro autologhe (43%), l'attecchimento completo del donatore non era necessario per la guarigione; basta la presenza di taxa funzionali critici dopo gli antibiotici (secondo gli autori, legati al metabolismo degli acidi biliari secondari).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "27999162",
+       "verificata": true
+      },
+      "prova": "analisi secondaria di un RCT"
+     },
+     {
+      "testo": "Compenso nel ricevente (oncologia): nel trapianto fecale con pembrolizumab e axitinib nel tumore del rene, l'acquisizione o la perdita di ceppi specifici, non l'attecchimento totale, si associava all'endpoint primario; nel trial di fase II su polmone e melanoma i responder sviluppavano una composizione distinta, indipendente dalla similarità donatore-ricevente, con perdita di specie basali (Enterocloster citroniae, E. lavalensis, Clostridium innocuum); la reintroduzione di specie perse annullava l'effetto nel topo.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41606119",
+       "verificata": true
+      },
+      "prova": "RCT di fase II",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "41606121",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Tensione sul meccanismo: due trial interpretano la risposta all'opposto, come arricchimento di taxa favorevoli (Gopalakrishnan, Routy) o come perdita di specie dannose (FMT-LUMINate).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41606121",
+       "verificata": true
+      },
+      "prova": "studio di fase II a braccio singolo",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "29097493",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "29097494",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Un solo taxon può bastare nel topo: Bifidobacterium, Bacteroides, Bifidobacterium pseudolongum, singolarmente, ripristinano la risposta in topi germ-free o trattati con antibiotici; ma studi che rimuovono un taxon da una comunità intatta e misurano se altri compensano non sono stati trovati in oncologia.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "26541606",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "26541610",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "32792462",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Buco: la ripartizione della varianza della risposta tra microbioma, genetica dell'ospite, dieta e farmaci non è stata trovata; nessuno studio letto misura l'attecchimento in pazienti in immunoterapia e lo correla alla risposta in modo concordante; steroidi e genetica dell'ospite (HLA, carico mutazionale) non sono stati verificati. Buco della conoscenza, non assenza di ridondanza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Infusione duodenale di feci di donatore contro vancomicina (± lavaggio intestinale), C. difficile ricorrente",
+     "bersaglio": "microbioma intestinale",
+     "fase": "RCT, n=42 (van Nood 2013)",
+     "esito": "risoluzione senza recidiva a 10 settimane: 13/16 (81%) dopo la prima infusione contro 4/13 (31%) e 3/13 (23%); fermato a un'analisi ad interim; eventi avversi non diversi tranne diarrea e crampi lievi",
+     "ragione": "non interrotto per fallimento (interim)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23323867",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale (senza antibiotici) contro vancomicina 10 giorni, infezione primaria da C. difficile",
+     "bersaglio": "microbioma intestinale",
+     "fase": "RCT di non inferiorità, n=104 (NCT03796650)",
+     "esito": "guarigione senza recidiva a 60 giorni 66,7% contro 61,2% (differenza 5,4 punti; -13,5 a 24,4): non inferiorità dimostrata, superiorità no",
+     "ragione": "terminato: criterio di non inferiorità raggiunto all'analisi ad interim",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40523286",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03796650",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "SER-109 (spore di Firmicutes purificate, orale) contro placebo, C. difficile ricorrente",
+     "bersaglio": "microbioma (prodotto definito)",
+     "fase": "III, n=182 (ECOSPOR III, NCT03183128)",
+     "esito": "recidiva a 8 settimane 12% contro 40% (RR 0,32; 0,18-0,58); eventi avversi simili al placebo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35045228",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03183128",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "RBX2660 (prodotto derivato da feci, rettale) contro placebo, C. difficile ricorrente (PUNCH CD3)",
+     "bersaglio": "microbioma (prodotto)",
+     "fase": "III, n=320 (NCT03244644)",
+     "esito": "completato con risultati nel registro; il lavoro primario non è stato reperito in questa sessione",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03244644",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "CP101 (microbioma orale) contro placebo, C. difficile ricorrente (PRISM4)",
+     "bersaglio": "microbioma (prodotto)",
+     "fase": "III (NCT05153499), 19 pazienti",
+     "esito": "terminato; risultati nel registro, non letti",
+     "ragione": "\"The termination ... is based on the voluntary, business-related decision of the sponsor.\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05153499",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale da donatore con anti-PD-1, melanoma refrattario",
+     "bersaglio": "microbioma",
+     "fase": "I, n=10 (Baruch 2021)",
+     "esito": "3 risposte cliniche (2 parziali, 1 completa); cambiamenti dell'infiltrato immune; nessun controllo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33303685",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale da responder con anti-PD-1, melanoma refrattario",
+     "bersaglio": "microbioma",
+     "fase": "II, n=15 (Davar 2021)",
+     "esito": "beneficio clinico in 6 pazienti su 15; i responder avevano più taxa associati alla risposta, più attivazione CD8 e meno cellule mieloidi IL-8+; nessun controllo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33542131",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale da donatore sano con nivolumab o pembrolizumab, melanoma di prima linea",
+     "bersaglio": "microbioma",
+     "fase": "I, n=20 (NCT03772899)",
+     "esito": "ORR 65% (13/20), 4 risposte complete; eventi immunocorrelati di grado 3 in 5 pazienti (25%); tutti i pazienti hanno ricevuto ceppi del donatore, ma la similarità aumentava nel tempo solo nei responder",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37414899",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale in capsule + anti-PD-1 (polmone) o anti-PD-1 + anti-CTLA-4 (melanoma), prima linea",
+     "bersaglio": "microbioma",
+     "fase": "II a braccio singolo, 20 + 20 pazienti (FMT-LUMINate, NCT04951583)",
+     "esito": "ORR 80% nel polmone e 75% nel melanoma; eventi di grado 3 o superiore: nessuno nel polmone, 13 su 20 (65%) nel melanoma; nessun controllo",
+     "ragione": "registro: stato sconosciuto, ultimo aggiornamento 2024-08; il lavoro riporta i risultati",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41606121",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04951583",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Trapianto fecale da responder completi + pembrolizumab + axitinib contro FMT placebo, carcinoma renale metastatico",
+     "bersaglio": "microbioma",
+     "fase": "II a RCT in doppio cieco, n=45 (TACITO, NCT04758507)",
+     "esito": "endpoint primario non raggiunto: PFS a 12 mesi 70% contro 41% (P=0,053); PFS mediana 24 contro 9 mesi (HR 0,50; P=0,035) come endpoint secondario; ORR 52% contro 32%",
+     "ragione": "non interrotto; il registro indica 50 arruolati, il lavoro 45 randomizzati",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41606119",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04758507",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Trapianto fecale in melanoma dopo fallimento dell'immunoterapia",
+     "bersaglio": "microbioma",
+     "fase": "I (NCT03353402), 40 stimati",
+     "esito": "stato sconosciuto, ultimo aggiornamento 2019",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03353402",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Pembrolizumab/lenvatinib con o senza trapianto fecale da donatore sano, melanoma",
+     "bersaglio": "microbioma",
+     "fase": "II randomizzato (NCT06030037), 0 arruolati",
+     "esito": "ritirato",
+     "ragione": "\"Trial withdrawn per PI directive\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06030037",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale + nivolumab, cancro gastrico",
+     "bersaglio": "microbioma",
+     "fase": "(NCT05001360), 0 arruolati",
+     "esito": "ritirato",
+     "ragione": "\"We could not get the IRB approval.\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05001360",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Modulazione del microbioma con antibiotici per abilitare l'immunoterapia, cancro pancreatico",
+     "bersaglio": "microbioma",
+     "fase": "IV (NCT03891979), 0 arruolati",
+     "esito": "ritirato",
+     "ragione": "\"Suspended due to Primary Investigator's decision\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03891979",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "MRx0518 (prodotto live biotherapeutic) + pembrolizumab, tumori solidi",
+     "bersaglio": "microbioma",
+     "fase": "I/II (NCT03637803), 63 pazienti",
+     "esito": "terminato",
+     "ragione": "\"Sponsor insolvency\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03637803",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "RBX7455 prima della chirurgia, cancro mammario operabile",
+     "bersaglio": "microbioma",
+     "fase": "I (NCT04139993), 3 pazienti",
+     "esito": "terminato",
+     "ragione": "\"poor accrual\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04139993",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Trapianto fecale per il cancro pancreatico",
+     "bersaglio": "microbioma",
+     "fase": "fase I precoce (NCT04975217), 10 stimati",
+     "esito": "sospeso",
+     "ragione": "\"PI request\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04975217",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "MTP-101-C per la colite cutanea immunocorrelata refrattaria agli steroidi",
+     "bersaglio": "microbioma",
+     "fase": "II (NCT06499896), 0 arruolati",
+     "esito": "ritirato",
+     "ragione": "\"slow accrual\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06499896",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Microbioma cutaneo e reazioni immunocorrelate (osservazionale)",
+     "bersaglio": "microbioma",
+     "fase": "NCT04734704, 57 pazienti",
+     "esito": "terminato",
+     "ragione": "\"target number of patients not reached and disabling team changes\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04734704",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Probiotici commerciali e fibre in pazienti con melanoma in immunoterapia",
+     "bersaglio": "microbioma/dieta",
+     "fase": "osservazionale, 128 pazienti (Spencer 2021)",
+     "esito": "più fibre associate a PFS migliore; probiotici associati a risposta peggiore nei topi; nessun RCT sui probiotici letto",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34941392",
+      "verificata": true
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Sicurezza, trasmissione di batteri multiresistenti: in due pazienti arruolati in due trial indipendenti è comparsa batteriemia da E. coli produttore di beta-lattamasi a spettro esteso dopo trapianto fecale, con lo stesso donatore (confermato da sequenziamento); uno è morto. Segnalazione su due casi, non una stima di frequenza; l'avviso della FDA del 2019 non è stato verificato.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31665575",
+      "verificata": true
+     },
+     "prova": "serie di casi"
+    },
+    {
+     "testo": "Screening dei donatori: in uno studio sullo screening, il 35,2% dei donatori valutati portava Enterobacterales produttori di beta-lattamasi a spettro esteso e solo il 5,0% era idoneo dopo lo screening. Non riletto.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37474764",
+      "verificata": false
+     },
+     "prova": "studio osservazionale"
+    },
+    {
+     "testo": "Eventi avversi nell'oncologia: nel trial di fase II su polmone e melanoma, 13 pazienti su 20 con melanoma (65%) hanno avuto eventi di grado 3 o superiore con la combinazione anti-PD-1 + anti-CTLA-4 e il trapianto fecale; nel polmone nessuno; nel trial di prima linea in melanoma 5 pazienti su 20 hanno avuto eventi immunocorrelati di grado 3. Senza gruppo di controllo non si può attribuire il rischio al trapianto.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41606121",
+      "verificata": true
+     },
+     "prova": "studio di fase II a braccio singolo",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "37414899",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Pazienti immunosoppressi: in una revisione sistematica sull'infezione da C. difficile ricorrente in immunocompromessi (trapianto, chemioterapia, HIV), la guarigione clinica dopo una singola trapianto era del 75,3%, la recidiva del 23,9% e gli eventi avversi gravi del 10,1%; per la neutropenia in oncologia ematologica non sono stati trovati dati clinici di sicurezza. Non riletto.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40759389",
+      "verificata": false
+     },
+     "prova": "revisione sistematica"
+    },
+    {
+     "testo": "Colite da inibitori dei checkpoint: il trapianto fecale è stato usato come salvataggio in serie di casi (12 pazienti; miglioramento dei sintomi nell'83%, remissione clinica nel 92%); l'efficacia nel prevenirla non è dimostrata, non c'è un RCT letto. Non riletto.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37315113",
+      "verificata": false
+     },
+     "prova": "serie di casi"
+    },
+    {
+     "testo": "Il microbioma è anche un modificatore della farmacologia: nel topo l'attività batterica della beta-glucuronidasi è legata alla tossicità gastrointestinale dell'irinotecano, e batteri intratumorali inattivano la gemcitabina; l'effetto clinico non è dimostrato nei lavori letti. Non riletto.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28912244",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Interazioni: gli inibitori di pompa protonica sono associati a esiti peggiori con durvalumab nell'analisi post hoc di PACIFIC (OS HR 1,66; 1,30-2,13), con interazione significativa col trattamento, mentre nel placebo non ci sono associazioni; per gli antibiotici l'interazione non è significativa.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42398520",
+      "verificata": true
+     },
+     "prova": "analisi post hoc di un RCT"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Il beneficio del trapianto fecale con immunoterapia dipende dall'eliminazione di specie dannose (come proposto da FMT-LUMINate) o dall'arricchimento di specie benefiche (come proposto da Gopalakrishnan e Routy), o da entrambi?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Comunità definite a partire da pazienti responder: in vitro, co-colture con cellule dendritiche e linfociti T, confrontando comunità con e senza le specie perse dopo FMT (Enterocloster citroniae, Clostridium innocuum) e con o senza le specie arricchite; poi topi gnotobiotici con le stesse comunità e anti-PD-1.",
+     "falsificazione": "Se la rimozione delle specie perse non cambia la risposta e l'aggiunta delle specie arricchite sì, o viceversa, il meccanismo non proposto è falsificato; se entrambe le manipolazioni sono necessarie, i due meccanismi non sono alternativi."
+    },
+    {
+     "domanda": "Esiste un microbioma intratumorale vitale e specifico per tipo di tumore, una volta eliminati i controlli di contaminazione e gli errori di analisi segnalati per i dati TCGA?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Tessuti tumorali e normali di pazienti con campioni di controllo negativi in ogni passaggio (reagenti, strumenti, sala operatoria), coltura, ibridazione in situ e sequenziamento con filtraggio del DNA umano; confronto con la stessa analisi nei dati sorgente di Poore.",
+     "falsificazione": "Falsificata se le firme scompaiono o non si distinguono dai controlli negativi, o se le specie riportate non sono presenti nei campioni analizzati."
+    },
+    {
+     "domanda": "Il segnale degli antibiotici sull'efficacia dell'immunoterapia è causale (via microbioma) o dovuto a confondimento per indicazione e stato clinico?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Topi tumorali con classi diverse di antibiotici a dose e durata note, con microbioma misurato e ripristino mirato; confronto con pazienti in analisi di studi con braccio placebo e interazione terapia × antibiotico prespecificata.",
+     "falsificazione": "Falsificata come causale se l'effetto sull'ICI non dipende dalla perdita di diversità o dalla classe di antibiotico, o se l'interazione col trattamento è assente nei bracci con e senza immunoterapia."
+    },
+    {
+     "domanda": "Un RCT con placebo e endpoint primario prespecificato di sopravvivenza o risposta mostra che il trapianto fecale aumenta l'efficacia degli inibitori dei checkpoint?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "RCT in doppio cieco con FMT placebo, donatori definiti, stratificazione per antibiotici e inibitori di pompa protonica, microbioma misurato a prima e dopo.",
+     "falsificazione": "Falsificata se l'endpoint primario non è raggiunto (TACITO: 70% contro 41%, P=0,053) e non si replica in un secondo RCT."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Risoluzione dell'infezione ricorrente da C. difficile con trapianto duodenale contro vancomicina",
+     "stato": "misurato",
+     "valore": "81% (13/16) contro 31% (4/13), n=42, studio fermato a un'analisi ad interim",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23323867",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Recidiva a 8 settimane con SER-109 contro placebo",
+     "stato": "misurato",
+     "valore": "12% contro 40% (RR 0,32; 0,18-0,58)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35045228",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "PFS a 12 mesi nel trial TACITO (endpoint primario)",
+     "stato": "misurato",
+     "valore": "70% contro 41%, P=0,053 (non raggiunto)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41606119",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Antibiotici e sopravvivenza globale con inibitori dei checkpoint, meta-analisi di 116 coorti",
+     "stato": "misurato",
+     "valore": "HR 1,49 (1,34-1,65)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42945960",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazione dei batteri dannosi nei responder dopo FMT che annulla l'effetto di ICI nel topo",
+     "stato": "assente",
+     "valore": "non reperita",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
