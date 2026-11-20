@@ -7100,6 +7100,46 @@
       ]
      },
      {
+      "testo": "Trasformazione in vitro, componenti negativi contro positivi dell'orologio: fibroblasti embrionali murini Per2-/- o Cry1/2-/- si trasformano più facilmente con H-ras V12 + SV40 large T (via ATF4, che sopprime p16INK4a e p19ARF); quelli Bmal1-/- o Clock mutanti sono resistenti. Quindi 'orologio alterato' non è uniformemente pro-tumorale. Non testati nell'abstract: Cry1 o Cry2 singoli, Per1 singolo, Npas2, MYC.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "26961881",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Rassegna del gruppo di Wood: i mutanti murini di Per2 (e Per1) mostrano iperplasia e tumori; altre mutazioni dei geni dell'orologio 'non sono associate a un fenotipo incline al tumore' e la disruzione circadiana 'non è uniformemente tumorigena'. Riportata insieme a Lee 2010, che trova invece più tumori in Cry1/2 e Bmal1+/-: le due letture non coincidono.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "20042409",
+       "verificata": true
+      },
+      "prova": "rassegna"
+     },
+     {
+      "testo": "Fondo p53 nullo: secondo l'introduzione di uno studio di trascrittomica su fibroblasti cutanei, studi precedenti avevano mostrato che la delezione di Cry protegge i topi p53-/- da insorgenza precoce di cancro e allunga la vita mediana di circa 1,5 volte; l'abstract descrive solo l'RNA-seq dopo UV (dato citato, non misurato in questo lavoro). Direzione opposta a Lee 2010.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31044344",
+       "verificata": true
+      },
+      "prova": "dato citato da studi precedenti"
+     },
+     {
+      "testo": "Per2 e colon: il knockdown di PER2 in HCT116 e SW480 aumenta beta-catenina, ciclina D e proliferazione; i topi Per2 mutanti sviluppano polipi colici e, combinati con ApcMin/+, il doppio dei polipi. Effetto di un singolo gene Period, senza dati su paraloghi.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "19010825",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
       "testo": "Buco: nessuno studio letto testa se la perdita di un solo paraloga (Per1 con Per2 intatto, Bmal2 con Bmal1 perso) è compensata sul tumore. Una ricerca PubMed mirata (Per1/Per2 doppio knockout e tumorigenesi) non ha restituito record: limite della ricerca, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
@@ -7384,10 +7424,37 @@
    ],
    "buchi": [
     {
-     "domanda": "Nei tumori con orologio alterato, la perdita di un solo paraloga di una coppia (Per1/Per2, Cry1/Cry2, Bmal1/Bmal2) è compensata dall'altro per proliferazione e trasformazione, e il compenso cambia con l'oncogene?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Fibroblasti o organoidi isogenici con knockout singolo e doppio per ogni paraloga, con reporter PER2::LUC, trasformati con MYC o RAS; misura di ritmo, proliferazione e formazione di colonie.",
-     "falsificazione": "Se il knockout singolo di ciascun paraloga dà la stessa trasformazione del doppio knockout, il compenso non esiste."
+     "domanda": "Nei fibroblasti con un oncogene (MYC, H-ras V12 + SV40LT, o p53 nullo), la perdita di un solo paraloga di una coppia (Per1/Per2, Cry1/Cry2, Bmal1/Bmal2, Clock/Npas2) lascia l'efficienza di trasformazione invariata rispetto al wild-type, mentre la perdita di entrambi la altera? Il risultato cambia con l'oncogene?",
+     "verifica": "Parzialmente fatto, non in questa forma. Esistono: Katamune 2016 (MEF Per2-/- e Cry1/2-/- più trasformabili con H-ras V12 + SV40LT, Bmal1-/- e Clock mutanti resistenti; PMID 26961881), Huber 2016 (CRY2, non CRY1, degrada c-MYC; PMID 27840026), Shi 2010 (Bmal2 transgenico sostituisce Bmal1 e Bmal1-/- riduce Bmal2; PMID 20153195), Lee 2010 e Gauger 2005 discordanti in vivo (PMID 20539819, 16061665), Cavga 2019 (Cry e p53 nullo, PMID 31044344). Mancano: confronto singolo contro doppio knockout per la trasformazione in qualsiasi coppia; MYC come oncogene in cellule con orologio mutato; singoli Cry1 e Cry2 separati; Per1, Npas2 e Bmal2. Sei ricerche PubMed a molti termini hanno dato zero record: limite della ricerca, non prova di assenza.",
+     "disegno": "Fibroblasti isogenici WT, knockout singolo A, singolo B e doppio per ogni coppia (almeno un clone indipendente per genotipo), con reporter PER2::LUC per verificare la perdita reale del ritmo e controllo dell'espressione dell'altro paraloga (Bmal2 cala in Bmal1-/-, quindi il singolo non è un controllo neutro). Oncogeni: MYC, H-ras V12 + SV40LT, p53 nullo. Esiti: colonie in soft agar, proliferazione, rescue con il paraloga mancante.",
+     "falsificazione": "Il compenso per l'oncogene X è sostenuto se il singolo knockout è simile al wild-type, il doppio è diverso e il rescue ripristina il wild-type; è falsificato se il singolo è già diverso dal wild-type e simile al doppio. Se singolo, doppio e wild-type coincidono, il dato non è informativo. Domanda corretta perché la formulazione precedente ('singolo uguale al doppio' come falsificazione) non distingueva i due esiti.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "27840026",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "20153195",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "20539819",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "16061665",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31044344",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Nell'associazione lavoro a turni–cancro, il disallineamento dell'orologio ha un effetto separabile da luce notturna, soppressione di melatonina e privazione di sonno?",
