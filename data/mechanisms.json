@@ -8337,15 +8337,32 @@
      ]
     },
     {
-     "testo": "Traduzione delle dosi: non sono state trovate nei lavori letti le dosi murine né le concentrazioni plasmatiche, quindi non si sa se le dosi efficaci nei topi siano raggiungibili nell'uomo alle dosi tollerate. La temperatura di allevamento (stress da freddo di fondo) può inoltre cambiare la base di confronto.",
-     "livello": "ipotesi",
+     "testo": "Traduzione delle dosi, parziale: nello xenotrapianto sottocutaneo di carcinoma esofageo nel topo nudo la dose era 6 mg/kg per gavage a giorni alterni (peso tumorale 0,91 contro 0,65 g), con effetti in vitro a 40-100 µM e IC50 di circa 70 µM a 48 ore; il modello non è metastatico e la concentrazione raggiunta nel topo non è riportata. Nell'uomo, due studi di interazione con altri farmaci hanno misurato incidentalmente propranololo plasmatico totale: 45,7-65,7 ng/mL con 80 mg due volte al giorno in 8 soggetti (misura 4-6 ore dopo la dose) e 29 ng/mL con 40 mg quattro volte al giorno in 19 volontari sani; in unità molari sono circa 0,18-0,25 µM e 0,11 µM (conversione mia, peso molecolare 259,34). Il rapporto tra concentrazione in vitro attiva e plasmatica totale clinica è quindi di circa 160-560 volte (calcolo mio); la frazione libera nell'uomo non è stata letta. Una revisione sistematica sul melanoma scrive che molti studi 'hanno usato alte concentrazioni di farmaco con specificità dubbia per i recettori beta-adrenergici e clinicamente irraggiungibili'.",
+     "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
-      "id": "24248371",
+      "id": "37308430",
       "verificata": true
      },
-     "prova": "inferenza",
-     "inferenza": true
+     "prova": "sperimentale e inferenza (conversioni e rapporto calcolati qui)",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "2934070",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "3360971",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "43050056",
+       "verificata": true
+      }
+     ]
     },
     {
      "testo": "Cardioprotezione: questione separata dalle metastasi. Una meta-analisi di RCT (17 studi, 1.530 pazienti) su inibitori del sistema renina-angiotensina e beta-bloccanti per la cardiotossicità da antracicline trova una frazione di eiezione migliore (differenza media 4,42; 2,3-6,6) e meno insufficienza cardiaca (RR 0,45; 0,3-0,7), senza effetto sulla mortalità, con elevata eterogeneità; il trial multicentrico Cardiac CARE (carvedilolo + candesartan, 29 contro 28 pazienti ad alto rischio) non ha mostrato un effetto dimostrabile (differenza di frazione di eiezione a 6 mesi -0,37%; IC -3,59 a 2,85).",
@@ -8363,6 +8380,38 @@
        "verificata": true
       }
      ]
+    },
+    {
+     "testo": "Schema dei trial perioperatori: propranololo a rilascio prolungato 20 mg due volte al giorno nei 5 giorni preoperatori, 80 mg due volte al giorno nel giorno dell'intervento, poi riduzione (40 e poi 20 mg due volte al giorno secondo il registro di NCT03919461), con etodolac 400 mg due volte al giorno. Lo schema da 80 mg vale solo per il giorno dell'intervento, non è una dose cronica. Nell'insieme dei quattro RCT (148 pazienti: mammella 38, colorettale 34 e 46, pancreas 30) la bradicardia è comparsa nel 12% dei trattati contro il 3% del placebo (P=0,057) e si è risolta sospendendo temporaneamente il beta-blocco; debolezza, nausea, dolore, infezioni, sanguinamento, guarigione dei tessuti e morte non sono risultati diversi in modo significativo; nel colorettale la DFS a 8 anni era migliore nel gruppo trattato (2/15 contro 9/18, P=0,034), ma l'analisi è esplorativa e sottodimensionata. Nessuno dei trial misura il propranololo nel tessuto tumorale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42088573",
+      "verificata": true
+     },
+     "prova": "RCT, analisi aggregata di sicurezza",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03919461",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT00888797",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Dato contrario in vitro (non tumorale): in cellule staminali di emangioma infantile, tumore benigno, il propranololo non ha cambiato in modo significativo la sopravvivenza a 6,25-50 µM, ma l'ha fatto a 100-400 µM. Mostra che l'effetto in vitro può comparire solo a concentrazioni molto superiori a quelle plasmatiche cliniche.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31609806",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     }
    ],
    "buchi": [
@@ -8448,10 +8497,52 @@
      ]
     },
     {
-     "domanda": "Le concentrazioni di propranololo che funzionano in vitro e nei topi sono raggiunte nel tessuto tumorale umano alle dosi tollerate?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Curve dose-risposta in vitro con concentrazioni libere plasmatiche e tissutali clinicamente misurate; confronto con dosaggi di propranololo nel tessuto di pazienti nei trial perioperatori.",
-     "falsificazione": "Se l'effetto sparisce alle concentrazioni libere ottenibili con le dosi tollerate, la traduzione umana è falsificata."
+     "domanda": "A concentrazioni libere di propranololo misurate nel plasma e nel tessuto tumorale di pazienti trattati con lo schema dei trial perioperatori, l'effetto specifico sul recettore beta2 (cAMP e pCREB, migrazione, con isoproterenolo e knockdown di ADRB2) è osservabile in cellule tumorali umane? (Domanda corretta: lo schema da 80 mg due volte al giorno vale solo per il giorno dell'intervento e non per l'uso cronico; manca la misura nel topo della concentrazione raggiunta alla dose efficace.)",
+     "verifica": "Non trovato nel disegno richiesto. Esistono pezzi separati e mai messi nello stesso esperimento: dose nel topo (6 mg/kg per gavage a giorni alterni, PMID 37308430, modello sottocutaneo non metastatico; in altri studi murini la dose non è nell'abstract); concentrazioni plasmatiche totali umane a 80 mg due volte al giorno (45,7-65,7 ng/mL, PMID 2934070) e a 40 mg quattro volte al giorno (29 ng/mL, PMID 3360971), tutte misure incidentali in studi di interazione con altri farmaci; concentrazioni in vitro efficaci di 40-100 µM (PMID 37308430), contro nessun effetto su cellule staminali di emangioma a 6,25-50 µM (PMID 31609806). Una revisione sistematica sul melanoma (PMID 43050056) afferma che molti studi hanno usato concentrazioni 'clinicamente irraggiungibili'. Schema dei trial: PMID 42088573 e registro (NCT03919461, NCT00888797). Non trovati: propranololo nel tessuto tumorale umano dopo dosi cliniche, concentrazione plasmatica o tissutale nel topo alla dose efficace, frazione libera nell'uomo a quello schema, curva in vitro specifica per ADRB2 a 0,01-1 µM. Due ricerche sulla concentrazione nel tessuto tumorale hanno dato zero risultati per la formulazione della query e una terza ne ha dati 92 non letti: il negativo non è verificato in modo completo.",
+     "disegno": "Misurare propranololo totale e libero nel plasma e nel tessuto tumorale di pazienti trattati con lo schema dei trial (20/80/40/20 mg due volte al giorno, rilascio prolungato). In vitro, curve dose-risposta da 0,01 a 100 µM su linee e organoidi tumorali con readout specifici di ADRB2 (cAMP e pCREB indotti da isoproterenolo, migrazione), con knockdown di ADRB2 per confermare la specificità, a concentrazioni libere misurate. Nel topo, misurare la farmacocinetica plasmatica e tissutale a 6 mg/kg nello stesso modello in cui si misura l'effetto.",
+     "falsificazione": "Se l'effetto specifico su ADRB2 è assente alle concentrazioni libere cliniche misurate (Cmax libera, non totale), l'effetto osservato a 40-100 µM non è traducibile. Se nel topo la concentrazione raggiunta a 6 mg/kg è molto superiore a quella clinica, la traduzione dalla dose murina è falsificata.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "37308430",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "2934070",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "3360971",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31609806",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "43050056",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42088573",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT03919461",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT00888797",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
@@ -8486,9 +8577,39 @@
      }
     },
     {
-     "nome": "Dose e concentrazione di propranololo efficaci nei topi",
+     "nome": "Dose di propranololo nel topo in un modello sottocutaneo",
+     "stato": "misurato",
+     "valore": "6 mg/kg per gavage a giorni alterni; concentrazione raggiunta non riportata",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37308430",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Propranololo plasmatico totale nell'uomo a 80 mg due volte al giorno",
+     "stato": "misurato",
+     "valore": "45,7-65,7 ng/mL, circa 0,18-0,25 µM (conversione mia); 8 soggetti, studio di interazione",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "2934070",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazione in vitro con effetto antitumorale su linee di carcinoma esofageo",
+     "stato": "misurato",
+     "valore": "40-100 µM, IC50 circa 70 µM a 48 ore",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37308430",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Propranololo libero nel plasma e nel tessuto tumorale umano a dosi cliniche",
      "stato": "assente",
-     "valore": "non reperite nei lavori letti",
+     "valore": "non reperito nei lavori letti",
      "fonte": null
     }
    ]
