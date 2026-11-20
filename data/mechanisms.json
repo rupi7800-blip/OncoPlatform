@@ -6806,7 +6806,7 @@
   {
    "id": "cronobiologia",
    "name": "Cronobiologia: orologio circadiano, lavoro notturno e cronoterapia",
-   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"I ritmi circadiani sono l'orologio dell'ordine\" è una metafora, non un'affermazione verificabile: gli abstract letti descrivono una rete di oscillatori con accoppiamento parziale (orologi periferici sincronizzabili senza il nucleo soprachiasmatico, o spostabili dal pasto), non un comando unico. (2) Lo IARC: la classificazione del 2007 (gruppo 2A) riguarda il \"lavoro a turni che comporta disruzione circadiana\", non il lavoro notturno in quanto tale; le rassegne lette la descrivono come basata su evidenza umana limitata e su evidenza sufficiente negli animali. L'eventuale riformulazione del 2019 e la monografia primaria non sono state raggiunte in sessione: fonte non reperita. L'epidemiologia è contraddittoria: positiva in meta-analisi che includono caso-controllo, nulla nelle coorti prospettiche per la mammella. (3) \"La cronoterapia somministra i farmaci all'ora ottimale\": l'ora ottimale non è stabilita. Il trial di fase III EORTC 05963 non ha mostrato differenza globale di sopravvivenza (effetto opposto per sesso), EORTC 05011 non ha trovato un orario migliore nella popolazione totale (segnale per sesso in analisi esplorativa), e i dati su immunoterapia sono retrospettivi, con direzione non coerente. Tre giri di verifica in corso: le fonti rilette direttamente da chi compila sono marcate verificate, le altre restano non verificate fino al giro 2.",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"I ritmi circadiani sono l'orologio dell'ordine\" è una metafora, non un'affermazione verificabile: gli abstract letti descrivono una rete di oscillatori con accoppiamento parziale. Nel topo gli orologi periferici restano ritmici e sincronizzati al ciclo luce-buio anche senza il nucleo soprachiasmatico, e il pasto può spostarli fino a 12 ore lasciando invariato il pacemaker centrale. (2) Lo IARC: la classificazione del 2007 (gruppo 2A) riguarda il \"lavoro a turni che comporta disruzione circadiana\", non il lavoro notturno in quanto tale; la formulazione \"lavoro notturno\" è quella del 2019, verificata solo tramite una citazione secondaria perché le notizie primarie di Lancet Oncology non hanno abstract in PubMed. L'evidenza umana è giudicata limitata dalle rassegne lette. L'epidemiologia è contraddittoria: per la mammella, meta-analisi con caso-controllo positive e coorti prospettiche nulle (RR 0,98), con una meta-analisi di sole coorti che invece trova RR 1,029; sono dati osservazionali, e le due randomizzazioni mendeliane sul lavoro notturno non mostrano un effetto robusto. (3) \"La cronoterapia somministra i farmaci all'ora ottimale\": un'ora ottimale non è stabilita. EORTC 05963 (fase III, n=564) non ha mostrato differenza globale di sopravvivenza ma un effetto opposto per sesso; EORTC 05011 non ha trovato un orario migliore nella popolazione totale; REaCT-CHRONO non ha trovato differenze di tollerabilità; i dati sugli ICI sono retrospettivi e discordanti, e l'unico RCT di fase III con endpoint di efficacia (LungTIME-C01) è stato ritrattato, con motivazione non letta. Le prove più solide riguardano la tossicità, non l'efficacia. Verifica: giro 1, 44 PMID e 8 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; giro 2, altri 9 PMID confrontati con gli abstract da un sotto-agente Haiku (3 testi corretti: numeri del campione, rapporto tra topi e ipotesi degli autori); giro 3, sei affermazioni negative controllate con circa 40 query PubMed e registro da un secondo sotto-agente: 'nessuna MR sui turni' è risultata falsa (due MR trovate) ed è stata corretta, 'nessun RCT di orario' è risultata parzialmente falsa (RCT trovato ma ritrattato), le altre sono confermate con limiti (le ricerche nel registro si fermano a 50 risultati per pagina). Il passo 6 è stato verificato su tre domande, tutte riformulate. Le verifiche riguardano abstract e registro, non testi completi. Nessuna informazione qui è una raccomandazione terapeutica.",
    "normale": [
     {
      "testo": "L'orologio circadiano dei mammiferi è una rete di oscillatori trascrizionali. Il nucleo soprachiasmatico (SCN) è il pacemaker centrale, ma gli orologi periferici non dipendono da esso per tutto: nel topo con SCN deleto con sistema Cre/LoxP, gli orologi periferici restano ritmici e sincronizzati al ciclo luce-buio; senza ciclo luce-buio si desincronizzano dopo alcuni giorni. Quindi l'SCN non è l'unico segnale di sincronizzazione.",
@@ -6866,23 +6866,33 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Nell'uomo la classificazione IARC del 2007 (gruppo 2A) riguarda il lavoro a turni che comporta disruzione circadiana, basata su evidenza epidemiologica limitata (otto studi sul cancro mammario) e su evidenza sufficiente negli animali, secondo la revisione di Hansen. Alla frase \"lavoro notturno\" va sostituita questa formulazione.",
+     "testo": "La classificazione IARC del 2007 (gruppo 2A) riguarda il lavoro a turni che comporta disruzione circadiana, su evidenza umana limitata ed evidenza sufficiente negli animali (rapporto del gruppo di lavoro IARC del 2009, che nota il limite della definizione di 'lavoro a turni' negli studi). Per il 2019 (Monografia 124) uno studio caso-controllo riporta che lo IARC concluse che 'il lavoro notturno è probabilmente cancerogeno per l'uomo (gruppo 2A)' con evidenza umana limitata, evidenza sufficiente negli animali ed evidenza meccanicistica forte: è una citazione secondaria. Le due notizie primarie su Lancet Oncology (2007 e 2019) esistono su PubMed ma senza abstract e non sono state lette. Quindi 'lavoro notturno, 2A' è corretto solo per la formulazione del 2019, e solo per citazione.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
-      "id": "28770538",
+      "id": "20962033",
       "verificata": true
      },
-     "prova": "rassegna",
+     "prova": "rapporto del gruppo di lavoro IARC e citazione secondaria",
      "altre_fonti": [
       {
        "tipo": "PMID",
-       "id": "22728797",
+       "id": "33925799",
        "verificata": true
       },
       {
        "tipo": "PMID",
-       "id": "22953181",
+       "id": "19271347",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31281097",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "28770538",
        "verificata": true
       }
      ]
@@ -7072,7 +7082,7 @@
      ]
     },
     {
-     "testo": "Mendelian randomization sul cronotipo (preferenza mattutina) non misura l'esposizione ai turni: i risultati su colon-retto e mammella sono incoerenti tra studi; nessuna MR sui turni è stata trovata.",
+     "testo": "Mendelian randomization sul cronotipo (preferenza mattutina): non misura l'esposizione ai turni e i risultati su colon-retto e mammella sono incoerenti tra studi.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -7080,6 +7090,26 @@
       "verificata": true
      },
      "prova": "MR"
+    },
+    {
+     "testo": "Randomizzazione mendeliana con il lavoro notturno come esposizione (strumenti da UK Biobank), 13 tumori: associazioni solo suggestive per cervice (IVW p=0,028) e stomaco (p=0,011), nessuna per gli altri undici. La prima formulazione di questa scheda ('nessuna MR sui turni') era sbagliata ed è stata corretta nel giro 3.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40145676",
+      "verificata": true
+     },
+     "prova": "MR a due campioni"
+    },
+    {
+     "testo": "Coorte UK Biobank e MR sul lavoro notturno e cancro della prostata: nessuna associazione né causale né di coorte (HR 1,16 con 'alcune notti', 0,99-1,33; HR 1,01 con 'notti abituali').",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39725442",
+      "verificata": true
+     },
+     "prova": "coorte e MR"
     }
    ],
    "ridondanze": {
@@ -7190,7 +7220,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Buco: nessuno studio letto testa se la perdita di un solo paraloga (Per1 con Per2 intatto, Bmal2 con Bmal1 perso) è compensata sul tumore. Una ricerca PubMed mirata (Per1/Per2 doppio knockout e tumorigenesi) non ha restituito record: limite della ricerca, non prova di assenza.",
+      "testo": "Buco: per Per2 singolo esistono fenotipi tumorali (Wood 2008, Katamune 2016), ma nessuno studio letto testa se Per1, Bmal2 o Npas2 compensino la perdita del paraloga sul tumore; studi tumorali su Per1 singolo, Cry1 o Cry2 singoli e Bmal2 con Bmal1 perso non sono stati trovati (un sotto-agente ha trovato solo studi su Bmal2 con Bmal1 intatto, non riletti). Una ricerca su Per1/Per2 doppio knockout ha dato zero record: limite della ricerca, non prova di assenza.",
       "livello": "ipotesi",
       "fonte": null
      }
@@ -7311,6 +7341,30 @@
       "id": "38232612",
       "verificata": true
      }
+    },
+    {
+     "composto": "Immunochemioterapia anti-PD-1, prime quattro dosi prima o dopo le 15:00, NSCLC non mutato",
+     "bersaglio": "ICI e orario",
+     "fase": "III randomizzata, n=210 (LungTIME-C01, NCT05549037)",
+     "esito": "come pubblicato: PFS 11,3 vs 5,7 mesi (HR 0,40; 0,29-0,55), OS 28,0 vs 16,8 mesi (HR 0,42; 0,29-0,60). La pubblicazione su Nature Medicine è stata ritrattata (notifica del luglio 2026); non è utilizzabile come evidenza",
+     "ragione": "ritrattazione: motivazione non reperita (la notifica non ha abstract in PubMed); il registro riporta lo studio come completato, senza risultati",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41629425",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42343117",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05549037",
+       "verificata": true
+      }
+     ]
     },
     {
      "composto": "ChronoFOLFOX + bevacizumab",
@@ -7500,6 +7554,28 @@
       "verificata": true
      },
      "prova": "sperimentale"
+    },
+    {
+     "testo": "Unico RCT di fase III sull'orario dell'immunochemioterapia trovato: LungTIME-C01 (n=210) riportava un vantaggio di PFS e OS per l'infusione prima delle 15:00, ma l'articolo è stato ritrattato nel luglio 2026 e la motivazione non è stata letta. Va trattato come non disponibile, non come smentito o confermato. Trial prospettici sull'orario degli ICI (NCT07405086, NCT07155317, NCT07251582 e altri) sono in corso o non ancora avviati, secondo la lettura del registro da parte di un sotto-agente.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41629425",
+      "verificata": true
+     },
+     "prova": "RCT di fase III, ritrattato",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42343117",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05549037",
+       "verificata": true
+      }
+     ]
     }
    ],
    "buchi": [
@@ -7581,7 +7657,7 @@
     },
     {
      "domanda": "Un esperimento prespecificato può mostrare che l'orario di somministrazione cambia l'efficacia (non la tossicità) di un farmaco oncologico in organoidi tumorali? (Domanda corretta: efficacia e tossicità vanno misurate come due esiti separati; il sesso biologico non è testabile con il solo donatore in vitro, ed è dimostrato solo nei trial clinici retrospettivi; il protocollo di sincronizzazione e il terreno possono azzerare l'effetto.)",
-     "verifica": "Parzialmente fatto. Efficacia dipendente dalla fase in organoidi di adenocarcinoma pancreatico e linee (PMID 38716727), senza confronto di efficacia con tessuto sano. Sensibilità a antagonisti PPAR che varia nel terreno standard ma scompare con alimentazione/digiuno definiti, e Bmal1 silenziato (PMID 42993626). Nel paziente: trial randomizzato EORTC 05963 senza differenza globale di sopravvivenza ma con sesso come predittore (PMID 16877722), meta-analisi di tre trial con interazione sesso per schema (PMID 22745214), EORTC 05011 senza orario migliore nella popolazione totale (PMID 32319740). Non trovato: confronto appaiato tumore e tessuto sano con IC50 per fase e per donatore; efficacia dipendente dal sesso in vitro (una query dedicata ha dato un solo risultato non pertinente).",
+     "verifica": "Parzialmente fatto. Efficacia dipendente dalla fase in organoidi di adenocarcinoma pancreatico e linee (PMID 38716727), senza confronto di efficacia con tessuto sano. Sensibilità a antagonisti PPAR che varia nel terreno standard ma scompare con alimentazione/digiuno definiti, e Bmal1 silenziato (PMID 42993626). Nel paziente: trial randomizzato EORTC 05963 senza differenza globale di sopravvivenza ma con sesso come predittore (PMID 16877722), meta-analisi di tre trial con interazione sesso per schema (PMID 22745214), EORTC 05011 senza orario migliore nella popolazione totale (PMID 32319740). Non trovato: confronto appaiato tumore e tessuto sano con IC50 per fase e per donatore; efficacia dipendente dal sesso in vitro (una query dedicata ha dato un solo risultato non pertinente). Nel paziente, l'unico RCT di fase III con endpoint primario di efficacia sull'orario di un ICI (LungTIME-C01, PMID 41629425, NCT05549037) è stato ritrattato (PMID 42343117, motivazione non letta): senza di esso, nessun RCT non ritrattato letto mostra un vantaggio prespecificato dell'orario ottimale.",
      "disegno": "Organoidi tumorali paziente-derivati sincronizzati con protocollo dichiarato (per esempio desametasone) e un braccio con terreno definito che simula alimentazione e digiuno; esposizione a 4-6 fasi; esiti separati: IC50 o AUC tumorale per fase (efficacia) e IC50 in organoidi sani per fase (tossicità), con almeno donatori di entrambi i sessi, senza trarre conclusioni sul sesso biologico.",
      "falsificazione": "L'ipotesi 'l'orario cambia l'efficacia' è falsificata se l'ampiezza della variazione dell'IC50 tumorale per fase (cosinor o ANOVA con IC) rientra nella variabilità tra replicati e donatori, o se scompare nel terreno definito (in tal caso l'effetto segue l'alimentazione, non l'orologio del tumore). Il rapporto tumore/sano è un esito secondario.",
      "altre_fonti": [
@@ -7608,6 +7684,16 @@
       {
        "tipo": "PMID",
        "id": "32319740",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41629425",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42343117",
        "verificata": true
       }
      ]
