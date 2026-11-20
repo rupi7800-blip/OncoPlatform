@@ -6557,28 +6557,121 @@
    ],
    "buchi": [
     {
-     "domanda": "In un sistema ridotto, la risoluzione procede con la stessa cinetica quando si impediscono la biosintesi e la segnalazione degli SPM, cioè la risoluzione attiva mediata da SPM è necessaria?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Cocoltura di neutrofili e macrofagi umani con stimolo infiammatorio definito; inibitori di 5-LOX e ALOX15, antagonisti o silenziamento di ALX/FPR2 e GPR32, aggiunta di SPM sintetici a dose fisiologica; misura nel tempo di neutrofili apoptotici, efferocitosi, citochine e SPM con analisi LC-MS/MS enantioselettiva e controllo di conservazione; confronto con un braccio di sola rimozione dello stimolo e diluizione.",
-     "falsificazione": "La risoluzione attiva mediata da SPM non è necessaria se la cinetica di decadimento delle citochine e della clearance dei neutrofili con biosintesi e recettori bloccati resta entro un margine prefissato di quella dei controlli; è necessaria se il blocco la prolunga oltre il margine e l'aggiunta di SPM la ripristina."
+     "domanda": "In un sistema ridotto di neutrofili e macrofagi umani, la risoluzione procede con la stessa cinetica quando si impediscono la biosintesi e la segnalazione degli SPM, oppure la via mediata da SPM è necessaria?",
+     "verifica": "Parzialmente fatto in vivo, non in un sistema ridotto: in topi con peritonite sterile e sepsi, emulsioni di omega-3 accorciano del 56% l'intervallo di risoluzione con dipendenza da 5-LOX e 12/15-LOX (PMID 29053142); nei topi Alox15-knockout dopo lesione muscolare la risposta immune acuta è esagerata, con infiammazione cronica di basso grado e polarizzazione M2 deficitaria (PMID 40769490); nei topi ALX/FPR2-knockout dopo infarto calano le lossigenasi e gli SPM (PMID 31918915); negli RvD1 l'effetto sui neutrofili umani dipende dal recettore e dalla concentrazione (PMID 22499990). Non trovato: blocco combinato di biosintesi e recettori in un sistema coltivato con confronto formale della cinetica rispetto a una risoluzione passiva. Domanda riformulata: la versione precedente non fissava il margine di equivalenza, confondeva necessità e sufficienza (l'aggiunta di SPM sintetici dimostra la sufficienza, non la necessità), non teneva conto che un inibitore di 5-LOX toglie anche i leucotrieni, che sono proinfiammatori (nozione di fondo non verificata in sessione), quindi lo stimolo cambia insieme alla via, e non distingueva le cellule che producono gli SPM dalla quota paracrina.",
+     "disegno": "Cocoltura di neutrofili e macrofagi umani con stimolo infiammatorio definito; endpoint primario: intervallo di risoluzione Ri, il tempo dal picco dei neutrofili al calo del 50%; bracci: controllo, inibitori di 5-LOX e ALOX15, silenziamento doppio di ALX/FPR2 e GPR32 (non solo antagonisti, per l'attività fuori bersaglio), rescue con SPM alle concentrazioni misurate e rescue con leucotrieni per separare l'effetto sullo stimolo; misura degli SPM con analisi enantioselettiva; confronto con un modello passivo di sola rimozione dello stimolo e diluizione.",
+     "falsificazione": "La via mediata da SPM non è necessaria se il rapporto Ri(blocco)/Ri(controllo) è pari o inferiore a 1,2 (margine da fissare prima); è necessaria se il rapporto supera 1,5 e il rescue lo riporta a 1,2 o meno senza cambiare lo stimolo.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29053142",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40769490",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31918915",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "22499990",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Gli SPM rilevati in macrofagi umani coltivati con cellule tumorali sono prodotti enzimaticamente (enantiomeri S,S) o per autossidazione, e le quantità sono sufficienti a occupare i recettori?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Macrofagi umani M2-like in cocoltura con cellule tumorali e detriti da chemioterapia; analisi enantioselettiva 2D-LC-MS/MS con standard e conservazione controllata; inibitori o silenziamento degli enzimi (5-LOX, ALOX15); precursori marcati; confronto della concentrazione con il Kd dei recettori noti.",
-     "falsificazione": "La formazione enzimatica è falsificata se la frazione enantiomerica non si discosta dal racemo e il segnale persiste con gli enzimi bloccati; la rilevanza recettoriale è falsificata se la concentrazione stimata è inferiore di un fattore prefissato al Kd del recettore."
+     "domanda": "Gli SPM rilevati in macrofagi umani coltivati con cellule tumorali sono prodotti enzimaticamente (enantiomeri S,S) e sono in quantità sufficiente a occupare i recettori?",
+     "verifica": "Parzialmente fatto: l'analisi enantioselettiva esiste per macrofagi umani M2-like (non in cocoltura con tumore): alcuni diidrossi-acidi grassi sono (S,S), compatibili con formazione enzimatica, mentre almeno otto isomeri di 10,17-DiHDHA derivano da autossidazione (PMID 39505260); la parte funzionale con detriti di cellule uccise da chemioterapia è già fatta (PMID 29191914); l'unica costante di dissociazione letta è quella di RvE1 per BLT1, circa 45-48 nM (PMID 17339491), su membrane e non su ALX/FPR2 o GPR32 (fonte non reperita); nel plasma sano gli SPM sono sotto 0,1 nM e il limite di quantificazione è 0,02-0,2 nM (PMID 30899221), vicino alle concentrazioni in gioco. Non trovato: analisi chirale in cocoltura macrofagi-tumore o in tessuto tumorale umano, con enzimi bloccati e confronto fra concentrazione e Kd. Domanda riformulata: univa due questioni verificabili separatamente (origine enzimatica e occupazione del recettore), il confronto con il Kd richiede la concentrazione libera locale e non quella totale, e 'sufficiente' e 'fattore prefissato' non erano definiti.",
+     "disegno": "(2a) Origine: macrofagi umani M2-like in cocoltura con cellule tumorali e detriti di chemioterapia; analisi 2D-LC-MS/MS chirale con standard e conservazione controllata; inibitori o silenziamento di 5-LOX e ALOX15; precursori marcati. (2b) Occupazione: stima della concentrazione libera locale e confronto con il Kd misurato per ciascun recettore, dichiarando il limite di quantificazione rispetto a concentrazioni nanomolari.",
+     "falsificazione": "(2a) La formazione enzimatica è falsificata se la frazione enantiomerica non si discosta dal racemo oppure il segnale non cala di oltre il 50% con gli enzimi bloccati (soglie da fissare). (2b) L'occupazione è falsificata se il rapporto fra concentrazione libera e Kd è inferiore a 0,1 nel sito (occupazione inferiore al 10%).",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39505260",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "35308198",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "29191914",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "17339491",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30899221",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "L'effetto delle resolvine sui macrofagi associati al tumore (clearance dei detriti contro polarizzazione immunosoppressiva) dipende dal recettore FPR2, dal ligando e dal sesso?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Macrofagi umani e murini di entrambi i sessi, cocolti con detriti di cellule tumorali uccise da chemioterapia; RvD1 e RvE1 con o senza antagonista di FPR2, silenziamento di FPR2 o di MerTK; misure di fagocitosi, citochine, marcatori M2, C1q e saggio di soppressione dei linfociti T; test di interazione con il sesso.",
-     "falsificazione": "L'ipotesi di una dipendenza dal contesto è falsificata se resolvine, FPR2 e MerTK danno lo stesso effetto in tutti i modelli, senza interazione con ligando o sesso entro il margine prefissato."
+     "domanda": "L'effetto delle resolvine sui macrofagi associati al tumore (clearance dei detriti contro polarizzazione immunosoppressiva) dipende dalla combinazione ligando-recettore e dal sesso del donatore?",
+     "verifica": "Parzialmente fatto: le resolvine aumentano la fagocitosi dei detriti di cellule tumorali uccise da chemioterapia e controregolano le citochine nei macrofagi umani, senza blocco di recettori e senza dati per sesso nell'abstract (PMID 29191914); RvD1 e RvD2 inibiscono la polarizzazione dei macrofagi associati al tumore in cocoltura con cellule di tumore prostatico, con mediazione di PKA e senza detriti, FPR2 o sesso (PMID 32469149); FPR2 è immunosoppressivo solo nelle femmine in un modello pancreatico, con saggio di esaurimento dei linfociti T, ma con agonisti e antagonisti di FPR2 e non con resolvine (PMID 36919330); in tumore mammario triplo negativo C1q dei macrofagi pro-risolventi antagonizza i linfociti T, senza resolvine esogene (PMID 41701526). Non trovato: detriti di chemioterapia con resolvine e blocco di FPR2, ChemR23 o MerTK; resolvine stratificate per sesso; saggio di soppressione dei linfociti T con resolvine esogene. Domanda riformulata: il recettore dipende dal ligando (RvD1 su ALX/FPR2 e GPR32, RvE1 su ChemR23 e BLT1), quindi serve una matrice ligando per recettore e non un solo antagonista di FPR2; 'dipende dal sesso' è un'ipotesi sul sistema da separare; clearance e soppressione sono esiti distinti.",
+     "disegno": "Macrofagi derivati da monociti di donatori maschi e femmine (numero per sesso fissato in anticipo), esposti a detriti di cellule tumorali uccise da chemioterapia; RvD1 contro RvE1 alla stessa concentrazione; antagonista WRW4 o silenziamento di FPR2 (per RvD1), silenziamento di ChemR23 (per RvE1), silenziamento di MerTK (comune); esiti distinti: fagocitosi dei detriti, TNF-alfa e IL-10, marcatori M2, C1q e saggio di soppressione di linfociti T autologhi.",
+     "falsificazione": "L'ipotesi di dipendenza dal contesto è falsificata se, in un modello lineare misto con il donatore come effetto casuale, l'interazione ligando-recettore-sesso non supera la soglia prefissata (effetto minimo rilevante con intervallo di confidenza che lo esclude) per entrambi gli esiti.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29191914",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32469149",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "36919330",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41701526",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30862734",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "La dose-risposta delle resolvine su neutrofili e macrofagi umani è monotona o cambia meccanismo con la concentrazione, come per RvE1 fra BLT1 e vie indipendenti?",
-     "verifica": "provvisorio: da verificare",
-     "disegno": "Neutrofili e macrofagi umani; curve di 10 o più concentrazioni di RvE1 e RvD1 da 10 pM a 1 µM; antagonisti o silenziamento di BLT1, ChemR23, ALX/FPR2 e GPR32; misura della migrazione, della fosforilazione di S6 e del cAMP; modelli con parametrizzazione dichiarata in anticipo.",
-     "falsificazione": "Il cambio di meccanismo con la dose è falsificato se i bersagli bloccati riducono l'effetto nello stesso modo a tutte le concentrazioni e il modello monotono non è peggiore di quello bifasico secondo un criterio prefissato."
+     "domanda": "La dose-risposta delle resolvine su neutrofili e macrofagi umani è monotona o cambia meccanismo con la concentrazione, con un criterio fissato in anticipo?",
+     "verifica": "Parzialmente fatto, ma solo a due concentrazioni: RvE1 agisce tramite BLT1 a 100 ng e in modo indipendente da BLT1 a 1 µg nel topo (PMID 17339491); su neutrofili umani sotto flusso RvD1 a 1 nM dipende da GPR32 e a 10 nM da ALX/FPR2 (PMID 22499990); in neutrofili umani la fosforilazione di S6 indotta da RvE1 dipende da BLT-1 nei soggetti sani e da ERV-1/ChemR23 nel diabete di tipo 2, con dose maggiore nei diabetici (PMID 27994073). Non trovato: curve di 10 o più concentrazioni con blocco parallelo di BLT1, ChemR23, ALX/FPR2 e GPR32; confronto formale fra modello monotono e bifasico; un antagonista di ChemR23 non è emerso dagli abstract letti. Domanda riformulata: il cambio di recettore con la dose è già descritto e va ristretto a una curva completa; il criterio deve considerare che l'intervallo da 10 pM a 1 µM copre concentrazioni inferiori al Kd noto di BLT1 (45 nM), dove la curva può essere poco informativa.",
+     "disegno": "Neutrofili e macrofagi umani; curve di 10 concentrazioni di RvE1 e RvD1 da 10 pM a 1 µM in scala logaritmica, con punti anche sotto il Kd; antagonista di BLT1 (U-75302), antagonista o silenziamento di ChemR23, WRW4 o silenziamento di ALX/FPR2, silenziamento di GPR32; esiti: migrazione, fosforilazione di S6 e cAMP; confronto fra un modello monotono di Hill e uno bifasico con un criterio di informazione dichiarato in anticipo.",
+     "falsificazione": "Il cambio di meccanismo è falsificato se, per ogni bersaglio, l'effetto del blocco è proporzionale a tutte le concentrazioni (interazione recettore per concentrazione non significativa) e il modello monotono non è peggiore di quello bifasico per una differenza di criterio di informazione inferiore a una soglia prefissata (per esempio 10).",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "17339491",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "22499990",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27994073",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
@@ -6609,6 +6702,16 @@
      "fonte": {
       "tipo": "PMID",
       "id": "22449948",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazioni di RvD1 a cui la riduzione del reclutamento dei neutrofili umani dipende da GPR32 e da ALX/FPR2",
+     "stato": "misurato",
+     "valore": "1 nM sensibile al blocco di GPR32; 10 nM specifico di ALX/FPR2 (con anticorpi bloccanti, sotto flusso)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22499990",
       "verificata": true
      }
     },
