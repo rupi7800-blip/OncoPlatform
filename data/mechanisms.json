@@ -8715,19 +8715,19 @@
      "fonte": null
     },
     {
-     "testo": "La variabilità del microbioma intestinale tra individui sani e nel tempo è ampia: una rassegna ecologica la descrive come molto diversa tra persone e variabile nel tempo, e uno studio longitudinale su 265 individui scompone la variazione in componenti rapidamente variabili, moderatamente variabili e stabili. Un riferimento 'sano' unico non esiste.",
+     "testo": "La variabilità del microbioma intestinale tra individui sani e nel tempo è ampia: una rassegna ecologica la descrive come molto diversa tra persone e variabile nel tempo, e il progetto esteso sul microbioma umano, con più punti temporali in 265 individui, scompone la variazione in componenti rapidamente variabili, moderatamente variabili e stabili. Un riferimento 'sano' unico non esiste.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "22972295",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna e studio osservazionale",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "28953883",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -8784,12 +8784,12 @@
      ]
     },
     {
-     "testo": "Un altro lavoro (Nejman 2020) descrive batteri intracellulari distinti per tipo di tumore in 1.526 campioni; non sono stati letti i controlli di contaminazione e la sua validità non è verificata qui, dato che la critica del 2023 riguarda l'analisi del TCGA.",
+     "testo": "Un altro lavoro (Nejman 2020) descrive batteri intracellulari distinti per tipo di tumore in 1.526 tumori e tessuti normali adiacenti di sette tipi (mammella, polmone, ovaio, pancreas, melanoma, osso, cervello), con correlazioni con la risposta all'immunoterapia; i controlli di contaminazione non sono riportati nell'abstract e la validità non è verificata qui, dato che la critica del 2023 riguarda l'analisi del TCGA.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "32467386",
-      "verificata": false
+      "verificata": true
      },
      "prova": "osservazionale"
     },
@@ -8799,7 +8799,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "22903521",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     }
@@ -8845,19 +8845,19 @@
      ]
     },
     {
-     "testo": "Anello 2, singoli taxa nel topo: Bifidobacterium da solo migliora il controllo tumorale come anti-PD-L1 (attivazione delle cellule dendritiche, priming dei CD8); Bacteroides fragilis e B. thetaiotaomicron ripristinano la risposta a anti-CTLA-4 in topi germ-free o trattati con antibiotici.",
+     "testo": "Anello 2, singoli taxa nel topo: Bifidobacterium da solo migliora il controllo tumorale come anti-PD-L1 (attivazione delle cellule dendritiche, priming dei CD8); Bacteroides fragilis (gavage, polisaccaridi, trasferimento di linfociti T specifici) ripristina la risposta a anti-CTLA-4 in topi germ-free o trattati con antibiotici; B. thetaiotaomicron è solo associato alle risposte T specifiche nei topi e nei pazienti.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "26541606",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "26541610",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -8867,24 +8867,24 @@
      "fonte": {
       "tipo": "PMID",
       "id": "32792462",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
     {
-     "testo": "Anello 3, metaboliti con segno opposto: butirrato e propionato (Fusobacterium nucleatum nel colon-retto MSS; mannosio e F. rodentium) sono riportati favorevoli a anti-PD-1 nel topo, l'acetato è riportato sfavorevole (aumenta PD-L1 via c-Myc nel polmone). Stessa famiglia metabolica, segno opposto, e un batterio tipicamente associato al tumore appare favorevole.",
+     "testo": "Anello 3, metaboliti con segno opposto: Fusobacterium nucleatum intratumorale produce butirrato, che inibisce HDAC3 e HDAC8 nei CD8 e migliora l'effetto di anti-PD-1 nel colon-retto MSS nel topo (allotrapianti e topi umanizzati); nei pazienti l'abstract riporta solo un'associazione (Fn intratumorale alto predice la risposta). L'acetato, invece, nel tumore del polmone è acetilato su c-Myc, ne aumenta la stabilità e la trascrizione di PD-L1 e favorisce l'evasione immune; la dieta con acetato promuove la crescita tumorale e riduce i CD8 infiltranti, mentre bloccare l'uptake di acetato aumenta l'efficacia di anti-PD-1. Stessa famiglia metabolica, segno opposto, e un batterio tipicamente associato al tumore appare favorevole.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "39303724",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "38702440",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -8997,19 +8997,19 @@
       "fonte": {
        "tipo": "PMID",
        "id": "26541606",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale",
       "altre_fonti": [
        {
         "tipo": "PMID",
         "id": "26541610",
-        "verificata": false
+        "verificata": true
        },
        {
         "tipo": "PMID",
         "id": "32792462",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
@@ -9302,12 +9302,12 @@
      "prova": "serie di casi"
     },
     {
-     "testo": "Screening dei donatori: in uno studio sullo screening, il 35,2% dei donatori valutati portava Enterobacterales produttori di beta-lattamasi a spettro esteso e solo il 5,0% era idoneo dopo lo screening. Non riletto.",
+     "testo": "Screening dei donatori: su 742 potenziali donatori valutati, 159 hanno fatto gli esami di feci e sangue e tra questi il 35,2% (56/159) portava Enterobacterales produttori di beta-lattamasi a spettro esteso; è risultato idoneo il 5,0% (37/742) dei donatori valutati.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "37474764",
-      "verificata": false
+      "verificata": true
      },
      "prova": "studio osservazionale"
     },
@@ -9329,32 +9329,32 @@
      ]
     },
     {
-     "testo": "Pazienti immunosoppressi: in una revisione sistematica sull'infezione da C. difficile ricorrente in immunocompromessi (trapianto, chemioterapia, HIV), la guarigione clinica dopo una singola trapianto era del 75,3%, la recidiva del 23,9% e gli eventi avversi gravi del 10,1%; per la neutropenia in oncologia ematologica non sono stati trovati dati clinici di sicurezza. Non riletto.",
+     "testo": "Pazienti immunosoppressi: in una revisione sistematica sull'infezione da C. difficile ricorrente in immunocompromessi (trapianto, chemioterapia, HIV), la guarigione clinica dopo un singolo trapianto era del 75,3% (IC 95% 71,7-78,6), la recidiva del 23,9% (19,2-29,4) e gli eventi avversi gravi del 10,1% (6,7-14,8) in 44 studi e 3.476 partecipanti, di cui 1.208 immunocompromessi; per la neutropenia in oncologia ematologica non sono stati trovati dati clinici di sicurezza.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "40759389",
-      "verificata": false
+      "verificata": true
      },
      "prova": "revisione sistematica"
     },
     {
-     "testo": "Colite da inibitori dei checkpoint: il trapianto fecale è stato usato come salvataggio in serie di casi (12 pazienti; miglioramento dei sintomi nell'83%, remissione clinica nel 92%); l'efficacia nel prevenirla non è dimostrata, non c'è un RCT letto. Non riletto.",
+     "testo": "Colite da inibitori dei checkpoint: il trapianto fecale è stato usato come salvataggio in serie di casi (12 pazienti; miglioramento dei sintomi nell'83%, remissione clinica nel 92%); l'efficacia nel prevenirla non è dimostrata, non c'è un RCT letto.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "37315113",
-      "verificata": false
+      "verificata": true
      },
      "prova": "serie di casi"
     },
     {
-     "testo": "Il microbioma è anche un modificatore della farmacologia: nel topo l'attività batterica della beta-glucuronidasi è legata alla tossicità gastrointestinale dell'irinotecano, e batteri intratumorali inattivano la gemcitabina; l'effetto clinico non è dimostrato nei lavori letti. Non riletto.",
+     "testo": "Il microbioma è anche un modificatore della farmacologia: nel topo l'attività batterica della beta-glucuronidasi è legata alla tossicità gastrointestinale dell'irinotecano, e batteri intratumorali (prevalentemente Gammaproteobacteria, dipendenti dalla citidina deaminasi) inattivano la gemcitabina, presenti in 86 dei 113 adenocarcinomi pancreatici umani (76%), e la ciprofloxacina abroga la resistenza in un modello murino di carcinoma del colon; l'effetto clinico sulla risposta non è dimostrato nei lavori letti.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "28912244",
-      "verificata": false
+      "verificata": true
      },
      "prova": "sperimentale"
     },
