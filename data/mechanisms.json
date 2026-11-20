@@ -9170,6 +9170,68 @@
      ]
     },
     {
+     "composto": "Trapianto fecale in capsule con vancomicina + atezolizumab/bevacizumab contro placebo, carcinoma epatocellulare (FLORA)",
+     "bersaglio": "microbioma",
+     "fase": "II randomizzato in quadruplo cieco, 48 stimati (NCT05690048)",
+     "esito": "in reclutamento secondo il registro; endpoint primari: immunogenicità (infiltrazione CD8 tumorale dopo due cicli) e sicurezza, non sopravvivenza né risposta; il braccio di controllo riceve vancomicina placebo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40930564",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT05690048",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "FMT da donatore non responder contro FMT da donatore responder + anti-PD-1, melanoma refrattario",
+     "bersaglio": "microbioma",
+     "fase": "I/IIa randomizzato in doppio cieco, 24 stimati (NCT05251389)",
+     "esito": "in reclutamento; endpoint primario: beneficio clinico a 12 settimane; entrambi i bracci ricevono FMT, quindi non c'è placebo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36585700",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT05251389",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "LND101 (FMT) + inibitore dei checkpoint contro sola terapia standard, melanoma",
+     "bersaglio": "microbioma",
+     "fase": "II randomizzato in aperto, 128 stimati (NCT06623461)",
+     "esito": "in reclutamento; endpoint primario: PFS; nessun placebo",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06623461",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "FMT + terapia standard contro sola terapia standard, cancro del polmone",
+     "bersaglio": "microbioma",
+     "fase": "II randomizzato (NCT05502913), 80 stimati",
+     "esito": "in reclutamento; endpoint primario: PFS; il registro indica mascheramento 'quadruplo' ma il braccio di controllo senza intervento: incongruenza da verificare",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05502913",
+      "verificata": true
+     }
+    },
+    {
      "composto": "Trapianto fecale in melanoma dopo fallimento dell'immunoterapia",
      "bersaglio": "microbioma",
      "fase": "I (NCT03353402), 40 stimati",
@@ -9377,10 +9439,67 @@
      "falsificazione": "Se la rimozione delle specie perse non cambia la risposta e l'aggiunta delle specie arricchite sì, o viceversa, il meccanismo non proposto è falsificato; se entrambe le manipolazioni sono necessarie, i due meccanismi non sono alternativi."
     },
     {
-     "domanda": "Esiste un microbioma intratumorale vitale e specifico per tipo di tumore, una volta eliminati i controlli di contaminazione e gli errori di analisi segnalati per i dati TCGA?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Tessuti tumorali e normali di pazienti con campioni di controllo negativi in ogni passaggio (reagenti, strumenti, sala operatoria), coltura, ibridazione in situ e sequenziamento con filtraggio del DNA umano; confronto con la stessa analisi nei dati sorgente di Poore.",
-     "falsificazione": "Falsificata se le firme scompaiono o non si distinguono dai controlli negativi, o se le specie riportate non sono presenti nei campioni analizzati."
+     "domanda": "Esiste un microbioma intratumorale vitale e composto da specie specifiche per tipo di tumore, dopo controlli negativi corrispondenti a ogni passaggio? (Domanda corretta: la formulazione 'eliminati i controlli' lasciava intendere che i controlli fossero stati usati e rimossi; il problema è che nei dati TCGA non erano previsti. La domanda va divisa in due: A, presenza di batteri vitali; B, composizione specifica per tipo di tumore.)",
+     "verifica": "Parzialmente fatto. Esistono studi con colture e ibridazione in situ in alcuni tumori: carcinoma epatocellulare con DNA microbico nel citosol degli epatociti e batteri vitali recuperati da tessuto fresco (156 campioni, PMID 36173308), batteri in 86 su 113 adenocarcinomi pancreatici (PMID 28912244), una firma 16S intratumorale associata alla sopravvivenza a lungo termine nel pancreas con trapianti fecali umano-topo (PMID 31398337), e 1.526 tumori di sette tipi con batteri prevalentemente intracellulari (PMID 32467386). Gli abstract di questi studi non descrivono controlli negativi. La firma TCGA di riferimento (Poore 2020, PMID 32214244) è ritrattata (notifica PMID 38926587, motivo non letto) e criticata (PMID 37811944). Linee guida sulla contaminazione nei campioni a bassa biomassa: rassegna con lista di controllo RIDE (PMID 30497919), contaminazione dei kit di estrazione che incide in modo critico sui campioni a bassa biomassa con consiglio di sequenziare controlli negativi (PMID 25387460), consenso del 2025 (PMID 40542287). Un preprint (PMID 41676551, non sottoposto a revisione) propone la lunghezza dei frammenti di DNA per distinguere il microbioma genuino dai contaminanti e trova segnali genuini solo in tessuti con esposizione microbica naturale (tratto gastrointestinale, cervice, vagina, cute), non in rene, cervello, sangue e placenta. Non trovato: tumore con batteri vitali e controlli negativi corrispondenti a ogni passaggio, con firma specifica per tipo di tumore riprodotta da un secondo laboratorio.",
+     "disegno": "(A) Presenza di batteri vitali: coltura e ibridazione in situ con campioni vuoti di controllo in ogni passaggio (reagenti, strumenti, sala operatoria), su campioni prospettici nuovi di tumori e tessuti normali adiacenti. (B) Composizione specifica per tipo di tumore: sequenziamento con filtraggio del DNA umano, confronto con controlli negativi corrispondenti per lotto e con tessuto normale, soglia quantitativa prespecificata di abbondanza tumore/controllo e lunghezza dei frammenti, e riproduzione in un secondo laboratorio. I dati TCGA ritrattati non vanno usati come validazione.",
+     "falsificazione": "(A) Falsificata se il segnale non supera i controlli vuoti. (B) Falsificata se la firma non supera i controlli negativi, se non compare nel secondo laboratorio, o se le specie riportate non sono presenti nei campioni analizzati.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "36173308",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "28912244",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "31398337",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32467386",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32214244",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38926587",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37811944",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30497919",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "25387460",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40542287",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41676551",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Il segnale degli antibiotici sull'efficacia dell'immunoterapia è causale (via microbioma) o dovuto a confondimento per indicazione e stato clinico?",
@@ -9389,10 +9508,52 @@
      "falsificazione": "Falsificata come causale se l'effetto sull'ICI non dipende dalla perdita di diversità o dalla classe di antibiotico, o se l'interazione col trattamento è assente nei bracci con e senza immunoterapia."
     },
     {
-     "domanda": "Un RCT con placebo e endpoint primario prespecificato di sopravvivenza o risposta mostra che il trapianto fecale aumenta l'efficacia degli inibitori dei checkpoint?",
-     "verifica": "Da verificare con agenti (passo 6).",
+     "domanda": "In un RCT in doppio cieco con FMT placebo, pretrattamento antibiotico identico nei due bracci e endpoint primario prespecificato di PFS a 12 mesi (o di risposta), il trapianto fecale da donatori responder aumenta la PFS rispetto al placebo con un intervallo di confidenza che esclude lo zero, e l'effetto si replica in un secondo RCT? (Domanda corretta: TACITO ha come primario la PFS a 12 mesi, non la sopravvivenza globale; il placebo non è neutro quando i bracci ricevono antibiotici; l'effetto positivo è un endpoint secondario di uno studio piccolo.)",
+     "verifica": "Parzialmente fatto. Un solo RCT in doppio cieco con FMT placebo e inibitore dei checkpoint ha risultati pubblicati: TACITO (PMID 41606119), con endpoint primario non raggiunto (PFS a 12 mesi 70% contro 41%, P=0,053) e PFS mediana 24 contro 9 mesi (HR 0,50; P=0,035) come endpoint secondario; il registro (NCT04758507) indica 50 arruolati e il lavoro 45 randomizzati. Altri RCT sono in corso e non possono ancora rispondere: FLORA (epatocarcinoma, endpoint primari immunogenicità e sicurezza), un RCT in melanoma in cui entrambi i bracci ricevono FMT (donatore responder o non responder), un RCT in aperto in melanoma con PFS primario, un RCT nel polmone con PFS primario e mascheramento incongruente. BIOFRONT, citato in una rassegna, non è stato trovato nel registro. Non trovati: risultati negativi di RCT con FMT placebo oltre a TACITO.",
      "disegno": "RCT in doppio cieco con FMT placebo, donatori definiti, stratificazione per antibiotici e inibitori di pompa protonica, microbioma misurato a prima e dopo.",
-     "falsificazione": "Falsificata se l'endpoint primario non è raggiunto (TACITO: 70% contro 41%, P=0,053) e non si replica in un secondo RCT."
+     "falsificazione": "Falsificata se l'endpoint primario non è raggiunto con alfa prespecificato, o se un secondo RCT non riproduce l'effetto.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41606119",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT04758507",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40930564",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05690048",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "36585700",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05251389",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT06623461",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05502913",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
