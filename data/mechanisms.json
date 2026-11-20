@@ -7813,19 +7813,19 @@
      "prova": "sperimentale e correlativa umana"
     },
     {
-     "testo": "Dati umani sullo stress: la relazione tra stress psicologico, isolamento sociale e incidenza o mortalità del cancro è stata riportata da meta-analisi osservazionali con risultati non univoci; non riletta in questa fase.",
+     "testo": "Dati umani sullo stress: una meta-analisi di 90 coorti (2.205.199 individui) associa l'isolamento sociale alla mortalità per cancro (effetto aggregato 1,24; IC 95% 1,19-1,28); nel cancro mammario 1,51 (1,34-1,70) per la mortalità per tutte le cause e 1,33 (1,02-1,75) per la mortalità specifica. Si tratta di mortalità, non di incidenza. Una meta-analisi che include 9 revisioni e 26 studi di coorte o caso-controllo riporta che le revisioni precedenti non mostravano un'associazione coerente tra stress e rischio di cancro, e che l'evidenza è più forte per crescita e metastasi con lo stress cronico che per il rischio; nella mammella, 7 studi osservazionali associano eventi di vita stressanti, ansia, depressione o scarso sostegno sociale al rischio.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "37337095",
-      "verificata": false
+      "verificata": true
      },
      "prova": "osservazionale (meta-analisi)",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "31814865",
-       "verificata": false
+       "verificata": true
       }
      ]
     }
@@ -8256,12 +8256,29 @@
       {
        "tipo": "PMID",
        "id": "41176581",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "41999755",
-       "verificata": false
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Interazione con l'immunoterapia, studi discordanti: una meta-analisi di 12 studi su tumori solidi (1.463 pazienti con beta-bloccante e ICI, 2.830 con ICI soli) non trova effetto sulla sopravvivenza globale (HR 1,02; 0,84-1,23) né sulla progressione (HR 0,98; 0,80-1,20) e la tossicità non sembra aumentare; la coorte real-world RADIOHEAD (1.024 pazienti, pan-cancro) associa il beta-bloccante al basale a una sopravvivenza peggiore (HR 1,38; 1,10-1,72) dopo aggiustamento per covariate e co-prescrizioni. Tre letture diverse sullo stesso tema.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41176581",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi e coorte)",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41999755",
+       "verificata": true
       }
      ]
     },
@@ -8299,19 +8316,19 @@
      "inferenza": true
     },
     {
-     "testo": "Cardioprotezione: i beta-bloccanti sono stati studiati anche per la cardiotossicità di antracicline e trastuzumab (meta-analisi positive e un RCT ad alto rischio senza effetto sulla frazione di eiezione); è una questione separata dalle metastasi e non riletta qui.",
+     "testo": "Cardioprotezione: questione separata dalle metastasi. Una meta-analisi di RCT (17 studi, 1.530 pazienti) su inibitori del sistema renina-angiotensina e beta-bloccanti per la cardiotossicità da antracicline trova una frazione di eiezione migliore (differenza media 4,42; 2,3-6,6) e meno insufficienza cardiaca (RR 0,45; 0,3-0,7), senza effetto sulla mortalità, con elevata eterogeneità; il trial multicentrico Cardiac CARE (carvedilolo + candesartan, 29 contro 28 pazienti ad alto rischio) non ha mostrato un effetto dimostrabile (differenza di frazione di eiezione a 6 mesi -0,37%; IC -3,59 a 2,85).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "37746692",
-      "verificata": false
+      "verificata": true
      },
      "prova": "RCT e meta-analisi",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "37255127",
-       "verificata": false
+       "verificata": true
       }
      ]
     }
