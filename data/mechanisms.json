@@ -5740,7 +5740,7 @@
   {
    "id": "risoluzione",
    "name": "Risoluzione dell'infiammazione (Serhan): mediatori pro-risolventi specializzati",
-   "note": "Bozza v0. La frase di partenza ('spegnere l'infiammazione è un processo attivo, guidato da mediatori come le resolvine, non un semplice esaurirsi') regge solo in parte. (1) La contrapposizione 'attivo contro semplice esaurirsi' non è testata direttamente in nessun abstract letto: è una cornice del gruppo proponente, sostenuta da dati animali (recettori ALX/FPR2 e altri, enzimi LOX) ma senza un esperimento che distingua la risoluzione attiva da quella passiva. (2) L'esistenza e il ruolo endogeno dei mediatori nell'uomo sono contestati: una rassegna critica trova biosintesi leucocitaria umana al più bassa, recettori non confermati in topi knockout, livelli umani non legati all'integrazione di omega-3 né formati durante la risoluzione, e quantificazione non affidabile con la metodologia più usata; un'analisi enantioselettiva mostra che parte dei 'mediatori' si forma per autossidazione e che la conservazione dei campioni conta. (3) In oncologia i dati migliori sono murini e puntano in due direzioni: resolvine e lipossine riducono la crescita tumorale stimolata dai detriti della chemioterapia, ma FPR2 è immunosoppressivo in un modello pancreatico (dipendente dal sesso) e in un lavoro su tumore mammario triplo negativo la risoluzione programmata (efferocitosi, omega-3, resolvine, C1q) accompagna la resistenza alla terapia. (4) Non risultano trial oncologici con resolvine o analoghi; l'unico analogo di RvE1 sperimentato nell'uomo (occhio secco) non ha esiti pubblicati nel registro; un agonista FPR2/ALX ha mostrato desensibilizzazione del recettore in volontari sani; gli omega-3 (VITAL) non riducono l'incidenza di cancro; la neutralizzazione di IL-1 beta (canakinumab) ha ridotto l'incidenza di cancro del polmone in un'analisi esplorativa ma non ha avuto beneficio nei trial oncologici di fase 3 e aumenta le infezioni fatali. Giro 1 di verifica: 18 PMID e 10 record del registro riletti direttamente (marcati 'verificata'); gli altri identificativi sono letti da sotto-agenti e restano 'non verificata' in attesa dei giri 2 e 3. Passo 6 provvisorio.",
+   "note": "Bozza v0. La frase di partenza ('spegnere l'infiammazione è un processo attivo, guidato da mediatori come le resolvine, non un semplice esaurirsi') regge solo in parte. (1) La contrapposizione 'attivo contro semplice esaurirsi' non è testata direttamente in nessun abstract letto: è una cornice del gruppo proponente, sostenuta da dati animali (recettori ALX/FPR2 e altri, enzimi LOX) ma senza un esperimento che distingua la risoluzione attiva da quella passiva. (2) L'esistenza e il ruolo endogeno dei mediatori nell'uomo sono contestati: una rassegna critica trova biosintesi leucocitaria umana al più bassa, recettori non confermati in topi knockout, livelli umani non legati all'integrazione di omega-3 né formati durante la risoluzione, e quantificazione non affidabile con la metodologia più usata; un'analisi enantioselettiva mostra che parte dei 'mediatori' si forma per autossidazione e che la conservazione dei campioni conta. (3) In oncologia i dati migliori sono murini e puntano in due direzioni: resolvine e lipossine riducono la crescita tumorale stimolata dai detriti della chemioterapia, ma FPR2 è immunosoppressivo in un modello pancreatico (dipendente dal sesso) e in un lavoro su tumore mammario triplo negativo la risoluzione programmata (efferocitosi, omega-3, resolvine, C1q) accompagna la resistenza alla terapia. (4) Non risultano trial oncologici con resolvine o analoghi; l'unico analogo di RvE1 sperimentato nell'uomo (occhio secco) non ha esiti pubblicati nel registro; un agonista FPR2/ALX ha mostrato desensibilizzazione del recettore in volontari sani; gli omega-3 (VITAL) non riducono l'incidenza di cancro; la neutralizzazione di IL-1 beta (canakinumab) ha ridotto l'incidenza di cancro del polmone in un'analisi esplorativa ma non ha avuto beneficio nei trial oncologici di fase 3 e aumenta le infezioni fatali. Nella revisione dei dati umani una quantificazione LC-MS/MS in 81 coppie di tumore colorettale mostra carenza di mediatori risolventi nel tumore, ma altri lavori con ELISA sono giudicati poco selettivi da una rassegna critica del 2026 e un RCT con analisi chirale non rileva RvE1 né 15-epi-lipossina A4 nel plasma e nella mucosa rettale. Verifica: giro 1 con 18 PMID e 10 record del registro riletti direttamente; giro 2 con confronto di 36 identificativi con gli abstract, con correzioni di attribuzioni (voci separate per studio); giro 3 con controllo indipendente delle affermazioni negative (nessun trial oncologico con SPM, nessuna replica indipendente del modello dei detriti, nessuna risposta indicizzata alle critiche); durante il passo 6 e il giro 3 sono stati riletti direttamente altri 8 PMID e 6 record del registro. In tutto 26 PMID riletti direttamente e 36 confrontati con gli abstract (i 62 PMID distinti della scheda, alcuni citati in più voci) e 16 record del registro riletti (di cui 13 NCT distinti citati nella scheda). Le verifiche sono su abstract e registro, non su testo completo.",
    "normale": [
     {
      "testo": "Serhan (2014) descrive una classe di mediatori lipidici pro-risolventi, le lipossine, le resolvine, le protectine e le maresine (mediatori pro-risolventi specializzati, SPM): le versioni sintetiche hanno azioni potenti in vivo, negli animali evocano meccanismi antinfiammatori e pro-risolventi e aumentano la clearance microbica. Rassegna del proponente del concetto.",
@@ -5803,6 +5803,26 @@
       "verificata": true
      },
      "prova": "analitico"
+    },
+    {
+     "testo": "Una nuova rassegna critica (2026) dello stesso gruppo e di altri esperti sostiene che l'analisi delle proprietà catalitiche delle lipossigenasi e del segnale dei recettori proposti solleva seri dubbi che gli SPM siano mediatori endogeni della risoluzione; che per molti SPM riportati manca l'evidenza nei campioni biologici perché i metodi LC-MS/MS non soddisfano gli standard di qualità o perché si usano ELISA privi di selettività; e che artefatti di autossidazione possono essere scambiati per formazione di SPM. Non risultano risposte indicizzate del gruppo proponente (lettere e repliche potrebbero non essere indicizzate: l'assenza non prova che non esistano).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42665162",
+      "verificata": true
+     },
+     "prova": "rassegna critica"
+    },
+    {
+     "testo": "RCT seAFOod (401 partecipanti, aspirina 300 mg ed EPA 2.000 mg per 12 mesi, con analisi chirale dei precursori): RvE1 e 15-epi-lipossina A4 non risultano rilevabili sopra 20 pg/mL nel plasma né nella mucosa rettale, anche con aspirina ed EPA insieme, mentre i precursori 18-HEPE e 15-HETE sono misurabili e i livelli di 18-HEPE salgono con EPA ma non predicono l'efficacia di prevenzione dei polipi; gli autori non possono escludere degradazione dei campioni.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37003144",
+      "verificata": true
+     },
+     "prova": "RCT"
     },
     {
      "testo": "Profilazione quantitativa di 43 mediatori nel plasma di adolescenti sani e di topi con nutrizione parenterale: per 5 analiti (12-HETE, 12-HEPE, 12S-HETrE, 14-HDHA e TXB2) l'aggiunta di metanolo dopo la separazione del plasma riduce gli aumenti successivi al prelievo; il metodo di preparazione potrebbe quindi influenzare i valori (ipotesi).",
@@ -5885,17 +5905,31 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "La dicotomia 'processo attivo contro semplice esaurirsi' (cioè risoluzione per sola scomparsa dello stimolo, diluizione dei chemiotattici e apoptosi dei neutrofili) come ipotesi formalizzata e testata sperimentalmente: fonte non reperita negli abstract letti.",
-     "livello": "ipotesi",
-     "fonte": null,
-     "inferenza": true
+     "testo": "La dicotomia 'processo attivo contro semplice esaurirsi' per gli SPM, come ipotesi formalizzata e testata sperimentalmente, non risulta nei lavori letti; un esperimento che oppone risoluzione attiva e passiva esiste per il dolore infiammatorio nel topo: i macrofagi infiltrano i gangli delle radici dorsali e trasferiscono mitocondri ai neuroni sensoriali tramite CD200R, perché la risoluzione dell'infiammazione non basta a risolvere il dolore; non riguarda gli SPM né i tumori. Modelli matematici di risoluzione con neutrofili e macrofagi non sono stati riletti.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34921782",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
-     "testo": "Misure in pazienti oncologici: nel tumore mammario il plasma ha più RvD1 che nei controlli con patologia benigna (mediana 21,3 contro 7,3 pg/mL, p=0,039, ELISA, studio non randomizzato di un solo centro) e dopo DHA 2 g al giorno per 10 giorni RvD1 e RvD2 aumentano nelle pazienti con mutazione di BRCA1/2.",
+     "testo": "Misure in pazienti oncologici: nel tumore mammario il plasma ha più RvD1 che nei controlli con patologia benigna (mediana 21,3 contro 7,3 pg/mL, p=0,039, ELISA, studio non randomizzato di un solo centro) e dopo DHA 2 g al giorno per 10 giorni RvD1 e RvD2 aumentano nelle pazienti con mutazione di BRCA1/2. (Il dosaggio è ELISA, metodo che la rassegna critica del 2026 giudica poco selettivo.)",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "40427191",
+      "verificata": true
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Nel tumore colorettale la quantificazione LC-MS/MS mirata su 81 coppie di tumore e tessuto normale mostra uno squilibrio dei mediatori proinfiammatori con carenza dei mediatori risolventi, con scarsa espressione dei geni che producono lipossine e dei recettori; gli autori lo interpretano come difetto di 'lipid class switching' (interpretazione); l'abstract non dichiara una separazione enantioselettiva.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39658263",
       "verificata": true
      },
      "prova": "correlativa"
@@ -6080,7 +6114,7 @@
      ]
     },
     {
-     "testo": "Anelli non reperiti: trial di resolvine o lipossine in oncologia; prova umana che un deficit di resolvine causi la progressione; knockout di ALOX15 con misura diretta delle resolvine nella crescita tumorale.",
+     "testo": "Anelli non reperiti nei lavori letti: trial di resolvine o lipossine in oncologia; prova umana che un deficit di resolvine causi la progressione; knockout di ALOX15 con misura diretta delle resolvine nella crescita tumorale; replica indipendente del modello dei detriti di cellule uccise dalla chemioterapia (gli altri gruppi hanno studiato resolvine e tumori senza questo modello); dati clinici che colleghino SPM o risoluzione alla risposta agli inibitori dei checkpoint.",
      "livello": "ipotesi",
      "fonte": null,
      "inferenza": true
@@ -6417,6 +6451,42 @@
      "fonte": {
       "tipo": "PMID",
       "id": "30415637",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Icosapent etile (omega-3) per la modulazione immune nel tumore del colon-retto",
+     "bersaglio": "composizione degli omega-3 nel tessuto",
+     "fase": "II (NCT03661047, registro)",
+     "esito": "ritirato, 0 arruolati",
+     "ragione": "nessun arruolamento in oltre due anni (testo del registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03661047",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Omega-3 perioperatori nel tumore del colon (risposta immune)",
+     "bersaglio": "IL-6 e funzione eritrocitaria",
+     "fase": "IV (NCT02231203, registro), 44 pazienti",
+     "esito": "completato; nessun risultato nel registro",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02231203",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Resolvine nella prevenzione del dolore cronico dopo chirurgia toracica (concentrato lipidico marino)",
+     "bersaglio": "dolore post-chirurgico",
+     "fase": "NA (NCT03095157, registro), 80 previsti",
+     "esito": "stato sconosciuto, nessun risultato",
+     "ragione": "non dichiarata (registro non aggiornato)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03095157",
       "verificata": true
      }
     }
