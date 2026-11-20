@@ -5753,24 +5753,24 @@
      "prova": "rassegna"
     },
     {
-     "testo": "Rassegne e un documento di consenso del gruppo proponente definiscono la fase di risoluzione come processo biosinteticamente attivo, con indici quantitativi di risoluzione e mediatori 'non immunosoppressivi per definizione'; sono posizioni degli autori.",
+     "testo": "Rassegne e un consenso del gruppo proponente: Serhan e Levy (2018) usano indici quantitativi di risoluzione e sostengono che gli SPM non siano immunosoppressivi per definizione; Chiang e Serhan (2020) descrivono la fase di risoluzione come processo biosinteticamente attivo; un documento di consenso di esperti su emulsioni lipidiche in nutrizione parenterale sostiene una risoluzione attiva senza compromettere la difesa dell'ospite. Sono posizioni degli autori.",
      "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "29757195",
-      "verificata": false
+      "verificata": true
      },
      "prova": "rassegna",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "32885825",
-       "verificata": false
+       "verificata": true
       },
       {
        "tipo": "PMID",
        "id": "38805158",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -5805,65 +5805,84 @@
      "prova": "analitico"
     },
     {
-     "testo": "Controversie analitiche e quantificazione di 43 mediatori nel plasma di adolescenti sani con metodo che riduce gli aumenti dopo il prelievo: il metodo di preparazione cambia i valori misurati e quindi i riferimenti.",
+     "testo": "Profilazione quantitativa di 43 mediatori nel plasma di adolescenti sani e di topi con nutrizione parenterale: per 5 analiti (12-HETE, 12-HEPE, 12S-HETrE, 14-HDHA e TXB2) l'aggiunta di metanolo dopo la separazione del plasma riduce gli aumenti successivi al prelievo; il metodo di preparazione potrebbe quindi influenzare i valori (ipotesi).",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "34243224",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "analitico",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "41625186",
-       "verificata": false
-      }
-     ]
+     "prova": "analitico"
     },
     {
-     "testo": "Recettori: RvE1 si lega a BLT1 come agonista parziale (legame spostato da LTB4 e dall'antagonista di BLT1, non dal peptide chemerina ligando di ChemR23), con effetti ridotti nei topi BLT1-knockout a dose bassa; RvD1 attiva ALX/FPR2 e GPR32 in sistemi con recettori sovraespressi e nei topi ALX/FPR2-knockout non riduce in modo significativo l'infiltrato leucocitario nella peritonite da zymosan.",
+     "testo": "Una rassegna sulle resolvine e i macrofagi riconosce controversie analitiche sulla rilevazione in vivo di SPM a bassa abbondanza.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41625186",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Recettori: RvE1 si lega a BLT1 come agonista parziale (legame spostato da LTB4 e dall'antagonista di BLT1, non dal peptide chemerina ligando di ChemR23), con effetti ridotti nei topi BLT1-knockout a dose bassa.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "17339491",
       "verificata": true
      },
-     "prova": "sperimentale",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "22449948",
-       "verificata": true
-      },
-      {
-       "tipo": "PMID",
-       "id": "15753205",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "34699386",
-       "verificata": false
-      }
-     ]
+     "prova": "sperimentale"
     },
     {
-     "testo": "Distinzione dall'immunosoppressione: una rassegna sulle difficoltà degli antinfiammatori propone la risoluzione come alternativa; in un modello murino il blocco di FPR2 peggiora la polmonite pneumococcica (più edema e batteri), per cui gli SPM hanno anche una funzione di difesa dell'ospite.",
+     "testo": "Contrasto sul recettore di RvE1: in uno studio precedente dello stesso gruppo RvE1 si lega a ChemR23 (legame con RvE1 marcata e silenziamento di ChemR23); le due identificazioni non sono sovrapponibili per modello cellulare e ligando.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15753205",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "RvD1 attiva ALX/FPR2 e GPR32 in sistemi con recettori sovraespressi; nei topi ALX/FPR2-knockout non riduce in modo significativo l'infiltrato leucocitario nella peritonite da zymosan.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
-      "id": "23307734",
-      "verificata": false
+      "id": "22449948",
+      "verificata": true
      },
-     "prova": "rassegna",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "33822656",
-       "verificata": false
-      }
-     ]
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "GPR32 non ha un omologo murino: in topi transgenici che esprimono GPR32 umano su fondo Fpr2-knockout AT-RvD1 regola le risposte leucocitarie, mentre nei non transgenici no; la funzione in vivo si studia solo in un modello costruito.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34699386",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Una rassegna sull'antinfiammatorio nella malattia cronica ricorda che la risposta infiammatoria è essenziale e che ridondanza, vie compensatorie e necessità restringono il rapporto rischio-beneficio degli antinfiammatori; discute le vie di risoluzione come prospettiva.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23307734",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "In un modello murino il blocco di ALX/FPR2 con l'antagonista WRW4 peggiora la polmonite pneumococcica (più edema polmonare, più batteri negli spazi aerei e nel sangue): gli SPM hanno anche una funzione di difesa dell'ospite.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33822656",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
      "testo": "La dicotomia 'processo attivo contro semplice esaurirsi' (cioè risoluzione per sola scomparsa dello stimolo, diluizione dei chemiotattici e apoptosi dei neutrofili) come ipotesi formalizzata e testata sperimentalmente: fonte non reperita negli abstract letti.",
@@ -5872,26 +5891,34 @@
      "inferenza": true
     },
     {
-     "testo": "Misure in pazienti oncologici: nel tumore mammario il plasma ha più RvD1 che nei controlli con patologia benigna (mediana 21,3 contro 7,3 pg/mL, p=0,039, ELISA, studio non randomizzato di un solo centro) e dopo DHA 2 g al giorno per 10 giorni RvD1 e RvD2 aumentano nelle pazienti con mutazione di BRCA1/2; nel carcinoma pancreatico metastatico il plasma ha meno RvD5n-3DPA; nel mesotelioma pleurico gli SPM calano dopo chemioterapia; metodi e tumori diversi, risultati non confrontabili.",
+     "testo": "Misure in pazienti oncologici: nel tumore mammario il plasma ha più RvD1 che nei controlli con patologia benigna (mediana 21,3 contro 7,3 pg/mL, p=0,039, ELISA, studio non randomizzato di un solo centro) e dopo DHA 2 g al giorno per 10 giorni RvD1 e RvD2 aumentano nelle pazienti con mutazione di BRCA1/2.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "40427191",
       "verificata": true
      },
-     "prova": "correlativa",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "38035115",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "42583109",
-       "verificata": false
-      }
-     ]
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Nel carcinoma pancreatico metastatico il plasma ha meno RvD5n-3DPA che nel non metastatico; in vitro ALOX15 produce RvD5n-3DPA, che riduce l'invasione di cellule tumorali indotta dalle cellule stellate pancreatiche.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38035115",
+      "verificata": true
+     },
+     "prova": "correlativa e in vitro"
+    },
+    {
+     "testo": "Nel mesotelioma pleurico la chemioterapia riduce gli SPM negli essudati pleurici (LC-MS/MS); metodi e tumori diversi rendono i risultati non confrontabili fra loro.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42583109",
+      "verificata": true
+     },
+     "prova": "correlativa"
     }
    ],
    "catena": [
@@ -5916,41 +5943,64 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Altri modelli murini e in vitro con resolvine o analoghi della lipossina A4: RvE1 riduce la crescita di xenotrapianti polmonari anche in associazione a cisplatino, RvD1 riduce la crescita di tumori HPV-positivi tramite i neutrofili, un biomimetico della lipossina A4 modifica l'immunità intratumorale, la lipossina A4 riduce le cellule B regolatorie e il differenziamento dei fibroblasti associati ai tumori.",
+     "testo": "RvE1 riduce nel topo la crescita di xenotrapianti di tumore polmonare, anche in associazione a cisplatino.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "35944728",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "sperimentale",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "33845864",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "34607931",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "25979229",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "29408203",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "21683517",
-       "verificata": false
-      }
-     ]
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "RvD1 riduce la crescita di tumori HPV-positivi nel topo stimolando un reclutamento neutrofilo-dipendente di monociti antitumorali.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33845864",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Un biomimetico della lipossina A4 (NAP1051) riduce neutrofili e cellule soppressorie di derivazione mieloide nel microambiente di xenotrapianti colorettali murini, aumenta il reclutamento di linfociti T e riduce il NETosi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34607931",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "La lipossina A4 riduce nei topi con tumore la generazione di cellule B regolatorie produttrici di IL-10.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25979229",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "La lipossina A4 inibisce in vitro il differenziamento di cellule stellate pancreatiche umane in miofibroblasti simili ai fibroblasti associati ai tumori.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29408203",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "La lipossina A4 e un analogo (BML-111) riducono proliferazione, invasione e angiogenesi in carcinoma epatocellulare, in vitro e in topi con tumori H22, rimodellando il microambiente.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21683517",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
      "testo": "Contro-dato: nel tumore pancreatico singenico i topi FPR2-knockout femmine hanno una progressione del tumore ridotta rispetto ai selvatici e ai maschi; FPR2 media effetti immunosoppressivi in macrofagi M2-like con esaurimento dei linfociti T, solo nelle femmine, con analisi su cellula singola e proteomica.",
@@ -5983,21 +6033,24 @@
      "prova": "correlativa e sperimentale"
     },
     {
-     "testo": "Efferocitosi immunosoppressiva nel tumore: l'efferocitosi mediata da MerTK favorisce macrofagi M2 e PD-L1 in un modello di osteosarcoma e la sua inibizione riduce la crescita e aumenta i linfociti CD8; una rassegna descrive i recettori TAM come promotori di efferocitosi, polarizzazione M2 e immunosoppressione; efferocitosi e risoluzione non sono sinonimi nel tumore.",
+     "testo": "Efferocitosi immunosoppressiva nel tumore: l'efferocitosi mediata da MerTK favorisce macrofagi M2 ed espressione di PD-L1 in un modello di osteosarcoma e la sua inibizione riduce la crescita e aumenta i linfociti CD8.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "35036076",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "sperimentale e rassegna",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "31088471",
-       "verificata": false
-      }
-     ]
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Una rassegna descrive i recettori TAM (Tyro3, Axl, MerTK) come promotori di efferocitosi, polarizzazione M2 e immunosoppressione nel microambiente tumorale.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31088471",
+      "verificata": true
+     },
+     "prova": "rassegna"
     },
     {
      "testo": "Omega-3 e cancro nell'uomo (RCT, VITAL): in 25.871 adulti senza cancro, 1 g al giorno di n-3 marini per 5,3 anni non riduce il cancro invasivo (HR 1,03; IC 0,93-1,13) né la morte per cancro (HR 0,97; IC 0,79-1,20); nessun eccesso di sanguinamento.",
@@ -6010,19 +6063,19 @@
      "prova": "RCT"
     },
     {
-     "testo": "Aspirina e FANS nell'uomo (osservazionale): meta-analisi nel tumore mammario (RR 0,92) e polmonare (RR 0,87) mostrano associazioni inverse con forte eterogeneità; il meccanismo via SPM non è dimostrato nell'uomo.",
+     "testo": "Aspirina nell'uomo (osservazionale): una meta-analisi di 42 studi (99.769 pazienti) nel tumore mammario dà RR 0,92 (IC 0,89-0,96; I² 72%) e una di 20 studi nel tumore polmonare RR 0,87 (IC 0,79-0,95; I² 74%), con forte eterogeneità; il meccanismo via SPM non è documentato nell'uomo nei lavori letti.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "33741292",
-      "verificata": false
+      "verificata": true
      },
      "prova": "correlativa",
      "altre_fonti": [
       {
        "tipo": "PMID",
        "id": "26067033",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
@@ -6047,7 +6100,7 @@
       "prova": "sperimentale"
      },
      {
-      "testo": "Nei topi knockout per ALX/FPR2 RvD1 non riduce in modo significativo l'infiltrato leucocitario né regola i microRNA e IL-10; per GPR32 non esiste un omologo murino, quindi la funzione in vivo si studia solo in modelli transgenici.",
+      "testo": "Nei topi ALX/FPR2-knockout RvD1 non riduce in modo significativo l'infiltrato leucocitario né regola miR-208a e IL-10 (peritonite da zymosan); non esiste un omologo murino di GPR32.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
@@ -6059,53 +6112,69 @@
        {
         "tipo": "PMID",
         "id": "34699386",
-        "verificata": false
+        "verificata": true
        }
       ]
      },
      {
-      "testo": "Vie non lipidiche: annessina A1 e FPR2, adenosina con il recettore A2A e CD73 sono necessari alla risoluzione in vari modelli murini (peritonite, polmone, infezioni); i knockout peggiorano l'infiammazione e non risulta compensazione completa.",
+      "testo": "Adenosina e recettore A2A: nei topi gp91phox-knockout l'infiammazione non si risolve e adenosina e cAMP sono più bassi; un antagonista di A2A peggiora l'infiammazione e un agonista la riduce (peritonite).",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "19234224",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "sperimentale",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "28060378",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "31908042",
-        "verificata": false
-       },
-       {
-        "tipo": "PMID",
-        "id": "35293862",
-        "verificata": false
-       }
-      ]
+      "prova": "sperimentale"
      },
      {
-      "testo": "Compensazione verso COX: nei topi FPR2-knockout o ALOX5-knockout dopo infarto calano le lossigenasi e gli SPM e aumentano COX-1 e COX-2, con ritardo nella clearance dei neutrofili: una riallocazione lipidica e non un ripristino.",
+      "testo": "CD73 è necessario perché le cellule apoptotiche sopprimano il TNF nei macrofagi e per limitare l'afflusso di neutrofili in peritonite e polmone con LPS a bassa dose.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "28060378",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Annessina A1 e FPR2: nella polmonite pneumococcica i topi knockout per AnxA1 e per Fpr2/3 sono più suscettibili, con più infiammazione e disseminazione batterica.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "31908042",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nell'infezione da dengue nel topo i knockout di AnxA1 e FPR2 aggravano la malattia e il peptide Ac2-26 la attenua.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "35293862",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nei topi ALX/FPR2-knockout dopo infarto calano le lossigenasi e gli SPM, aumentano COX-1 e COX-2 e si espandono i neutrofili: una riallocazione lipidica e non un ripristino (interpretazione).",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "31918915",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "sperimentale",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "36018758",
-        "verificata": false
-       }
-      ]
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Nei topi ALOX5-null dopo infarto l'espressione di ciclossigenasi è maggiore, la clearance dei neutrofili è ritardata e la risoluzione è alterata.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36018758",
+       "verificata": true
+      },
+      "prova": "sperimentale"
      },
      {
       "testo": "Contro-dato: in topi FPR2-knockout l'infiammazione basale aumenta ma c'è protezione da una lesione polmonare prolungata a 72 ore con LPS: il recettore non è sempre necessario.",
@@ -6113,43 +6182,49 @@
       "fonte": {
        "tipo": "PMID",
        "id": "40972651",
-       "verificata": false
+       "verificata": true
       },
       "prova": "sperimentale"
      },
      {
-      "testo": "Aspirina, COX-2 e risoluzione: nel ratto l'aspirina induce COX-2 e 15(R)-epi-lipossina A4, e celecoxib e rofecoxib riducono la lipossina A4 e aggravano il danno gastrico; in topi diabetici le prostaglandine ostacolano la fagocitosi dei macrofagi e l'inibizione di COX la ripristina: COX può sia generare sia ostacolare la risoluzione. Che inibitori di COX-2 allunghino la risoluzione in modo diretto: fonte non reperita.",
+      "testo": "Nel ratto l'aspirina induce COX-2 e 15(R)-epi-lipossina A4; celecoxib abolisce la produzione di lipossina A4 e celecoxib e rofecoxib aggravano il danno gastrico da aspirina.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "12404234",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "sperimentale",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "23785121",
-        "verificata": false
-       }
-      ]
+      "prova": "sperimentale"
      },
      {
-      "testo": "Omega-3 come precursori: emulsioni di omega-3 accorciano l'intervallo di risoluzione del 56% nella peritonite e nella sepsi murine con dipendenza da 5-LOX e 12/15-LOX; in un RCT in 40 anziani l'omega-3 riduce PGE2 ma RvE1 cala in entrambi i bracci: nell'uomo l'integrazione non aumenta in modo automatico gli SPM.",
+      "testo": "Nei topi db/db le prostaglandine E2 e D2 sono alte nell'essudato, il difetto di fagocitosi dei macrofagi è mimato da PGE2 e PGD2 e invertito dall'inibizione di COX: COX può sia generare sia ostacolare la risoluzione. Che inibitori di COX-2 allunghino la risoluzione in modo diretto: fonte non reperita.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "23785121",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Emulsioni lipidiche arricchite in omega-3 accorciano del 56% l'intervallo di risoluzione nella peritonite sterile e nella sepsi polimicrobica del topo, con dipendenza da 5-LOX e 12/15-LOX.",
       "livello": "animale",
       "fonte": {
        "tipo": "PMID",
        "id": "29053142",
-       "verificata": false
+       "verificata": true
       },
-      "prova": "sperimentale e RCT",
-      "altre_fonti": [
-       {
-        "tipo": "PMID",
-        "id": "41934732",
-        "verificata": false
-       }
-      ]
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "In un RCT in 40 anziani l'omega-3 per 8 settimane riduce PGE2 più del controllo, ma RvE1 cala in entrambi i bracci (con esercizio comune): nell'uomo l'integrazione non aumenta in modo automatico gli SPM.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "41934732",
+       "verificata": true
+      },
+      "prova": "RCT"
      },
      {
       "testo": "Tolleranza e desensibilizzazione: nell'uomo l'agonista FPR2/ALX ACT-389949 induce internalizzazione dose-dipendente e di lunga durata del recettore e citochine aumentate solo dopo la prima dose; gli autori interpretano il quadro come desensibilizzazione, che può spiegare l'assenza di effetto sul reclutamento dei neutrofili nel test con LPS.",
@@ -6348,7 +6423,7 @@
    ],
    "finestra": [
     {
-     "testo": "Carattere non immunosoppressivo: negli animali gli SPM aumentano la clearance microbica (rassegna del proponente); in vitro RvD1 aumenta efferocitosi e polarizzazione M2 e la sopravvivenza batterica intracellulare di S. aureus in macrofagi murini, e il blocco di FPR2 peggiora la polmonite pneumococcica: non si può dichiarare sicuro. Dati clinici su infezioni o ritardo di guarigione con agonisti degli SPM: fonte non reperita.",
+     "testo": "Negli animali gli SPM aumentano la clearance microbica secondo una rassegna del proponente; nel complesso il carattere non immunosoppressivo non si può dichiarare sicuro (interpretazione): dati clinici su infezioni o ritardo di guarigione con agonisti degli SPM: fonte non reperita.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -6356,18 +6431,27 @@
       "verificata": true
      },
      "prova": "rassegna",
-     "altre_fonti": [
-      {
-       "tipo": "PMID",
-       "id": "43013932",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
-       "id": "33822656",
-       "verificata": false
-      }
-     ]
+     "inferenza": true
+    },
+    {
+     "testo": "In macrofagi murini di midollo osseo in vitro RvD1 aumenta efferocitosi, polarizzazione M2 e sopravvivenza intracellulare di S. aureus; il ruolo in vivo va validato.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43013932",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Il blocco di ALX/FPR2 peggiora la polmonite pneumococcica nel topo (più edema e batteri).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33822656",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     },
     {
      "testo": "Rischio oncologico: la risoluzione programmata può essere immunosoppressiva nel microambiente tumorale (macrofagi pro-risolventi, C1q, T cell antagonizzate in tumori mammari tripli negativi dopo chemioimmunoterapia) e FPR2 è immunosoppressivo in un modello pancreatico nelle femmine: il segnale dipende dal contesto, dal ligando e dal sesso.",
@@ -6387,29 +6471,34 @@
      ]
     },
     {
-     "testo": "Dose e tempistica: RvE1 a 100 ng per via endovenosa agisce tramite BLT1 e a 1 µg in modo indipendente da BLT1 (animale); modelli farmacocinetici su base fisiologica prevedono dosi umane di RvD1 fra 0,01 e 10 mg/kg e RvD1 e RvD5 sono glucuronidati dai microsomi epatici umani (in silico e in vitro); emivita umana misurata di resolvine e dose efficace nell'uomo: fonte non reperita.",
+     "testo": "Dose: RvE1 a 100 ng per via endovenosa agisce tramite BLT1 e a 1 µg in modo indipendente da BLT1 nel topo; il meccanismo cambia con la dose.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "17339491",
       "verificata": true
      },
-     "prova": "sperimentale",
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Farmacocinetica: un modello su base fisiologica sviluppato nel topo prevede per l'uomo dosi di RvD1 fra 0,01 e 10 mg/kg (previsione, non misura); RvD1 e RvD5 sono glucuronidati dai microsomi epatici umani tramite UGT e i FANS possono influire (in vitro); emivita umana misurata e dose efficace nell'uomo: fonte non reperita.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33202089",
+      "verificata": true
+     },
+     "prova": "in silico e in vitro",
      "altre_fonti": [
       {
        "tipo": "PMID",
-       "id": "33202089",
-       "verificata": false
-      },
-      {
-       "tipo": "PMID",
        "id": "39038698",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Sicurezza osservata in trial con segnali ortogonali: in VITAL nessun eccesso di sanguinamento con omega-3 1 g; in CANTOS le infezioni fatali sono più frequenti con canakinumab; con celecoxib adiuvante più ipertensione; con aspirina adiuvante più eventi avversi gravi; omega-3 ad alta dose è associato a fibrillazione atriale (meta-analisi di 7 RCT, HR 1,25).",
+     "testo": "Sicurezza osservata in trial con segnali ortogonali: in VITAL nessun eccesso di sanguinamento con omega-3 1 g; in CANTOS le infezioni fatali sono più frequenti con canakinumab; con celecoxib adiuvante più ipertensione; con aspirina adiuvante più eventi avversi gravi.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -6432,13 +6521,18 @@
        "tipo": "PMID",
        "id": "42777749",
        "verificata": true
-      },
-      {
-       "tipo": "PMID",
-       "id": "34612056",
-       "verificata": false
       }
      ]
+    },
+    {
+     "testo": "Omega-3 ad alte dosi e fibrillazione atriale: una meta-analisi di 7 RCT (81.210 pazienti) dà HR 1,25 (IC 1,07-1,46) su tutte le dosi e HR 1,49 (IC 1,04-2,15) per dosi superiori a 1 g al giorno.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34612056",
+      "verificata": true
+     },
+     "prova": "meta-analisi di RCT"
     },
     {
      "testo": "Sicurezza degli agonisti nell'uomo: ACT-389949 è sicuro e ben tollerato in volontari sani, con internalizzazione prolungata del recettore; dati di sicurezza sistemica di resolvine umane: fonte non reperita.",
@@ -6456,7 +6550,7 @@
      "fonte": {
       "tipo": "PMID",
       "id": "41934732",
-      "verificata": false
+      "verificata": true
      },
      "prova": "RCT"
     }
