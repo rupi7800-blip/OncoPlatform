@@ -6802,6 +6802,648 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "cronobiologia",
+   "name": "Cronobiologia: orologio circadiano, lavoro notturno e cronoterapia",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"I ritmi circadiani sono l'orologio dell'ordine\" è una metafora, non un'affermazione verificabile: gli abstract letti descrivono una rete di oscillatori con accoppiamento parziale (orologi periferici sincronizzabili senza il nucleo soprachiasmatico, o spostabili dal pasto), non un comando unico. (2) Lo IARC: la classificazione del 2007 (gruppo 2A) riguarda il \"lavoro a turni che comporta disruzione circadiana\", non il lavoro notturno in quanto tale; le rassegne lette la descrivono come basata su evidenza umana limitata e su evidenza sufficiente negli animali. L'eventuale riformulazione del 2019 e la monografia primaria non sono state raggiunte in sessione: fonte non reperita. L'epidemiologia è contraddittoria: positiva in meta-analisi che includono caso-controllo, nulla nelle coorti prospettiche per la mammella. (3) \"La cronoterapia somministra i farmaci all'ora ottimale\": l'ora ottimale non è stabilita. Il trial di fase III EORTC 05963 non ha mostrato differenza globale di sopravvivenza (effetto opposto per sesso), EORTC 05011 non ha trovato un orario migliore nella popolazione totale (segnale per sesso in analisi esplorativa), e i dati su immunoterapia sono retrospettivi, con direzione non coerente. Tre giri di verifica in corso: le fonti rilette direttamente da chi compila sono marcate verificate, le altre restano non verificate fino al giro 2.",
+   "normale": [
+    {
+     "testo": "L'orologio circadiano dei mammiferi è una rete di oscillatori trascrizionali. Il nucleo soprachiasmatico (SCN) è il pacemaker centrale, ma gli orologi periferici non dipendono da esso per tutto: nel topo con SCN deleto con sistema Cre/LoxP, gli orologi periferici restano ritmici e sincronizzati al ciclo luce-buio; senza ciclo luce-buio si desincronizzano dopo alcuni giorni. Quindi l'SCN non è l'unico segnale di sincronizzazione.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25063847",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Il pasto può disaccoppiare gli oscillatori periferici dal pacemaker: la restrizione temporale dell'alimentazione sposta la fase dell'espressione genica circadiana nei tessuti periferici fino a 12 ore lasciando invariata la fase nell'SCN.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "11114885",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nella tumorigenesi sperimentale il segnale non è univoco. Nel modello murino di adenocarcinoma polmonare, sia il jet lag sia la mutazione dei geni centrali dell'orologio (Per2, Bmal1) riducono la sopravvivenza e promuovono la crescita tumorale, con aumento di c-Myc. Nel modello di osteosarcoma Glasgow, il jet lag cronico abolisce i ritmi di Per2 e Rev-erb-alfa in fegato e tumore e accelera la crescita; luce o buio costanti non hanno effetto.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27476975",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "15520194",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "In topi con fegato umanizzato, il jet lag cronico induce da solo carcinomi epatocellulari legati a NAFLD a partire da epatociti umani, indipendentemente dalla dieta; il mantenimento di un ritmo stabile riduce incidenza e metastasi. Dato in modello murino, non misura nell'uomo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37890720",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "p53 reprime direttamente Per2 legandosi al suo promotore, nell'elemento che si sovrappone all'E-box di BMAL1/CLOCK; nel topo p53-/- il periodo comportamentale è più breve e instabile. Il circuito tra orologio e risposta al danno è quindi bidirezionale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "24051492",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Nell'uomo la classificazione IARC del 2007 (gruppo 2A) riguarda il lavoro a turni che comporta disruzione circadiana, basata su evidenza epidemiologica limitata (otto studi sul cancro mammario) e su evidenza sufficiente negli animali, secondo la revisione di Hansen. Alla frase \"lavoro notturno\" va sostituita questa formulazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28770538",
+      "verificata": true
+     },
+     "prova": "rassegna",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "22728797",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "22953181",
+       "verificata": true
+      }
+     ]
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Anello 1, lavoro a turni → disallineamento dell'orologio: nell'uomo la prova letta è correlativa (ipometilazione di PER2 in infermiere a turni rotanti, n=710); non dimostra il passaggio causale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29144171",
+      "verificata": false
+     },
+     "prova": "correlativa"
+    },
+    {
+     "testo": "Anello 1, nell'animale: il jet lag cronico abolisce il ritmo di attività, altera corticosterone e PER1 nell'SCN e sopprime i ritmi di Per2 e Rev-erb-alfa in fegato e tumore (topo con osteosarcoma).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15520194",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 2, luce notturna: la meta-analisi di 13 studi caso-controllo e 8 coorti (734.372 partecipanti) trova RR 1,12 (IC 95% 1,06-1,17) per la luce notturna esterna e il cancro mammario (coorti RR 1,08; caso-controllo 1,16; Asia 1,24). Osservazionale; il confondimento residuo non è escluso. L'ipotesi della melatonina soppressa è menzionata dagli autori come 'ampiamente accettata' ma non è dimostrata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38106885",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi)"
+    },
+    {
+     "testo": "Anello 3, orologio → proliferazione: nel topo Per1/2 o Cry1/2 o con un solo allele di Bmal1 mutati, i tumori spontanei e indotti da radiazioni aumentano; gli autori propongono che il segnale mitogeno sia di origine simpatica e controllato dall'orologio (AP1, Myc, ATM/p53), non autonomo della cellula.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20539819",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 3, contro-evidenza: topi Cry1-/-Cry2-/- non mostrano aumento della morbilità o mortalità da radiazioni né di cancro spontaneo, e le cellule mutanti non differiscono per riparazione e checkpoint. Gli autori concludono che l'effetto dipende dal modo in cui l'orologio viene alterato. Contraddice in parte Lee 2010; le differenze di modello non sono risolte negli abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16061665",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 3, CRY2 e MYC: CRY2 (non CRY1) con FBXL3 recluta c-MYC fosforilato in T58 per l'ubiquitinazione; CRY1 non può sostituire CRY2. Gli autori attribuiscono a questa non-intercambiabilità i risultati discordanti della letteratura precedente. Dato in cellule e topo.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27840026",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5, metabolismo: vedi sopra il modello a fegato umanizzato (jet lag → NAFLD → HCC). L'anello è dimostrato solo nel topo.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37890720",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Epidemiologia, mammella, meta-analisi: 32 studi osservazionali, effetto globale 1,11 (1,04-1,20); caso-controllo OR 1,34 (1,17-1,53); coorti RR/HR 0,98 (0,93-1,03); oltre 20 anni 1,03 (0,95-1,11); gli autori concludono che nelle coorti non c'è associazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34409980",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi)"
+    },
+    {
+     "testo": "Epidemiologia, mammella, meta-analisi opposta: 31 coorti prospettiche, 9,3 milioni di partecipanti, RR 1,029 (1,003-1,055); oltre 10 anni di esposizione RR 1,086 (1,032-1,142); turni rotanti RR 1,053 (1,018-1,090). Stesse coorti, conclusione diversa dalla precedente per la definizione di esposizione e di sottogruppo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34775538",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi)"
+    },
+    {
+     "testo": "Epidemiologia, mammella: la revisione sistematica del 2013 (16 studi) trova +9% ogni cinque anni nei caso-controllo (RR 1,09; 1,02-1,20) ma non nelle coorti (RR 1,01; 0,97-1,05); nessuno studio a basso rischio di bias; conclusione 'evidenza insufficiente'.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23804277",
+      "verificata": true
+     },
+     "prova": "osservazionale (meta-analisi)"
+    },
+    {
+     "testo": "Epidemiologia, Nurses' Health Study: nella coorte NHS (30 anni o più di turni) HR 0,95 (0,77-1,17), non significativo; nella NHS II, con esposizione in giovane età, HR 2,15 (1,23-3,73) con 20 anni o più di turni all'ingresso e 1,40 (1,00-1,97) con esposizione aggiornata. Il segnale è legato all'esposizione giovanile.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28541391",
+      "verificata": true
+     },
+     "prova": "coorte prospettica"
+    },
+    {
+     "testo": "Altre sedi: prostata e colon-retto hanno meta-analisi prevalentemente nulle con segnali in sottogruppi (Asia, retto). Questi dati arrivano da abstract letti da sotto-agenti e non sono ancora riletti.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33653334",
+      "verificata": false
+     },
+     "prova": "osservazionale (meta-analisi)",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29126152",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "26208480",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Mendelian randomization sul cronotipo (preferenza mattutina) non misura l'esposizione ai turni: i risultati su colon-retto e mammella sono incoerenti tra studi; nessuna MR sui turni è stata trovata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36093575",
+      "verificata": false
+     },
+     "prova": "MR"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Bmal1 e Bmal2 sono paraloghi funzionalmente ridondanti nel topo: l'espressione costitutiva di Bmal2 ripristina ritmo e metabolismo nei Bmal1-/-; gli autori ritengono che il knockout di Bmal1 equivalga a un doppio knockout perché Bmal1 regola Bmal2. Contraddice l'idea che Bmal1 sia 'singolarmente essenziale'.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "20153195",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Ritmicità: nel topo, per le coppie Per1/Per2, Cry1/Cry2, Clock/Npas2 va eliminato entrambi i geni per ottenere arritmia (Shi 2010 descrive questa regola). Ridondanza della ritmicità, non della suscettibilità tumorale.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "20153195",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Suscettibilità tumorale, direzioni discordanti: Per1/2, Cry1/2 mutati e Bmal1+/- aumentano i tumori (Lee 2010); Cry1/2 doppio mutante non aumenta cancro né morbilità (Gauger 2005). Riportati entrambi; il modello e l'esposizione (radiazioni) differiscono.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "20539819",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "16061665",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Non intercambiabilità dei paraloghi per un bersaglio oncogenico: CRY2, non CRY1, degrada c-MYC fosforilato. L'effetto della perdita di uno solo dei due dipende dunque dal bersaglio.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "27840026",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Ridondanza del sincronizzatore: senza SCN, il ciclo luce-buio controlla ancora gli orologi periferici; il pasto li sposta indipendentemente dall'SCN. Il sistema ha almeno tre ingressi (luce, SCN, pasto).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "25063847",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "11114885",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Buco: nessuno studio letto testa se la perdita di un solo paraloga (Per1 con Per2 intatto, Bmal2 con Bmal1 perso) è compensata sul tumore. Una ricerca PubMed mirata (Per1/Per2 doppio knockout e tumorigenesi) non ha restituito record: limite della ricerca, non prova di assenza.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "5-FU, leucovorin, oxaliplatino cronomodulati 4 giorni (chronoFLO4) contro FOLFOX2",
+     "bersaglio": "orologio: dose per fase circadiana",
+     "fase": "III, n=564 (EORTC 05963)",
+     "esito": "nessuna differenza globale di sopravvivenza (19,6 vs 18,7 mesi, P=0,55); per sesso: donne peggio (16,3 vs 19,1 mesi), uomini meglio (21,4 vs 18,3 mesi)",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16877722",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "FUDR arterioso + 5-FU venoso, infusione costante contro cronomodulata",
+     "bersaglio": "orologio: dose per fase",
+     "fase": "II randomizzata, n=56",
+     "esito": "dosi più alte tollerate con cronomodulazione (riduzione di dose 38% vs 63%); risposta numericamente inferiore (38% vs 48%)",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10378673",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Irinotecano con picco a 1 di 6 orari, poi FFL-oxaliplatino cronomodulati",
+     "bersaglio": "orologio: ora di minima tossicità",
+     "fase": "II/III randomizzata, n=193 (EORTC 05011)",
+     "esito": "nella popolazione totale nessun orario si distingue; per sesso, tossicità minore al mattino negli uomini e al pomeriggio nelle donne (interazione sesso*orario: diarrea P=0,023; neutropenia P=0,015)",
+     "ragione": "non interrotto; analisi per sesso esplorativa",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32319740",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Terapia endocrina adiuvante mattina contro sera",
+     "bersaglio": "orologio",
+     "fase": "IV pragmatico, n=245 (REaCT-CHRONO)",
+     "esito": "nessuna differenza nell'endpoint di tollerabilità FACT-ES a 12 settimane (P=0,086) né negli endpoint secondari; sopravvivenza non valutata",
+     "ragione": "completato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40442096",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04864405",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Temozolomide adiuvante mattina, pomeriggio o sera nel glioblastoma",
+     "bersaglio": "orologio",
+     "fase": "analisi post hoc di CENTRIC (n=545) e CORE (n=265)",
+     "esito": "nessuna differenza di sopravvivenza; più tossicità midollare al mattino (33% vs 11% in CENTRIC; 24% vs 3% in CORE)",
+     "ragione": "non interrotto; analisi esplorativa su pazienti deceduti",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40110070",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Temozolomide cronoterapia nel glioma di alto grado",
+     "bersaglio": "orologio",
+     "fase": "II randomizzata di fattibilità (NCT02781792), 42 pazienti",
+     "esito": "completato; risultati nel registro, nessuna pubblicazione trovata su PubMed",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02781792",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Nivolumab ± SBRT, per ora di infusione",
+     "bersaglio": "ICI e orario",
+     "fase": "analisi secondaria di una fase II randomizzata, n=62",
+     "esito": "nessuna differenza di PFS tra mattina, mezzogiorno e pomeriggio (P=0,8); nessuna differenza di tossicità G3-4 o di ORR",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38794815",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ICI neoadiuvante nel melanoma, ora di infusione",
+     "bersaglio": "ICI e orario",
+     "fase": "retrospettivo, n=265",
+     "esito": "risposta patologica maggiore uguale (47%, 44%, 40%), ma OS HR 0,13 (0,04-0,50) mattina vs pomeriggio; EFS non significativa",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42218102",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ICI, ora di infusione, meta-analisi di 13 studi osservazionali",
+     "bersaglio": "ICI e orario",
+     "fase": "meta-analisi, 1.663 pazienti",
+     "esito": "infusione precoce con OS HR 0,50 e PFS HR 0,51; cut-off eterogenei (13-14 vs 16-16:30); gli autori chiedono studi randomizzati",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38232612",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "ChronoFOLFOX + bevacizumab",
+     "bersaglio": "orologio",
+     "fase": "II non randomizzata (NCT00385021), 20 pazienti stimati",
+     "esito": "terminato; nessun risultato nel registro",
+     "ragione": "non reperita (campo di motivazione assente nel registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00385021",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Pembrolizumab neoadiuvante, mattina contro pomeriggio, TNBC",
+     "bersaglio": "ICI e orario",
+     "fase": "NCT06418139, 450 stimati",
+     "esito": "stato sconosciuto, ultimo aggiornamento 2024-05, data di fine stimata superata",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06418139",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Radioterapia mattina contro sera nel glioma",
+     "bersaglio": "orologio",
+     "fase": "NCT04735939, 80 stimati",
+     "esito": "stato sconosciuto, ultimo aggiornamento 2021-02",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04735939",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Melatonina con radioterapia per la fatica",
+     "bersaglio": "asse melatonina",
+     "fase": "III (NCT02332928), 80 pazienti",
+     "esito": "terminato per mancanza di efficacia",
+     "ragione": "mancanza di efficacia",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02332928",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Melatonina o metformina + dacarbazina, melanoma",
+     "bersaglio": "asse melatonina",
+     "fase": "II (NCT02190838), 57 pazienti",
+     "esito": "terminato per inefficacia; nessun risultato pubblicato nel registro",
+     "ragione": "inefficacia",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02190838",
+      "verificata": true
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Il segnale di timing più robusto per ora è la tossicità, non l'efficacia. EORTC 05011: nel trial randomizzato la tossicità G3-4 dell'irinotecano varia con l'orario e dipende dal sesso (diarrea nelle donne dal 55,2% al mattino al 29,4% al pomeriggio; neutropenia dal 25,9% allo 0%), ma l'analisi è esplorativa e non c'è un orario unico per la popolazione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32319740",
+      "verificata": true
+     },
+     "prova": "trial randomizzato, analisi per sesso post hoc"
+    },
+    {
+     "testo": "Efficacia e tossicità possono avere finestre diverse: nel trial randomizzato FUDR+5-FU la cronomodulazione permette dosi più alte ma non migliora la risposta (38% contro 48%); nel glioblastoma, TMZ al mattino non cambia l'OS e aumenta la tossicità midollare.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10378673",
+      "verificata": true
+     },
+     "prova": "trial randomizzato",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40110070",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Il vantaggio di sopravvivenza della cronomodulazione colorettale dipende dal sesso: in un trial di fase III con 564 pazienti, uomini traggono beneficio (21,4 vs 18,3 mesi), donne ne escono peggio (16,3 vs 19,1 mesi). Un orario 'ottimale' unico non esiste neppure per lo stesso regime.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "16877722",
+      "verificata": true
+     },
+     "prova": "trial di fase III"
+    },
+    {
+     "testo": "Immunoterapia: i dati sono retrospettivi e non concordi. Meta-analisi di 13 studi osservazionali: infusione precoce con OS HR 0,50; secondaria di un RCT di fase II: nessun effetto; melanoma neoadiuvante: effetto sulla sopravvivenza ma non sulla risposta patologica. Ritardo, confondimento e bias da tempo immortale non sono esclusi negli studi retrospettivi.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38232612",
+      "verificata": true
+     },
+     "prova": "meta-analisi osservazionale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38794815",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42218102",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Il ritmo del metabolismo dei farmaci è misurato nell'uomo sano: la DPD delle PBMC raggiunge il massimo tra 00:30 e 02:00 (rapporto picco/minimo 1,69) con forte variabilità interindividuale. Ipotesi degli autori sulle fluoropirimidine di notte: non testata in pazienti.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27161955",
+      "verificata": false
+     },
+     "prova": "volontari sani",
+     "inferenza": true
+    },
+    {
+     "testo": "Cardiotossicità: nei ratti la doxorubicina è più letale e più cardiotossica a 9 ore dall'accensione delle luci che a 21; nell'uomo, coorte retrospettiva di 270 pazienti (somministrazione pomeridiana: HR 2,88 per CTRCD). Confondimento possibile; auspicato un RCT.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40927274",
+      "verificata": false
+     },
+     "prova": "retrospettivo",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "12841941",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Il modulatore dell'orologio ha effetti collaterali non risolti: in vitro la melatonina aumenta la tossicità della doxorubicina sui fibroblasti cardiaci neonatali di ratto ma non sulle MCF-7. Nessun dato clinico di sicurezza è stato letto per gli agonisti REV-ERB o gli stabilizzatori di CRY.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23578093",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Nei tumori con orologio alterato, la perdita di un solo paraloga di una coppia (Per1/Per2, Cry1/Cry2, Bmal1/Bmal2) è compensata dall'altro per proliferazione e trasformazione, e il compenso cambia con l'oncogene?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Fibroblasti o organoidi isogenici con knockout singolo e doppio per ogni paraloga, con reporter PER2::LUC, trasformati con MYC o RAS; misura di ritmo, proliferazione e formazione di colonie.",
+     "falsificazione": "Se il knockout singolo di ciascun paraloga dà la stessa trasformazione del doppio knockout, il compenso non esiste."
+    },
+    {
+     "domanda": "Nell'associazione lavoro a turni–cancro, il disallineamento dell'orologio ha un effetto separabile da luce notturna, soppressione di melatonina e privazione di sonno?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Topi o colture con quattro bracci: luce notturna con orologio intatto, disallineamento senza luce, melatonina reintegrata, sonno protetto; esito: tumori indotti.",
+     "falsificazione": "Se il rischio scompare quando si ripristina la melatonina, o resta identico senza luce, la separazione cambia."
+    },
+    {
+     "domanda": "Un esperimento di fase prespecificato può mostrare che l'orario di somministrazione cambia l'efficacia (non la tossicità) di un farmaco oncologico, tenendo conto del sesso?",
+     "verifica": "Da verificare con agenti (passo 6). Domanda riformulata: 'ora ottimale' va specificata per farmaco, sesso ed esito.",
+     "disegno": "Organoidi paziente-derivati tumore e sano sincronizzati; esposizione a 4-6 fasi; IC50 differenziale tumore/sano per fase.",
+     "falsificazione": "Se la finestra tumore/sano non varia con la fase, l'effetto circadiano non è sfruttabile."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Rischio relativo per luce notturna esterna e cancro mammario",
+     "stato": "misurato",
+     "valore": "1,12 (IC 95% 1,06-1,17)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38106885",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Interazione sesso per orario dell'irinotecano",
+     "stato": "misurato",
+     "valore": "diarrea P=0,023; neutropenia P=0,015",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32319740",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Rapporto picco/minimo dell'attività DPD nelle PBMC",
+     "stato": "misurato",
+     "valore": "1,69",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27161955",
+      "verificata": false
+     }
+    },
+    {
+     "nome": "Cut-off di orario condiviso per l'ICI",
+     "stato": "assente",
+     "valore": "13-14 o 16-16:30 a seconda dello studio",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38232612",
+      "verificata": true
+     }
+    }
+   ]
   }
  ]
 }
