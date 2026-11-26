@@ -11369,6 +11369,582 @@
      }
     }
    ]
+  },
+  {
+   "id": "attivita_fisica",
+   "name": "Attività fisica e carico meccanico nel carcinoma mammario con metastasi ossee",
+   "note": "Bozza v0. Nessuna affermazione di partenza fornita: ho trattato come ipotesi implicita da verificare che l'attività fisica sia sicura e benefica in questa condizione. Esito: (1) benefici su fatica e qualità di vita sono sostenuti da un RCT multicentrico nel carcinoma mammario metastatico (PMID 39054374, 357 pazienti), che però esclude le metastasi ossee instabili e non misura progressione né eventi scheletrici; (2) la sicurezza in pazienti con metastasi ossee è sostenuta da revisioni e piccoli studi supervisionati con eventi gravi rari e denominatori poco chiari (PMID 34358650), non da dati di dose; la dose sicura non è definita; (3) l'effetto sul tumore osseo è documentato solo in modelli murini, in gran parte con carico meccanico localizzato e non con esercizio generale, con una relazione a J (un carico alto accelera la distruzione, PMID 34246808) e risultati contraddittori in altri modelli di esercizio (più metastasi polmonari in un modello 4T1, PMID 28979814); (4) nell'uomo non esiste un RCT con sopravvivenza o progressione come endpoint primario: l'unico RCT con sopravvivenza secondaria in metastasi spinali (60 pazienti, tumori diversi) è negativo su sopravvivenza ma mostra meno progressione ossea locale nel braccio con esercizio (PMID 27464793) e una coorte osservazionale ha un segnale solo nel sottogruppo HER2+ non prespecificato (PMID 32612272). Verifica: 16 PMID e 8 record del registro riletti da me; gli altri identificativi sono letti dagli agenti (verificata false); giri 2, 3 e passo 6 in corso. Nessuna informazione qui è una raccomandazione terapeutica o di esercizio per singole pazienti.",
+   "normale": [
+    {
+     "testo": "Rimodellamento osseo e carico: in tessuto sano, l'aumento delle deformazioni riduce l'espressione di sclerostina negli osteociti, mentre la riduzione del carico la aumenta con perdita ossea; topi che non riducono la sclerostina non guadagnano osso con il carico (rassegna, dati citati).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27742499",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Esercizio e densità ossea in donne con tumore mammario non metastatico (non è la condizione in esame): in 106 donne in postmenopausa un anno di allenamento di forza e impatto ha mantenuto la densità lombare (+0,47% contro -2,13%, P=0,001), mentre in altri RCT più piccoli o in terapia con inibitori dell'aromatasi non c'è stata differenza significativa di densità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21424279",
+      "verificata": false
+     },
+     "prova": "RCT (tumore non metastatico)",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28026901",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30077574",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Alterazione: nella metastasi ossea osteolitica del seno il ciclo vizioso tra tumore e osso (TGF-beta rilasciato dall'osso, PTHrP, RANKL, osteoclasti) distrugge osso e sostiene il tumore (letto da un sotto-agente, rassegne).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "9362421",
+      "verificata": false
+     },
+     "prova": "rassegna",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42271153",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Denosumab contro acido zoledronico nel carcinoma mammario avanzato: tempo al primo evento scheletrico HR 0,82 (IC 95% 0,71-0,95) in 1026 contro 1020 pazienti (letto da un sotto-agente, non riletto da me).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21060033",
+      "verificata": false
+     },
+     "prova": "RCT fase III"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Carico moderato sopprime la distruzione ossea tumorale nel topo: in 88 topi adulte C57BL/6J con cellule murine Py8119 (carcinoma mammario triplo negativo) iniettate nella tibia, corsa su tapis roulant a 16 m/min per 50 min al giorno, 5 giorni a settimana per 5 settimane, e carico tibiale a 4,5 N (630 με, 4 Hz, 300 cicli al giorno) hanno soppresso la distruzione ossea indotta dal tumore; un carico più alto (8 N, 1100 με) ha accelerato la distruzione rispetto ai non caricati. Gli autori descrivono una relazione a J tra intensità e osteolisi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34246808",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Altri modelli di carico: il carico alla caviglia in topi con tumore intraosseo ha ridotto osteolisi, osteoclasti, RANKL, catepsina K, IL-8 e MMP9 e la crescita tumorale (linea tumorale non specificata nell'abstract); in topi obesi con tumore nella tibia il carico ha ridotto RANKL, catepsina K e aumentato OPG, mentre la dieta ricca di grassi aveva peggiorato le metastasi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31266364",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "33554336",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Meccanismo osteocitario: in vitro il flusso sugli osteociti attiva emicanali di connessina 43 con rilascio di ATP (soppressivo) e PGE2 (promotore del tumore), il cui rapporto determina l'inibizione; in vivo il carico tibiale applicato per due settimane PRIMA dell'inoculo del tumore ha soppresso crescita e osteolisi nei topi con emicanali funzionanti ma non in quelli privi di emicanali e giunzioni. Il disegno è di prevenzione, non di trattamento di una lesione già presente.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42425192",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Via osteocitaria con direzioni opposte: terreno condizionato da osteociti sotto flusso ha aumentato la migrazione delle cellule tumorali (+45%) e ridotto l'apoptosi (12%) mentre, passando per osteoclasti, ha ridotto la migrazione (-47%) e aumentato l'apoptosi (+55%); la migrazione transendoteliale è calata del 34% e l'effetto dipendeva da ICAM-1 e IL-6.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29384215",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Sclerostina e Wnt: risultati opposti. Il blocco della sclerostina con anticorpo ha aumentato le metastasi ossee delle MDA-MB-231 (sensibili a Wnt), non quelle delle altre linee; in un altro lavoro il blocco della sclerostina ha ridotto migrazione, invasione e osteolisi e prolungato la sopravvivenza dei topi con MDA-MB-231 e MCF-7. Poiché il carico riduce la sclerostina nell'osso sano, un possibile effetto del carico sul tumore osseo tramite questa via è un'inferenza mia e non è misurato in nessun lavoro letto.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36840409",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "28900298",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "36581888",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Altri modelli di esercizio, non osseo, con risultati misti: in 4T1 il volontario su ruota non ha cambiato il tumore primario ma ha aumentato i noduli polmonari; in un altro modello 4T1 un aumento di esercizio dopo la chirurgia ha raddoppiato la sopravvivenza libera da metastasi ma solo con stress chirurgico (senza chirurgia nessun effetto); in MDA-MB-231 nella mammella (topi nudi con dieta grassa) la crescita non cambiava (44 contro 48 giorni, HR 1,41, IC 95% 0,77-2,58) e aumentavano vascolarizzazione e ipossia.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28979814",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40066446",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "19959769",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Dormienza: gli osteociti stimolati meccanicamente mantengono la dormienza di cellule di carcinoma polmonare non a piccole cellule vicine all'osso tramite vescicole con miR-99b-3p; esercizio moderato e carico tibiale hanno inibito la progressione nel topo con effetto additivo con acido zoledronico. Il tumore è polmonare e non mammario.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38547196",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Miochine e immunità: irisina e altre miochine sono descritte solo in rassegne e dati correlativi (irisina tumorale più alta associata a sopravvivenza più lunga in 541 tessuti mammari, non causale); una meta-analisi di 13 RCT in sopravvissuti al cancro non ha trovato effetto significativo dell'esercizio su numero e citotossicità delle cellule NK. Nessun dato diretto sul tumore osseo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35244811",
+      "verificata": false
+     },
+     "prova": "meta-analisi",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35408891",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "35850277",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Nell'uomo con metastasi ossee: un RCT di allenamento di resistenza dei muscoli paravertebrali durante radioterapia in 60 pazienti con metastasi spinali di tumori diversi (30 per braccio) non ha mostrato differenze di sopravvivenza ossea (P=0,303), globale (P=0,688) o libera da progressione (P=0,295), ma progressione ossea locale nel 16,7% del braccio con terapia passiva e in nessuno del braccio con esercizio (P=0,019). Nel registro l'endpoint primario è la fattibilità, mentre la pubblicazione dichiara come primario la sopravvivenza ossea.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27464793",
+      "verificata": true
+     },
+     "prova": "RCT",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01409720",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Coorte prospettica nel carcinoma mammario metastatico (StoRM, 833 pazienti con questionario): nessuna associazione significativa tra attività fisica e sopravvivenza globale nella popolazione intera; solo nel sottogruppo HER2+ attività moderata (HR 0,38) e vigorosa (HR 0,23) associate a sopravvivenza migliore, in un'analisi di sottogruppo. PubMed riporta 'Randomized Controlled Trial' ma l'abstract descrive una coorte non randomizzata.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32612272",
+      "verificata": true
+     },
+     "prova": "osservazionale"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Relazione a J e dose: nello stesso modello murino carico moderato protegge, carico alto danneggia; non si può quindi dire che 'più esercizio' sia protettivo, e la soglia nell'uomo non è definita (nessuna conversione disponibile).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "34246808",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Vie opposte nello stesso segnale: il carico degli osteociti libera sia ATP (soppressivo) sia PGE2 (promotore) e, in vitro, ha effetti diversi sulle cellule tumorali direttamente, attraverso osteoclasti o attraverso le cellule endoteliali; l'effetto netto dipende dal rapporto e dal contesto.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "29384215",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42425192",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Il tumore può alimentare RANKL da sé: in vitro la vibrazione a bassa intensità ha ridotto la secrezione di PTHLH, IL-11 e RANKL dalle cellule tumorali; in osteociti in 3D il segnale meccanico è stato annullato dal terreno condizionato di cellule tumorali tropiche per l'osso (letti da un sotto-agente, non riletti da me).",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "33298883",
+       "verificata": false
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "37767467",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Sclerostina e Wnt: due lavori con direzione opposta (vedi catena); la risposta dipende probabilmente dalla sensibilità a Wnt delle cellule tumorali, il che renderebbe l'effetto dell'esercizio dipendente dal sottotipo; non è testato.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "36840409",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "inferenza": true,
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "28900298",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Mancano dati per sottotipo (HER2+, ER+, triplo negativo) per l'esercizio nelle metastasi ossee, per lesioni osteoblastiche e miste, per esercizio e terapia endocrina con esito sul tumore osseo, e per esercizio e dormienza nel tumore mammario; il solo segnale per sottotipo è un'analisi di sottogruppo HER2+ nella coorte StoRM.",
+      "livello": "ipotesi",
+      "fonte": null,
+      "prova": "nessuna fonte"
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Allenamento di resistenza paravertebrale durante radioterapia contro terapia passiva",
+     "bersaglio": "metastasi spinali di tumori diversi (mammella, prostata, altri)",
+     "fase": "RCT, 60 pazienti, DISPO (NCT01409720, completato)",
+     "esito": "Nessuna differenza di sopravvivenza ossea, globale o libera da progressione; progressione ossea locale 16,7% contro 0%",
+     "ragione": "Endpoint primario diverso tra registro (fattibilità) e pubblicazione (sopravvivenza ossea); tumori misti, 60 pazienti, pazienti con esercizio guidato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27464793",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01409720",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Esercizio supervisionato contro cure abituali nel carcinoma mammario metastatico",
+     "bersaglio": "fatica e qualità di vita",
+     "fase": "RCT multicentrico, 357 pazienti (NCT04120298, ACTIVE_NOT_RECRUITING)",
+     "esito": "Fatica fisica -5,3 (IC 95% -10,0 a -0,6) e qualità di vita +4,8 (IC 95% 2,2-7,4) a 6 mesi; 2 fratture gravi non correlate alle metastasi ossee",
+     "ragione": "Metastasi ossee instabili escluse; progressione ossea e sopravvivenza non misurate",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39054374",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT04120298",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Resistenza paravertebrale in metastasi vertebrali instabili durante radioterapia",
+     "bersaglio": "metastasi vertebrali instabili",
+     "fase": "RCT, 60 previsti, DISPO-2 (NCT02847754, stato sconosciuto)",
+     "esito": "Nessun risultato trovato",
+     "ragione": "Stato sconosciuto dal 2016; pubblicazione non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02847754",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Allenamento aerobico progressivo supervisionato contro stretching nel carcinoma mammario metastatico con metastasi ossee",
+     "bersaglio": "sicurezza",
+     "fase": "RCT, 27 partecipanti (NCT01725633, completato)",
+     "esito": "Nessun risultato trovato nel registro",
+     "ragione": "Pubblicazione non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01725633",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Programma di esercizio terapeutico e recupero funzionale con feedback ecografico (Overcome)",
+     "bersaglio": "metastasi lombari, toraciche e pelviche del seno",
+     "fase": "RCT, 58 previsti (NCT05244382, stato sconosciuto)",
+     "esito": "Nessun risultato",
+     "ragione": "Eleggibilità ambigua nel record; stato sconosciuto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05244382",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Prescrizione di esercizio in pazienti con metastasi ossee",
+     "bersaglio": "eventi scheletrici e attività fisica",
+     "fase": "osservazionale, 58 partecipanti (NCT03979118, completato)",
+     "esito": "Nessun risultato trovato",
+     "ragione": "Pubblicazione non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03979118",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio supervisionato dopo radioterapia palliativa per metastasi ossee non spinali",
+     "bersaglio": "tossicità, eventi scheletrici, dolore",
+     "fase": "intervento senza gruppo di confronto, 20 previsti (NCT06470503, arruolamento su invito)",
+     "esito": "In corso",
+     "ragione": "Nessun risultato",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06470503",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Telemonitoraggio dell'attività dopo chirurgia per metastasi ossee",
+     "bersaglio": "mobilità e funzione",
+     "fase": "RCT pilota, 70 partecipanti (NCT02715856)",
+     "esito": "Terminato; risultati registrati non letti",
+     "ragione": "Terminato per problemi di software ed esaurimento dei fondi (dal registro)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT02715856",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Esercizio supervisionato in uomini con carcinoma prostatico e metastasi ossee",
+     "bersaglio": "funzione fisica, forza",
+     "fase": "RCT, 57 uomini e pilota di 20 (letti da un sotto-agente)",
+     "esito": "Nessun evento avverso né frattura legata all'esercizio; funzione e forza migliori",
+     "ragione": "Prostata, non mammella; piccole dimensioni",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29036016",
+      "verificata": false
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "23917308",
+       "verificata": false
+      }
+     ]
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Dose nel topo: 4,5 N (630 με, 4 Hz, 300 cicli al giorno, 5 giorni a settimana) o corsa a 16 m/min per 50 minuti proteggono, 8 N (1100 με) danneggia; nell'uomo non è definita una dose o una soglia di frattura per l'esercizio nelle metastasi ossee e il carico murino non è convertibile in un carico umano senza un modello (nessun dato letto).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34246808",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Sicurezza: in una revisione di 17 trial controllati che includevano persone con metastasi ossee, 4 eventi gravi (0,5%) sono stati attribuiti all'esercizio, nessuno correlato alle metastasi ossee; 16 su 17 trial prevedevano istruzione supervisionata e 13 erano condotti da professionisti qualificati; gli autori concludono che l'esercizio appare sicuro e fattibile se include supervisione. Denominatore totale non riportato nell'abstract.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34358650",
+      "verificata": true
+     },
+     "prova": "revisione sistematica"
+    },
+    {
+     "testo": "Consenso internazionale di esperti: il rischio di complicanze scheletriche da esercizio dipende da fattori legati alla lesione, al cancro e al trattamento e alla persona; il consenso raccomanda valutazione prima dell'esercizio, prescrizione tarata sulla sede e sulla presentazione delle lesioni, e gestione da parte di professionisti qualificati; nell'abstract non compaiono soglie numeriche.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34990293",
+      "verificata": true
+     },
+     "prova": "consenso di esperti"
+    },
+    {
+     "testo": "Strumenti di stabilità usati per decidere sul rischio di frattura: il punteggio di Mirels (8 o più per fissazione profilattica) e lo SINS spinale sono definiti per il rischio di frattura e non per la dose di esercizio; nessuno studio letto li collega alla prescrizione di esercizio (letti da un sotto-agente, non riletti da me).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "2684463",
+      "verificata": false
+     },
+     "prova": "punteggio di stabilità",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "20562730",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Trial più grande: le metastasi ossee instabili erano escluse; la sicurezza in questo gruppo non è dimostrata da questo studio.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39054374",
+      "verificata": true
+     },
+     "prova": "RCT"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Da verificare con agenti (passo 6): equivalenza dell'intensità tra topo e uomo e sicurezza in lesioni osteolitiche del seno.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): RCT con progressione ossea o eventi scheletrici come endpoint.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): esercizio, sclerostina e Wnt per sottotipo (HER2+, ER+, triplo negativo).",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Carico tibiale che protegge nel topo con tumore osseo",
+     "stato": "misurato",
+     "valore": "4,5 N, 630 με, 4 Hz, 300 cicli al giorno",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34246808",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Carico che accelera la distruzione nel topo",
+     "stato": "misurato",
+     "valore": "8 N, 1100 με",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34246808",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Effetto su fatica e qualità di vita a 6 mesi nel carcinoma mammario metastatico",
+     "stato": "misurato",
+     "valore": "fatica -5,3; qualità di vita +4,8; 2 fratture gravi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39054374",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Progressione ossea locale in metastasi spinali: resistenza contro terapia passiva",
+     "stato": "misurato",
+     "valore": "0% contro 16,7% (P=0,019); sopravvivenza globale P=0,688",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "27464793",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Sopravvivenza e attività fisica nel carcinoma mammario metastatico (StoRM)",
+     "stato": "misurato",
+     "valore": "nessuna associazione nella coorte intera; HER2+ HR 0,38 (moderata) e 0,23 (vigorosa)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "32612272",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Eventi gravi attribuiti all'esercizio nei trial con metastasi ossee",
+     "stato": "misurato",
+     "valore": "4 (0,5%), nessuno correlato alle metastasi ossee",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34358650",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Dose di esercizio sicura nelle metastasi ossee",
+     "stato": "assente",
+     "valore": "non definita",
+     "fonte": null
+    },
+    {
+     "nome": "RCT con sopravvivenza o progressione come endpoint primario",
+     "stato": "assente",
+     "valore": "nessuno trovato",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
