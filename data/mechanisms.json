@@ -9815,7 +9815,7 @@
   {
    "id": "ozonoterapia",
    "name": "Ozonoterapia medica: terapia di supporto, remissione in un caso, osteonecrosi della mandibola",
-   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, un RCT di prevenzione dopo estrazione (117 pazienti, in aperto, senza placebo) usa come endpoint la guarigione della ferita e non l'incidenza di osteonecrosi, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Verifica: giro 1, 21 PMID e 7 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, un RCT di prevenzione dopo estrazione (117 pazienti, in aperto, senza placebo) usa come endpoint la guarigione della ferita e non l'incidenza di osteonecrosi, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Giro 3 (controllo indipendente delle negative e del registro): nessun RCT con endpoint di controllo tumorale è stato trovato nelle query usate (le ricerche non sono esaustive); l'unico RCT oncologico con ozono come intervento attivo letto, 33118519 (olio ozonizzato topico, 91 analizzati), ha come endpoint la reazione mano-piede da sorafenib. Nel registro risultano RCT conclusi sulla mucosite (NCT07069153 e NCT07491536, 40 partecipanti ciascuno, senza risultati postati) e RCT in corso sulla neuropatia (NCT04299893, NCT06706544); NCT06072404 ha titolo 'Case-control' ma il campo di disegno indica randomizzato (discrepanza). La posizione regolatoria non è verificata alla fonte primaria: lo snippet di 21 CFR 801.415 riguarda i dispositivi che generano ozono e non è stato riletto su eCFR; Dichiarazione di Madrid e circolare ministeriale italiana non lette (fonte non reperita). Verifica: 38 PMID e 10 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; giro 2 (confronto con gli abstract) e giro 3 eseguiti da sotto-agenti; gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
    "normale": [
     {
      "testo": "Cos'è e cosa si dice: le rassegne descrivono l'ozonoterapia come adiuvante proposto durante il trattamento oncologico, con meccanismi ipotizzati su emoglobina, 2,3-difosfoglicerato, flusso locoregionale e ipossia tumorale, sostenuti da studi in vitro e animali; gli autori (che riportano la propria esperienza) concludono che gli studi clinici sono pochi e che servono RCT.",
@@ -10282,6 +10282,54 @@
        "verificata": true
       }
      ]
+    },
+    {
+     "composto": "Olio ozonizzato per via topica contro crema all'urea, prevenzione della reazione mano-piede da sorafenib",
+     "bersaglio": "effetto collaterale, non tumore",
+     "fase": "RCT, 99 randomizzati, 91 analizzati (44 e 47), 12 settimane",
+     "esito": "Reazione mano-piede nel 36,4% contro 57,4% (P<0,05); grado 2-3: 15,9% (7/44) contro 27,7% (13/47)",
+     "ragione": "Endpoint di supporto, non di controllo tumorale; olio topico, non gas; confronto con un altro prodotto e non con placebo, cecità non descritta nell'abstract; 8 esclusi per mancata adesione o violazioni del protocollo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33118519",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Insufflazione di ozono gassoso per lesioni di osteonecrosi della mandibola >2,5 cm da zoledronato, in pazienti con metastasi ossee o osteoporosi",
+     "bersaglio": "osteonecrosi della mandibola in atto",
+     "fase": "studio prospettico in aperto senza controllo, 24 pazienti",
+     "esito": "Risposta 75,0% (IC 95% 53,3-90,2) per intenzione di trattare; 6 pazienti hanno interrotto (5 per progressione oncologica, 1 per timore); nessun evento avverso riportato; nei 12 pazienti con lesioni più grandi serviva la chirurgia in 11",
+     "ragione": "Nessun gruppo di controllo; la risposta include espulsione del sequestro osseo e chirurgia",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26909261",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozono intraperitoneale ad alte dosi dopo progressione con pembrolizumab e intolleranza a dabrafenib/trametinib, melanoma metastatico",
+     "bersaglio": "metastasi sottocutanee, muscolari, polmonari, pleuriche e surrenale",
+     "fase": "caso clinico, n=1",
+     "esito": "Scomparsa della captazione alla PET-CT nella maggior parte delle sedi; persistenza nel surrene, trattato con radioterapia focale",
+     "ragione": "Causalità non stabilibile secondo gli stessi autori; trattamenti precedenti e radioterapia concomitante; autori affiliati a un'accademia dedicata alla tecnica (possibile conflitto di interessi); nessuna metastasi ossea o linfonodale descritta",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42299418",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ossigeno-ozono rettale contro ossigeno (0 µg/ml) come placebo, parestesie da neuropatia periferica da chemioterapia",
+     "bersaglio": "neuropatia periferica",
+     "fase": "RCT triplo cieco fase II-III, 42 adulti, articolo di protocollo (NCT06706544)",
+     "esito": "Nessun risultato: pubblicato il solo disegno; endpoint primari parestesie e qualità di vita a 28 settimane",
+     "ragione": "In corso; vale come progetto, non come prova",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41572235",
+      "verificata": true
+     }
     }
    ],
    "finestra": [
@@ -10375,6 +10423,26 @@
       "verificata": true
      },
      "prova": "sperimentale ex vivo"
+    },
+    {
+     "testo": "Segnale di complicanze in un'altra indicazione: in 186 pazienti operati per ernia o stenosi lombare, 23 avevano ricevuto ozono per via intraforaminale; solo in questi i chirurghi hanno trovato aderenze tenaci tra radice, dura madre e disco, assenti nei pazienti con steroide o senza iniezioni; gli autori chiedono di rivedere i protocolli. Osservazione di un centro, tassi di eventi non riportati.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26293228",
+      "verificata": true
+     },
+     "prova": "osservazionale"
+    },
+    {
+     "testo": "Dato con denominatore non oncologico: nella revisione Cochrane sul piede diabetico (3 RCT, 212 partecipanti, rischio di bias alto o poco chiaro) gli eventi avversi con ozono più cure abituali contro cure abituali sono RR 2,27 (IC 95% 0,48-10,79), stima imprecisa che non esclude né un danno né un'assenza di danno; gli autori non traggono conclusioni ferme.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26505864",
+      "verificata": true
+     },
+     "prova": "revisione sistematica"
     }
    ],
    "buchi": [
