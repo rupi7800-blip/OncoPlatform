@@ -10608,7 +10608,7 @@
   {
    "id": "rhodiola",
    "name": "Rhodiola crenulata: apoptosi in cellule di carcinoma mammario con metastasi ossee, senza danno alle cellule ossee",
-   "note": "Bozza v0. Affermazione di partenza: un estratto di Rhodiola crenulata avrebbe dimostrato in laboratorio di indurre apoptosi in cellule di cancro al seno metastatiche all'osso senza apparentemente danneggiare le cellule ossee sane. Verifica sul testo completo dell'unico studio primario (PMID 40102501, Sci Rep 2025, in vitro): (1) 'studi' è troppo: è uno studio di un solo gruppo (North Dakota State University), seguito da due lavori dello stesso gruppo (carcinoma mammario da pazienti, 40168530; prostata, 42580190); nessuna replica indipendente è stata trovata nelle ricerche usate. (2) 'cellule metastatiche all'osso' è un modello: sono linee commerciali ATCC (MCF-7 e MDA-MB-231) fatte crescere su uno scaffold di polimero e nanoargilla con matrice prodotta da cellule staminali mesenchimali umane (hMSC) differenziate per 23 giorni; il testo non descrive linee isolate da metastasi ossee. (3) L'apoptosi è documentata con annessina V in citometria (frazione precoce 5,67% nelle colture con matrice ossea contro 8,46% in 2D per MDA-MB-231, 8,00% contro 17,3% per MCF-7, vedi catena) ma i dati molecolari sono di RNA messaggero e immunofluorescenza, senza saggio di attività delle caspasi, e in parte non coincidono con l'abstract (vedi catena). (4) 'cellule ossee sane' sono hMSC osteodifferenziate per 33 giorni, trattate per 24 ore, con vitalità misurata con alamarBlue; non sono stati testati osteoblasti maturi né osteoclasti, e la misura è su n=3 repliche tecniche. (5) Nelle colture ossee le cellule tumorali sono più resistenti che in 2D (IC50 316,2 e 524,7 ppm contro 100,2 e 291,4 ppm). (6) L'estratto è un prodotto commerciale non descritto per composizione, e la preparazione della soluzione madre nel testo non torna (calcolo mio, vedi finestra). (7) Nessun dato in vivo su metastasi ossee, nessun trial clinico con endpoint antitumorale; i soli RCT con Rhodiola in pazienti oncologici letti hanno endpoint di supporto. Le fonti non rilette (verificata false) vanno ancora confrontate; passo 6 e giri 2-3 in corso. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "note": "Bozza v0. Affermazione di partenza: un estratto di Rhodiola crenulata avrebbe dimostrato in laboratorio di indurre apoptosi in cellule di cancro al seno metastatiche all'osso senza apparentemente danneggiare le cellule ossee sane. Verifica sul testo completo dell'unico studio primario (PMID 40102501, Sci Rep 2025, in vitro): (1) 'studi' è troppo: è uno studio di un solo gruppo (North Dakota State University), seguito da due lavori dello stesso gruppo (carcinoma mammario da pazienti, 40168530; prostata, 42580190); nessuna replica indipendente è stata trovata nelle ricerche usate. (2) 'cellule metastatiche all'osso' è un modello: sono linee commerciali ATCC (MCF-7 e MDA-MB-231) fatte crescere su uno scaffold di polimero e nanoargilla con matrice prodotta da cellule staminali mesenchimali umane (hMSC) differenziate per 23 giorni; il testo non descrive linee isolate da metastasi ossee. (3) L'apoptosi è documentata con annessina V in citometria (frazione precoce 5,67% nelle colture con matrice ossea contro 8,46% in 2D per MDA-MB-231, 8,00% contro 17,3% per MCF-7, vedi catena) ma i dati molecolari sono di RNA messaggero e immunofluorescenza, senza saggio di attività delle caspasi, e in parte non coincidono con l'abstract (vedi catena). (4) 'cellule ossee sane' sono hMSC osteodifferenziate per 33 giorni, trattate per 24 ore, con vitalità misurata con alamarBlue; non sono stati testati osteoblasti maturi né osteoclasti, e la misura è su n=3 repliche tecniche. (5) Nelle colture ossee le cellule tumorali sono più resistenti che in 2D (IC50 316,2 e 524,7 ppm contro 100,2 e 291,4 ppm). (6) L'estratto è un prodotto commerciale non descritto per composizione, e la preparazione della soluzione madre nel testo non torna (calcolo mio, vedi finestra). (7) Nessun dato in vivo su metastasi ossee, nessun trial clinico con endpoint antitumorale; i soli RCT con Rhodiola in pazienti oncologici letti hanno endpoint di supporto. Giri di verifica: giro 1, 21 PMID riletti da me su PubMed (più il testo completo di 40102501) e il registro ClinicalTrials.gov riletto da me (ricerche Rhodiola, salidroside, rosavina: 50 record, 2 su R. crenulata, nessuno oncologico); giro 2, confronto di ogni PMID con titolo e abstract da parte di un sotto-agente (tre PMID in più, 31456182, 40749014 e 42375548, verificati a livello di abstract); giro 3, controllo indipendente dei negativi da parte di un altro sotto-agente (senza accesso al registro): nessuna replica indipendente in modello osseo (con la riserva che Shetty K è tra gli autori sia del lavoro del 2008 sul seno sia dei tre lavori NDSU), nessuno studio in vivo su metastasi ossee o osteolisi da tumore mammario, nessun trial pubblicato con endpoint antitumorale; sono invece parzialmente smentiti 'nessun dato di interazione' (esistono dati CYP umani e in vitro, nessuno sui farmaci oncologici nominati) e 'nessuna segnalazione di epatotossicità' (un caso con Rhodiola come possibile concausa insieme ad ashwagandha). Le ricerche non sono esaustive e i negativi valgono per le query usate. Le fonti con verificata false sono lette solo dagli agenti. Nessuna informazione qui è una raccomandazione terapeutica.",
    "normale": [
     {
      "testo": "Rimodellamento osseo normale: il riassorbimento da parte degli osteoclasti è accoppiato alla formazione da parte degli osteoblasti in cinque fasi (attivazione, riassorbimento, inversione, formazione, terminazione); le vie principali sono RANK/RANKL/osteoprotegerina e Wnt canonica.",
@@ -10943,6 +10943,30 @@
       "id": "39353532",
       "verificata": true
      }
+    },
+    {
+     "composto": "Rhodiola (specie e preparati diversi) in pazienti oncologici, altri RCT",
+     "bersaglio": "effetti collaterali (mucosite orale, cardiotossicità da epirubicina, funzione respiratoria dopo esofagectomia)",
+     "fase": "RCT di piccole dimensioni (R. algida in mucosite di pazienti con carcinoma mammario; Rhodiola con epirubicina, 42 pazienti; R. rosea iniettabile dopo resezione esofagea, 46 pazienti)",
+     "esito": "Endpoint di supporto, non antitumorali; esiti non riletti da me",
+     "ragione": "Letti da sotto-agenti, abstract non riletti da me; nessun RCT con endpoint di risposta, progressione o sopravvivenza trovato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20374035",
+      "verificata": false
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "21302483",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "38708504",
+       "verificata": false
+      }
+     ]
     }
    ],
    "finestra": [
@@ -10968,7 +10992,7 @@
      "inferenza": true
     },
     {
-     "testo": "Farmacocinetica del salidroside puro nel ratto: biodisponibilità orale 32,1% in uno studio; in un secondo studio il p-tirosolo risulta dopo somministrazione endovenosa ma non rilevabile dopo gavage, e dal testo completo (letto da un sotto-agente, non da me) si ricavano per 100 mg/kg per os Cmax 3716,73 ng/mL, Tmax 0,30 h, emivita 1,32 h e F 51,97%. Per l'uomo non è stata trovata alcuna farmacocinetica orale del salidroside né concentrazioni nell'osso (fonte non reperita; ricerca dedicata non completata). Una rassegna del 2026 cita biodisponibilità sotto il 12% e emivita di 2,3 ore senza specie, discordante con i due primari.",
+     "testo": "Farmacocinetica del salidroside puro nel ratto: biodisponibilità orale 32,1% in uno studio; in un secondo studio il p-tirosolo risulta dopo somministrazione endovenosa ma non rilevabile dopo gavage, e dal testo completo (letto da un sotto-agente, non da me) si ricavano per 100 mg/kg per os Cmax 3716,73 ng/mL, Tmax 0,30 h, emivita 1,32 h e F 51,97%. Per l'uomo non è stata trovata alcuna farmacocinetica orale del salidroside né concentrazioni nell'osso (fonte non reperita; ricerca dedicata non completata). Una rassegna del 2026 cita biodisponibilità sotto il 12% e emivita di 2,3 ore senza specie, discordante con i due primari. Il lavoro sul salidroside in MDA-MB-231 e MCF-7 (2010) scrive che i dati farmacocinetici del composto non erano disponibili.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -10986,6 +11010,11 @@
        "tipo": "PMID",
        "id": "42375548",
        "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "20541529",
+       "verificata": true
       }
      ]
     },
@@ -11000,7 +11029,7 @@
      "prova": "indagine di mercato con codice a barre del DNA (non è uno studio clinico)"
     },
     {
-     "testo": "Interazioni: con R. rosea (non crenulata) in 13 volontari sani, 14 giorni di pretrattamento riducono del 21% il rapporto metabolita/losartan (CYP2C9), non CYP1A2, 2C19, 2D6 e 3A4; in vitro estratti di R. rosea inibiscono CYP3A4 (IC50 1,7-3,1 µg/mL) e P-gp. Nessun dato su tamoxifene o inibitori dell'aromatasi trovato (assenza di dati, non prova di assenza di interazione).",
+     "testo": "Interazioni: con R. rosea (non crenulata) in 13 volontari sani, 14 giorni di pretrattamento riducono del 21% il rapporto metabolita/losartan (CYP2C9), non CYP1A2, 2C19, 2D6 e 3A4; in vitro estratti di R. rosea inibiscono CYP3A4 (IC50 1,7-3,1 µg/mL) e P-gp. Nessun dato su tamoxifene o inibitori dell'aromatasi trovato (assenza di dati, non prova di assenza di interazione). Altri dati CYP, tutti non riletti da me: nessuna inibizione diretta dei P450 da salidroside in microsomi umani (41811662); inibizione di CYP2D6 da rosiridina e rodionina in vitro con IC50 0,761 e 0,420 µM (24400445); in mucosa intestinale umana l'inibizione di CYP3A da Rhodiola sotto il 50% (32719085); un lavoro su salidroside più tamoxifene in nanoparticelle, nel topo con tumori 4T1, è una co-formulazione (31997020) e non un dato di interazione clinica. Nessuno testa inibitori dell'aromatasi, CDK4/6, bifosfonati o denosumab.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
@@ -11013,6 +11042,26 @@
        "tipo": "PMID",
        "id": "19790032",
        "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41811662",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "24400445",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "32719085",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "31997020",
+       "verificata": false
       }
      ]
     },
@@ -11027,10 +11076,26 @@
      "prova": "sperimentale (prevalentemente in vitro su MCF-7, più un esperimento nel topo)"
     },
     {
-     "testo": "Epatotossicità, studi di tossicità acuta e LD50 di R. crenulata: non valutati o non reperiti.",
-     "livello": "ipotesi",
-     "fonte": null,
-     "prova": "nessuna fonte"
+     "testo": "Epatotossicità: nelle ricerche usate, un solo segnale clinico, una serie di 5 casi di danno epatico da ashwagandha in cui Rhodiola è indicata come possibile concausa in un caso (causalità non attribuibile alla sola Rhodiola); gli altri lavori letti dagli agenti (salidroside o R. imbricata, nei topi o ratti) descrivono protezione dal danno epatico da paracetamolo o lipopolisaccaride, non tossicità. LD50 di R. crenulata o R. rosea: fonte non reperita. Studi non riletti da me.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31991029",
+      "verificata": false
+     },
+     "prova": "serie di casi",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "37224954",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "18670083",
+       "verificata": false
+      }
+     ]
     }
    ],
    "buchi": [
@@ -11107,7 +11172,7 @@
     },
     {
      "domanda": "Con un estratto a titolo noto di salidroside e rosavine, l'esposizione plasmatica del salidroside (area sotto la curva o tempo sopra soglia, in µM) dopo la dose orale massima prevista, e la concentrazione nell'osso, superano la IC50 in vitro espressa in µM di marcatore? (Domanda corretta: confrontava ppm di un estratto non caratterizzato con la concentrazione plasmatica di un singolo composto, due grandezze non convertibili senza il contenuto di marcatore; inoltre un Cmax di breve durata non è confrontabile con una esposizione continua di 24 ore.)",
-     "verifica": "Parzialmente fatto, solo per il composto puro. Salidroside nel ratto: biodisponibilità orale 32,1% (PMID 18088572), p-tirosolo non rilevabile dopo gavage (PMID 22525439); dall'ultimo testo completo, letto da un sotto-agente, Cmax 3,72 µg/mL dopo 100 mg/kg, calcolo mio 12,4 µM. Calcolo mio ipotetico (contenuto di marcatore dell'estratto non noto): se il salidroside fosse l'1% del peso dell'estratto, le IC50 di 316,2 e 524,7 ppm corrisponderebbero a circa 10,5 e 17,5 µM di salidroside; con 0,5% e 3% i valori cambiano di conseguenza. Non trovato: contenuto di marcatore dell'estratto usato nello studio PMID 40102501; articoli con crenulatina (zero risultati nella ricerca); farmacocinetica umana orale del salidroside e concentrazione nell'osso; marcatori di qualità per R. crenulata (trovati solo per R. rosea e R. algida). Il registro era raggiungibile per me ma per questa domanda non ha dato studi pertinenti. Discrepanza metodologica aperta sul titolo della soluzione madre (vedi finestra).",
+     "verifica": "Parzialmente fatto, solo per il composto puro. Salidroside nel ratto: biodisponibilità orale 32,1% (PMID 18088572), p-tirosolo non rilevabile dopo gavage (PMID 22525439); dall'ultimo testo completo, letto da un sotto-agente, Cmax 3,72 µg/mL dopo 100 mg/kg, calcolo mio 12,4 µM. Calcolo mio ipotetico (contenuto di marcatore dell'estratto non noto): se il salidroside fosse l'1% del peso dell'estratto, le IC50 di 316,2 e 524,7 ppm corrisponderebbero a circa 10,5 e 17,5 µM di salidroside; con 0,5% e 3% i valori cambiano di conseguenza. Non trovato: contenuto di marcatore dell'estratto usato nello studio PMID 40102501; articoli con crenulatina (zero risultati nella ricerca); farmacocinetica umana orale del salidroside e concentrazione nell'osso; marcatori di qualità per R. crenulata (trovati solo per R. rosea e R. algida). Discrepanza metodologica aperta sul titolo della soluzione madre (vedi finestra).",
      "disegno": "Caratterizzare per HPLC o LC-MS un lotto di estratto di R. crenulata identificato botanicamente (salidroside, rosavine, tirosolo, certificato del lotto); ripetere l'IC50 in µM di marcatore; farmacocinetica nel ratto con tre dosi orali più via endovenosa per la biodisponibilità assoluta (n=6 per gruppo), con campioni di plasma e tibia a 0,25, 0,5, 1, 2, 4, 8 e 24 ore; confronto esposizione-soglia in µM.",
      "falsificazione": "Soglie proposte, non derivate dalla letteratura: ipotesi falsificata se la concentrazione plasmatica di salidroside alla dose massima prevista resta sotto l'IC50 in µM di marcatore per tutto il campionamento, o se la concentrazione ossea è almeno il 50% più bassa di quella plasmatica, o se il contenuto di marcatore del lotto è sotto la soglia di specifica fissata prima.",
      "altre_fonti": [
