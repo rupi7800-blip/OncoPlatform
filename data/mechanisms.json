@@ -9957,6 +9957,66 @@
      "prova": "osservazionale a disegno non chiaro"
     },
     {
+     "testo": "Ossigenazione tumorale: in topi con tumore al colon (colon-26), l'acqua ozonizzata per via intraperitoneale (non ozono gassoso) ha aumentato la pressione parziale di ossigeno intratumorale e la perfusione e ha aumentato l'effetto del cisplatino rispetto al solo cisplatino (meno cellule Ki-67 positive, più TUNEL positive); l'abstract non descrive un gruppo con ossigeno.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30186377",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Ossigenazione tumorale nell'uomo: in uno studio pilota su 18 pazienti, trattati con autoemotrasfusione con ozono in tre sedute alternate in una settimana, non c'è stata una variazione media significativa della pO2 tumorale misurata con sonde polarografiche, ma sono diminuiti i valori ipossici (<=10 e <=5 mmHg) e i tumori più poveri di ossigeno hanno avuto il maggiore aumento; senza gruppo di controllo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15257330",
+      "verificata": true
+     },
+     "prova": "pilota non controllato"
+    },
+    {
+     "testo": "Controesempio sull'adattamento: in cellule MCF7 trattate con tamoxifene, basse concentrazioni di ozono non hanno stimolato in eccesso la via NRF2 né modificato viabilità, proliferazione e migrazione rispetto al solo tamoxifene; gli autori concludono che non c'è un effetto citoprotettivo guidato dall'ozono in questo modello in vitro (non testati cisplatino né radiazioni).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39252536",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Risposta dipendente dalla dose in cellule normali: nelle cellule muscolari C2C12 (non tumorali), 10 µg di ozono mantengono i livelli di NRF2 associato ai mitocondri e riducono le specie reattive; 20 µg riducono NRF2 mitocondriale e aumentano specie reattive e morte cellulare.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "37240245",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Dato storico in vitro: in coltura per 8 giorni, ozono a 0,3-0,8 parti per milione in aria ha inibito la crescita di cellule tumorali umane di polmone, mammella e utero (del 40 e 60% a 0,3 e 0,5 ppm) senza effetto sui fibroblasti polmonari non tumorali a quei livelli; gli autori deducono che le difese contro il danno da ozono siano alterate nelle cellule tumorali, direzione opposta a un adattamento antiossidante tumorale. Esperimento del 1980 con ozono ambientale, non medico.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "7403859",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Studio veterinario: in 25 cagne con carcinoma mammario, carboplatino con ozonoterapia (14) contro carboplatino da solo (11) si è associato a miglior sopravvivenza, qualità di vita, più globuli rossi e piastrine, minori reazioni avverse e miglior profilo ossidativo (capacità antiossidante totale più alta, malondialdeide più bassa); numeri molto piccoli, nessuna misura di NRF2 o glutatione, disegno e cecità non descritti nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38929112",
+      "verificata": true
+     },
+     "prova": "studio veterinario controllato di piccole dimensioni"
+    },
+    {
      "testo": "Dose e finestra, dato non oncologico: in 80 pazienti con ernia del disco lombare randomizzati a ozono a 20, 40 o 60 µg/ml o controllo, la concentrazione più alta (60 µg/ml) ha aumentato IL-6, IgG e IgM in senso pro-infiammatorio e doloroso, mentre 20 e 40 µg/ml li hanno ridotti; gli autori indicano 40 µg/ml come ottimale. Marcatori surrogati in un'altra malattia.",
      "livello": "clinico",
      "fonte": {
@@ -10319,10 +10379,32 @@
    ],
    "buchi": [
     {
-     "domanda": "L'effetto antitumorale dell'insufflazione di ozono/ossigeno osservato nel coniglio VX2 è dovuto all'ozono o all'ossigeno con cui è miscelato, e dipende dal sistema immunitario? (Domanda corretta: nell'unico esperimento letto, l'ossigeno da solo ha dato remissioni complete, e l'abstract non riporta un test tra ozono e ossigeno.)",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Animali con tumore ortotopico in tre bracci con volume e flusso identici (O3/O2, solo O2, sham), numerosità calcolata sull'effetto, randomizzazione e cecità dell'analisi; arm aggiuntivo con immunosoppressione; misura di ossigenazione tumorale (pO2) e di infiltrato immunitario.",
-     "falsificazione": "L'effetto è specifico dell'ozono solo se O3/O2 è superiore a O2 con un confronto statistico prespecificato; è falsificato se O3/O2 e O2 sono equivalenti entro un margine prespecificato."
+     "domanda": "O3/O2 e solo O2 a parità di flusso e volume producono sopravvivenza e regressione equivalenti (entro un margine prespecificato) in animali con tumore ortotopico, e l'effetto dell'ozono rispetto all'ossigeno dipende dal sistema immunitario (interazione con l'immunosoppressione sull'endpoint di regressione primaria)? (Domanda corretta: nel coniglio VX2 l'ossigeno da solo ha dato remissioni complete e l'immunosoppressione era stata testata sulla tolleranza al reimpianto, non sulla regressione; 'dipende dal sistema immunitario' va espressa come interazione.)",
+     "verifica": "Parzialmente fatto. Il confronto ozono/ossigeno contro solo ossigeno nello stesso modello esiste solo nel coniglio VX2: 7/14 contro 3/13 sopravvissuti (con regressione completa in 6 su 7 e in 2 su 3), sham 1/14; calcolo mio dai conteggi: test esatto di Fisher bilaterale P circa 0,24 (non nell'abstract), quindi i numeri non distinguono i due bracci (PMID 18224691); la tolleranza al reimpianto è stata abolita da desametasone e ciclosporina, un endpoint diverso dalla regressione primaria. Altri modelli senza controllo con ossigeno: xenotrapianto esofageo con radioterapia (controllo sham, PMID 38842109); colon-26 con acqua ozonizzata e cisplatino, con aumento della pO2 intratumorale (PMID 30186377); in clinica, un pilota non controllato su 18 pazienti senza variazione media della pO2 tumorale ma con riduzione dei valori ipossici (PMID 15257330). Non trovata: replica del lavoro sul coniglio, misure di pO2 e regressione nello stesso esperimento con bracci O3/O2, O2 e sham, margine di equivalenza o calcolo di potenza.",
+     "disegno": "Animali con tumore ortotopico in tre bracci con volume e flusso identici (O3/O2, solo O2, sham), numerosità calcolata su un margine prespecificato (per esempio 15 punti percentuali di sopravvivenza), randomizzazione e analisi in cieco; misura di pO2 tumorale e infiltrato immunitario; un secondo fattore, l'immunosoppressione, per testare l'interazione sull'endpoint di regressione primaria.",
+     "falsificazione": "L'effetto è specifico dell'ozono se O3/O2 supera O2 con un confronto prespecificato; è falsificato (equivalenza) se l'intervallo di confidenza al 95% della differenza di sopravvivenza sta interamente dentro il margine prespecificato; la dipendenza immunitaria è sostenuta solo se l'interazione ozono × immunosoppressione è significativa.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "18224691",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38842109",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30186377",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "15257330",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Nei pazienti con osteonecrosi della mandibola già conclamata, l'ozono aggiunto a un protocollo standard fisso aumenta la proporzione di guarigione mucosa a 12 mesi rispetto a un'infiltrazione simulata, cieca per paziente e valutatore, di almeno un margine clinicamente rilevante prespecificato? (Domanda corretta: prevenzione e trattamento erano confusi; 'gestione standard' non era definita; 'non esclude lo zero' non è un criterio di falsificazione senza potenza e margine prespecificati.)",
@@ -10373,10 +10455,37 @@
      ]
     },
     {
-     "domanda": "Esposizioni ripetute all'ozono inducono nelle cellule tumorali un adattamento antiossidante (NRF2, glutatione) che riduce il danno o la sensibilità a cisplatino e radioterapia, rispetto alle cellule normali?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Linee tumorali e cellule normali corrispondenti esposte a cicli ripetuti di ozono a concentrazioni definite e misurate, con misura di NRF2, glutatione, vitalità e sensibilità a cisplatino e radiazioni, con controllo di ossigeno e con inibitore di NRF2.",
-     "falsificazione": "Falsificata se non c'è aumento di NRF2/glutatione né perdita di sensibilità dopo cicli ripetuti; confermata se compare adattamento con riduzione dell'effetto dei trattamenti."
+     "domanda": "Esposizioni ripetute all'ozono a concentrazioni misurate inducono nelle cellule tumorali, più che nelle cellule normali corrispondenti, un aumento di NRF2 o glutatione e una perdita di sensibilità a cisplatino o radiazioni, dopo aver separato l'effetto dell'ozono da quello del perossido di idrogeno e dell'ossigeno? (Domanda corretta: 'rispetto alle cellule normali' è un confronto di interazione; la falsificazione senza soglie, dose e tempo non era falsificabile; le risposte descritte sono transitorie e dose-dipendenti.)",
+     "verifica": "Parzialmente fatto, in modelli separati e con direzioni diverse. Contro l'ipotesi: in cellule MCF7 con tamoxifene l'ozono a basse concentrazioni non stimola in eccesso NRF2 né modifica la viabilità (PMID 39252536, non testati cisplatino e radiazioni); in colon-26 l'acqua ozonizzata aumenta l'effetto del cisplatino (PMID 30186377); nel 1980 l'ozono ambientale inibiva selettivamente le cellule tumorali (PMID 7403859). A favore di un adattamento dipendente dalla dose, in tessuto normale: nelle cellule muscolari C2C12 10 µg mantengono NRF2 mitocondriale e 20 µg lo riducono con più morte cellulare (PMID 37240245). La possibilità di una maggiore tolleranza allo stress delle cellule tumorali è formulata come ipotesi in una rassegna senza dati citati (PMID 43032072). Non trovato: un esperimento con cellule tumorali e normali appaiate, ozono ripetuto a dose misurata, NRF2, glutatione e sensibilità a cisplatino o radiazioni misurati insieme, con controllo di ossigeno e inibitore di NRF2. Una ricerca per ozono e glutatione in linee tumorali con esposizione ripetuta ha dato zero risultati.",
+     "disegno": "Linee tumorali e cellule normali corrispondenti esposte a cicli ripetuti di ozono a due o più concentrazioni misurate, con tempi prespecificati (gli effetti sono dose-dipendenti e transitori); misura di NRF2, glutatione, vitalità e sensibilità a cisplatino e radiazioni (spostamento di IC50 o rapporto di modifica della dose); controlli: ossigeno a parità di flusso, catalasi per separare il perossido di idrogeno, inibitore di NRF2.",
+     "falsificazione": "Falsificata se non c'è un aumento di NRF2 o glutatione oltre una soglia prespecificata, a due dosi e a un tempo prespecificato, né uno spostamento di IC50 o del rapporto di modifica della dose il cui intervallo di confidenza escluda 1, o se la differenza tra tumore e normale nel cambio di sensibilità non è significativa.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39252536",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30186377",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "7403859",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "37240245",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "43032072",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
