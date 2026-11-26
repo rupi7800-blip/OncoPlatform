@@ -11494,7 +11494,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Sclerostina e Wnt: risultati opposti. Il blocco della sclerostina con anticorpo ha aumentato le metastasi ossee delle MDA-MB-231 (sensibili a Wnt), non quelle delle altre linee; in un altro lavoro il blocco della sclerostina ha ridotto migrazione, invasione e osteolisi e prolungato la sopravvivenza dei topi con MDA-MB-231 e MCF-7. Poiché il carico riduce la sclerostina nell'osso sano, un possibile effetto del carico sul tumore osseo tramite questa via è un'inferenza mia e non è misurato in nessun lavoro letto.",
+     "testo": "Sclerostina e Wnt: risultati opposti. Il blocco della sclerostina con anticorpo ha aumentato le metastasi ossee delle MDA-MB-231 (sensibili a Wnt), non quelle delle altre linee; in un altro lavoro il blocco della sclerostina ha ridotto migrazione, invasione e osteolisi e prolungato la sopravvivenza dei topi con MDA-MB-231 e MCF-7; in un terzo, in topi SCID con metastasi ossee del seno, l'anticorpo ha ridotto le metastasi senza disseminazione ad altri organi e la debolezza muscolare e prolungato la sopravvivenza. Poiché il carico riduce la sclerostina nell'osso sano, un possibile effetto del carico sul tumore osseo tramite questa via è un'inferenza mia e non è misurato in nessun lavoro letto.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -11513,6 +11513,11 @@
        "tipo": "PMID",
        "id": "36581888",
        "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30965315",
+       "verificata": true
       }
      ]
     },
@@ -11685,6 +11690,43 @@
       "livello": "ipotesi",
       "fonte": null,
       "prova": "nessuna fonte"
+     },
+     {
+      "testo": "Wnt e sottotipo: in 240 biopsie e una meta-analisi di 1878 pazienti, una firma trascrizionale Wnt/beta-catenina è sovrarappresentata nei tumori triplo negativi, ma le pazienti con quella firma avevano maggior rischio di metastasi polmonari e cerebrali, non ossee; la relazione Wnt-metastasi ossea per sottotipo non è quindi dimostrata clinicamente.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24209998",
+       "verificata": true
+      },
+      "prova": "analisi di coorti"
+     },
+     {
+      "testo": "Via irisina-osteociti-sclerostina: l'irisina, secreta dal muscolo e aumentata dall'esercizio, lega integrine αV e aumenta la sopravvivenza degli osteociti e la produzione di sclerostina; l'ablazione di FNDC5 blocca l'osteolisi osteocitica dopo ovariectomia nel topo. È un possibile legame tra esercizio e sclerostina, ma non è stato misurato nelle pazienti con metastasi ossee.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "30550785",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Terapia endocrina e sclerostina, dati umani discordanti: in 70 donne con tumore ER+ non metastatico trattate con anastrozolo la sclerostina è passata da 29,5 a 43,2 pmol/l a 24 mesi (P<0,001), mentre in 45 donne con tamoxifene o inibitori dell'aromatasi non c'erano variazioni significative di sclerostina a 12 mesi (calo di DKK-1 solo con tamoxifene). Nessun dato in metastasi ossee.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "24903965",
+       "verificata": true
+      },
+      "prova": "osservazionale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "28526959",
+        "verificata": true
+       }
+      ]
      }
     ]
    },
@@ -11918,16 +11960,100 @@
      ]
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): RCT con progressione ossea o eventi scheletrici come endpoint.",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "In donne con carcinoma mammario metastatico con metastasi ossee stabili e terapia standard (bifosfonato o denosumab), un programma di esercizio supervisionato riduce il tempo al primo evento scheletrico (definizione prespecificata: frattura patologica, radioterapia o chirurgia all'osso, compressione midollare) rispetto alle cure abituali, con margine prespecificato? (Domanda corretta: 'progressione ossea' non era definita e 'eventi scheletrici' mescolava l'evento con le sue componenti, radioterapia e chirurgia, che fanno parte dell'evento.)",
+     "verifica": "Parzialmente fatto, ma nessun trial ha l'evento scheletrico come endpoint primario in questa popolazione. DISPO (PMID 25012645 e 27464793, NCT01409720): 60 pazienti con metastasi spinali di tumori diversi, endpoint primari diversi tra pubblicazioni (densità ossea; sopravvivenza ossea) e registro (fattibilità); fratture patologiche 23,3% contro 30,0% senza differenza (P=0,592 e 0,604), progressione ossea locale 0 contro 16,7% (P=0,019), nessun vantaggio su sopravvivenza. DISPO-2 (NCT02847754, stato sconosciuto, 60 previsti, endpoint di fattibilità, nessun risultato). NCT03979118 (osservazionale, 58, completato, SRE e attività fisica come primari, nessun risultato trovato). NCT06470503 (20 previsti, SRE tra nove endpoint primari, in corso). PREFERABLE-EFFECT (PMID 39054374) non misura eventi scheletrici. Tasso di eventi scheletrici nei bracci di controllo (ordine di grandezza): nel trial RTOG 0517, in 261 pazienti con metastasi ossee blastiche di prostata (55%), seno (35%) e polmone (10%), con acido zoledronico da solo 52 su 124 (42%), ma il trial si è chiuso presto perché gli eventi erano meno del previsto (PMID 30094545); è una popolazione con lesioni blastiche, non un tasso mammario. Per il seno osteolitico il tasso per braccio di Stopeck 2010 (PMID 21060033) non è nell'abstract (letto da un sotto-agente). Non trovato: un RCT pubblicato di esercizio con evento scheletrico come primario.",
+     "disegno": "RCT multicentrico, pazienti con metastasi ossee stabili secondo criteri prespecificati e con bifosfonato o denosumab; esercizio supervisionato titolato per intensità contro cure abituali; endpoint primario: tempo al primo evento scheletrico, con morte come evento concorrente; secondari: fatica, qualità di vita, dolore, densità nelle lesioni. Numerosità, calcolo mio con approssimazione binomiale a 12 mesi (bilaterale 5%, potenza 80%): partendo dal 42% come tasso di controllo, per una riduzione assoluta a 30% servono circa 248 per braccio, a 32% circa 362, a 27% circa 154 (più perdite al follow-up); il tasso di controllo va sostituito con quello di un trial su lesioni mammarie osteolitiche e per un endpoint tempo-evento serve un calcolo dedicato.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: superiorità con HR 0,70 o una riduzione assoluta di almeno 10 punti dell'incidenza a 12 mesi; l'ipotesi è respinta se l'intervallo di confidenza al 95% dell'HR include 1 nel campione pianificato; un risultato sulla sicurezza (frattura attribuita all'esercizio) vale come criterio separato di sospensione.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "25012645",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27464793",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39054374",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30094545",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT01409720",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT02847754",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT03979118",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT06470503",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): esercizio, sclerostina e Wnt per sottotipo (HER2+, ER+, triplo negativo).",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "Nelle donne con metastasi ossee del seno in terapia standard, un programma di esercizio supervisionato modifica la sclerostina sierica? Una variazione della sclerostina predice gli eventi scheletrici e questa relazione differisce per sottotipo (HER2+, ER+, triplo negativo)? (Domanda corretta: l'ipotesi di partenza dava per dimostrato l'anello esercizio-sclerostina nelle pazienti, mai misurato; 'tumore osseo' mescolava crescita tumorale ed eventi scheletrici; il sottotipo è un fattore che modifica l'effetto da testare come interazione e non un mediatore.)",
+     "verifica": "Parzialmente fatto, per anelli separati. Esercizio→sclerostina nell'uomo con tumore: non trovato (ricerche con zero studi pertinenti); a monte, l'irisina aumenta la produzione di sclerostina negli osteociti nel topo (PMID 30550785). Sclerostina e metastasi ossee mammarie nel topo: tre lavori con direzione opposta, il blocco aumenta le metastasi delle MDA-MB-231 sensibili a Wnt (PMID 36840409) oppure le riduce con meno osteolisi e debolezza muscolare (PMID 30965315, e PMID 28900298); nessuno è stratificato per sottotipo in pazienti. Wnt e sottotipo: una firma Wnt nei tumori triplo negativi si associa a metastasi polmonari e cerebrali, non ossee (PMID 24209998). Terapia endocrina e sclerostina nell'uomo: discordante (PMID 24903965, aumento con anastrozolo; PMID 28526959, nessuna variazione), nessun dato in metastasi ossee. Esercizio per sottotipo nel metastatico: solo il sottogruppo HER2+ di StoRM (PMID 32612272). Non trovato: studi clinici con sclerostina o Wnt misurate in pazienti con metastasi ossee e analizzate per HER2, ER o triplo negativo.",
+     "disegno": "Passo A (esercizio→sclerostina): studio prospettico pilota in donne con metastasi ossee mammarie, esercizio supervisionato contro cure abituali, endpoint primario la variazione della sclerostina sierica a 12 settimane (numerosità e variabilità intra-individuale da misurare; 40 è una stima indicativa); passo B (sclerostina→eventi scheletrici × sottotipo): coorte con termine di interazione tra variazione di sclerostina e sottotipo sul tempo al primo evento scheletrico, di dimensione molto maggiore; passo preclinico: pannello di almeno 4 linee per sottotipo, con e senza Wnt3a e anticorpo anti-sclerostina, con misura di attività TOPFLASH e carico tumorale osseo.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: passo A falsificato se l'intervallo di confidenza al 95% della differenza di variazione esclude cambiamenti di sclerostina di almeno il 10% in entrambe le direzioni; passo B falsificato se l'interazione sclerostina × sottotipo ha P>0,10 o non c'è associazione con l'evento scheletrico; passo preclinico falsificato se non c'è relazione tra risposta TOPFLASH e aumento delle metastasi ossee nelle linee Wnt-sensibili.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "36840409",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30965315",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "28900298",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "24209998",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "24903965",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "28526959",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30550785",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "32612272",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
