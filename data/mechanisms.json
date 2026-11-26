@@ -10604,6 +10604,499 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "rhodiola",
+   "name": "Rhodiola crenulata: apoptosi in cellule di carcinoma mammario con metastasi ossee, senza danno alle cellule ossee",
+   "note": "Bozza v0. Affermazione di partenza: un estratto di Rhodiola crenulata avrebbe dimostrato in laboratorio di indurre apoptosi in cellule di cancro al seno metastatiche all'osso senza apparentemente danneggiare le cellule ossee sane. Verifica sul testo completo dell'unico studio primario (PMID 40102501, Sci Rep 2025, in vitro): (1) 'studi' è troppo: è uno studio di un solo gruppo (North Dakota State University), seguito da due lavori dello stesso gruppo (carcinoma mammario da pazienti, 40168530; prostata, 42580190); nessuna replica indipendente è stata trovata nelle ricerche usate. (2) 'cellule metastatiche all'osso' è un modello: sono linee commerciali ATCC (MCF-7 e MDA-MB-231) fatte crescere su uno scaffold di polimero e nanoargilla con matrice prodotta da cellule staminali mesenchimali umane (hMSC) differenziate per 23 giorni; il testo non descrive linee isolate da metastasi ossee. (3) L'apoptosi è documentata con annessina V in citometria (frazione precoce 5,67% nelle colture con matrice ossea contro 8,46% in 2D per MDA-MB-231, 8,00% contro 17,3% per MCF-7, vedi catena) ma i dati molecolari sono di RNA messaggero e immunofluorescenza, senza saggio di attività delle caspasi, e in parte non coincidono con l'abstract (vedi catena). (4) 'cellule ossee sane' sono hMSC osteodifferenziate per 33 giorni, trattate per 24 ore, con vitalità misurata con alamarBlue; non sono stati testati osteoblasti maturi né osteoclasti, e la misura è su n=3 repliche tecniche. (5) Nelle colture ossee le cellule tumorali sono più resistenti che in 2D (IC50 316,2 e 524,7 ppm contro 100,2 e 291,4 ppm). (6) L'estratto è un prodotto commerciale non descritto per composizione, e la preparazione della soluzione madre nel testo non torna (calcolo mio, vedi finestra). (7) Nessun dato in vivo su metastasi ossee, nessun trial clinico con endpoint antitumorale; i soli RCT con Rhodiola in pazienti oncologici letti hanno endpoint di supporto. Le fonti non rilette (verificata false) vanno ancora confrontate; passo 6 e giri 2-3 in corso. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "normale": [
+    {
+     "testo": "Rimodellamento osseo normale: il riassorbimento da parte degli osteoclasti è accoppiato alla formazione da parte degli osteoblasti in cinque fasi (attivazione, riassorbimento, inversione, formazione, terminazione); le vie principali sono RANK/RANKL/osteoprotegerina e Wnt canonica.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29368538",
+      "verificata": true
+     },
+     "prova": "rassegna di fisiologia di base"
+    },
+    {
+     "testo": "Alterazione nella metastasi ossea del seno: la rassegna parla di un 'circolo vizioso' in cui la lesione altera il microambiente osseo e la distruzione ossea sostiene la progressione tumorale (letto da un sotto-agente, non riletto da me).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "31456182",
+      "verificata": false
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Esempio sperimentale di circolo osso-tumore: la PRODH2 favorirebbe la differenziazione degli osteoclasti tramite idrossiprolina derivata dal collagene (campioni clinici, cellule, xenotrapianti murini; letto da un sotto-agente, non riletto da me).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40749014",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Origine dell'affermazione, metodo: estratto di R. crenulata acquistato da un fornitore commerciale (One World Products), senza composizione dichiarata nel testo; linee commerciali ATCC MCF-7 e MDA-MB-231 coltivate 10 giorni su scaffold di policaprolattone e nanoargilla con hMSC differenziate per 23 giorni (le hMSC sono arrestate con mitomicina); trattamento 24 ore a 100-800 ppm; vitalità con alamarBlue; ripetizioni n=3, tecniche.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Sensibilità: IC50 a 24 ore sulle colture con matrice ossea 316,2 ppm (MCF-7) e 524,7 ppm (MDA-MB-231), contro 100,2 e 291,4 ppm in 2D; le cellule nel modello osseo sono quindi più resistenti, con espressione di Bcl-2 maggiore e minore apoptosi precoce (5,67% contro 8,46% per MDA-MB-231; 8,00% contro 17,3% per MCF-7, alla dose IC50 per 12 ore).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Meccanismo riportato: aumento dell'espressione (RNA messaggero) di caspasi-9 di circa 5-7 volte e di circa 5-6 volte nelle due linee, calo del potenziale di membrana mitocondriale e calo dei segnali di specie reattive dell'ossigeno dopo trattamento; il testo non misura attività enzimatica delle caspasi. Discrepanze interne: l'abstract dice che il trattamento aumenta p53, ma l'RNA messaggero di p53 è 2,29 e 1,36 volte più basso nelle colture ossee che in 2D (si confronta 2D con 3D, non trattato con non trattato) e solo l'immunofluorescenza mostra più p53 nei trattati; analogamente Bcl-2 è più alto nelle colture ossee ma l'immunofluorescenza lo mostra più basso nei trattati.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Selettività sull'osso: le hMSC osteodifferenziate per 33 giorni, trattate 24 ore alle stesse concentrazioni (fino a 800 ppm), non hanno perso proliferazione (alamarBlue) e l'hanno aumentata a 400 e 800 ppm; colorazione vivi/morti a 800 ppm senza effetto; nessun cambiamento significativo di RNA messaggero di p53 e Bcl-2. Limiti: nessun osteoblasta maturo né osteoclasta, un solo tempo (24 ore), nessun indice di selettività calcolato, nessun saggio di apoptosi sulle cellule ossee.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Lo stesso gruppo, otto linee primarie da pazienti nello stesso modello: R. crenulata ha indotto citotossicità nella maggior parte, con risposta minima in una (NT042); la risposta non è quindi uniforme tra pazienti.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40168530",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Lo stesso gruppo, carcinoma prostatico (PC-3 e linea PCa) nel modello osseo: IC50 più alte e Bcl-2 più alto che in 2D, più del 99% delle cellule stromali derivate da hMSC vitali ad alte dosi; qui le specie reattive dell'ossigeno AUMENTANO dopo l'estratto, mentre nel lavoro sul seno risultano ridotte (direzione opposta tra i due lavori dello stesso gruppo).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42580190",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Lavoro precedente sull'estratto (fenoli di R. crenulata): in MDA-MB-231 e nella linea murina V14 inibisce proliferazione, motilità e invasione e induce vescicole di tipo autofagico fino alla morte delle linee tumorali ma non delle cellule epiteliali mammarie normali o immortalizzate; in vivo la dieta con l'estratto ha rallentato i tumori trapiantati nel topo. Qui il tipo di morte non è descritto come apoptosi.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18800886",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Segnale di rischio per i tumori ER+: l'estratto ha attivato in MCF-7 la trascrizione dipendente dal recettore estrogenico e la proliferazione entro 24 ore; con trattamento più lungo la risposta si riduceva (proliferazione e tumorsfere diminuite); nei topi a 20 mg/kg al giorno per 12 settimane nessun cambiamento dei bersagli del recettore nel tessuto mammario normale.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26850689",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Composto isolato (salidroside) e non l'estratto: in MDA-MB-231 e MCF-7 induce arresto del ciclo e apoptosi (concentrazioni non nell'abstract); in un altro lavoro in MDA-MB-231 e xenotrapianti nel topo nudo agisce con morte per ferroptosi tramite inibizione di PI3K/AKT/mTOR, non per apoptosi. Estratto e composto non sono intercambiabili.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20541529",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39353532",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Lavoro sul salidroside e metastasi polmonari da nicotina (Nature Communications 2021): ritirato; non usato come prova.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33473115",
+      "verificata": true
+     },
+     "prova": "ritirato (Retracted Publication su PubMed)"
+    },
+    {
+     "testo": "Una revisione sistematica di 47 studi preclinici su 19 tipi di tumore descrive effetti antitumorali del salidroside in vitro e in vivo e conclude che servono RCT ben disegnati per valutarne l'efficacia clinica.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42261166",
+      "verificata": true
+     },
+     "prova": "revisione sistematica di studi preclinici"
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Tipo di morte cellulare non univoco: per lo stesso estratto, vescicole di tipo autofagico (18800886) e apoptosi intrinseca (40102501); per il salidroside, apoptosi (20541529) o ferroptosi (39353532). Se si blocca una via, il dato non dice se le altre compensano: non è stato testato con inibitori in cellule con matrice ossea.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40102501",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "18800886",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "20541529",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "39353532",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Il microambiente osseo protegge: nel modello, le cellule con matrice ossea hanno IC50 più alta e più Bcl-2 che in 2D, per il seno e per la prostata; è la ridondanza che il modello stesso mostra.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "40102501",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "42580190",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Effetto sul tessuto osseo normale contraddittorio per il salidroside: in un lavoro potenzia vitalità, differenziazione e riassorbimento degli osteoclasti (RAW 264.7) con HIF-1α/VEGF/IL-6/ANGPTL4; nel lavoro dello stesso gruppo, in osteoblasti e nel topo con osteolisi da LPS, riduce l'ipossia ossea, RANKL e la differenziazione degli osteoclasti tramite i mediatori degli osteoblasti. Il dato sulle hMSC non risolve la questione degli osteoclasti, che nella metastasi litica del seno sono centrali.",
+      "livello": "in_vitro",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "39197164",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "40383613",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Non esistono fonti lette che colleghino estratto o salidroside alle vie di sopravvivenza dell'osso metastatico (RANKL, TGF-beta, PTHrP, CXCL12/CXCR4, Src) nel tumore: ricerche mirate non eseguite fino in fondo o senza risultati letti; è ipotesi non sostenuta.",
+      "livello": "ipotesi",
+      "fonte": null,
+      "prova": "nessuna fonte"
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Estratto commerciale di R. crenulata su MCF-7 e MDA-MB-231 in modello 3D con matrice ossea",
+     "bersaglio": "apoptosi intrinseca, caspasi-9, potenziale mitocondriale",
+     "fase": "in vitro 3D, 24 ore, n=3 tecniche",
+     "esito": "IC50 316,2 e 524,7 ppm; più resistenza che in 2D; hMSC non danneggiate a 24 ore",
+     "ragione": "Un solo gruppo; estratto non caratterizzato; nessun osteoblasta o osteoclasta; discrepanze tra abstract e dati",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Lo stesso estratto su otto linee primarie da pazienti nel modello osseo",
+     "bersaglio": "citotossicità",
+     "fase": "in vitro 3D",
+     "esito": "Citotossicità nella maggior parte, minima in NT042",
+     "ragione": "Variabilità tra pazienti; stesso gruppo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40168530",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Lo stesso estratto nel modello osseo del carcinoma prostatico",
+     "bersaglio": "apoptosi intrinseca",
+     "fase": "in vitro 3D",
+     "esito": "IC50 più alte che in 2D; stromali >99% vitali; ROS aumentate",
+     "ragione": "Stesso gruppo; direzione opposta sulle specie reattive rispetto al lavoro sul seno",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42580190",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Fenoli di R. crenulata in dieta, MDA-MB-231 e V14",
+     "bersaglio": "proliferazione, motilità, invasione",
+     "fase": "in vitro e topo",
+     "esito": "Morte delle linee tumorali con vescicole di tipo autofagico, non delle cellule normali; tumori trapiantati rallentati",
+     "ragione": "Modello mammario, non osseo; dose in vivo non nell'abstract",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18800886",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Estratto idroalcolico di R. crenulata su MCF-7 e topo",
+     "bersaglio": "segnale del recettore estrogenico",
+     "fase": "in vitro e topo (20 mg/kg al giorno)",
+     "esito": "Attivazione iniziale del recettore e della proliferazione; calo a trattamento prolungato",
+     "ragione": "Rischio per ER+ non escluso; effetto a 24 ore opposto a quello a lungo termine",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26850689",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Salidroside 600 mg al giorno contro placebo, pazienti con carcinoma mammario trattate con epirubicina",
+     "bersaglio": "cardiotossicità (non il tumore)",
+     "fase": "RCT, 60 pazienti",
+     "esito": "Normalizzazione della funzione sistolica regionale con salidroside a 300 e 400 mg/m2 di epirubicina (P<0,05); ROS plasmatiche invariate contro aumento con placebo",
+     "ragione": "Endpoint di supporto: non dice nulla su efficacia antitumorale né sull'osso",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "22770377",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "R. crenulata, studi registrati",
+     "bersaglio": "non oncologici",
+     "fase": "registro (NCT01536288, mal di montagna acuto, completato; NCT02242461, BPCO, completato)",
+     "esito": "Nessun trial oncologico con R. crenulata, salidroside o rosavina trovato nel registro (46 record per Rhodiola, 4 per salidroside, 0 per rosavina, controllati per condizione)",
+     "ragione": "Gli studi registrati riguardano stress, fatica, depressione, prestazione sportiva, sonno",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT01536288",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Salidroside su MDA-MB-231 e xenotrapianto",
+     "bersaglio": "PI3K/AKT/mTOR, ferroptosi",
+     "fase": "in vitro e topo nudo",
+     "esito": "Crescita tumorale rallentata, ferroptosi",
+     "ragione": "Non è l'estratto; non è un modello osseo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39353532",
+      "verificata": true
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Concentrazioni nello studio principale: IC50 in 24 ore di 316,2 ppm (MCF-7) e 524,7 ppm (MDA-MB-231) nel modello osseo; hMSC non danneggiate fino a 800 ppm. Le unità sono 'ppm' di un estratto non caratterizzato: non c'è un confronto con concentrazioni raggiungibili nel plasma o nell'osso e non è calcolabile un indice di selettività dal testo.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Calcolo mio (non dalla fonte): il testo prepara la soluzione madre sciogliendo 0,01 g di estratto in 100 mL (0,1 g/L, cioè circa 100 ppm in peso su volume) e la chiama 'soluzione madre da 1000 ppm', per poi diluire fino a 800 ppm; con 100 ppm di partenza 800 ppm non si raggiungerebbero per diluizione. Discrepanza metodologica da chiarire con gli autori (i file supplementari non sono stati letti).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     },
+     "prova": "calcolo mio",
+     "inferenza": true
+    },
+    {
+     "testo": "Farmacocinetica: per il salidroside nel ratto la biodisponibilità orale è 32,1%; per l'uomo non è stata trovata alcuna farmacocinetica orale del salidroside né concentrazioni nell'osso (fonte non reperita). Una rassegna del 2026 cita biodisponibilità sotto il 12% e emivita di 2,3 ore, ma non ho riletto la fonte primaria.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18088572",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "42375548",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Identità del prodotto: su 100 campioni di decotto venduti come R. crenulata, solo 36 erano R. crenulata autentica al codice a barre del DNA; 35 erano R. serrata e 9 R. rosea (sequenze). L'estratto commerciale dello studio principale non è identificato con un marcatore nel testo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25661009",
+      "verificata": true
+     },
+     "prova": "osservazionale (mercato)"
+    },
+    {
+     "testo": "Interazioni: con R. rosea (non crenulata) in 13 volontari sani, 14 giorni di pretrattamento riducono del 21% il rapporto metabolita/losartan (CYP2C9), non CYP1A2, 2C19, 2D6 e 3A4; in vitro estratti di R. rosea inibiscono CYP3A4 (IC50 1,7-3,1 µg/mL) e P-gp. Nessun dato su tamoxifene o inibitori dell'aromatasi trovato (assenza di dati, non prova di assenza di interazione).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26613955",
+      "verificata": true
+     },
+     "prova": "RCT cross-over, 13 sani",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "19790032",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Effetto estrogenico dell'estratto in MCF-7 (vedi catena): rilevante per tumori ER+; non è un dato sull'osso.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26850689",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Epatotossicità, studi di tossicità acuta e LD50 di R. crenulata: non valutati o non reperiti.",
+     "livello": "ipotesi",
+     "fonte": null,
+     "prova": "nessuna fonte"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Da verificare con agenti (passo 6): selettività tra cellule tumorali e cellule ossee (osteoblasti, osteoclasti).",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): effetto in vivo su metastasi ossee mammarie.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): standardizzazione dell'estratto e concentrazioni raggiungibili.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "IC50 a 24 ore, MCF-7 con matrice ossea (2D)",
+     "stato": "misurato",
+     "valore": "316,2 ppm (100,2 ppm)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "IC50 a 24 ore, MDA-MB-231 con matrice ossea (2D)",
+     "stato": "misurato",
+     "valore": "524,7 ppm (291,4 ppm)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Vitalità delle hMSC osteodifferenziate",
+     "stato": "misurato",
+     "valore": "nessuna riduzione fino a 800 ppm a 24 ore (aumento a 400 e 800 ppm)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40102501",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Biodisponibilità orale del salidroside nel ratto",
+     "stato": "misurato",
+     "valore": "32,1%",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18088572",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazione plasmatica o ossea umana dopo estratto orale",
+     "stato": "assente",
+     "valore": "fonte non reperita",
+     "fonte": null
+    },
+    {
+     "nome": "Studio in vivo di R. crenulata su metastasi ossee mammarie",
+     "stato": "assente",
+     "valore": "nessuno trovato",
+     "fonte": null
+    },
+    {
+     "nome": "Dose di R. crenulata nel topo (tessuto mammario normale)",
+     "stato": "misurato",
+     "valore": "20 mg/kg al giorno per 12 settimane",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26850689",
+      "verificata": true
+     }
+    }
+   ]
   }
  ]
 }
