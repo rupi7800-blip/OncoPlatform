@@ -9811,6 +9811,551 @@
      "fonte": null
     }
    ]
+  },
+  {
+   "id": "ozonoterapia",
+   "name": "Ozonoterapia medica: terapia di supporto, remissione in un caso, osteonecrosi della mandibola",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Verifica: giro 1, 21 PMID e 7 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "normale": [
+    {
+     "testo": "Cos'è e cosa si dice: le rassegne descrivono l'ozonoterapia come adiuvante proposto durante il trattamento oncologico, con meccanismi ipotizzati su emoglobina, 2,3-difosfoglicerato, flusso locoregionale e ipossia tumorale, sostenuti da studi in vitro e animali; gli autori (che riportano la propria esperienza) concludono che gli studi clinici sono pochi e che servono RCT.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30271455",
+      "verificata": true
+     },
+     "prova": "rassegna",
+     "inferenza": true
+    },
+    {
+     "testo": "Uso clinico in oncologia: una rassegna integrativa sul cancro mammario scrive che esistono pochi studi, che dose e tempi ottimali non sono noti e che i trial clinici hanno valutato soprattutto l'ozono come adiuvante per ridurre gli effetti collaterali della chemioterapia, aumentare la tensione di ossigeno e ridurre la fatica, non come terapia antitumorale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38258533",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Una rassegna sul cancro colorettale (2026) considera l'ozonoterapia un adiuvante in fase di ricerca: l'evidenza clinica riguarda il supporto (lesione rettale da radiazioni, sintomi cronici, neuropatia da chemioterapia), non la risposta del tumore o la sopravvivenza; il suo effetto dipende dal contesto, perché l'attivazione di risposte antiossidanti adattive potrebbe proteggere i tessuti normali ma anche aumentare la tolleranza allo stress delle cellule tumorali; l'ozono inalato è tossico e le vie non inalatorie richiedono dosaggio e monitoraggio standardizzati.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43032072",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Posizione di una rassegna sulle 'terapie con ossigeno' (Memorial Sloan Kettering, 2009): sono alternative non dimostrate, promosse come cura per il cancro e altre malattie; comprendono infusione di perossido di idrogeno, clisteri e autoemotrasfusione con ozono e acque 'ossigenate'; 'non c'è evidenza scientifica a sostegno di queste affermazioni' e l'uso ha causato eventi avversi gravi e diversi decessi. L'abstract attribuisce i danni al gruppo di terapie, non all'ozono in particolare.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20043470",
+      "verificata": true
+     },
+     "prova": "rassegna critica"
+    },
+    {
+     "testo": "Genotossicità: l'ozono è genotossico per microrganismi, piante e colture cellulari in vitro; i risultati in vivo dopo inalazione negli animali sono contraddittori; dopo 4 e 6 mesi di inalazione si sono indotti adenomi polmonari nei topi A/J ma non negli Swiss-Webster; non esistono studi di cancerogenesi a vita. Dato su esposizione inalatoria, non sull'ozono medico.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "1381051",
+      "verificata": true
+     },
+     "prova": "rassegna"
+    },
+    {
+     "testo": "Posizione di FDA, EMA e società scientifiche sull'ozonoterapia, e dichiarazione di consenso di Madrid: non verificate, perché PubMed non le indicizza (fonte non reperita).",
+     "livello": "ipotesi",
+     "fonte": null
+    },
+    {
+     "testo": "Il caso citato nella frase di partenza non è stato trovato nella forma descritta. Case report del 2026: carcinoma mammario triplo negativo con recidiva polmonare e linfonodale mediastinica due anni dopo la diagnosi, trattata con tre mesi di chemioterapia più un protocollo di melatonina, cannabidiolo e ossigeno-ozono (con scomparsa dei noduli polmonari), poi radioterapia stereotassica e immunoterapia con il protocollo continuato; remissione completa e duratura, libera da malattia a cinque anni dalla diagnosi delle metastasi. Gli autori scrivono che non è possibile stabilire la causalità da un singolo caso. Non sono descritte metastasi ossee e l'abstract non riporta il tipo di imaging né i criteri di risposta.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41718279",
+      "verificata": true
+     },
+     "prova": "caso clinico"
+    },
+    {
+     "testo": "Secondo caso: sopravvivenza di 20 anni con carcinoma mammario con metastasi ossee ed epatiche (recidiva nel 2013), trattato con chirurgia, chemioterapia, radioterapia, terapia ormonale, farmaci mirati all'osso, radioterapia metabolica e ozonoterapia per l'osteonecrosi della mandibola da farmaci; gli autori attribuiscono la risposta clinica e metabolica completa al trattamento multidisciplinare e sottolineano la resilienza della paziente. L'ozono vi compare come trattamento di una complicanza, non come terapia antitumorale.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39474558",
+      "verificata": true
+     },
+     "prova": "caso clinico"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Meccanismo ipotizzato: l'ozono reagendo con i fluidi biologici genera mediatori redox di breve durata (perossido di idrogeno, prodotti di ossidazione dei lipidi) che potrebbero influenzare NRF2/Keap1, NF-kB, HIF-1 alfa, apoptosi mitocondriale, citochine e microambiente tumorale; una rassegna 2026 conclude che gli studi sul colon-retto sono preclinici, eterogenei e 'non sufficienti a stabilire l'efficacia antitumorale'.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43032072",
+      "verificata": true
+     },
+     "prova": "rassegna",
+     "inferenza": true
+    },
+    {
+     "testo": "Anello 1, ex vivo: l'ozono sciolto in plasma, siero o soluzione fisiologica genera specie reattive dell'ossigeno, con perossido di idrogeno dimostrato con metodi specifici; i lipidi plasmatici (soprattutto nelle lipoproteine) subiscono perossidazione in modo in parte dose-dipendente; il sangue umano esposto a ozono fino a 100 µg/ml per grammo di sangue mostra una piccola ma costante induzione di citochine (TNF-alfa, IFN-gamma, IL-2), mentre le cellule mononucleate isolate sono molto più sensibili e riducono la proliferazione a concentrazioni più basse; emolisi minima e, con ozono a 40 µg/ml, tendenza delle piastrine ad aggregarsi nel sangue eparinato. Gli autori scrivono che il ruolo dei prodotti di ossidazione lipidica resta da studiare. Dato di laboratorio su sangue, non misura in vivo nei pazienti.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "9795834",
+      "verificata": true
+     },
+     "prova": "sperimentale ex vivo"
+    },
+    {
+     "testo": "Anello 5, effetto diretto in vitro: in cellule di carcinoma mammario MDA-MB-231 e in cellule endoteliali, concentrazioni di ozono di 5-20 µg/ml hanno aumentato la morte cellulare e ridotto la migrazione, con più apoptosi; una sola linea tumorale, unità non confrontabili con le dosi cliniche.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35936665",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5, animale: nel coniglio con carcinoma squamoso VX2 di testa-collo in fase avanzata, l'insufflazione di ozono/ossigeno nel peritoneo ha dato sopravvivenza in 7 animali su 14 (regressione completa in 6 su 7 sopravvissuti, senza metastasi polmonari); l'insufflazione di sola ossigeno in 3 su 13 (remissione completa in 2 dei 3 sopravvissuti); nei 14 animali di controllo 1 sopravvissuto con remissione spontanea. La tolleranza al reimpianto è stata annullata dalla immunosoppressione con desametasone e ciclosporina, il che suggerisce un meccanismo immunitario. L'abstract non riporta un test statistico tra ozono e ossigeno.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18224691",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5, animale con radioterapia: in topi nudi con xenotrapianto di carcinoma esofageo (10 per gruppo), l'ozono da solo o con radioterapia a 8 Gy ha ridotto peso, volume e peso tumorale rispetto al controllo 'sham' (non un controllo con ossigeno), con riduzione sierica di HIF-1 alfa, IL-6, MMP-9 e altri marcatori; la dose di ozono non è riportata nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38842109",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5, olio ozonizzato: in vitro, oli con alto contenuto di ozonidi hanno ridotto la vitalità di cellule di polmone e glioblastoma con danno mitocondriale e apoptosi; in 115 pazienti con tumori vari, trattati con l'olio come terapia complementare insieme a chemio e radioterapia fino a 4 anni, gli autori riportano una sopravvivenza migliorata rispetto al solo trattamento standard. Il disegno non è descritto come randomizzato e il confronto non è controllato in modo chiaro nell'abstract: il dato non permette di attribuire l'effetto all'olio.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     },
+     "prova": "osservazionale a disegno non chiaro"
+    },
+    {
+     "testo": "Dose e finestra, dato non oncologico: in 80 pazienti con ernia del disco lombare randomizzati a ozono a 20, 40 o 60 µg/ml o controllo, la concentrazione più alta (60 µg/ml) ha aumentato IL-6, IgG e IgM in senso pro-infiammatorio e doloroso, mentre 20 e 40 µg/ml li hanno ridotti; gli autori indicano 40 µg/ml come ottimale. Marcatori surrogati in un'altra malattia.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29611536",
+      "verificata": true
+     },
+     "prova": "RCT non oncologico"
+    },
+    {
+     "testo": "Ormesi: il lavoro che inquadra l'ozono come 'ormetina' (risposta antiossidante a dosi appropriate) è marcato come ritrattato su PubMed; l'avviso di ritrattazione non è stato letto. Il quadro concettuale citato a sostegno dell'ozonoterapia non è quindi una base solida.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21431076",
+      "verificata": true
+     },
+     "prova": "ritrattato",
+     "inferenza": true
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Ozono contro ossigeno: nell'unico esperimento animale letto che li separa (coniglio VX2), l'ossigeno da solo ha dato remissioni complete in 2 dei 3 animali sopravvissuti, contro 6 su 7 con ozono e ossigeno; campioni piccoli (13 e 14 animali) e nessun test statistico nell'abstract: il contributo dell'ossigeno non è escluso. Non risultano esperimenti con ossigeno puro nelle stesse condizioni in modelli con radioterapia o chemioterapia, né nell'uomo.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "18224691",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Confondenti nei casi 'integrati': nel caso mammario la remissione è avvenuta con chemioterapia, radioterapia stereotassica e immunoterapia insieme a melatonina, cannabidiolo e ozono; in una serie 'best-case' di una clinica di medicina complementare (27 casi riassunti, 12 revisionati, 5 giudicati migliori: 3 risposte complete e 2 parziali) la maggior parte dei pazienti aveva ricevuto terapia convenzionale prima o durante il trattamento, e gli autori concludono solo che il trattamento merita ulteriore studio.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "15911928",
+       "verificata": true
+      },
+      "prova": "serie best-case",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "41718279",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Regressione spontanea: nel modello del coniglio, 1 animale su 14 sham è sopravvissuto con remissione spontanea; la frequenza della regressione spontanea o dell'errore diagnostico nei casi umani non è stata trovata in modo utilizzabile.",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "18224691",
+       "verificata": true
+      },
+      "prova": "sperimentale"
+     },
+     {
+      "testo": "Trattamenti paralleli per l'osteonecrosi della mandibola: la revisione Cochrane del 2022 (13 RCT, 1.668 partecipanti) non ha potuto fare meta-analisi, riporta un RR non significativo per ossigeno iperbarico (1,56; 0,77-3,18, 46 partecipanti), fibrina ricca di piastrine (1,05; 0,90-1,22) e teriparatide (0,96; 0,31-2,95), e conclude che le prove sono insufficienti per sostenere o negare il beneficio di qualsiasi intervento per il trattamento; l'ozono non è nominato nell'abstract. Nessun confronto diretto con l'ozono è stato trovato.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "35866376",
+       "verificata": true
+      },
+      "prova": "revisione Cochrane"
+     },
+     {
+      "testo": "Buco: nessuno studio letto verifica se esposizioni ripetute all'ozono inducano un adattamento antiossidante (NRF2, glutatione) nelle cellule tumorali tale da ridurre il danno o da aumentare la resistenza alle terapie; la rassegna sul colon-retto lo segnala come possibilità. Buco della conoscenza, non assenza di adattamento.",
+      "livello": "ipotesi",
+      "fonte": null
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Insufflazione di ozono/ossigeno nel peritoneo contro ossigeno puro contro sham, carcinoma VX2 nel coniglio",
+     "bersaglio": "ozono (sistemico)",
+     "fase": "animale, 14/13/14 animali",
+     "esito": "sopravvivenza 7/14 con O3/O2 (6 con regressione completa), 3/13 con O2 (2 con remissione completa), 1/14 sham; tolleranza al reimpianto abolita dall'immunosoppressione",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18224691",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Terapia 'Hufeland' (dieta, iniezioni, ozono, ipertermia da febbre, psicoterapia, talvolta ormoni o chemioterapia a basse dosi)",
+     "bersaglio": "combinazione di trattamenti complementari",
+     "fase": "serie 'best-case' retrospettiva, 27 casi riassunti",
+     "esito": "12 casi revisionati, 5 giudicati migliori (3 risposte complete, 2 parziali); la maggior parte dei pazienti aveva ricevuto terapia convenzionale",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "15911928",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Olio ozonizzato con alto contenuto di ozonidi come terapia complementare, tumori vari",
+     "bersaglio": "olio ozonizzato (orale o topico)",
+     "fase": "osservazionale, 115 pazienti",
+     "esito": "sopravvivenza migliorata rispetto al solo trattamento standard secondo gli autori; disegno e controllo non chiari nell'abstract",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Chemioterapia + melatonina + cannabidiolo + ossigeno-ozono, poi radioterapia stereotassica e immunoterapia, carcinoma mammario triplo negativo con metastasi polmonari e mediastiniche",
+     "bersaglio": "protocollo integrato",
+     "fase": "caso clinico, n=1",
+     "esito": "remissione completa e duratura, libera da malattia a cinque anni; gli autori non attribuiscono la causalità",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41718279",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozonoterapia per osteonecrosi della mandibola in una paziente con carcinoma mammario metastatico",
+     "bersaglio": "ozono (locale)",
+     "fase": "caso clinico, n=1",
+     "esito": "sopravvivenza di 20 anni con risposta completa attribuita al trattamento multidisciplinare; l'ozono era usato per la complicanza",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "39474558",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozono (gassoso o in olio) per osteonecrosi della mandibola da farmaci in pazienti oncologici",
+     "bersaglio": "ozono (locale)",
+     "fase": "meta-analisi di 6 studi non randomizzati, 178 pazienti",
+     "esito": "successo clinico aggregato 71% (IC 95% 55-84%; I2 41,9%); certezza delle prove molto bassa; nessun effetto avverso riportato",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41379333",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozonoterapia per osteonecrosi della mandibola da farmaci",
+     "bersaglio": "ozono (locale)",
+     "fase": "scoping review di 14 studi, 191 pazienti",
+     "esito": "guarigione mucosa completa in 137 di 191 pazienti (71,73%); protocolli molto eterogenei; non ci sono controlli randomizzati",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41352995",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Infiltrazione di ozono medico per osteonecrosi della mandibola da farmaci",
+     "bersaglio": "ozono (locale)",
+     "fase": "fase I/II (NCT05036837), 50 pazienti",
+     "esito": "sospeso",
+     "ragione": "\"DUE TO PANDEMIC CONDITIONS\"",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05036837",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozono (insufflazione di ossigeno-ozono) nelle estrazioni dentarie in pazienti a rischio di osteonecrosi",
+     "bersaglio": "ozono (locale)",
+     "fase": "fase I/II randomizzata (NCT06072404), 117 pazienti",
+     "esito": "completato; risultati nel registro, non letti",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06072404",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozono contro ossigeno come placebo, neuropatia periferica da chemioterapia",
+     "bersaglio": "ozono (sistemico)",
+     "fase": "fase II/III randomizzata in quadruplo cieco, 42 stimati (NCT04299893)",
+     "esito": "in reclutamento; endpoint primari: dolore medio (BPI-SF) e costo ospedaliero",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT04299893",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT06706544",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Olio ozonizzato in collutorio contro clorexidina contro acido lipoico, prevenzione della mucosite orale",
+     "bersaglio": "olio ozonizzato",
+     "fase": "fase IV randomizzata in doppio cieco, 80 stimati (NCT05211622)",
+     "esito": "stato sconosciuto, ultimo aggiornamento 2022",
+     "ragione": "non reperita",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05211622",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Ozono rettale per tossicità pelvica o dolore pelvico dopo terapia oncologica ginecologica",
+     "bersaglio": "ozono (rettale)",
+     "fase": "osservazionali (NCT06816095, NCT07259681), 40 e 38 stimati",
+     "esito": "in reclutamento; endpoint di espressione genica e microbioma",
+     "ragione": "non interrotto",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT06816095",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT07259681",
+       "verificata": true
+      }
+     ]
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Sicurezza, gruppo di terapie: una rassegna del 2009 scrive che l'uso delle 'terapie con ossigeno' (perossido di idrogeno, clisteri e autoemotrasfusione con ozono, acque ossigenate) ha causato eventi avversi gravi e diversi decessi; non indica tassi.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "20043470",
+      "verificata": true
+     },
+     "prova": "rassegna critica"
+    },
+    {
+     "testo": "Eventi avversi gravi riportati come casi singoli, senza denominatori: morte improvvisa per embolia gassosa durante autoemotrasfusione ossigeno-ozono per psoriasi; sospetta embolia polmonare con morte improvvisa in una donna anziana dopo ossigeno-ozono intradiscale per lombalgia (attribuita a puntura accidentale di un vaso venoso); ictus multifocale da emboli di gas in un uomo di 34 anni dopo iniezioni paravertebrali di ozono. Tutte vie di somministrazione invasive.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "10871129",
+      "verificata": true
+     },
+     "prova": "casi clinici",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "31430795",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30741783",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Sicurezza nei lavori sull'osteonecrosi: la meta-analisi non riporta effetti avversi, ma classifica tutti gli studi a basso rischio di bias e la certezza delle prove come molto bassa per limiti metodologici ed eterogeneità: le due affermazioni sono in tensione.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41379333",
+      "verificata": true
+     },
+     "prova": "meta-analisi di studi non controllati"
+    },
+    {
+     "testo": "Finestra di dose: i dati disponibili sono indiretti. Nell'RCT sul disco lombare, 60 µg/ml hanno aumentato IL-6, IgG e IgM mentre 20 e 40 µg/ml li hanno ridotti; in vitro nelle cellule tumorali 5-20 µg/ml riducono la vitalità; le unità e le vie di somministrazione non sono confrontabili, e non esiste una finestra definita da esiti clinici oncologici.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29611536",
+      "verificata": true
+     },
+     "prova": "RCT non oncologico e in vitro",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35936665",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Interazioni con terapie oncologiche: nessun dato clinico letto su antiossidanti, cisplatino, antracicline o radioterapia; la rassegna sul colon-retto avverte che l'attivazione di difese antiossidanti potrebbe aumentare la tolleranza allo stress delle cellule tumorali.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43032072",
+      "verificata": true
+     },
+     "prova": "rassegna",
+     "inferenza": true
+    },
+    {
+     "testo": "Studi non oncologici favorevoli esistono ma non provano l'uso in oncologia: in un RCT su 85 pazienti con epatite grave cronica, autoemotrasfusione con ozono a 35 µg/ml ha dato sopravvivenza del 77% contro 38% e meno danno renale (5% contro 21%); studio di un solo centro, di un'altra malattia, con mascheramento non descritto nell'abstract.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "21034619",
+      "verificata": true
+     },
+     "prova": "RCT non oncologico"
+    },
+    {
+     "testo": "Effetti sul sangue a concentrazioni ex vivo: in sangue umano eparinato esposto a ozono, le piastrine tendono ad aggregarsi anche a 40 µg/ml, nonostante l'assenza di effetti collaterali dopo autoemoterapia riferita dagli autori, che raccomandano di tenerne conto nella pratica clinica; le cellule mononucleate isolate in coltura sono più sensibili del sangue intero.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "9795834",
+      "verificata": true
+     },
+     "prova": "sperimentale ex vivo"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "L'effetto antitumorale dell'insufflazione di ozono/ossigeno osservato nel coniglio VX2 è dovuto all'ozono o all'ossigeno con cui è miscelato, e dipende dal sistema immunitario? (Domanda corretta: nell'unico esperimento letto, l'ossigeno da solo ha dato remissioni complete, e l'abstract non riporta un test tra ozono e ossigeno.)",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Animali con tumore ortotopico in tre bracci con volume e flusso identici (O3/O2, solo O2, sham), numerosità calcolata sull'effetto, randomizzazione e cecità dell'analisi; arm aggiuntivo con immunosoppressione; misura di ossigenazione tumorale (pO2) e di infiltrato immunitario.",
+     "falsificazione": "L'effetto è specifico dell'ozono solo se O3/O2 è superiore a O2 con un confronto statistico prespecificato; è falsificato se O3/O2 e O2 sono equivalenti entro un margine prespecificato."
+    },
+    {
+     "domanda": "Nei pazienti con osteonecrosi della mandibola da farmaci, l'ozono aggiunto alla gestione standard migliora la guarigione della mucosa e dell'osso rispetto alla sola gestione standard (con trattamento simulato)?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "RCT in doppio cieco con trattamento simulato, stratificato per farmaco, stadio e sede, endpoint primario di guarigione mucosa a 6 e 12 mesi con valutatore cieco, eventi avversi con denominatore.",
+     "falsificazione": "Falsificata se la differenza di guarigione a 12 mesi non esclude zero con l'alfa prespecificato, o se si riduce a zero con valutatore cieco."
+    },
+    {
+     "domanda": "Esposizioni ripetute all'ozono inducono nelle cellule tumorali un adattamento antiossidante (NRF2, glutatione) che riduce il danno o la sensibilità a cisplatino e radioterapia, rispetto alle cellule normali?",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Linee tumorali e cellule normali corrispondenti esposte a cicli ripetuti di ozono a concentrazioni definite e misurate, con misura di NRF2, glutatione, vitalità e sensibilità a cisplatino e radiazioni, con controllo di ossigeno e con inibitore di NRF2.",
+     "falsificazione": "Falsificata se non c'è aumento di NRF2/glutatione né perdita di sensibilità dopo cicli ripetuti; confermata se compare adattamento con riduzione dell'effetto dei trattamenti."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Concentrazione di ozono con effetto su cellule di carcinoma mammario in vitro",
+     "stato": "misurato",
+     "valore": "5-20 µg/ml (una linea tumorale)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35936665",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Sopravvivenza nel coniglio VX2: ozono/ossigeno, ossigeno, sham",
+     "stato": "misurato",
+     "valore": "7/14, 3/13, 1/14",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "18224691",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Successo clinico aggregato dell'ozono nell'osteonecrosi della mandibola (6 studi non controllati)",
+     "stato": "misurato",
+     "valore": "71% (IC 95% 55-84%), certezza molto bassa",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "41379333",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazione di ozono pro-infiammatoria nell'RCT sul disco lombare",
+     "stato": "misurato",
+     "valore": "60 µg/ml (contro 20 e 40 µg/ml)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29611536",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Concentrazione efficace e sicura di ozono nel tumore dei pazienti",
+     "stato": "assente",
+     "valore": "non reperita",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
