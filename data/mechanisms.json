@@ -11447,6 +11447,16 @@
      "prova": "sperimentale"
     },
     {
+     "testo": "Modello con MDA-MB-231: la compressione tibiale in topi SCID dopo iniezione intratibiale di MDA-MB-231 ha ridotto drasticamente osteolisi e formazione del tumore e aumentato la massa trabecolare; un solo livello di carico; in vitro in 3D il carico non uccideva le cellule tumorali ma riduceva l'espressione di geni che interferiscono con l'omeostasi ossea.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "23649605",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
      "testo": "Altri modelli di carico: il carico alla caviglia in topi con tumore intraosseo ha ridotto osteolisi, osteoclasti, RANKL, catepsina K, IL-8 e MMP9 e la crescita tumorale (linea tumorale non specificata nell'abstract); in topi obesi con tumore nella tibia il carico ha ridotto RANKL, catepsina K e aumentato OPG, mentre la dieta ricca di grassi aveva peggiorato le metastasi.",
      "livello": "animale",
      "fonte": {
@@ -11557,6 +11567,23 @@
        "tipo": "PMID",
        "id": "35850277",
        "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Stesso RCT di resistenza paravertebrale (analisi sulla densità ossea, 60 pazienti con metastasi spinali di tumori diversi): la densità nelle metastasi è aumentata del 28,3% a 3 mesi e dell'80,3% a 6 mesi nel braccio con esercizio (P<0,01) contro nessun aumento significativo nel braccio con terapia passiva; fratture patologiche 23,3% contro 30,0%, nessuna attribuita all'intervento, nessuna differenza tra i bracci (P=0,592 e 0,604).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "25012645",
+      "verificata": true
+     },
+     "prova": "RCT",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT01409720",
+       "verificata": true
       }
      ]
     },
@@ -11853,10 +11880,42 @@
    ],
    "buchi": [
     {
-     "domanda": "Da verificare con agenti (passo 6): equivalenza dell'intensità tra topo e uomo e sicurezza in lesioni osteolitiche del seno.",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "In donne con carcinoma mammario metastatico senza lesioni a rischio di frattura secondo criteri prespecificati (valutazione ortopedica, punteggio di stabilità sotto soglia fissata prima), un programma di esercizio supervisionato titolato per intensità aumenta il tasso di frattura patologica o di evento scheletrico rispetto alla cura abituale, entro un margine di sicurezza fissato prima? (Domanda corretta: la formulazione di partenza chiedeva un 'equivalente umano' della curva a J del topo, ma la curva deriva da tre livelli con modalità diverse e senza un adattamento prespecificato, l'endpoint murino è la perforazione corticale e non la frattura, e non esiste una conversione di 630 o 1100 με in un'attività umana; Mirels e SINS stimano il rischio di frattura e non sono strumenti di prescrizione dell'esercizio.)",
+     "verifica": "Parzialmente fatto. Nel topo: dose-risposta del carico in un solo studio, con tumore Py8119 (PMID 34246808, non replicato nelle fonti trovate), più studi con un solo livello di carico (MDA-MB-231 in topi SCID, PMID 23649605; topi obesi, PMID 33554336). Nell'uomo: RCT di resistenza paravertebrale in 60 pazienti con metastasi spinali di tumori diversi, con densità ossea aumentata e fratture patologiche 23,3% contro 30,0% senza attribuzione all'intervento (PMID 25012645), e la sua analisi di sopravvivenza (PMID 27464793); piccoli studi in prostata (PMID 23917308, non riletto da me); un RCT in carcinoma mammario metastatico che esclude le lesioni ossee instabili, con 2 fratture gravi non correlate in 178 pazienti con esercizio (PMID 39054374). Biomeccanica: un modello a elementi finiti del femore prossimale in 52 femori con metastasi ha trovato 0 fratture su 24 femori trattati senza chirurgia con rapporto carico/resistenza ≤0,5 a 9 mesi, mentre il punteggio di Mirels correla debolmente con la resistenza (ρ=-0,32) (PMID 35787214); in un'altra serie sull'arto superiore il Mirels ha sensibilità 14% e specificità 73% a soglia 9 (PMID 35813136, non riletto da me). Non trovato: deformazione ossea misurata in lesioni umane; carichi per attività (camminata, scale, esercizi di resistenza) in modelli a elementi finiti di metastasi (ricerca con zero risultati); trial con eventi scheletrici come endpoint primario per il seno; uso di Mirels o SINS per prescrivere esercizio.",
+     "disegno": "Popolazione con carcinoma mammario metastatico e stabilità ossea valutata da un ortopedico con criteri prespecificati (esclusione di lesioni portanti ad alto rischio e di fratture non stabilizzate); intervento supervisionato titolato per intensità con soglie di dolore e di carico in sede portante contro cure abituali; endpoint primario di sicurezza: frattura patologica o evento scheletrico (anche radioterapia o chirurgia ossea) confermati da un comitato in cieco con definizioni prespecificate; secondari: fatica, qualità di vita, dolore; almeno 6 mesi di osservazione, comitato di monitoraggio con regole di arresto prespecificate. Numerosità, calcolo mio: per escludere un tasso sopra il 5% con zero eventi, limite superiore bilaterale al 95%, servono circa 72 per braccio (ln 0,025 / ln 0,95), circa 59 con limite unilaterale; il tasso di base reale va fissato su una fonte e cambia il calcolo (nel braccio di controllo del RCT di resistenza paravertebrale, popolazione diversa, era 30,0%).",
+     "falsificazione": "Margine di sicurezza Δ fissato prima con clinici e ortopedici (per esempio 5 punti percentuali, valore proposto e non derivato dalla letteratura): l'ipotesi di sicurezza è respinta se il limite superiore dell'intervallo di confidenza al 95% della differenza di tasso (esercizio meno controllo) supera Δ; l'intervento viene sospeso se le fratture attribuite all'esercizio dal comitato superano una soglia prespecificata. Dato di riferimento, calcolo mio: 2 fratture su 178 nel braccio con esercizio di PREFERABLE-EFFECT corrispondono a un intervallo esatto al 95% di circa 0,14%-4,0%, ma erano non correlate alle metastasi ossee e il trial escludeva le lesioni instabili.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "34246808",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "23649605",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "25012645",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "27464793",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39054374",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "35787214",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Da verificare con agenti (passo 6): RCT con progressione ossea o eventi scheletrici come endpoint.",
