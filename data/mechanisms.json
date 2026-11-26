@@ -9815,7 +9815,7 @@
   {
    "id": "ozonoterapia",
    "name": "Ozonoterapia medica: terapia di supporto, remissione in un caso, osteonecrosi della mandibola",
-   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Verifica: giro 1, 21 PMID e 7 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, un RCT di prevenzione dopo estrazione (117 pazienti, in aperto, senza placebo) usa come endpoint la guarigione della ferita e non l'incidenza di osteonecrosi, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Verifica: giro 1, 21 PMID e 7 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; i giri 2 e 3 e il passo 6 sono in corso, quindi gli altri identificativi restano non verificati. Nessuna informazione qui è una raccomandazione terapeutica.",
    "normale": [
     {
      "testo": "Cos'è e cosa si dice: le rassegne descrivono l'ozonoterapia come adiuvante proposto durante il trattamento oncologico, con meccanismi ipotizzati su emoglobina, 2,3-difosfoglicerato, flusso locoregionale e ipossia tumorale, sostenuti da studi in vitro e animali; gli autori (che riportano la propria esperienza) concludono che gli studi clinici sono pochi e che servono RCT.",
@@ -9976,6 +9976,16 @@
      },
      "prova": "ritrattato",
      "inferenza": true
+    },
+    {
+     "testo": "Animale, osteonecrosi della mandibola: in 40 ratti trattati con acido zoledronico e sottoposti a estrazione, ozono gassoso e laser a bassa intensità hanno dato più formazione ossea del controllo (P<0,05); il gruppo sham, senza zoledronato, ha avuto la massima formazione ossea. Gli autori concludono che possono aiutare a prevenire l'osteonecrosi; endpoint istomorfometrico a 4 settimane.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38978136",
+      "verificata": true
+     },
+     "prova": "sperimentale"
     }
    ],
    "ridondanze": {
@@ -10121,6 +10131,18 @@
      }
     },
     {
+     "composto": "Strategie preventive dopo estrazione (rigenerative, chiusura primaria o secondaria, lembo epiperiosteale, infiltrazione di ozono)",
+     "bersaglio": "vari",
+     "fase": "meta-analisi di rete di 5 RCT (2012-2024)",
+     "esito": "nessuna strategia dimostra superiorità rispetto alla chiusura primaria; l'infiltrazione di ozono è uno dei bracci",
+     "ragione": "non applicabile",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40589371",
+      "verificata": true
+     }
+    },
+    {
      "composto": "Infiltrazione di ozono medico per osteonecrosi della mandibola da farmaci",
      "bersaglio": "ozono (locale)",
      "fase": "fase I/II (NCT05036837), 50 pazienti",
@@ -10133,16 +10155,23 @@
      }
     },
     {
-     "composto": "Ozono (insufflazione di ossigeno-ozono) nelle estrazioni dentarie in pazienti a rischio di osteonecrosi",
+     "composto": "Ossigeno-ozono (15 mL perialveolari + insufflazione) contro sola estrazione senza intervento, in pazienti a rischio di osteonecrosi della mandibola",
      "bersaglio": "ozono (locale)",
-     "fase": "fase I/II randomizzata (NCT06072404), 117 pazienti",
-     "esito": "completato; risultati nel registro, non letti",
+     "fase": "RCT di fase II in aperto, 117 pazienti, prevenzione (NCT06072404)",
+     "esito": "guarigione della ferita (scala IPR) migliore con ozono a 3-5 giorni (P=0,006) e a 14 giorni (P<0,001) secondo il lavoro; il registro riporta punteggi medi senza P e osteonecrosi della mascella 0/38 contro 0/79; endpoint sulla guarigione della ferita, non sull'incidenza di osteonecrosi; nessun placebo né simulazione; la direzione del punteggio della fase infiammatoria nel registro (2,00 con ozono contro 2,49) va chiarita sul testo completo",
      "ragione": "non interrotto",
      "fonte": {
-      "tipo": "NCT",
-      "id": "NCT06072404",
+      "tipo": "PMID",
+      "id": "38807567",
       "verificata": true
-     }
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT06072404",
+       "verificata": true
+      }
+     ]
     },
     {
      "composto": "Ozono contro ossigeno come placebo, neuropatia periferica da chemioterapia",
@@ -10296,10 +10325,52 @@
      "falsificazione": "L'effetto è specifico dell'ozono solo se O3/O2 è superiore a O2 con un confronto statistico prespecificato; è falsificato se O3/O2 e O2 sono equivalenti entro un margine prespecificato."
     },
     {
-     "domanda": "Nei pazienti con osteonecrosi della mandibola da farmaci, l'ozono aggiunto alla gestione standard migliora la guarigione della mucosa e dell'osso rispetto alla sola gestione standard (con trattamento simulato)?",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "RCT in doppio cieco con trattamento simulato, stratificato per farmaco, stadio e sede, endpoint primario di guarigione mucosa a 6 e 12 mesi con valutatore cieco, eventi avversi con denominatore.",
-     "falsificazione": "Falsificata se la differenza di guarigione a 12 mesi non esclude zero con l'alfa prespecificato, o se si riduce a zero con valutatore cieco."
+     "domanda": "Nei pazienti con osteonecrosi della mandibola già conclamata, l'ozono aggiunto a un protocollo standard fisso aumenta la proporzione di guarigione mucosa a 12 mesi rispetto a un'infiltrazione simulata, cieca per paziente e valutatore, di almeno un margine clinicamente rilevante prespecificato? (Domanda corretta: prevenzione e trattamento erano confusi; 'gestione standard' non era definita; 'non esclude lo zero' non è un criterio di falsificazione senza potenza e margine prespecificati.)",
+     "verifica": "Parzialmente fatto, ma non nel disegno richiesto. Prevenzione dopo estrazione: un RCT di fase II in aperto su 117 pazienti a rischio confronta ossigeno-ozono con sola estrazione senza placebo né simulazione e usa la scala IPR (guarigione della ferita a 3-5 giorni, 14 giorni e 6 settimane) come endpoint, non l'incidenza di osteonecrosi né la guarigione a 6-12 mesi (PMID 38807567, NCT06072404; osteonecrosi 0/38 contro 0/79 nel registro); una meta-analisi di rete di 5 RCT non trova superiorità di alcuna strategia sulla chiusura primaria (PMID 40589371). Trattamento della malattia conclamata: nessun RCT con ozono trovato; serie e studi non controllati (meta-analisi di 6 studi, 71% di successo, certezza molto bassa, PMID 41379333; scoping review di 14 studi, 71,7%, PMID 41352995), un trial a braccio singolo sospeso per la pandemia con guarigione mucosa a 3, 6, 12 e 18-24 mesi come endpoint (NCT05036837), la revisione Cochrane senza ozono nell'abstract (PMID 35866376) e le linee guida MASCC/ISOO/ASCO 2019, il cui abstract non cita l'ozono (PMID 31329513, non riletto). Animale: ozono e laser migliorano la formazione ossea nei ratti con zoledronato (PMID 38978136). Non trovato: un RCT con trattamento simulato, né in prevenzione né nella malattia conclamata, con guarigione mucosa a 6 e 12 mesi.",
+     "disegno": "RCT in doppio cieco in MRONJ di stadio definito, con protocollo standard fisso (da specificare) in entrambi i bracci e infiltrazione simulata nel controllo; stratificazione per farmaco, stadio e sede; endpoint primario di guarigione mucosa a 12 mesi con i criteri già usati nel trial sospeso (assenza di segni clinici, assenza di sintomi con scala numerica del dolore, assenza di segni radiologici dell'osso) e valutatore cieco; eventi avversi con denominatore; numerosità calcolata sul tasso di guarigione del braccio di controllo, da ricavare dalla letteratura sul trattamento standard (non ancora letta) e su un margine clinicamente rilevante prespecificato.",
+     "falsificazione": "Falsificata se l'intervallo di confidenza al 95% della differenza di guarigione a 12 mesi sta interamente sotto il margine clinicamente rilevante prespecificato (con alfa bilaterale 0,05 e potenza 80%).",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38807567",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT06072404",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40589371",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41379333",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "41352995",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05036837",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "35866376",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "38978136",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Esposizioni ripetute all'ozono inducono nelle cellule tumorali un adattamento antiossidante (NRF2, glutatione) che riduce il danno o la sensibilità a cisplatino e radioterapia, rispetto alle cellule normali?",
