@@ -10612,7 +10612,7 @@
    "normale": [
     {
      "testo": "Rimodellamento osseo normale: il riassorbimento da parte degli osteoclasti è accoppiato alla formazione da parte degli osteoblasti in cinque fasi (attivazione, riassorbimento, inversione, formazione, terminazione); le vie principali sono RANK/RANKL/osteoprotegerina e Wnt canonica.",
-     "livello": "clinico",
+     "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "29368538",
@@ -10622,13 +10622,13 @@
     },
     {
      "testo": "Alterazione nella metastasi ossea del seno: la rassegna parla di un 'circolo vizioso' in cui la lesione altera il microambiente osseo e la distruzione ossea sostiene la progressione tumorale (letto da un sotto-agente, non riletto da me).",
-     "livello": "clinico",
+     "livello": "ipotesi",
      "fonte": {
       "tipo": "PMID",
       "id": "31456182",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "rassegna"
+     "prova": "capitolo di libro (rassegna)"
     },
     {
      "testo": "Esempio sperimentale di circolo osso-tumore: la PRODH2 favorirebbe la differenziazione degli osteoclasti tramite idrossiprolina derivata dal collagene (campioni clinici, cellule, xenotrapianti murini; letto da un sotto-agente, non riletto da me).",
@@ -10636,9 +10636,9 @@
      "fonte": {
       "tipo": "PMID",
       "id": "40749014",
-      "verificata": false
+      "verificata": true
      },
-     "prova": "sperimentale"
+     "prova": "sperimentale (campioni clinici, cellule, xenotrapianti murini)"
     }
    ],
    "catena": [
@@ -10663,7 +10663,7 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Meccanismo riportato: aumento dell'espressione (RNA messaggero) di caspasi-9 di circa 5-7 volte e di circa 5-6 volte nelle due linee, calo del potenziale di membrana mitocondriale e calo dei segnali di specie reattive dell'ossigeno dopo trattamento; il testo non misura attività enzimatica delle caspasi. Discrepanze interne: l'abstract dice che il trattamento aumenta p53, ma l'RNA messaggero di p53 è 2,29 e 1,36 volte più basso nelle colture ossee che in 2D (si confronta 2D con 3D, non trattato con non trattato) e solo l'immunofluorescenza mostra più p53 nei trattati; analogamente Bcl-2 è più alto nelle colture ossee ma l'immunofluorescenza lo mostra più basso nei trattati.",
+     "testo": "Meccanismo riportato: aumento dell'espressione (RNA messaggero) di caspasi-9 di circa 5-7 volte e di circa 5-6 volte nelle due linee, calo del potenziale di membrana mitocondriale e calo dei segnali di specie reattive dell'ossigeno dopo trattamento; il testo non misura attività enzimatica delle caspasi. Discrepanze interne: l'abstract dice che il trattamento aumenta p53, ma l'RNA messaggero di p53 è 2,29 e 1,36 volte più basso nelle colture ossee che in 2D (si confronta 2D con 3D, non trattato con non trattato) e solo l'immunofluorescenza mostra più p53 nei trattati; analogamente Bcl-2 è più alto nelle colture ossee ma l'immunofluorescenza lo mostra più basso nei trattati. Nota di fonte: i Metodi citano anche l'RNA messaggero di caspasi-3, che i Risultati non riportano.",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
@@ -10710,7 +10710,7 @@
       "id": "18800886",
       "verificata": true
      },
-     "prova": "sperimentale"
+     "prova": "sperimentale (prevalentemente in vitro, più un esperimento nel topo)"
     },
     {
      "testo": "Segnale di rischio per i tumori ER+: l'estratto ha attivato in MCF-7 la trascrizione dipendente dal recettore estrogenico e la proliferazione entro 24 ore; con trattamento più lungo la risposta si riduceva (proliferazione e tumorsfere diminuite); nei topi a 20 mg/kg al giorno per 12 settimane nessun cambiamento dei bersagli del recettore nel tessuto mammario normale.",
@@ -10720,10 +10720,10 @@
       "id": "26850689",
       "verificata": true
      },
-     "prova": "sperimentale"
+     "prova": "sperimentale (prevalentemente in vitro su MCF-7, più un esperimento nel topo)"
     },
     {
-     "testo": "Composto isolato (salidroside) e non l'estratto: in MDA-MB-231 e MCF-7 induce arresto del ciclo e apoptosi (concentrazioni non nell'abstract); in un altro lavoro in MDA-MB-231 e xenotrapianti nel topo nudo agisce con morte per ferroptosi tramite inibizione di PI3K/AKT/mTOR, non per apoptosi. Estratto e composto non sono intercambiabili.",
+     "testo": "Composto isolato (salidroside) e non l'estratto: in MDA-MB-231 e MCF-7 induce arresto del ciclo e apoptosi (concentrazioni non nell'abstract); in un altro lavoro in MDA-MB-231 e xenotrapianti nel topo nudo induce morte per ferroptosi tramite inibizione di PI3K/AKT/mTOR (l'abstract non menziona l'apoptosi). Estratto e composto non sono intercambiabili.",
      "livello": "in_vitro",
      "fonte": {
       "tipo": "PMID",
@@ -10751,7 +10751,7 @@
     },
     {
      "testo": "Una revisione sistematica di 47 studi preclinici su 19 tipi di tumore descrive effetti antitumorali del salidroside in vitro e in vivo e conclude che servono RCT ben disegnati per valutarne l'efficacia clinica.",
-     "livello": "ipotesi",
+     "livello": "animale",
      "fonte": {
       "tipo": "PMID",
       "id": "42261166",
@@ -10808,7 +10808,7 @@
       ]
      },
      {
-      "testo": "Effetto sul tessuto osseo normale contraddittorio per il salidroside: in un lavoro potenzia vitalità, differenziazione e riassorbimento degli osteoclasti (RAW 264.7) con HIF-1α/VEGF/IL-6/ANGPTL4; nel lavoro dello stesso gruppo, in osteoblasti e nel topo con osteolisi da LPS, riduce l'ipossia ossea, RANKL e la differenziazione degli osteoclasti tramite i mediatori degli osteoblasti. Il dato sulle hMSC non risolve la questione degli osteoclasti, che nella metastasi litica del seno sono centrali. Altri lavori sul salidroside vanno nella direzione inibitoria: riduce la formazione di osteoclasti indotta da RANKL in RAW 264.7 con soppressione di NFκB, c-Fos e NFATc1 (anche l'estratto di R. rosea, in modo dose-dipendente), e in topi con artrosi aumenta proliferazione e differenziazione degli osteoblasti e l'apoptosi degli osteoclasti in vitro. Nessuno di questi lavori usa R. crenulata né cellule tumorali; le concentrazioni non sono negli abstract.",
+      "testo": "Effetto sul tessuto osseo normale contraddittorio per il salidroside: in un lavoro potenzia vitalità, differenziazione e riassorbimento degli osteoclasti (RAW 264.7) con HIF-1α/VEGF/IL-6/ANGPTL4; nel lavoro dello stesso gruppo, in osteoblasti e nel topo con osteolisi da LPS, riduce l'ipossia ossea, RANKL e la differenziazione degli osteoclasti tramite i mediatori degli osteoblasti. Il dato sulle hMSC non risolve la questione degli osteoclasti, che nella metastasi litica del seno sono centrali. Altri lavori sul salidroside vanno nella direzione inibitoria: riduce la formazione di osteoclasti indotta da RANKL in RAW 264.7 con soppressione di NFκB, c-Fos e NFATc1 (anche l'estratto di R. rosea, in modo dose-dipendente), e in topi con artrosi aumenta proliferazione e differenziazione degli osteoblasti e l'apoptosi degli osteoclasti in vitro. Nessuno di questi lavori usa R. crenulata né cellule tumorali; le concentrazioni non sono negli abstract. (Il lavoro 40383613 comprende anche un modello murino di osteolisi da LPS.)",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
@@ -10968,7 +10968,7 @@
      "inferenza": true
     },
     {
-     "testo": "Farmacocinetica: per il salidroside nel ratto la biodisponibilità orale è 32,1%; per l'uomo non è stata trovata alcuna farmacocinetica orale del salidroside né concentrazioni nell'osso (fonte non reperita). Una rassegna del 2026 cita biodisponibilità sotto il 12% e emivita di 2,3 ore, ma non ho riletto la fonte primaria.",
+     "testo": "Farmacocinetica del salidroside puro nel ratto: biodisponibilità orale 32,1% in uno studio; in un secondo studio il p-tirosolo risulta dopo somministrazione endovenosa ma non rilevabile dopo gavage, e dal testo completo (letto da un sotto-agente, non da me) si ricavano per 100 mg/kg per os Cmax 3716,73 ng/mL, Tmax 0,30 h, emivita 1,32 h e F 51,97%. Per l'uomo non è stata trovata alcuna farmacocinetica orale del salidroside né concentrazioni nell'osso (fonte non reperita; ricerca dedicata non completata). Una rassegna del 2026 cita biodisponibilità sotto il 12% e emivita di 2,3 ore senza specie, discordante con i due primari.",
      "livello": "animale",
      "fonte": {
       "tipo": "PMID",
@@ -10979,20 +10979,25 @@
      "altre_fonti": [
       {
        "tipo": "PMID",
+       "id": "22525439",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
        "id": "42375548",
-       "verificata": false
+       "verificata": true
       }
      ]
     },
     {
-     "testo": "Identità del prodotto: su 100 campioni di decotto venduti come R. crenulata, solo 36 erano R. crenulata autentica al codice a barre del DNA; 35 erano R. serrata e 9 R. rosea (sequenze). L'estratto commerciale dello studio principale non è identificato con un marcatore nel testo.",
+     "testo": "Identità del prodotto: su 100 campioni di decotto venduti come R. crenulata, solo 36 erano R. crenulata autentica al codice a barre del DNA; 35 erano R. serrata 9 R. rosea e 20 di altre tre specie. L'estratto commerciale dello studio principale non è identificato con un marcatore nel testo.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "25661009",
       "verificata": true
      },
-     "prova": "osservazionale (mercato)"
+     "prova": "indagine di mercato con codice a barre del DNA (non è uno studio clinico)"
     },
     {
      "testo": "Interazioni: con R. rosea (non crenulata) in 13 volontari sani, 14 giorni di pretrattamento riducono del 21% il rapporto metabolita/losartan (CYP2C9), non CYP1A2, 2C19, 2D6 e 3A4; in vitro estratti di R. rosea inibiscono CYP3A4 (IC50 1,7-3,1 µg/mL) e P-gp. Nessun dato su tamoxifene o inibitori dell'aromatasi trovato (assenza di dati, non prova di assenza di interazione).",
@@ -11019,7 +11024,7 @@
       "id": "26850689",
       "verificata": true
      },
-     "prova": "sperimentale"
+     "prova": "sperimentale (prevalentemente in vitro su MCF-7, più un esperimento nel topo)"
     },
     {
      "testo": "Epatotossicità, studi di tossicità acuta e LD50 di R. crenulata: non valutati o non reperiti.",
@@ -11073,16 +11078,60 @@
      ]
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): effetto in vivo su metastasi ossee mammarie.",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "Un estratto di R. crenulata con marcatori misurati (salidroside, rosavine) riduce in vivo il carico tumorale tibiale e l'osteolisi (micro-CT) di cellule di carcinoma mammario rispetto a veicolo, con acido zoledronico come controllo attivo descrittivo? (Domanda corretta: 'estratto standardizzato' non era definito, e 'ortotopico intratibiale o iniezione intracardiaca' mescolava due modelli diversi, l'intratibiale e la colonizzazione ematogena, che vanno separati.)",
+     "verifica": "Parzialmente fatto, per componenti separate e mai insieme. R. crenulata in vivo ma non nell'osso: fenoli in dieta su tumori trapiantati mammari (PMID 18800886) e 20 mg/kg al giorno in topi sani (PMID 26850689). Salidroside nell'osso ma senza tumore: osteolisi da LPS (PMID 40383613). Salidroside in tumore mammario non osseo: xenotrapianto MCF-7 con inibizione del 75,16% alla dose alta (PMID 33238796, abstract non riletto da me) e TNBC (PMID 39353532). Non trovato: R. crenulata o un suo estratto in modello tumorale osseo in vivo con carico tumorale e micro-CT; query con intratibial, orthotopic, 4T1, bone metastasis e osteolysis senza risultati pertinenti.",
+     "disegno": "Topi immunodeficienti femmina, cellule MDA-MB-231 o 4T1 con luciferasi, modello intratibiale in un esperimento e colonizzazione ematogena in un altro; gruppi: veicolo, estratto a dose fissata con marcatori e certificato del lotto, acido zoledronico come controllo attivo; randomizzazione per luminescenza basale, analisi in cieco; numerosità da pilota (la stima di 10 per gruppo è indicativa e va ricalcolata); endpoint primario carico tumorale per luminescenza a un giorno prefissato; secondari micro-CT della tibia (BV/TV, area osteolitica) e istologia TRAP.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: ipotesi falsificata se il carico tumorale con l'estratto non è inferiore di almeno il 25% al veicolo (test corretto per confronti multipli, P<0,05), o se il BV/TV non supera quello del veicolo di almeno il 15%; il confronto con l'acido zoledronico è descrittivo e un eventuale margine di non inferiorità va fissato prima dell'esperimento.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "18800886",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "26850689",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40383613",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39353532",
+       "verificata": true
+      }
+     ]
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): standardizzazione dell'estratto e concentrazioni raggiungibili.",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "Con un estratto a titolo noto di salidroside e rosavine, l'esposizione plasmatica del salidroside (area sotto la curva o tempo sopra soglia, in µM) dopo la dose orale massima prevista, e la concentrazione nell'osso, superano la IC50 in vitro espressa in µM di marcatore? (Domanda corretta: confrontava ppm di un estratto non caratterizzato con la concentrazione plasmatica di un singolo composto, due grandezze non convertibili senza il contenuto di marcatore; inoltre un Cmax di breve durata non è confrontabile con una esposizione continua di 24 ore.)",
+     "verifica": "Parzialmente fatto, solo per il composto puro. Salidroside nel ratto: biodisponibilità orale 32,1% (PMID 18088572), p-tirosolo non rilevabile dopo gavage (PMID 22525439); dall'ultimo testo completo, letto da un sotto-agente, Cmax 3,72 µg/mL dopo 100 mg/kg, calcolo mio 12,4 µM. Calcolo mio ipotetico (contenuto di marcatore dell'estratto non noto): se il salidroside fosse l'1% del peso dell'estratto, le IC50 di 316,2 e 524,7 ppm corrisponderebbero a circa 10,5 e 17,5 µM di salidroside; con 0,5% e 3% i valori cambiano di conseguenza. Non trovato: contenuto di marcatore dell'estratto usato nello studio PMID 40102501; articoli con crenulatina (zero risultati nella ricerca); farmacocinetica umana orale del salidroside e concentrazione nell'osso; marcatori di qualità per R. crenulata (trovati solo per R. rosea e R. algida). Il registro era raggiungibile per me ma per questa domanda non ha dato studi pertinenti. Discrepanza metodologica aperta sul titolo della soluzione madre (vedi finestra).",
+     "disegno": "Caratterizzare per HPLC o LC-MS un lotto di estratto di R. crenulata identificato botanicamente (salidroside, rosavine, tirosolo, certificato del lotto); ripetere l'IC50 in µM di marcatore; farmacocinetica nel ratto con tre dosi orali più via endovenosa per la biodisponibilità assoluta (n=6 per gruppo), con campioni di plasma e tibia a 0,25, 0,5, 1, 2, 4, 8 e 24 ore; confronto esposizione-soglia in µM.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: ipotesi falsificata se la concentrazione plasmatica di salidroside alla dose massima prevista resta sotto l'IC50 in µM di marcatore per tutto il campionamento, o se la concentrazione ossea è almeno il 50% più bassa di quella plasmatica, o se il contenuto di marcatore del lotto è sotto la soglia di specifica fissata prima.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40102501",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "18088572",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "22525439",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42375548",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
