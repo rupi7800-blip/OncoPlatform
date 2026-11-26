@@ -10808,7 +10808,7 @@
       ]
      },
      {
-      "testo": "Effetto sul tessuto osseo normale contraddittorio per il salidroside: in un lavoro potenzia vitalità, differenziazione e riassorbimento degli osteoclasti (RAW 264.7) con HIF-1α/VEGF/IL-6/ANGPTL4; nel lavoro dello stesso gruppo, in osteoblasti e nel topo con osteolisi da LPS, riduce l'ipossia ossea, RANKL e la differenziazione degli osteoclasti tramite i mediatori degli osteoblasti. Il dato sulle hMSC non risolve la questione degli osteoclasti, che nella metastasi litica del seno sono centrali.",
+      "testo": "Effetto sul tessuto osseo normale contraddittorio per il salidroside: in un lavoro potenzia vitalità, differenziazione e riassorbimento degli osteoclasti (RAW 264.7) con HIF-1α/VEGF/IL-6/ANGPTL4; nel lavoro dello stesso gruppo, in osteoblasti e nel topo con osteolisi da LPS, riduce l'ipossia ossea, RANKL e la differenziazione degli osteoclasti tramite i mediatori degli osteoblasti. Il dato sulle hMSC non risolve la questione degli osteoclasti, che nella metastasi litica del seno sono centrali. Altri lavori sul salidroside vanno nella direzione inibitoria: riduce la formazione di osteoclasti indotta da RANKL in RAW 264.7 con soppressione di NFκB, c-Fos e NFATc1 (anche l'estratto di R. rosea, in modo dose-dipendente), e in topi con artrosi aumenta proliferazione e differenziazione degli osteoblasti e l'apoptosi degli osteoclasti in vitro. Nessuno di questi lavori usa R. crenulata né cellule tumorali; le concentrazioni non sono negli abstract.",
       "livello": "in_vitro",
       "fonte": {
        "tipo": "PMID",
@@ -10820,6 +10820,21 @@
        {
         "tipo": "PMID",
         "id": "40383613",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "39476282",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "36095933",
+        "verificata": true
+       },
+       {
+        "tipo": "PMID",
+        "id": "23437352",
         "verificata": true
        }
       ]
@@ -11015,10 +11030,47 @@
    ],
    "buchi": [
     {
-     "domanda": "Da verificare con agenti (passo 6): selettività tra cellule tumorali e cellule ossee (osteoblasti, osteoclasti).",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "La selettività di un estratto standardizzato di R. crenulata tra cellule di carcinoma mammario e cellule ossee (osteoblasti, osteoclasti, in coltura singola e in co-coltura con il tumore) è dimostrata, a concentrazioni equivalenti sul contenuto di marcatori e su 24, 48 e 72 ore, con un indice di selettività e il suo intervallo di confidenza? (Domanda corretta: la formulazione di partenza confondeva specie (estratto di R. crenulata) e composti (salidroside, rosavina) che nella letteratura ossea sono studiati separatamente; 'concentrazioni uguali' non ha senso per un estratto non normalizzato; e un solo endpoint di vitalità non misura funzione di osteoclasti e osteoblasti.)",
+     "verifica": "Parzialmente fatto. Con R. crenulata esiste solo il modello 3D con cellule staminali mesenchimali differenziate in senso osseo, 24 ore, senza osteoclasti né indice di selettività (PMID 40102501, testo completo letto) e con otto linee da pazienti (PMID 40168530; una linea quasi non risponde). La selettività sul tessuto mammario normale è solo qualitativa (PMID 18800886). Non trovato: R. crenulata o salidroside su osteoclasti in co-coltura con cellule tumorali o in modelli di osteolisi tumorale (ricerche per osteoclast, co-culture, osteolysis, 4T1 bone, bone metastasis: zero risultati pertinenti). Sul tessuto osseo normale i dati sul salidroside sono contraddittori: stimolazione degli osteoclasti in uno studio (PMID 39197164) contro inibizione in altri tre (PMID 39476282, 40383613, 36095933), con salidroside o R. rosea e non R. crenulata, senza concentrazioni negli abstract.",
+     "disegno": "Estratto standardizzato con marcatori misurati (salidroside, rosavine, crenulatina), almeno 8 concentrazioni in diluizione seriata e veicolo; linee tumorali (MDA-MB-231, MCF-7, 4T1), osteoclasti (RAW 264.7 o monociti con M-CSF e RANKL), osteoblasti (MC3T3-E1 o cellule staminali mesenchimali differenziate), mammella normale (MCF10A); tempi 24, 48 e 72 ore; almeno 3 esperimenti indipendenti con replicati tecnici; endpoint di vitalità su ATP e annessina V, TRAP e riassorbimento per gli osteoclasti, fosfatasi alcalina e mineralizzazione per gli osteoblasti; co-coltura tumore-osteoclasti a contatto e in transwell; controlli positivi (doxorubicina per il tumore, acido zoledronico per l'osso) e un inibitore della caspasi-9 per testare la via dichiarata.",
+     "falsificazione": "Indice di selettività = IC50 sulle cellule ossee / IC50 sulle cellule tumorali con intervallo di confidenza al 95% (adattamento log-logistico o bootstrap; se l'IC50 ossea non è raggiunta, riportarlo come limite inferiore). Soglie proposte, non derivate dalla letteratura: selettività sostenuta solo se il limite inferiore dell'intervallo è sopra 2 per osteoclasti e osteoblasti in almeno 2 di 3 linee tumorali e in almeno 2 di 3 esperimenti indipendenti; falsificata se il limite inferiore è 1 o meno per una qualunque delle cellule ossee, o se l'estratto stimola gli osteoclasti a concentrazioni sotto l'IC50 tumorale.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40102501",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40168530",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "18800886",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39197164",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "40383613",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "39476282",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "36095933",
+       "verificata": true
+      }
+     ]
     },
     {
      "domanda": "Da verificare con agenti (passo 6): effetto in vivo su metastasi ossee mammarie.",
