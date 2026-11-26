@@ -9815,7 +9815,7 @@
   {
    "id": "ozonoterapia",
    "name": "Ozonoterapia medica: terapia di supporto, remissione in un caso, osteonecrosi della mandibola",
-   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, un RCT di prevenzione dopo estrazione (117 pazienti, in aperto, senza placebo) usa come endpoint la guarigione della ferita e non l'incidenza di osteonecrosi, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Giro 3 (controllo indipendente delle negative e del registro): nessun RCT con endpoint di controllo tumorale è stato trovato nelle query usate (le ricerche non sono esaustive); l'unico RCT oncologico con ozono come intervento attivo letto, 33118519 (olio ozonizzato topico, 91 analizzati), ha come endpoint la reazione mano-piede da sorafenib. Nel registro risultano RCT conclusi sulla mucosite (NCT07069153 e NCT07491536, 40 partecipanti ciascuno, senza risultati postati) e RCT in corso sulla neuropatia (NCT04299893, NCT06706544); NCT06072404 ha titolo 'Case-control' ma il campo di disegno indica randomizzato (discrepanza). La posizione regolatoria non è verificata alla fonte primaria: lo snippet di 21 CFR 801.415 riguarda i dispositivi che generano ozono e non è stato riletto su eCFR; Dichiarazione di Madrid e circolare ministeriale italiana non lette (fonte non reperita). Verifica: 38 PMID e 10 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; giro 2 (confronto con gli abstract) e giro 3 eseguiti da sotto-agenti; tutte le fonti con record nella scheda sono rilette; PMID 31329513, citato solo in prosa, non è stato riletto. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "note": "Bozza v0. La frase di partenza ha tre parti e nessuna regge come formulata. (1) \"L'ozono medico viene talvolta utilizzato come terapia di supporto\": vero come descrizione dell'uso e della sperimentazione (trial registrati su neuropatia da chemioterapia, mucosite, dolore pelvico, osteonecrosi), ma non come descrizione di una terapia di supporto dimostrata: le rassegne cliniche dicono che mancano gli RCT e che i trial oncologici valutano soprattutto gli effetti collaterali, non l'attività antitumorale; una rassegna di Memorial Sloan Kettering del 2009 colloca l'autoemotrasfusione con ozono tra le 'terapie con ossigeno' non dimostrate, associate a eventi avversi gravi e a diversi decessi (attribuiti al gruppo di terapie nell'abstract). Non è stata verificata alcuna posizione di FDA, EMA o società scientifiche (fonte non reperita con PubMed). (2) \"In un caso di metastasi ossee e linfonodali, è stato incluso in un protocollo integrato che ha portato a una remissione completa\": un caso con metastasi ossee e linfonodali con ozono non è stato trovato. Il caso più vicino è un case report del 2026 su carcinoma mammario triplo negativo con metastasi polmonari e linfonodali mediastiniche (non ossee), trattato con chemioterapia, radioterapia stereotassica, immunoterapia e un protocollo con melatonina, cannabidiolo e ossigeno-ozono; gli autori stessi scrivono che la causalità non è stabilibile da un singolo caso. Un secondo caso (sopravvivenza di 20 anni con metastasi ossee ed epatiche) usava l'ozono per l'osteonecrosi della mandibola e attribuisce la risposta al trattamento multidisciplinare. In nessuno dei due la remissione è attribuibile all'ozono. (3) \"È anche impiegato per gestire l'osteonecrosi della mandibola in pazienti trattati con bifosfonati\": è studiato, ma con prove di certezza molto bassa: una meta-analisi di sei studi non controllati (178 pazienti) trova un successo del 71% (IC 55-84%), una scoping review di 14 studi non trova controlli randomizzati, un RCT di prevenzione dopo estrazione (117 pazienti, in aperto, senza placebo) usa come endpoint la guarigione della ferita e non l'incidenza di osteonecrosi, e la revisione Cochrane del 2022 su 13 RCT non nomina l'ozono e conclude che le prove sono insufficienti per qualsiasi intervento. Sul piano dei meccanismi, i dati antitumorali sono in vitro e animali; in un esperimento sul coniglio, la sola insufflazione di ossigeno ha prodotto remissioni complete in 2 dei 3 animali sopravvissuti (6 su 7 con ozono e ossigeno), quindi il contributo dell'ossigeno non è escluso. Giro 3 (controllo indipendente delle negative e del registro): nessun RCT con endpoint di controllo tumorale è stato trovato nelle query usate (le ricerche non sono esaustive); l'unico RCT oncologico con ozono come intervento attivo letto, 33118519 (olio ozonizzato topico, 91 analizzati), ha come endpoint la reazione mano-piede da sorafenib. Nel registro risultano RCT conclusi sulla mucosite (NCT07069153 e NCT07491536, 40 partecipanti ciascuno, senza risultati postati) e RCT in corso sulla neuropatia (NCT04299893, NCT06706544); NCT06072404 ha titolo 'Case-control' ma il campo di disegno indica randomizzato (discrepanza). La posizione regolatoria non è verificata alla fonte primaria: lo snippet di 21 CFR 801.415 riguarda i dispositivi che generano ozono e non è stato riletto su eCFR; Dichiarazione di Madrid e circolare ministeriale italiana non lette (fonte non reperita). Verifica: 38 PMID e 10 record del registro riletti direttamente su PubMed e ClinicalTrials.gov da chi compila la scheda; giro 2 (confronto con gli abstract) e giro 3 eseguiti da sotto-agenti; tutte le fonti con record nella scheda sono rilette; PMID 31329513, citato solo in prosa, non è stato riletto. Nessuna informazione qui è una raccomandazione terapeutica. Aggiunta successiva: il lavoro sull'olio ozonizzato (PMID 35267482) è stato riletto per intero (testo completo); la sua parte clinica è descritta con le incongruenze interne e senza un gruppo di controllo definito, e la parte in vitro con la selettività valutata su tempi diversi.",
    "normale": [
     {
      "testo": "Cos'è e cosa si dice: le rassegne descrivono l'ozonoterapia come adiuvante proposto durante il trattamento oncologico, con meccanismi ipotizzati su emoglobina, 2,3-difosfoglicerato, flusso locoregionale e ipossia tumorale, sostenuti da studi in vitro e animali; gli autori (che riportano la propria esperienza) concludono che gli studi clinici sono pochi e che servono RCT.",
@@ -9947,14 +9947,56 @@
      "prova": "sperimentale"
     },
     {
-     "testo": "Anello 5, olio ozonizzato: in vitro, oli con alto contenuto di ozonidi hanno ridotto la vitalità di cellule di polmone e glioblastoma con danno mitocondriale e apoptosi; in 115 pazienti con tumori vari, trattati con l'olio come terapia complementare insieme a chemio e radioterapia fino a 4 anni, gli autori riportano una sopravvivenza migliorata rispetto al solo trattamento standard. Il disegno non è descritto come randomizzato e il confronto non è controllato in modo chiaro nell'abstract: il dato non permette di attribuire l'effetto all'olio.",
+     "testo": "Anello 5a, olio ozonizzato, in vitro (testo completo letto): oli con contenuto di ozonidi sopra 700 (unità del testo) hanno ridotto la vitalità di cellule tumorali sotto il 10% in 24 ore; nelle cellule di polmone (A549) e glioblastoma gli autori riportano danno mitocondriale, rilascio di calcio intracellulare e apoptosi. Il controllo è olio di girasole (sham).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5b, selettività dichiarata: nei cheratinociti umani primari la vitalità era 99,8%, 99,4% e 98,7% dopo 1, 2 e 3 ore con l'olio ozonizzato; oltre 3 ore non è stata valutata perché lo strato d'olio bloccava lo scambio con il terreno, con sofferenza anche nelle cellule trattate con olio sham. Le cellule tumorali sono state osservate fino a 24 ore, quindi il confronto tumore/normale non è a parità di tempo (mio rilievo); la spiegazione della selettività (cardiolipina e citocromo c mitocondriali) viene da un modello strutturale computazionale e dalla discussione degli autori.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "inferenza": true
+    },
+    {
+     "testo": "Anello 5c, radiazioni ionizzanti: in cellule A549 irradiate con 2 Gy di raggi gamma, l'olio ozonizzato (due livelli di ozonidi) prima o dopo l'irradiazione ha aumentato la morte cellulare (apoptosi e necrosi) rispetto all'olio sham, con 16 replicati per condizione; gli autori parlano di effetto radiosensibilizzante forte, spiegato come attivazione dell'apoptosi mitocondriale sul danno genotossico. Una sola linea e un solo dosaggio di radiazione.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 5d, clinica (testo completo letto): 115 pazienti con tumori di sede diversa (cervello 22, mammella ER+ 24, pancreas 18, colon 13, polmone 12, prostata 7, cute 7, altri) hanno ricevuto olio ozonizzato in pillole come terapia complementare in parallelo a chemio e radioterapia; la tabella dei risultati a 4 anni riporta 50 guarigioni complete (44%), 40 riduzioni di stadio, 12 malattie stabili, 6 progressioni e 7 decessi. Il testo letto non descrive il gruppo 'solo trattamento standard' (numero, selezione, periodo, appaiamento); il test del chi quadrato con P<0,0001 si riferisce a una figura non presente nel testo e il paragrafo dei metodi non definisce 'guarigione completa' né 'riduzione di stadio'. Incongruenze interne: durata del trattamento 8 mesi nei metodi e follow-up fino a 4 anni nella tabella; sesso 44 maschi e 71 femmine nei metodi contro 76 maschi e 39 femmine nei risultati (età 58±14 contro 60,1±17,8); volontari sani cinque nei metodi e due nei risultati. Un'osservazione senza controllo definito non permette di attribuire l'esito all'olio.",
      "livello": "clinico",
      "fonte": {
       "tipo": "PMID",
       "id": "35267482",
       "verificata": true
      },
-     "prova": "osservazionale a disegno non chiaro"
+     "prova": "serie di pazienti senza controllo descritto nel testo",
+     "inferenza": true
+    },
+    {
+     "testo": "Anello 5e, casi singoli descritti: sette casi (cute, prostata, glioblastoma) con regressioni o assenza di recidiva, tra cui una bambina di 3 anni con glioblastoma confrontata con tre pazienti simili non trattati (uno deceduto) e un paziente con tumore prostatico con scomparsa alla TAC dopo 18 mesi di olio orale dopo radioterapia e ormonoterapia; gli autori scrivono assenza di effetti collaterali nei casi. Terapie standard concomitanti o precedenti in tutti i casi; il caso 1 (carcinoma cutaneo del cuoio capelluto) ricevette radioterapia insieme all'olio topico e la regressione proseguì dopo la sospensione della radioterapia secondo gli autori.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35267482",
+      "verificata": true
+     },
+     "prova": "casi clinici"
     },
     {
      "testo": "Ossigenazione tumorale: in topi con tumore al colon (colon-26), l'acqua ozonizzata per via intraperitoneale (non ozono gassoso) ha aumentato la pressione parziale di ossigeno intratumorale e la perfusione e ha aumentato l'effetto del cisplatino rispetto al solo cisplatino (meno cellule Ki-67 positive, più TUNEL positive); l'abstract non descrive un gruppo con ossigeno.",
@@ -10102,6 +10144,17 @@
       "testo": "Buco: nessuno studio letto verifica se esposizioni ripetute all'ozono inducano un adattamento antiossidante (NRF2, glutatione) nelle cellule tumorali tale da ridurre il danno o da aumentare la resistenza alle terapie; la rassegna sul colon-retto lo segnala come possibilità. Buco della conoscenza, non assenza di adattamento.",
       "livello": "ipotesi",
       "fonte": null
+     },
+     {
+      "testo": "Confondenti nello studio sull'olio ozonizzato: tutti i pazienti ricevevano chemio e radioterapia secondo le linee guida; senza un gruppo di controllo descritto, la quota di 'guarigione completa' (44% in una coorte con 18 pancreas e 22 cervello) non è interpretabile e non si può separare l'effetto dell'olio da quello delle terapie, dalla selezione dei pazienti e dalla definizione degli esiti. Il testo letto non riporta una sezione su finanziamenti o conflitti di interesse.",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "35267482",
+       "verificata": true
+      },
+      "prova": "serie di pazienti senza controllo descritto nel testo",
+      "inferenza": true
      }
     ]
    },
@@ -10133,9 +10186,9 @@
     {
      "composto": "Olio ozonizzato con alto contenuto di ozonidi come terapia complementare, tumori vari",
      "bersaglio": "olio ozonizzato (orale o topico)",
-     "fase": "osservazionale, 115 pazienti",
-     "esito": "sopravvivenza migliorata rispetto al solo trattamento standard secondo gli autori; disegno e controllo non chiari nell'abstract",
-     "ragione": "non applicabile",
+     "fase": "serie di 115 pazienti, olio per os in pillole (8 mesi secondo i metodi, follow-up 4 anni in tabella), parallelo a chemio e radioterapia; più sette casi descritti",
+     "esito": "Tabella a 4 anni: 50 guarigioni complete (44%), 40 riduzioni di stadio, 12 stabili, 6 progressioni, 7 decessi; gli autori riportano sopravvivenza migliorata contro il solo trattamento standard",
+     "ragione": "Gruppo di confronto non descritto nel testo letto, definizioni degli esiti assenti, incongruenze interne su durata, sesso e numero di volontari; quindi l'esito non è attribuibile all'olio",
      "fonte": {
       "tipo": "PMID",
       "id": "35267482",
