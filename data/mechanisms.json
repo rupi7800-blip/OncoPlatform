@@ -12183,6 +12183,623 @@
      }
     }
    ]
+  },
+  {
+   "id": "terapia_adattativa",
+   "name": "Oncologia evolutiva e terapia adattativa (Gatenby): gestire la competizione tra i cloni",
+   "note": "Bozza v0. Affermazione di partenza: invece di cercare di eliminare il tumore, si gestisce la competizione tra i cloni. Verifica: è una semplificazione. Nel lavoro fondativo (PMID 19487300, modello matematico più xenotrapianti ovarici) la proposta è di sostituire 'trattare per guarire' con 'trattare per stabilità' nei tumori disseminati, modulando la terapia per mantenere una popolazione di cellule sensibili che sopprima le resistenti, il cui costo di fitness è un'ipotesi; non è un abbandono dell'eliminazione del tumore in generale, e le stesse fonti includono strategie evolutive alternative (doppio vincolo, terapie combinate simultanee). Stato dell'evidenza: (1) i modelli matematici sono coerenti ma il costo della resistenza non è sempre necessario (PMID 33172930) e i risultati dipendono da ambiente e plasticità; (2) in modelli animali la modulazione della dose ha prolungato il controllo (carboplatino nell'ovaio, paclitaxel nel seno, capecitabina/gemcitabina alternate nel seno endocrino-resistente), ma un modello di polmone con alectinib ha dato risultati peggiori della terapia continua (PMID 43019097); (3) nell'uomo l'evidenza viene quasi tutta da un gruppo (Moffitt), su piccoli studi non randomizzati nel carcinoma prostatico metastatico resistente alla castrazione, con confronti storici o contemporanei non randomizzati (11 pazienti nel 2017, 17 contro 16 nel 2022; numeri del registro e delle pubblicazioni non coincidono) e una validazione retrospettiva non significativa (13 pazienti, HR 0,41, IC 95% 0,16-1,07); (4) il primo RCT di fase 2 (ANZadapt, 168 previsti) e un RCT ovarico (ACTOv, 80 previsti) sono in corso e non hanno risultati; nessun trial clinico di terapia evolutiva nel carcinoma mammario è stato trovato. Il termine 'adattativo' compare anche in studi con altro significato (per esempio dose di radioligando guidata dalla PET) che non vanno usati come prova. Verifica: 12 PMID e 8 record del registro riletti da me; gli altri identificativi sono letti dagli agenti (verificata false); giri 2, 3 e passo 6 in corso. Nessuna informazione qui è una raccomandazione terapeutica.",
+   "normale": [
+    {
+     "testo": "Teoria di partenza: nei tumori disseminati la risposta è spesso transitoria per la comparsa di popolazioni resistenti; secondo i modelli iniziali le cellule resistenti, presenti in piccolo numero prima della terapia perché meno fit delle sensibili (costo fenotipico della resistenza, per esempio energia e substrato spesi per la resistenza), vengono liberate dal trattamento a dose massima che elimina le sensibili ('rilascio competitivo'); la proposta alternativa è modulare la terapia per mantenere un carico tumorale stabile con una popolazione sensibile che sopprima le resistenti.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "19487300",
+      "verificata": true
+     },
+     "prova": "modello matematico e xenotrapianti OVCAR con carboplatino (fattibilità)"
+    },
+    {
+     "testo": "Revisioni dello stesso gruppo e rassegne: la resistenza clinicamente significativa dipende dalla proliferazione dei cloni resistenti, governata da dinamiche eco-evolutive; l'emergenza di un meccanismo di resistenza non basta; i termini evolutivi comparirebbero in meno dell'1% degli articoli sugli esiti del trattamento (dato citato dagli autori, non verificato alla fonte). Una rassegna contrappone il tumore come ecosistema darwiniano a un organo integrato e autoregolato: la cornice competitiva è una scelta interpretativa.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26527288",
+      "verificata": false
+     },
+     "prova": "rassegna",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "32699310",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "27923679",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Alterazione: la resistenza non nasce solo da cloni preesistenti; in tumori polmonari con EGFR mutato, cellule tolleranti al farmaco possono evolvere in cellule resistenti, con risposta apoptotica ridotta (non letto da me).",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26828195",
+      "verificata": false
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Il record di una revisione di Gatenby e Brown del 2018 sull'evoluzione e l'ecologia della resistenza è marcato come 'Retracted Publication' su PubMed (motivo non letto): non è usato come prova.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "28710258",
+      "verificata": true
+     },
+     "prova": "revisione ritirata"
+    }
+   ],
+   "catena": [
+    {
+     "testo": "Anello 1, modelli: un modello di teoria dei giochi evolutiva con tre popolazioni (dipendenti dagli androgeni, produttrici di androgeni, indipendenti) predice che l'abiraterone a dose standard selezioni le cellule indipendenti con fallimento rapido e che la terapia adattativa, con cicli on-off guidati dal tumore del paziente, sopprima le indipendenti e riduca la dose cumulativa. È una predizione del modello, poi confrontata con un pilota (anello 4).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29180633",
+      "verificata": true
+     },
+     "prova": "modello Lotka-Volterra"
+    },
+    {
+     "testo": "Anello 1, condizioni: in un modello Lotka-Volterra a due popolazioni il costo di resistenza non serve per ottenere vantaggio se il tumore è vicino alla capacità portante, mentre può servire per tumori lontani da essa; il ricambio cellulare modula l'effetto; i dati di 67 pazienti con tumore prostatico in terapia ormonale intermittente (non adattativa nel senso di Gatenby) sono presentati come coerenti con la previsione.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33172930",
+      "verificata": true
+     },
+     "prova": "modello e dati osservazionali"
+    },
+    {
+     "testo": "Anello 2, costo di resistenza in coltura (carcinoma ovarico): le cellule resistenti al platino mostrano fitness ridotta in assenza di farmaco in vitro e in vivo, con declino selettivo per minore proliferazione e più apoptosi, mentre le sensibili ricrescono quando il farmaco è sospeso. Dal testo completo letto da un sotto-agente: in co-coltura il vantaggio delle sensibili compare solo in condizioni di poche risorse (0,5% di siero con cambio giornaliero), non con 10% di siero.",
+     "livello": "in_vitro",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40299825",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "40998270",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anello 3, animale, ovaio: la modulazione della dose di carboplatino secondo la risposta tumorale ha prolungato la sopravvivenza in modelli murini rispetto alla dose standard, senza aumentare la dose media giornaliera né la tossicità; il DNA libero circolante di pazienti con carcinoma ovarico mostra selezione subclonale durante la terapia, senza numeri nell'abstract.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "40299825",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 3, animale, seno: in topi con MDA-MB-231 (triplo negativo) e MCF7 (ER+) ortotopici trattati con paclitaxel, il controllo iniziale richiedeva terapia più intensa; saltare dosi è stato meno efficace che variare la dose; una volta ottenuto il controllo si manteneva con dosi progressivamente minori e nel 60-80% degli animali con intervalli di diverse settimane senza trattamento; l'abstract riporta più densità vascolare e meno necrosi nei tumori controllati. Una lettura del testo completo da parte di un sotto-agente indica una dose cumulativa maggiore con l'adattativo che con la terapia standard in un braccio, perché gli animali sopravvivevano più a lungo (non verificato da me).",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26912903",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "38772367",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anello 3, animale, seno endocrino-resistente: in xenotrapianti MCF7 con capecitabina da sola la modulazione adattativa non ha prolungato in modo significativo la sopravvivenza rispetto alla dose massima (HR 0,22, IC 95% 0,043-1,1, P=0,065), mentre l'alternanza di capecitabina e gemcitabina in modulazione di dose ha dato HR 0,11 (P=0,007) e in schema intermittente HR 0,07 (P=0,003) contro la combinazione ad alta dose; gli autori scrivono che l'adattativa favorisce i tumori a crescita lenta.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38254748",
+      "verificata": true
+     },
+     "prova": "sperimentale",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "37781632",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Anello 3, controesempio: in topi NSG con cellule di polmone H3122 trattati con alectinib, la crescita tumorale era più bassa con la terapia continua che con l'adattativa; tre modelli di teoria dei giochi non hanno trovato feedback favorevoli dipendenti dalla densità né differenze nel ritmo di evoluzione tra fasi on e off.",
+     "livello": "animale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43019097",
+      "verificata": true
+     },
+     "prova": "sperimentale"
+    },
+    {
+     "testo": "Anello 4, clinico, prostata: in un pilota con abiraterone guidato dal PSA, 10 su 11 pazienti hanno mantenuto oscillazioni stabili del carico tumorale, il tempo alla progressione mediano è almeno 27 mesi con dose cumulativa pari al 47% della standard; gli autori lo confrontano con la progressione mediana di circa 16,5 mesi della terapia standard e con una popolazione contemporanea.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29180633",
+      "verificata": true
+     },
+     "prova": "pilota non randomizzato"
+    },
+    {
+     "testo": "Anello 4, aggiornamento: 17 pazienti nel gruppo adattativo e 16 nel gruppo con terapia standard contemporaneo (formato da pazienti eleggibili con calo del PSA oltre il 50% che hanno scelto la terapia standard); tempo alla progressione mediano 33,5 contro 14,3 mesi, sopravvivenza globale mediana 58,5 contro 31,3 mesi (HR 0,41, IC 95% 0,20-0,83), abiraterone assente nel 46% del tempo; quattro pazienti ancora in ciclo a 53-70 mesi. Confronto non randomizzato con selezione dei pazienti, autori dello stesso gruppo.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35762577",
+      "verificata": true
+     },
+     "prova": "coorte non randomizzata"
+    },
+    {
+     "testo": "Anello 4, fase 1b nel tumore prostatico sensibile alla castrazione: 16 pazienti valutabili in terapia ormonale intermittente guidata dal PSA (pausa dopo calo del PSA oltre il 75%, ripresa alla progressione, nuova pausa dopo calo oltre il 50%); nessuno ha avuto progressione radiografica a 12 mesi, quindi l'obiettivo di fattibilità è stato raggiunto; due fuori studio a 28 mesi; endpoint secondari non raggiunti a 26 mesi.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36358643",
+      "verificata": true
+     },
+     "prova": "fase 1b non randomizzata",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03511196",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Anello 4, modelli su pazienti: un modello di dinamica del PSA calibrato su 16 pazienti del pilota predice la risposta successiva dalle prime fasi con accuratezza 81% (specificità 92%, sensibilità 50%); una validazione retrospettiva su 53 pazienti (40 con terapia ormonale intermittente storica, 13 con abiraterone adattativo) trova un punteggio prognostico per il tempo alla progressione con HR 0,49 (IC 95% 0,31-0,76) nella coorte sensibile alla castrazione e HR 0,41 (IC 95% 0,16-1,07; P=0,07, non significativo) nella coorte resistente, con correlazione di rango 0,76.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42560686",
+      "verificata": true
+     },
+     "prova": "retrospettivo e modello",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "34298234",
+       "verificata": true
+      }
+     ]
+    }
+   ],
+   "ridondanze": {
+    "studiate": true,
+    "voci": [
+     {
+      "testo": "Il costo della resistenza è un'assunzione condizionale: non è richiesto vicino alla capacità portante, e in co-coltura compare solo con poche risorse; dove manca, la strategia adattativa perde il suo fondamento.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "33172930",
+       "verificata": true
+      },
+      "prova": "modello",
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "40299825",
+        "verificata": true
+       }
+      ]
+     },
+     {
+      "testo": "Risultato opposto in un modello: con alectinib nel polmone la terapia continua è stata meglio dell'adattativa, senza feedback dipendenti dalla densità; in modelli di plasticità fenotipica (preprint, non letto da me) i confini tra terapia adattativa e continua dipendono dalle transizioni di stato delle cellule; per il PSA, un modello mostra che se solo le cellule indipendenti dal testosterone producono PSA, il PSA non scende mai al 50% e il protocollo non è applicabile (non letto da me).",
+      "livello": "animale",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "43019097",
+       "verificata": true
+      },
+      "prova": "sperimentale",
+      "inferenza": true,
+      "altre_fonti": [
+       {
+        "tipo": "PMID",
+        "id": "40196605",
+        "verificata": false
+       },
+       {
+        "tipo": "PMID",
+        "id": "39325718",
+        "verificata": false
+       }
+      ]
+     },
+     {
+      "testo": "Cooperazione tra sensibili e resistenti e struttura spaziale: modelli ne discutono (competizione tra resistenti più importante della soppressione dai sensibili; giochi spaziali con tre tipi), ma non è stato trovato un esperimento che mostri cooperazione protettiva sensibili-resistenti, né uno studio che combini terapia adattativa e immunoterapia.",
+      "livello": "ipotesi",
+      "fonte": null,
+      "prova": "nessuna fonte"
+     },
+     {
+      "testo": "Strategie evolutive alternative: la combinazione simultanea di due farmaci è predetta controllare la maggior parte dei pazienti con melanoma se non c'è resistenza crociata (modello su 20 melanomi), e il doppio vincolo (un secondo trattamento che sfrutta il costo della resistenza) è proposto da modelli e da lavori in vitro; la terapia adattativa è quindi una delle strategie, non l'unica, e le stesse fonti descrivono terapie di estinzione.",
+      "livello": "ipotesi",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "23805382",
+       "verificata": false
+      },
+      "prova": "modello e dati su 20 melanomi"
+     },
+     {
+      "testo": "Il termine 'adattativo' compare in studi che non sono terapia evolutiva: nel RCT di fase 2 ENZA-p (162 pazienti) la dose di radioligando è ridecisa in base alla PET e non sulla competizione tra cloni; non va citato a favore della premessa (non letto da me).",
+      "livello": "clinico",
+      "fonte": {
+       "tipo": "PMID",
+       "id": "38621400",
+       "verificata": false
+      },
+      "prova": "RCT di fase 2"
+     }
+    ]
+   },
+   "tentativi": [
+    {
+     "composto": "Abiraterone on-off guidato dal PSA, pilota Moffitt",
+     "bersaglio": "carcinoma prostatico metastatico resistente alla castrazione",
+     "fase": "pilota a braccio singolo, early fase 1 (NCT02415621, completato), 11 pazienti nella pubblicazione 2017",
+     "esito": "10 su 11 con oscillazioni stabili; tempo alla progressione mediano almeno 27 mesi; dose cumulativa 47% della standard",
+     "ragione": "Confronto storico e contemporaneo non randomizzato; il registro riporta 19 pazienti e come endpoint primario la risposta del PSA; il registro prevede la ripresa a un aumento del PSA di almeno il 50% mentre le pubblicazioni descrivono la ripresa al ritorno al basale",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29180633",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02415621",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Abiraterone adattativo contro terapia standard, aggiornamento del pilota",
+     "bersaglio": "carcinoma prostatico metastatico resistente alla castrazione",
+     "fase": "coorte di 17 contro 16 pazienti, non randomizzata",
+     "esito": "Tempo alla progressione 33,5 contro 14,3 mesi; sopravvivenza globale 58,5 contro 31,3 mesi (HR 0,41)",
+     "ragione": "Controllo contemporaneo formato da pazienti che hanno scelto la terapia standard; stesso gruppo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35762577",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Terapia di deprivazione androgenica intermittente guidata dal PSA",
+     "bersaglio": "carcinoma prostatico metastatico sensibile alla castrazione",
+     "fase": "fase 1b, 16 valutabili (NCT03511196, attivo non in reclutamento; endpoint primario nel registro: ritenzione dei partecipanti)",
+     "esito": "Nessuna progressione radiografica a 12 mesi nei 16; due fuori studio a 28 mesi",
+     "ragione": "Studio di fattibilità senza controllo",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "36358643",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT03511196",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "Abiraterone o enzalutamide adattativo contro continuo (ANZadapt)",
+     "bersaglio": "carcinoma prostatico resistente alla castrazione",
+     "fase": "RCT fase 2, 168 previsti, in reclutamento (NCT05393791), inizio 2022",
+     "esito": "Nessun risultato",
+     "ragione": "Endpoint primario tempo al fallimento del trattamento; completamento primario stimato nel 2027",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05393791",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Carboplatino adattativo guidato dal CA125 contro carboplatino standard (ACTOv)",
+     "bersaglio": "carcinoma ovarico recidivato platino-sensibile",
+     "fase": "RCT fase 2, 80 previsti, in reclutamento (NCT05080556)",
+     "esito": "Nessun risultato",
+     "ragione": "Endpoint primario sopravvivenza libera da progressione modificata; protocollo pubblicato (letto da sotto-agente)",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05080556",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "39806715",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "composto": "BRAF-MEK adattativo (encorafenib e binimetinib con nivolumab) e BRAF-MEK guidato dal ctDNA",
+     "bersaglio": "melanoma",
+     "fase": "pilota (NCT03543969, n=14, attivo non in reclutamento) e fase 2 randomizzata (NCT06470880, n=40 previsti)",
+     "esito": "Nessun risultato né pubblicazione trovati per il pilota",
+     "ragione": "Il secondo ha stato 'non ancora in reclutamento' con data di inizio nel 2024: incoerenza del registro",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03543969",
+      "verificata": true
+     },
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT06470880",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "composto": "TKI adattativo",
+     "bersaglio": "carcinoma tiroideo",
+     "fase": "RCT fase 2, 6 pazienti (NCT03630120)",
+     "esito": "Terminato per mancanza di efficacia; risultati registrati presenti e non letti da me",
+     "ragione": "Studio chiuso con 6 partecipanti: nessuna conclusione sull'efficacia",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT03630120",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Paclitaxel adattativo in xenotrapianti di seno",
+     "bersaglio": "seno triplo negativo e ER+",
+     "fase": "modello murino, MDA-MB-231/luc e MCF7",
+     "esito": "Controllo mantenuto con dosi progressivamente minori; intervalli senza trattamento nel 60-80% degli animali",
+     "ragione": "Preclinico; i trial clinici di terapia evolutiva nel seno non sono stati trovati",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26912903",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Alectinib adattativo contro continuo",
+     "bersaglio": "carcinoma polmonare (H3122)",
+     "fase": "modello murino NSG",
+     "esito": "Crescita più bassa con terapia continua che con adattativa",
+     "ragione": "Nessun feedback favorevole dipendente dalla densità",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "43019097",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Studio retrospettivo di costi con abiraterone adattativo",
+     "bersaglio": "carcinoma prostatico",
+     "fase": "retrospettivo, 15 adattativi contro 21 continui (letto da un sotto-agente)",
+     "esito": "Tempo alla progressione mediano 25,8 contro 12,1 mesi; costo annuo totale 79.093 contro 146.782 dollari",
+     "ragione": "Dati amministrativi, numeri piccoli; costo escluso il farmaco non significativo (P=0,28)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33841621",
+      "verificata": false
+     }
+    }
+   ],
+   "finestra": [
+    {
+     "testo": "Soglia operativa nei lavori Moffitt: sospensione di abiraterone quando il PSA scende sotto il 50% del valore pretrattamento e ripresa al ritorno al basale (pubblicazione 2022); nel registro del pilota la ripresa è prevista a un aumento del PSA di almeno il 50%; i parametri 50% e basale sono scelte empiriche di studi pilota, senza dimostrazione di ottimalità.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35762577",
+      "verificata": true
+     },
+     "prova": "coorte non randomizzata",
+     "altre_fonti": [
+      {
+       "tipo": "NCT",
+       "id": "NCT02415621",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Schema di ANZadapt (registro): terapia quotidiana fino a calo del PSA oltre il 50%, pausa con PSA mensile, ripresa al ritorno al livello pretrattamento; PSA ogni 4 settimane e imaging ogni 12; endpoint primario tempo al fallimento del trattamento; endpoint secondari sopravvivenza globale, eventi scheletrici, qualità di vita e eventi avversi; riduzioni di dose del 25% o 50% non compaiono in nessun trial clinico trovato (compaiono nei modelli murini).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05393791",
+      "verificata": true
+     },
+     "prova": "protocollo registrato"
+    },
+    {
+     "testo": "Rapporto dose-tempo: nel pilota 2017 la dose cumulativa è il 47% della standard con tempo alla progressione di almeno 27 mesi; nel 2022 l'abiraterone era sospeso nel 46% del tempo; nel modello murino del seno la dose cumulativa con l'adattativo non era inferiore perché gli animali sopravvivevano più a lungo (testo completo letto da un sotto-agente).",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29180633",
+      "verificata": true
+     },
+     "prova": "pilota",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "35762577",
+       "verificata": true
+      }
+     ]
+    },
+    {
+     "testo": "Candidati secondo gli autori: tumori con un biomarcatore monitorabile (PSA nel carcinoma prostatico), costo di resistenza, crescita lenta; non candidati: marcatori non rappresentativi del volume tumorale, tumori con sottopopolazione resistente aggressiva (modello su osimertinib), resistenza senza costo o con plasticità fenotipica (non letti da me).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38254748",
+      "verificata": true
+     },
+     "prova": "modello e preclinico",
+     "inferenza": true,
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "34771426",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "39325718",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "Rischi e misura: flare transitorio scambiato per progressione con imaging ogni 8 settimane (protocollo di un trial con testosterone ciclico, non letto da me); sensibilità del 50% della predizione dalle prime fasi (PMID 34298234); nessun dato di sicurezza con denominatore, né di flare, nei lavori adattativi letti.",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "34298234",
+      "verificata": true
+     },
+     "prova": "modello",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "41724634",
+       "verificata": false
+      }
+     ]
+    },
+    {
+     "testo": "RCT ciclico non adattativo con esito nullo: testosterone ad alta dose a cicli contro enzalutamide, sopravvivenza libera da progressione 5,7 contro 5,7 mesi (HR 1,14), sopravvivenza globale HR 0,95 (non letto da me); non è terapia adattativa ma mostra che i cicli non garantiscono vantaggio.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "33617303",
+      "verificata": false
+     },
+     "prova": "RCT"
+    }
+   ],
+   "buchi": [
+    {
+     "domanda": "Da verificare con agenti (passo 6): un RCT di terapia adattativa contro continua con sopravvivenza come endpoint e margine prespecificato.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): misura del costo di fitness e della competizione nei pazienti (DNA tumorale circolante).",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    },
+    {
+     "domanda": "Da verificare con agenti (passo 6): applicabilità fuori dalla prostata (carcinoma mammario) e biomarcatore di monitoraggio.",
+     "verifica": "Da verificare con agenti (passo 6).",
+     "disegno": "Da definire.",
+     "falsificazione": "Da definire."
+    }
+   ],
+   "parametri": [
+    {
+     "nome": "Tempo alla progressione, abiraterone adattativo (pilota 2017)",
+     "stato": "misurato",
+     "valore": "almeno 27 mesi; dose cumulativa 47% della standard; n=11",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29180633",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Tempo alla progressione, adattativo contro terapia standard (2022)",
+     "stato": "misurato",
+     "valore": "33,5 contro 14,3 mesi; sopravvivenza globale HR 0,41 (IC 95% 0,20-0,83); n=17 contro 16, non randomizzato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35762577",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Validazione retrospettiva nella coorte resistente alla castrazione",
+     "stato": "misurato",
+     "valore": "HR 0,41 (IC 95% 0,16-1,07; P=0,07); n=13",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42560686",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Sopravvivenza, topi con seno endocrino-resistente: capecitabina adattativa contro dose massima",
+     "stato": "misurato",
+     "valore": "HR 0,22 (IC 95% 0,043-1,1; P=0,065)",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "38254748",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Soglia del PSA per la sospensione",
+     "stato": "misurato",
+     "valore": "calo oltre il 50% del pretrattamento",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "35762577",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "RCT di terapia adattativa con risultati pubblicati",
+     "stato": "assente",
+     "valore": "nessuno; ANZadapt (168 previsti) in corso",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT05393791",
+      "verificata": true
+     }
+    },
+    {
+     "nome": "Misura diretta del costo di fitness della resistenza nei pazienti",
+     "stato": "assente",
+     "valore": "non trovata",
+     "fonte": null
+    },
+    {
+     "nome": "Trial clinico di terapia evolutiva nel carcinoma mammario",
+     "stato": "assente",
+     "valore": "nessuno trovato",
+     "fonte": null
+    }
+   ]
   }
  ]
 }
