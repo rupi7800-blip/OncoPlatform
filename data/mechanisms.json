@@ -12335,6 +12335,16 @@
      "prova": "sperimentale"
     },
     {
+     "testo": "Anello 4, clinico, altro tumore: in carcinoma colorettale con anticorpi anti-EGFR, i cloni KRAS mutati che emergono nel sangue durante il blocco diminuiscono alla sospensione dell'anticorpo e in cellule resistenti la sensibilità al farmaco si ristabilisce alla sospensione; nei pazienti che beneficiano di riesposizioni multiple il KRAS mutato in ctDNA è pulsatile. È l'osservazione clinica più vicina a un 'costo' dei cloni resistenti, ma è qualitativa (nessun tasso di declino né numero nell'abstract) e non testa una regola di pausa.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "26030179",
+      "verificata": true
+     },
+     "prova": "osservazionale con ctDNA"
+    },
+    {
      "testo": "Anello 4, clinico, prostata: in un pilota con abiraterone guidato dal PSA, 10 su 11 pazienti hanno mantenuto oscillazioni stabili del carico tumorale, il tempo alla progressione mediano è almeno 27 mesi con dose cumulativa pari al 47% della standard; gli autori lo confrontano con la progressione mediana di circa 16,5 mesi della terapia standard e con una popolazione contemporanea.",
      "livello": "clinico",
      "fonte": {
@@ -12387,6 +12397,26 @@
        "verificata": true
       }
      ]
+    },
+    {
+     "testo": "Test clinico di un'idea affine nel seno, non adattativo: nello studio SOLE (4851 donne in postmenopausa con tumore ER+ operato) il letrozolo intermittente (9 mesi di terapia e 3 di pausa negli anni 1-4) non ha migliorato la sopravvivenza libera da malattia rispetto al continuo (85,8% contro 87,5%; HR 1,08, IC 95% 0,93-1,26; P=0,31), nonostante il razionale venga da modelli animali in cui la resistenza al letrozolo continuo era reversibile con sospensione e ripresa; le pause erano a calendario fisso e non guidate da un marcatore.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29158011",
+      "verificata": true
+     },
+     "prova": "RCT di fase 3 (adiuvante)"
+    },
+    {
+     "testo": "Monitoraggio con DNA tumorale circolante nel seno metastatico ER+ in endocrina più CDK4/6 (57 pazienti, 350 prelievi): il DNA tumorale è rilevabile alla base nel 94,7% dei pazienti, la scomparsa si associa a durata più lunga del trattamento (HR 0,17, IC 95% 0,07-0,41) e la risalita (progressione molecolare) precede la sospensione del trattamento di una mediana di 5,8 mesi; non è un'osservazione durante una pausa di farmaco.",
+     "livello": "clinico",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42243127",
+      "verificata": true
+     },
+     "prova": "osservazionale"
     }
    ],
    "ridondanze": {
@@ -12608,6 +12638,42 @@
       "id": "33841621",
       "verificata": false
      }
+    },
+    {
+     "composto": "Letrozolo intermittente a pause guidate da CA 15-3 o CA 27.29",
+     "bersaglio": "carcinoma mammario metastatico postmenopausale",
+     "fase": "fase 2 (NCT00549822), 3 partecipanti, 2007-2010",
+     "esito": "Terminato per reclutamento lento; nessun risultato pubblicato trovato",
+     "ragione": "Unico trial trovato con questo impianto (pausa guidata da un marcatore ematico); fallito per reclutamento, non per i dati",
+     "fonte": {
+      "tipo": "NCT",
+      "id": "NCT00549822",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Letrozolo intermittente contro continuo, adiuvante (SOLE)",
+     "bersaglio": "carcinoma mammario ER+ operato",
+     "fase": "RCT fase 3, 4851 donne",
+     "esito": "DFS 85,8% contro 87,5% a 60 mesi (HR 1,08)",
+     "ragione": "Pause a calendario, non adattative; il razionale (reversibilità nei modelli animali) non si è confermato",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "29158011",
+      "verificata": true
+     }
+    },
+    {
+     "composto": "Palbociclib intermittente alternato a paclitaxel settimanale",
+     "bersaglio": "carcinoma mammario avanzato Rb+",
+     "fase": "fase I (NCT01320592), 27 pazienti",
+     "esito": "Dose raccomandata 75 mg; beneficio clinico 55%; neutropenia nel 55,6% in un ciclo",
+     "ragione": "È un'alternanza di dose a calendario, non una pausa guidata da un marcatore",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "30635336",
+      "verificata": true
+     }
     }
    ],
    "finestra": [
@@ -12704,6 +12770,17 @@
       "verificata": false
      },
      "prova": "RCT"
+    },
+    {
+     "testo": "Nel seno metastatico non esiste una regola di pausa e ripresa validata: i marcatori candidati sono CA 15-3 (nessun lavoro trovato sulla sua affidabilità in pausa), mutazioni ESR1 nel DNA circolante (presenti solo in una parte dei pazienti, quindi marcatore di selezione) e la frazione tumorale da metilazione (osservata su terapia continua, PMID 42243127).",
+     "livello": "ipotesi",
+     "fonte": {
+      "tipo": "PMID",
+      "id": "42243127",
+      "verificata": true
+     },
+     "prova": "osservazionale",
+     "inferenza": true
     }
    ],
    "buchi": [
@@ -12714,16 +12791,80 @@
      "falsificazione": "Da definire."
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): misura del costo di fitness e della competizione nei pazienti (DNA tumorale circolante).",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "In pazienti con una mutazione driver tracciabile nel DNA tumorale circolante, la velocità di declino della sua frazione allelica durante una pausa prespecificata del farmaco predice il tempo alla ripresa della crescita dopo la riattivazione? (Domanda corretta: il 'costo di fitness' non è misurabile direttamente nel sangue, perché si misura la frazione allelica di una mutazione e non la competitività del clone; la competizione tra cloni è un costrutto del modello.)",
+     "verifica": "Parzialmente fatto, in altri tumori e senza regola di pausa. Colorettale con anticorpi anti-EGFR: i cloni KRAS mutati declinano alla sospensione dell'anticorpo, il KRAS mutato in ctDNA è pulsatile nei pazienti che beneficiano di riesposizioni (PMID 26030179, qualitativo); un intervallo libero da anti-EGFR più lungo si associa a risultati migliori in una serie retrospettiva (non letto da me: PMID 35530345) e lo stato RAS wild-type in ctDNA alla baseline di una rechallenge si associa a una PFS di 4,0 contro 1,9 mesi (non letto da me: PMID 30476968). Prostata: il PSA come proxy, con modelli calibrati su 16 pazienti e il limite che il PSA può non rispecchiare i cloni (non letti da me: PMID 37205789, 39325718). Seno: il ctDNA seriale su terapia continua con frazione tumorale da metilazione (PMID 42243127). Non trovato: ctDNA seriale durante una pausa prespecificata con velocità di declino quantificata, né un legame quantitativo tra quella velocità e il tempo alla ripresa.",
+     "disegno": "Coorte prospettica di pazienti con un driver tracciabile, pausa minima di 8 settimane (valore proposto), ctDNA ogni 2 settimane; k = pendenza del logaritmo della frazione allelica durante la pausa; endpoint T = settimane dalla ripresa alla progressione radiologica o a un aumento del ctDNA oltre 1,5 volte il nadir; numerosità, calcolo mio con la trasformazione di Fisher per una correlazione di 0,4, alfa 0,05 bilaterale e potenza 80%: circa 47 pazienti.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: ipotesi sostenuta se la correlazione di Spearman tra k e T è almeno 0,4; respinta se è 0 o inferiore o se il limite superiore dell'intervallo di confidenza al 95% è sotto 0,2.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "26030179",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42243127",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "35530345",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "30476968",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "37205789",
+       "verificata": false
+      },
+      {
+       "tipo": "PMID",
+       "id": "39325718",
+       "verificata": false
+      }
+     ]
     },
     {
-     "domanda": "Da verificare con agenti (passo 6): applicabilità fuori dalla prostata (carcinoma mammario) e biomarcatore di monitoraggio.",
-     "verifica": "Da verificare con agenti (passo 6).",
-     "disegno": "Da definire.",
-     "falsificazione": "Da definire."
+     "domanda": "Nel carcinoma mammario ER+ metastatico, per classe di terapia (endocrina, endocrina più CDK4/6, chemioterapia), una pausa guidata da un marcatore frequente con regola di ripresa prespecificata dà un tempo alla progressione non inferiore, entro un margine fissato prima, alla terapia continua? (Domanda corretta: 'terapia adattativa nel seno' riuniva tre classi con meccanismi di resistenza diversi; ESR1 nel sangue è un marcatore di selezione e non quantitativo per tutti; l'unico riferimento per una regola di pausa è la soglia del 50% del PSA nella prostata, non validata nel seno.)",
+     "verifica": "Parzialmente fatto. Nessun trial registrato con terapia adattativa nel seno è stato trovato. Letrozolo intermittente metastatico con pause guidate da CA 15-3: un solo trial, terminato per reclutamento lento con 3 pazienti (NCT00549822, fase 2, 2007-2010). Letrozolo intermittente adiuvante a calendario: negativo su DFS (SOLE, 4851 donne, HR 1,08; PMID 29158011). Palbociclib intermittente con paclitaxel: fase I di 27 pazienti, dose a calendario (PMID 30635336). Capecitabina intermittente contro metronomica di mantenimento in carcinoma HER2-negativo, 280 previsti, stato sconosciuto (NCT01917279, schema di dose, non guidato da un marcatore). Marcatori: DNA tumorale circolante con frazione da metilazione in 57 pazienti su terapia continua (PMID 42243127); ESR1 come marcatore di selezione (letto da un sotto-agente); CA 15-3: nessun lavoro trovato sulla sua affidabilità in pausa. Trial di cambio terapia guidato dal ctDNA ma non di pausa: NCT05826964 (24 previsti, fase 2 randomizzata, non reclutante).",
+     "disegno": "RCT di fase 2 in carcinoma ER+ metastatico in endocrina più CDK4/6: continuo contro pausa guidata dalla frazione tumorale da metilazione (sospensione quando cala almeno del 50% dalla base per analogia con la soglia PSA, ripresa al ritorno al nadir o alla progressione radiologica); endpoint primario tempo alla progressione con margine di non inferiorità fissato prima; endpoint secondari concordanza della regola con la progressione radiologica, applicabilità della regola, qualità di vita.",
+     "falsificazione": "Soglie proposte, non derivate dalla letteratura: il braccio con pausa è inferiore se il limite superiore dell'IC al 95% dell'HR supera 1,3; la regola è inadeguata se la concordanza con la progressione radiologica è sotto il 70% o se la sospensione non scatta in almeno il 30% dei pazienti entro 12 settimane.",
+     "altre_fonti": [
+      {
+       "tipo": "PMID",
+       "id": "29158011",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "42243127",
+       "verificata": true
+      },
+      {
+       "tipo": "PMID",
+       "id": "30635336",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT00549822",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT01917279",
+       "verificata": true
+      },
+      {
+       "tipo": "NCT",
+       "id": "NCT05826964",
+       "verificata": true
+      }
+     ]
     }
    ],
    "parametri": [
