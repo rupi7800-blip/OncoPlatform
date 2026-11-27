@@ -16,7 +16,7 @@ function src(f){
   const ok = f.verificata === true;
   return `<span class="b ${ok?'ok':'ko'}">${esc(f.tipo)} ${esc(f.id)} · ${ok?'verificata':'non verificata'}</span>`;
 }
-const LIV = {in_vitro:'in vitro', animale:'modello animale', clinico:'clinico', ipotesi:'ipotesi dell\'autore'};
+const LIV = {in_vitro:'in vitro', ex_vivo:'ex vivo', animale:'modello animale', clinico:'clinico', ipotesi:'ipotesi dell\'autore'};
 function altre(o){
   return o && o.altre_fonti && o.altre_fonti.length ? `<div class="meta">Altre fonti citate nel testo: ${o.altre_fonti.map(src).join(' ')}</div>` : '';
 }
@@ -34,7 +34,7 @@ function tentativi(arr){
 }
 function buchi(arr){
   if(!arr.length) return '<p class="meta">Compilare solo dopo i punti 1-5.</p>';
-  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Già fatto: ${esc(b.verifica)}</div>`:''}${altre(b)}<div class="meta">Disegno in vitro: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
+  return arr.map(b=>`<div class="card"><b>${esc(b.domanda)}</b>${b.verifica?`<div class="meta">Verifica nella letteratura: ${esc(b.verifica)}</div>`:''}${altre(b)}<div class="meta">Disegno proposto: ${esc(b.disegno)}<br>Falsificata se: ${esc(b.falsificazione)}</div></div>`).join('');
 }
 function parametri(arr){
   if(!arr.length) return '<p class="meta">Nessuna simulazione prodotta. Qui si elencano i parametri necessari: misurato (con fonte), stimato per analogia, oppure assente.</p>';
